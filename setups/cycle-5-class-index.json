@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 3,
+  "cycle": 5,
+  "selector": {
+    "kind": "first-two-piece-pair",
+    "duplicatePoolMode": "unsupported"
+  },
+  "classes": {
+    "LT": {
+      "classId": "lt",
+      "sourceFileClass": "tltj",
+      "firstBagPieces": [
+        "T",
+        "L"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "JT": {
+      "classId": "jt",
+      "sourceFileClass": "tltj",
+      "firstBagPieces": [
+        "T",
+        "J"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "IT": {
+      "classId": "it",
+      "sourceFileClass": "ti",
+      "firstBagPieces": [
+        "T",
+        "I"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "OT": {
+      "classId": "ot",
+      "sourceFileClass": "to",
+      "firstBagPieces": [
+        "T",
+        "O"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "ST": {
+      "classId": "st",
+      "sourceFileClass": "tstz",
+      "firstBagPieces": [
+        "T",
+        "S"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "TZ": {
+      "classId": "tz",
+      "sourceFileClass": "tstz",
+      "firstBagPieces": [
+        "T",
+        "Z"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "IO": {
+      "classId": "io",
+      "sourceFileClass": "oi",
+      "firstBagPieces": [
+        "O",
+        "I"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "JL": {
+      "classId": "jl",
+      "sourceFileClass": "lj",
+      "firstBagPieces": [
+        "L",
+        "J"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "IL": {
+      "classId": "il",
+      "sourceFileClass": "ilij",
+      "firstBagPieces": [
+        "I",
+        "L"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "IJ": {
+      "classId": "ij",
+      "sourceFileClass": "ilij",
+      "firstBagPieces": [
+        "I",
+        "J"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "LO": {
+      "classId": "lo",
+      "sourceFileClass": "oloj",
+      "firstBagPieces": [
+        "O",
+        "L"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "JO": {
+      "classId": "jo",
+      "sourceFileClass": "oloj",
+      "firstBagPieces": [
+        "O",
+        "J"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "IS": {
+      "classId": "is",
+      "sourceFileClass": "isiz",
+      "firstBagPieces": [
+        "I",
+        "S"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "IZ": {
+      "classId": "iz",
+      "sourceFileClass": "isiz",
+      "firstBagPieces": [
+        "I",
+        "Z"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "OS": {
+      "classId": "os",
+      "sourceFileClass": "osoz",
+      "firstBagPieces": [
+        "O",
+        "S"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "OZ": {
+      "classId": "oz",
+      "sourceFileClass": "osoz",
+      "firstBagPieces": [
+        "O",
+        "Z"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "LS": {
+      "classId": "ls",
+      "sourceFileClass": "lsjz",
+      "firstBagPieces": [
+        "L",
+        "S"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "JZ": {
+      "classId": "jz",
+      "sourceFileClass": "lsjz",
+      "firstBagPieces": [
+        "J",
+        "Z"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "LZ": {
+      "classId": "lz",
+      "sourceFileClass": "lzjs",
+      "firstBagPieces": [
+        "L",
+        "Z"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "JS": {
+      "classId": "js",
+      "sourceFileClass": "lzjs",
+      "firstBagPieces": [
+        "J",
+        "S"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "SZ": {
+      "classId": "sz",
+      "sourceFileClass": "sz",
+      "firstBagPieces": [
+        "S",
+        "Z"
+      ],
+      "sourceDirection": "source-basis"
+    }
+  }
+}

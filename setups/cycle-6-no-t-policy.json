@@ -1,0 +1,94 @@
+{
+  "id": "cycle-6-no-t-pcinfokorea",
+  "schemaVersion": 2,
+  "cycle": 6,
+  "classId": "no-t",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle6-no-t-027-f000",
+      "values": {
+        "solveRate": 93.17
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-007-f000",
+      "values": {
+        "solveRate": 92.74
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-017-f000",
+      "values": {
+        "solveRate": 92.74
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-002-f000",
+      "values": {
+        "solveRate": 92.14
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-008-f000",
+      "values": {
+        "solveRate": 90.52
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-006-f000",
+      "values": {
+        "solveRate": 90.16
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-009-f000",
+      "values": {
+        "solveRate": 89.72
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-018-f000",
+      "values": {
+        "solveRate": 89.56
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-019-f000",
+      "values": {
+        "solveRate": 88.61
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-010-f000",
+      "values": {
+        "solveRate": 85.44
+      },
+      "direction": "source-basis"
+    }
+  ],
+  "selectionRules": [],
+  "symmetryPolicy": {
+    "appliesToSetupIds": [
+      "cycle6-no-t-027-f000",
+      "cycle6-no-t-007-f000",
+      "cycle6-no-t-017-f000",
+      "cycle6-no-t-002-f000",
+      "cycle6-no-t-008-f000",
+      "cycle6-no-t-006-f000",
+      "cycle6-no-t-009-f000",
+      "cycle6-no-t-018-f000",
+      "cycle6-no-t-019-f000",
+      "cycle6-no-t-010-f000"
+    ]
+  }
+}

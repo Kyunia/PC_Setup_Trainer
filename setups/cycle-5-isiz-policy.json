@@ -1,0 +1,255 @@
+{
+  "id": "pcinfokorea-cycle-5-isiz-v1",
+  "schemaVersion": 2,
+  "cycle": 5,
+  "classId": "isiz",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle5-isiz-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-002-f000",
+      "values": {
+        "solveRate": 96.63
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-003-f000",
+      "values": {
+        "solveRate": 97.66
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-004-f000",
+      "values": {
+        "solveRate": 95.28
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-005-f000",
+      "values": {
+        "solveRate": 98.02
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-006-f000",
+      "values": {
+        "solveRate": 94.84
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-007-f000",
+      "values": {
+        "solveRate": 99.21
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-008-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-009-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-010-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-011-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-012-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-013-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-014-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-015-f000",
+      "values": {
+        "solveRate": 97.78
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-016-f000",
+      "values": {
+        "solveRate": 97.46
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-016-f001",
+      "values": {
+        "solveRate": 97.46
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-017-f000",
+      "values": {
+        "solveRate": 97.78
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-018-f000",
+      "values": {
+        "solveRate": 97.78
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-019-f000",
+      "values": {
+        "solveRate": 95.63
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-020-f000",
+      "values": {
+        "solveRate": 99.84
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-021-f000",
+      "values": {
+        "solveRate": 99.44
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-022-f000",
+      "values": {
+        "solveRate": 96.07
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-023-f000",
+      "values": {
+        "solveRate": 98.41
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-024-f000",
+      "values": {
+        "solveRate": 94.25
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-025-f000",
+      "values": {
+        "solveRate": 99.72
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-026-f000",
+      "values": {
+        "solveRate": 99.6
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-027-f000",
+      "values": {
+        "solveRate": 97.62
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-028-f000",
+      "values": {
+        "solveRate": 99.56
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-029-f000",
+      "values": {
+        "solveRate": 99.52
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-030-f000",
+      "values": {
+        "solveRate": 99.01
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-031-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-032-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-034-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-isiz-035-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    }
+  ],
+  "selectionRules": []
+}

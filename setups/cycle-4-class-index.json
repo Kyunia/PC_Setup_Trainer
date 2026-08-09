@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 3,
+  "cycle": 4,
+  "selector": {
+    "kind": "missing-piece-pair",
+    "duplicatePoolMode": "unsupported"
+  },
+  "classes": {
+    "OI": {
+      "classId": "no-oi",
+      "sourceFileClass": "no-oi",
+      "missingPieces": [
+        "O",
+        "I"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "OL": {
+      "classId": "no-ol",
+      "sourceFileClass": "no-oloj",
+      "missingPieces": [
+        "O",
+        "L"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "OJ": {
+      "classId": "no-ol",
+      "sourceFileClass": "no-oloj",
+      "missingPieces": [
+        "O",
+        "J"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "OS": {
+      "classId": "no-os",
+      "sourceFileClass": "no-osoz",
+      "missingPieces": [
+        "O",
+        "S"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "OZ": {
+      "classId": "no-os",
+      "sourceFileClass": "no-osoz",
+      "missingPieces": [
+        "O",
+        "Z"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "IL": {
+      "classId": "no-il",
+      "sourceFileClass": "no-ilij",
+      "missingPieces": [
+        "I",
+        "L"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "IJ": {
+      "classId": "no-il",
+      "sourceFileClass": "no-ilij",
+      "missingPieces": [
+        "I",
+        "J"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "IS": {
+      "classId": "no-is",
+      "sourceFileClass": "no-isiz",
+      "missingPieces": [
+        "I",
+        "S"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "IZ": {
+      "classId": "no-is",
+      "sourceFileClass": "no-isiz",
+      "missingPieces": [
+        "I",
+        "Z"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "LJ": {
+      "classId": "no-lj",
+      "sourceFileClass": "no-lj",
+      "missingPieces": [
+        "L",
+        "J"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "LS": {
+      "classId": "no-ls",
+      "sourceFileClass": "no-lsjz",
+      "missingPieces": [
+        "L",
+        "S"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "JZ": {
+      "classId": "no-ls",
+      "sourceFileClass": "no-lsjz",
+      "missingPieces": [
+        "J",
+        "Z"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "LZ": {
+      "classId": "no-lz",
+      "sourceFileClass": "no-lzjs",
+      "missingPieces": [
+        "L",
+        "Z"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "JS": {
+      "classId": "no-lz",
+      "sourceFileClass": "no-lzjs",
+      "missingPieces": [
+        "J",
+        "S"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "SZ": {
+      "classId": "no-sz",
+      "sourceFileClass": "no-sz",
+      "missingPieces": [
+        "S",
+        "Z"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "TS": {
+      "classId": "no-ts",
+      "sourceFileClass": "no-tstz",
+      "missingPieces": [
+        "T",
+        "S"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "TZ": {
+      "classId": "no-ts",
+      "sourceFileClass": "no-tstz",
+      "missingPieces": [
+        "T",
+        "Z"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "TO": {
+      "classId": "no-to",
+      "sourceFileClass": "no-to",
+      "missingPieces": [
+        "T",
+        "O"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "TI": {
+      "classId": "no-ti",
+      "sourceFileClass": "no-ti",
+      "missingPieces": [
+        "T",
+        "I"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "TL": {
+      "classId": "no-tl",
+      "sourceFileClass": "no-tltj",
+      "missingPieces": [
+        "T",
+        "L"
+      ],
+      "sourceDirection": "source-basis"
+    },
+    "TJ": {
+      "classId": "no-tl",
+      "sourceFileClass": "no-tltj",
+      "missingPieces": [
+        "T",
+        "J"
+      ],
+      "sourceDirection": "horizontal-runtime-mirror"
+    }
+  }
+}

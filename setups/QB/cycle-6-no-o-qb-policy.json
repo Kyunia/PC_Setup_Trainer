@@ -1,0 +1,369 @@
+{
+  "id": "cycle-6-no-o-qb-pcinfokorea",
+  "schemaVersion": 2,
+  "cycle": 6,
+  "classId": "no-o-qb",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle6-no-o-032-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-020-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-021-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-022-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-023-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-024-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-033-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-034-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-035-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-036-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-045-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-037-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-037-f001",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-025-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-026-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-038-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-039-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-039-f001",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-040-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-041-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-027-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-042-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-043-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-044-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-o-028-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    }
+  ],
+  "selectionRules": [
+    {
+      "id": "cycle6-no-o-qb-by-next-bag-first-piece",
+      "candidateSetupIds": [
+        "cycle6-no-o-032-f000",
+        "cycle6-no-o-020-f000",
+        "cycle6-no-o-021-f000",
+        "cycle6-no-o-022-f000",
+        "cycle6-no-o-023-f000",
+        "cycle6-no-o-024-f000",
+        "cycle6-no-o-033-f000",
+        "cycle6-no-o-034-f000",
+        "cycle6-no-o-035-f000",
+        "cycle6-no-o-036-f000",
+        "cycle6-no-o-045-f000",
+        "cycle6-no-o-037-f000",
+        "cycle6-no-o-037-f001",
+        "cycle6-no-o-025-f000",
+        "cycle6-no-o-026-f000",
+        "cycle6-no-o-038-f000",
+        "cycle6-no-o-039-f000",
+        "cycle6-no-o-039-f001",
+        "cycle6-no-o-040-f000",
+        "cycle6-no-o-041-f000",
+        "cycle6-no-o-027-f000",
+        "cycle6-no-o-042-f000",
+        "cycle6-no-o-043-f000",
+        "cycle6-no-o-044-f000",
+        "cycle6-no-o-028-f000"
+      ],
+      "observation": {
+        "kind": "next-bag-prefix",
+        "length": 1
+      },
+      "branches": [
+        {
+          "id": "next-t-1",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "T"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-o-032-f000",
+            "cycle6-no-o-020-f000"
+          ]
+        },
+        {
+          "id": "next-o-2",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "O"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-o-021-f000",
+            "cycle6-no-o-022-f000"
+          ]
+        },
+        {
+          "id": "next-i-3",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "I"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-o-023-f000",
+            "cycle6-no-o-024-f000",
+            "cycle6-no-o-033-f000",
+            "cycle6-no-o-034-f000",
+            "cycle6-no-o-035-f000"
+          ]
+        },
+        {
+          "id": "next-l-4",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "L"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-o-036-f000",
+            "cycle6-no-o-045-f000",
+            "cycle6-no-o-037-f000",
+            "cycle6-no-o-037-f001",
+            "cycle6-no-o-025-f000",
+            "cycle6-no-o-026-f000",
+            "cycle6-no-o-038-f000",
+            "cycle6-no-o-039-f000",
+            "cycle6-no-o-039-f001"
+          ]
+        },
+        {
+          "id": "next-j-4",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "J"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-o-036-f000",
+            "cycle6-no-o-045-f000",
+            "cycle6-no-o-037-f000",
+            "cycle6-no-o-037-f001",
+            "cycle6-no-o-025-f000",
+            "cycle6-no-o-026-f000",
+            "cycle6-no-o-038-f000",
+            "cycle6-no-o-039-f000",
+            "cycle6-no-o-039-f001"
+          ]
+        },
+        {
+          "id": "next-s-5",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "S"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-o-040-f000",
+            "cycle6-no-o-041-f000",
+            "cycle6-no-o-027-f000",
+            "cycle6-no-o-042-f000",
+            "cycle6-no-o-043-f000",
+            "cycle6-no-o-044-f000",
+            "cycle6-no-o-028-f000"
+          ]
+        },
+        {
+          "id": "next-z-5",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "Z"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-o-040-f000",
+            "cycle6-no-o-041-f000",
+            "cycle6-no-o-027-f000",
+            "cycle6-no-o-042-f000",
+            "cycle6-no-o-043-f000",
+            "cycle6-no-o-044-f000",
+            "cycle6-no-o-028-f000"
+          ]
+        }
+      ]
+    }
+  ],
+  "symmetryPolicy": {
+    "appliesToSetupIds": [
+      "cycle6-no-o-032-f000",
+      "cycle6-no-o-020-f000",
+      "cycle6-no-o-021-f000",
+      "cycle6-no-o-022-f000",
+      "cycle6-no-o-023-f000",
+      "cycle6-no-o-024-f000",
+      "cycle6-no-o-033-f000",
+      "cycle6-no-o-034-f000",
+      "cycle6-no-o-035-f000",
+      "cycle6-no-o-036-f000",
+      "cycle6-no-o-045-f000",
+      "cycle6-no-o-037-f000",
+      "cycle6-no-o-037-f001",
+      "cycle6-no-o-025-f000",
+      "cycle6-no-o-026-f000",
+      "cycle6-no-o-038-f000",
+      "cycle6-no-o-039-f000",
+      "cycle6-no-o-039-f001",
+      "cycle6-no-o-040-f000",
+      "cycle6-no-o-041-f000",
+      "cycle6-no-o-027-f000",
+      "cycle6-no-o-042-f000",
+      "cycle6-no-o-043-f000",
+      "cycle6-no-o-044-f000",
+      "cycle6-no-o-028-f000"
+    ]
+  }
+}

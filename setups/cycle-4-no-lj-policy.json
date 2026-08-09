@@ -1,0 +1,24 @@
+{
+  "id": "pcinfokorea-cycle-4-no-lj-v1",
+  "schemaVersion": 2,
+  "cycle": 4,
+  "classId": "no-lj",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle4-no-lj-001-f000",
+      "values": {
+        "solveRate": 98.12
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle4-no-lj-001-f001",
+      "values": {
+        "solveRate": 98.12
+      },
+      "direction": "source-basis"
+    }
+  ],
+  "selectionRules": []
+}

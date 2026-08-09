@@ -1,0 +1,2226 @@
+[
+  {
+    "id": "cycle6-no-lj-036-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-036",
+    "displayName": "QB T-Start Form 1",
+    "formLabel": "QB T-Start Form 1 (source item 19, frame 0)",
+    "pieceSignature": [
+      "I",
+      "O",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-036-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-036-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-036-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-036-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@GhwhHewwwhRpCeBtxwwhRpDeBtwwwhJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-019-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-019",
+    "displayName": "QB T-Start Form 2",
+    "formLabel": "QB T-Start Form 2 (source item 20, frame 0)",
+    "pieceSignature": [
+      "I",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-019-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-019-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-019-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-019-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gwhDeR4CewhCeR4wwCewhBeBtxwCewhCeBtwwMeAg?H",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-020-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-020",
+    "displayName": "QB T-Start Form 3",
+    "formLabel": "QB T-Start Form 3 (source item 21, frame 0)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-020-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-020-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-020-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-020-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-020-f000-z-5",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@DhAti0EeBtR4g0EeAtR4RpDezhRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-014-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-014",
+    "displayName": "QB T-Start Form 4",
+    "formLabel": "QB T-Start Form 4 (source item 22, frame 0)",
+    "pieceSignature": [
+      "O",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-014-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-014-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-014-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-014-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@BhR4GeR4EeRpAewwBtDeRpywBtMeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-030-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-030",
+    "displayName": "QB T-Start Form 5",
+    "formLabel": "QB T-Start Form 5 (source item 23, frame 0)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-030-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-030-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-030-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-030-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@Hhg0Iei0BtCeRpzhBtBeRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-015-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-015",
+    "displayName": "QB T-Start Form 6",
+    "formLabel": "QB T-Start Form 6 (source item 24, frame 0)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-015-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-015-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-015-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-015-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gwhQ4HewhR4Gewhg0Q4ywDewhi0wwOeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-031-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-031",
+    "displayName": "QB T-Start Form 7",
+    "formLabel": "QB T-Start Form 7 (source item 25, frame 0)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-031-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-031-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-031-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-031-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gwhh0R4Eewhg0R4Fewhg0wwGewhywPeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-033-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-033",
+    "displayName": "QB T-Start Form 8",
+    "formLabel": "QB T-Start Form 8 (source item 26, frame 0)",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-033-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-033-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-033-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-033-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gRpHeRpR4AtEeg0R4BtEei0AtPeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-026-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-026",
+    "displayName": "QB O-Start Form 1",
+    "formLabel": "QB O-Start Form 1 (source item 27, frame 0)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-026-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-026-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-026-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-026-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gQ4HewhR4Gewhg0Q4EeRpwhi0DeRpwhJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-003-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-003",
+    "displayName": "QB O-Start Form 2",
+    "formLabel": "QB O-Start Form 2 (source item 28, frame 0)",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-003-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-003-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-003-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-003-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gQ4IeR4Heg0Q4BtDeRpi0BtCeRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-008-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-008",
+    "displayName": "QB O-Start Form 3",
+    "formLabel": "QB O-Start Form 3 (source item 29, frame 0)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-008-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-008-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-008-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-008-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@FhAtg0GeBtg0RpEeAth0RpDezhJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-011-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-011",
+    "displayName": "QB I-Start Form 1",
+    "formLabel": "QB I-Start Form 1 (source item 30, frame 0)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-011-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-011-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-011-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-011-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@Ehi0FeRpQ4g0FeRpR4EezhQ4JeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-004-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-004",
+    "displayName": "QB I-Start Form 2",
+    "formLabel": "QB I-Start Form 2 (source item 31, frame 0)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-004-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-004-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-004-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-004-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@Ehi0GeR4g0FeR4RpDezhRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-016-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-016",
+    "displayName": "QB I-Start Form 3",
+    "formLabel": "QB I-Start Form 3 (source item 32, frame 0)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-016-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-016-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-016-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gwhIewhIewhDeR4i0whCeR4Ceg0JeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-035-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-035",
+    "displayName": "QB I-Start Form 4",
+    "formLabel": "QB I-Start Form 4 (source item 33, frame 0)",
+    "pieceSignature": [
+      "I",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-035-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-035-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-035-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@HhRpHeRpCeR4CezhR4NeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-017-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-017",
+    "displayName": "QB L-Start Form 1",
+    "formLabel": "QB L-Start Form 1 (source item 34, frame 0)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-017-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-017-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-017-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-017-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gwhFei0whGeQ4g0whEeBtR4whFeBtQ4JeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-005-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-005",
+    "displayName": "QB L-Start Form 2",
+    "formLabel": "QB L-Start Form 2 (source item 35, frame 0)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-005-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-005-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-005-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-005-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@Ehi0GeR4g0FeR4RpDezhRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-040-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-040",
+    "displayName": "QB J-Start Form 1",
+    "formLabel": "QB J-Start Form 1 (source item 36, frame 0)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-040-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-040-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-040-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-040-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gzhFeh0AtGeg0BtR4Eeg0AtR4PeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-006-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-006",
+    "displayName": "QB J-Start Form 2",
+    "formLabel": "QB J-Start Form 2 (source item 37, frame 0)",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-006-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-006-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-006-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-006-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gQ4IeR4Heg0Q4BtDeRpi0BtCeRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-027-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-027",
+    "displayName": "QB S-Start Form 1",
+    "formLabel": "QB S-Start Form 1 (source item 38, frame 0)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-027-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-027-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-027-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-027-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gQ4HewhR4Gewhg0Q4EeRpwhi0DeRpwhJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle6-no-lj-009-f000",
+    "cycle": 6,
+    "family": "pcinfokorea-c6-no-lj-source-item-009",
+    "displayName": "QB Z-Start Form 1",
+    "formLabel": "QB Z-Start Form 1 (source item 39, frame 0)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle6-no-lj-009-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-009-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-009-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle6-no-lj-009-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@FhAtg0GeBtg0RpEeAth0RpDezhJeAgH",
+    "reviewStatus": "reviewed"
+  }
+]

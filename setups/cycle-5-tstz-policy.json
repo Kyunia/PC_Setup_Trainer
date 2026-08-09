@@ -1,0 +1,206 @@
+{
+  "id": "pcinfokorea-cycle-5-tstz-v1",
+  "schemaVersion": 2,
+  "cycle": 5,
+  "classId": "tstz",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle5-tstz-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-002-f000",
+      "values": {
+        "solveRate": 99.25
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-003-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-004-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-005-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-006-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-007-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-008-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-009-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-010-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-011-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-012-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-013-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-014-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-015-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-016-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-017-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-018-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-019-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-020-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-021-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-022-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-023-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-024-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-026-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-028-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-029-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-tstz-030-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    }
+  ],
+  "selectionRules": []
+}

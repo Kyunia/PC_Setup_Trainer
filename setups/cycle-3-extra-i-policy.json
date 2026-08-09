@@ -1,0 +1,206 @@
+{
+  "id": "cycle-3-extra-i-pcinfokorea",
+  "schemaVersion": 2,
+  "cycle": 3,
+  "classId": "extra-i",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle3-extra-i-001-f000",
+      "values": {
+        "solveRate": 90.48
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-001-f001",
+      "values": {
+        "solveRate": 90.48
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-002-f000",
+      "values": {
+        "solveRate": 90.48
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-002-f001",
+      "values": {
+        "solveRate": 90.48
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-003-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-004-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-005-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-006-f000",
+      "values": {
+        "solveRate": 99.96
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-007-f000",
+      "values": {
+        "solveRate": 99.8
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-008-f000",
+      "values": {
+        "solveRate": 99.76
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-009-f000",
+      "values": {
+        "solveRate": 99.72
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-010-f000",
+      "values": {
+        "solveRate": 99.68
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-011-f000",
+      "values": {
+        "solveRate": 99.52
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-012-f000",
+      "values": {
+        "solveRate": 99.48
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-013-f000",
+      "values": {
+        "solveRate": 98.73
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-014-f000",
+      "values": {
+        "solveRate": 98.02
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-015-f000",
+      "values": {
+        "solveRate": 97.3
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-016-f000",
+      "values": {
+        "solveRate": 96.15
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-017-f000",
+      "values": {
+        "solveRate": 99.96
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-018-f000",
+      "values": {
+        "solveRate": 99.96
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-019-f000",
+      "values": {
+        "solveRate": 99.76
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-020-f000",
+      "values": {
+        "solveRate": 99.13
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-021-f000",
+      "values": {
+        "solveRate": 98.93
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-022-f000",
+      "values": {
+        "solveRate": 98.61
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-023-f000",
+      "values": {
+        "solveRate": 96.91
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-024-f000",
+      "values": {
+        "solveRate": 95.71
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-025-f000",
+      "values": {
+        "solveRate": 90.16
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-i-026-f000",
+      "values": {
+        "solveRate": 89.52
+      },
+      "direction": "source"
+    }
+  ],
+  "selectionRules": []
+}

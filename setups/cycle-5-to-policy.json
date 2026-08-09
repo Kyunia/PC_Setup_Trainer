@@ -1,0 +1,136 @@
+{
+  "id": "pcinfokorea-cycle-5-to-v1",
+  "schemaVersion": 2,
+  "cycle": 5,
+  "classId": "to",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle5-to-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-003-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-004-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-005-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-006-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-007-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-008-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-009-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-010-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-011-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-012-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-012-f001",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-013-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-014-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-015-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-016-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-019-f000",
+      "values": {
+        "solveRate": 2.86
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-to-019-f001",
+      "values": {
+        "solveRate": 2.86
+      },
+      "direction": "source-basis"
+    }
+  ],
+  "selectionRules": []
+}

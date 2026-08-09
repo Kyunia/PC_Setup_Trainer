@@ -1,0 +1,206 @@
+{
+  "id": "pcinfokorea-cycle-5-lsjz-v1",
+  "schemaVersion": 2,
+  "cycle": 5,
+  "classId": "lsjz",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle5-lsjz-001-f000",
+      "values": {
+        "solveRate": 99.76
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-002-f000",
+      "values": {
+        "solveRate": 93.73
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-003-f000",
+      "values": {
+        "solveRate": 97.7
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-003-f001",
+      "values": {
+        "solveRate": 97.7
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-004-f000",
+      "values": {
+        "solveRate": 97.38
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-005-f000",
+      "values": {
+        "solveRate": 99.44
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-006-f000",
+      "values": {
+        "solveRate": 98.61
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-008-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-009-f000",
+      "values": {
+        "solveRate": 92.78
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-010-f000",
+      "values": {
+        "solveRate": 95.6
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-011-f000",
+      "values": {
+        "solveRate": 99.88
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-012-f000",
+      "values": {
+        "solveRate": 99.4
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-013-f000",
+      "values": {
+        "solveRate": 99.37
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-014-f000",
+      "values": {
+        "solveRate": 97.62
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-015-f000",
+      "values": {
+        "solveRate": 99.44
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-016-f000",
+      "values": {
+        "solveRate": 99.29
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-017-f000",
+      "values": {
+        "solveRate": 94.92
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-018-f000",
+      "values": {
+        "solveRate": 94.29
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-019-f000",
+      "values": {
+        "solveRate": 94.29
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-020-f000",
+      "values": {
+        "solveRate": 93.49
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-021-f000",
+      "values": {
+        "solveRate": 97.78
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-022-f000",
+      "values": {
+        "solveRate": 99.64
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-023-f000",
+      "values": {
+        "solveRate": 98.57
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-024-f000",
+      "values": {
+        "solveRate": 97.02
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-025-f000",
+      "values": {
+        "solveRate": 97.02
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-026-f000",
+      "values": {
+        "solveRate": 99.96
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-027-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lsjz-027-f001",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    }
+  ],
+  "selectionRules": []
+}

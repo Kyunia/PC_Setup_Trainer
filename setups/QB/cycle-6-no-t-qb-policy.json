@@ -1,0 +1,266 @@
+{
+  "id": "cycle-6-no-t-qb-pcinfokorea",
+  "schemaVersion": 2,
+  "cycle": 6,
+  "classId": "no-t-qb",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle6-no-t-020-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-021-f000",
+      "values": {
+        "solveRate": 99.72
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-011-f000",
+      "values": {
+        "solveRate": 98.89
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-003-f000",
+      "values": {
+        "solveRate": 98.89
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-012-f000",
+      "values": {
+        "solveRate": 98.33
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-013-f000",
+      "values": {
+        "solveRate": 97.22
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-004-f000",
+      "values": {
+        "solveRate": 96.67
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-014-f000",
+      "values": {
+        "solveRate": 97.5
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-015-f000",
+      "values": {
+        "solveRate": 97.22
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-005-f000",
+      "values": {
+        "solveRate": 95
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-016-f000",
+      "values": {
+        "solveRate": 99.17
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-022-f000",
+      "values": {
+        "solveRate": 96.94
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-023-f000",
+      "values": {
+        "solveRate": 95.56
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-025-f000",
+      "values": {
+        "solveRate": 95.27
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-024-f000",
+      "values": {
+        "solveRate": 97.22
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-t-026-f000",
+      "values": {
+        "solveRate": 96.39
+      },
+      "direction": "source-basis"
+    }
+  ],
+  "selectionRules": [
+    {
+      "id": "cycle6-no-t-qb-by-next-bag-first-piece",
+      "candidateSetupIds": [
+        "cycle6-no-t-020-f000",
+        "cycle6-no-t-021-f000",
+        "cycle6-no-t-011-f000",
+        "cycle6-no-t-003-f000",
+        "cycle6-no-t-012-f000",
+        "cycle6-no-t-013-f000",
+        "cycle6-no-t-004-f000",
+        "cycle6-no-t-014-f000",
+        "cycle6-no-t-015-f000",
+        "cycle6-no-t-005-f000",
+        "cycle6-no-t-016-f000",
+        "cycle6-no-t-022-f000",
+        "cycle6-no-t-023-f000",
+        "cycle6-no-t-025-f000",
+        "cycle6-no-t-024-f000",
+        "cycle6-no-t-026-f000"
+      ],
+      "observation": {
+        "kind": "next-bag-prefix",
+        "length": 1
+      },
+      "branches": [
+        {
+          "id": "next-t-1",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "T"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-t-020-f000",
+            "cycle6-no-t-021-f000",
+            "cycle6-no-t-011-f000",
+            "cycle6-no-t-003-f000",
+            "cycle6-no-t-012-f000",
+            "cycle6-no-t-013-f000",
+            "cycle6-no-t-004-f000"
+          ]
+        },
+        {
+          "id": "next-o-2",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "O"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-t-014-f000",
+            "cycle6-no-t-015-f000",
+            "cycle6-no-t-005-f000"
+          ]
+        },
+        {
+          "id": "next-i-3",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "I"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-t-016-f000",
+            "cycle6-no-t-022-f000",
+            "cycle6-no-t-023-f000"
+          ]
+        },
+        {
+          "id": "next-l-4",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "L"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-t-025-f000"
+          ]
+        },
+        {
+          "id": "next-j-4",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "J"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-t-025-f000"
+          ]
+        },
+        {
+          "id": "next-s-5",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "S"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-t-024-f000",
+            "cycle6-no-t-026-f000"
+          ]
+        },
+        {
+          "id": "next-z-5",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "Z"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-t-024-f000",
+            "cycle6-no-t-026-f000"
+          ]
+        }
+      ]
+    }
+  ],
+  "symmetryPolicy": {
+    "appliesToSetupIds": [
+      "cycle6-no-t-020-f000",
+      "cycle6-no-t-021-f000",
+      "cycle6-no-t-011-f000",
+      "cycle6-no-t-003-f000",
+      "cycle6-no-t-012-f000",
+      "cycle6-no-t-013-f000",
+      "cycle6-no-t-004-f000",
+      "cycle6-no-t-014-f000",
+      "cycle6-no-t-015-f000",
+      "cycle6-no-t-005-f000",
+      "cycle6-no-t-016-f000",
+      "cycle6-no-t-022-f000",
+      "cycle6-no-t-023-f000",
+      "cycle6-no-t-025-f000",
+      "cycle6-no-t-024-f000",
+      "cycle6-no-t-026-f000"
+    ]
+  }
+}

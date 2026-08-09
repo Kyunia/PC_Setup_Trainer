@@ -1,0 +1,4216 @@
+[
+  {
+    "id": "cycle2-advanced-toistoiz-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-toistoiz-media-001",
+    "displayName": "OIS 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "I",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-toistoiz-001-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-toistoiz-001-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-toistoiz-001-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gwhIewhIewhRpAeR4DewhRpR4OeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-toistoiz-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-toistoiz-media-002",
+    "displayName": "TIS 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "I",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-toistoiz-002-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-toistoiz-002-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-toistoiz-002-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gwhIewhIewhCeR4wwCewhBeR4ywLeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-tolj-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-tolj-media-001",
+    "displayName": "OLJ 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-tolj-001-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tolj-001-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tolj-001-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gilGeglRpGeg0RpGei0QeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-tolj-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-tolj-media-002",
+    "displayName": "TOJ 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "J",
+      "O",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-tolj-002-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tolj-002-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tolj-002-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gRpHeRpwwGeg0ywFei0QeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-tolj-003-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-tolj-media-003",
+    "displayName": "TLJ 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "J",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-tolj-003-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tolj-003-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tolj-003-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gh0Heg0Ieg0wwGeglywDeilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-tosz-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-tosz-media-001",
+    "displayName": "OSZ 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-tosz-001-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tosz-001-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tosz-001-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@KhAtFeRpBtR4DeRpAtR4OeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-tosz-001-f001",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-tosz-media-001",
+    "displayName": "OSZ 3P",
+    "formLabel": "right",
+    "side": "right",
+    "pieceSignature": [
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-tosz-001-f001-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tosz-001-f001-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tosz-001-f001-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@NhQ4GeBtR4RpEeBtQ4RpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-tilj-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-tilj-media-001",
+    "displayName": "TIL 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "I",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-tilj-001-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tilj-001-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tilj-001-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gilGeglwwHeywGezhPeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-tilj-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-tilj-media-002",
+    "displayName": "ILJ 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-tilj-002-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tilj-002-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tilj-002-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@GhwhglGeg0whglGeg0whhlEeh0whJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-tisz-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-tisz-media-001",
+    "displayName": "Dragon Setup",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "I",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-tisz-001-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tisz-001-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tisz-001-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@AhR4GeR4IeBtEezhBtNeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-tisz-001-f001",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-tisz-media-001",
+    "displayName": "Dragon Setup",
+    "formLabel": "right",
+    "side": "right",
+    "pieceSignature": [
+      "I",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-tisz-001-f001-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tisz-001-f001-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tisz-001-f001-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@ChBtIeBtGeR4GeR4zhJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-tljstljz-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-tljstljz-media-001",
+    "displayName": "LJS 3P",
+    "formLabel": "right",
+    "side": "right",
+    "pieceSignature": [
+      "J",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-tljstljz-001-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tljstljz-001-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tljstljz-001-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@EhQ4hlGeR4glGeg0Q4glGei0JeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-tljstljz-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-tljstljz-media-002",
+    "displayName": "TJS 3P",
+    "formLabel": "right-form-1",
+    "side": "right",
+    "pieceSignature": [
+      "J",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-tljstljz-002-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tljstljz-002-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tljstljz-002-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@Ehi0HeQ4g0GewwR4FeywQ4JeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-tljstljz-002-f001",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-tljstljz-media-002",
+    "displayName": "TJS 3P",
+    "formLabel": "right-form-2",
+    "side": "right",
+    "pieceSignature": [
+      "J",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-tljstljz-002-f001-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tljstljz-002-f001-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tljstljz-002-f001-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@EhywHewwg0GeR4g0FeR4h0JeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-tljstljz-003-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-tljstljz-media-003",
+    "displayName": "TLS 3P",
+    "formLabel": "right",
+    "side": "right",
+    "pieceSignature": [
+      "L",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-tljstljz-003-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tljstljz-003-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-tljstljz-003-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@FhhlGeR4glFeR4wwglGeywJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-oilj-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-oilj-media-001",
+    "displayName": "OIJ 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-oilj-001-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-oilj-001-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-oilj-001-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gwhIewhIewhg0EeRpAewhi0CeRpKeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-oisz-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-oisz-media-001",
+    "displayName": "OSZ 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-oisz-001-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-oisz-001-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-oisz-001-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@KhAtFeRpBtR4DeRpAtR4OeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-oisz-001-f001",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-oisz-media-001",
+    "displayName": "OSZ 3P",
+    "formLabel": "right",
+    "side": "right",
+    "pieceSignature": [
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-oisz-001-f001-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-oisz-001-f001-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-oisz-001-f001-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@NhQ4GeBtR4RpEeBtQ4RpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-oljsoljz-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-oljsoljz-media-001",
+    "displayName": "OJS 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-oljsoljz-001-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-oljsoljz-001-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-oljsoljz-001-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gQ4IeR4Heg0Q4FeRpi0EeRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-oljsoljz-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-oljsoljz-media-002",
+    "displayName": "LJS 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "J",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-oljsoljz-002-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-oljsoljz-002-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-oljsoljz-002-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gQ4IeR4Heg0Q4Gegli0DeilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-oljsoljz-003-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-oljsoljz-media-003",
+    "displayName": "OLS 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-oljsoljz-003-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-oljsoljz-003-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-oljsoljz-003-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@OhglQ4AeRpEeglR4RpEehlQ4JeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-iljsiljz-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-iljsiljz-media-001",
+    "displayName": "IJS 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-iljsiljz-001-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-iljsiljz-001-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-iljsiljz-001-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gQ4IeR4Heg0Q4Hei0CezhJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-iljsiljz-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-iljsiljz-media-002",
+    "displayName": "ILS 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-iljsiljz-002-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-iljsiljz-002-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-iljsiljz-002-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@HhglQ4HeglR4GehlQ4CezhJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-ljsz-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-ljsz-media-001",
+    "displayName": "LJS 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "J",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-ljsz-001-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-ljsz-001-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-ljsz-001-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gQ4IeR4Heg0Q4Gegli0DeilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-ljsz-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-ljsz-media-002",
+    "displayName": "LSZ 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-ljsz-002-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-ljsz-002-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-ljsz-002-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gilGeglAtHeBtR4FeAtR4QeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-toiltoij-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-toiltoij-media-001",
+    "displayName": "TOI 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "I",
+      "O",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-toiltoij-001-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-toiltoij-001-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-toiltoij-001-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gwhIewhwwHewhxwEeRpwhwwFeRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-tolstojz-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-tolstojz-media-001",
+    "displayName": "TOS 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-tolstojz-001-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tolstojz-001-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tolstojz-001-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gwwIexwHewwR4EeRpR4FeRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-tolstojz-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-tolstojz-media-002",
+    "displayName": "OLS 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-tolstojz-002-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tolstojz-002-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tolstojz-002-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@PhR4RpEeR4glRpEeilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-tolztojs-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-tolztojs-media-001",
+    "displayName": "TOZ 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "O",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-tolztojs-001-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tolztojs-001-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tolztojs-001-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@GhwwHexwRpEeBtwwRpFeBtJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-tolztojs-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-tolztojs-media-002",
+    "displayName": "OLZ 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-tolztojs-002-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tolztojs-002-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tolztojs-002-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@HhglIeglBtEeRphlBtDeRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-tilstijz-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-tilstijz-media-001",
+    "displayName": "TLS 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "L",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-tilstijz-001-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tilstijz-001-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tilstijz-001-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gwwIexwHewwR4FeglR4EeilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-tilstijz-003-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-tilstijz-media-003",
+    "displayName": "TIS 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "I",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-tilstijz-003-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tilstijz-003-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tilstijz-003-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gwhwwHewhxwGewhwwR4FewhR4QeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-tilstijz-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-tilstijz-media-002",
+    "displayName": "TIL 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "I",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-tilstijz-002-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tilstijz-002-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tilstijz-002-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gwhIewhwwHewhxwFeglwhwwEeilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-tilztijs-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-tilztijs-media-001",
+    "displayName": "TIZ 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "I",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-tilztijs-001-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tilztijs-001-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tilztijs-001-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@GhwwHexwGeBtwwzhDeBtJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-tilztijs-003-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-tilztijs-media-003",
+    "displayName": "TIZ 3P",
+    "formLabel": "right",
+    "side": "right",
+    "pieceSignature": [
+      "I",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-tilztijs-003-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tilztijs-003-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tilztijs-003-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@FhwwwhGexwwhFeBtwwwhGeBtwhJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-tilztijs-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-tilztijs-media-002",
+    "displayName": "TIZ 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "I",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-tilztijs-002-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tilztijs-002-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tilztijs-002-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gwhIewhHewwwhEeBtxwwhFeBtwwJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-tlsztjsz-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-tlsztjsz-media-001",
+    "displayName": "TSZ 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-tlsztjsz-001-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tlsztjsz-001-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tlsztjsz-001-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gBtHewwBtGexwR4FewwR4QeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-tlsztjsz-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-tlsztjsz-media-002",
+    "displayName": "TSZ 3P",
+    "formLabel": "right",
+    "side": "right",
+    "pieceSignature": [
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-tlsztjsz-002-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tlsztjsz-002-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tlsztjsz-002-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@FhR4GeR4wwFeBtxwGeBtwwJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-tlsztjsz-003-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-tlsztjsz-media-003",
+    "displayName": "LSZ 3P",
+    "formLabel": "right",
+    "side": "right",
+    "pieceSignature": [
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-tlsztjsz-003-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tlsztjsz-003-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-tlsztjsz-003-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@GhAtHeBtFeR4AtglEeR4ilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-oilsoijz-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-oilsoijz-media-001",
+    "displayName": "OIS 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "I",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-oilsoijz-001-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-oilsoijz-001-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-oilsoijz-001-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@KhRpFeR4RpEeR4zhNeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-oilsoijz-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-oilsoijz-media-002",
+    "displayName": "OIL 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-oilsoijz-002-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-oilsoijz-002-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-oilsoijz-002-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gwhIewhglHewhglFeRpwhhlEeRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-oilzoijs-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-oilzoijs-media-001",
+    "displayName": "OIZ 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "I",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-oilzoijs-001-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-oilzoijs-001-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-oilzoijs-001-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@IhBtGeRpBtFeRpzhNeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-oilzoijs-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-oilzoijs-media-002",
+    "displayName": "OIL 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-oilzoijs-002-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-oilzoijs-002-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-oilzoijs-002-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@GhwhIewhRpFeglwhRpDeilwhJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-olszojsz-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-olszojsz-media-001",
+    "displayName": "OLZ 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-olszojsz-001-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-olszojsz-001-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-olszojsz-001-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@GhAtHeBtRpFeAtglRpEeilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-olszojsz-003-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-olszojsz-media-003",
+    "displayName": "LSZ 3P",
+    "formLabel": "right",
+    "side": "right",
+    "pieceSignature": [
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-olszojsz-003-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-olszojsz-003-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-olszojsz-003-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@GhAtHeBtFeR4AtglEeR4ilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-olszojsz-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-olszojsz-media-002",
+    "displayName": "OLS 3P",
+    "formLabel": "neutral",
+    "side": "neutral",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-olszojsz-002-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-olszojsz-002-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-olszojsz-002-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@RhRpDeR4AeglRpCeR4ilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-ilszijsz-001-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-ilszijsz-media-001",
+    "displayName": "LSZ 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-ilszijsz-001-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-ilszijsz-001-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-ilszijsz-001-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@HhglQ4BtFeglR4BtEehlQ4QeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-ilszijsz-002-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-ilszijsz-media-002",
+    "displayName": "LSZ 3P",
+    "formLabel": "left",
+    "side": "left",
+    "pieceSignature": [
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-ilszijsz-002-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-ilszijsz-002-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-ilszijsz-002-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@9gilGeglAtHeBtR4FeAtR4QeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle2-advanced-odd-ilszijsz-003-f000",
+    "cycle": 2,
+    "family": "pcinfokorea-cycle2-advanced-odd-ilszijsz-media-003",
+    "displayName": "LSZ 3P",
+    "formLabel": "right",
+    "side": "right",
+    "pieceSignature": [
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle2-advanced-odd-ilszijsz-003-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-ilszijsz-003-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle2-advanced-odd-ilszijsz-003-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "fumen": "v115@GhAtHeBtFeR4AtglEeR4ilJeAgH",
+    "reviewStatus": "reviewed"
+  }
+]

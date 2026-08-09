@@ -1,0 +1,59 @@
+{
+  "id": "pcinfokorea-cycle-4-no-lzjs-v1",
+  "schemaVersion": 2,
+  "cycle": 4,
+  "classId": "no-lz",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle4-no-lzjs-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-lz"
+    },
+    {
+      "setupId": "cycle4-no-lzjs-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-lz"
+    },
+    {
+      "setupId": "cycle4-no-lzjs-003-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-lz"
+    },
+    {
+      "setupId": "cycle4-no-lzjs-004-f000",
+      "values": {
+        "solveRate": 99.98
+      },
+      "direction": "source-basis-no-lz"
+    },
+    {
+      "setupId": "cycle4-no-lzjs-005-f000",
+      "values": {
+        "solveRate": 99.5
+      },
+      "direction": "source-basis-no-lz"
+    },
+    {
+      "setupId": "cycle4-no-lzjs-005-f000",
+      "values": {
+        "solveRate": 99.42
+      },
+      "direction": "mirror-class-no-js"
+    },
+    {
+      "setupId": "cycle4-no-lzjs-006-f000",
+      "values": {
+        "solveRate": 99.96
+      },
+      "direction": "source-basis-no-lz"
+    }
+  ],
+  "selectionRules": []
+}

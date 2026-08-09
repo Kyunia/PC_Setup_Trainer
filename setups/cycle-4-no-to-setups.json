@@ -1,0 +1,537 @@
+[
+  {
+    "id": "cycle4-no-to-001-f000",
+    "cycle": 4,
+    "family": "pcinfokorea-cycle-4-no-to-001",
+    "displayName": "Elephant",
+    "formLabel": "Elephant (source item 1, frame 0)",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle4-no-to-001-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-001-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-001-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-001-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gzhFeglQ4BtFeglR4BtEehlQ4QeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle4-no-to-002-f000",
+    "cycle": 4,
+    "family": "pcinfokorea-cycle-4-no-to-002",
+    "displayName": "Unnamed Source Setup 2",
+    "formLabel": "Unnamed Source Setup 2 (source item 2, frame 0)",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle4-no-to-002-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-002-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-002-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-002-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gilGeglAtHeBtR4FeAtR4zhMeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle4-no-to-003-f000",
+    "cycle": 4,
+    "family": "pcinfokorea-cycle-4-no-to-003",
+    "displayName": "Jaws",
+    "formLabel": "Jaws (source item 3, frame 0)",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle4-no-to-003-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-003-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-003-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-003-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gilFewhglAtGewhBtR4EewhAtR4FewhJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle4-no-to-004-f000",
+    "cycle": 4,
+    "family": "pcinfokorea-cycle-4-no-to-004",
+    "displayName": "Alt. Jaws",
+    "formLabel": "Alt. Jaws (source item 4, frame 0)",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle4-no-to-004-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-004-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-004-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-004-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@DhzhGeQ4hlEeBtR4glFeBtQ4glJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle4-no-to-005-f000",
+    "cycle": 4,
+    "family": "pcinfokorea-cycle-4-no-to-005",
+    "displayName": "Shoe + I",
+    "formLabel": "Shoe + I (source item 5, frame 0)",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle4-no-to-005-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-005-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-005-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle4-no-to-005-f000-z-1",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gwhHeAtwhGeBtwhEeR4AtglwhDeR4ilJeAgH",
+    "reviewStatus": "reviewed"
+  }
+]

@@ -1,0 +1,199 @@
+{
+  "id": "pcinfokorea-cycle-5-oloj-v1",
+  "schemaVersion": 2,
+  "cycle": 5,
+  "classId": "oloj",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle5-oloj-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-003-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-004-f000",
+      "values": {
+        "solveRate": 99.8
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-005-f000",
+      "values": {
+        "solveRate": 97.7
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-005-f001",
+      "values": {
+        "solveRate": 97.7
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-006-f000",
+      "values": {
+        "solveRate": 98.81
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-007-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-008-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-009-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-010-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-011-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-012-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-013-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-014-f000",
+      "values": {
+        "solveRate": 99.48
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-015-f000",
+      "values": {
+        "solveRate": 97.62
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-016-f000",
+      "values": {
+        "solveRate": 99.37
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-017-f000",
+      "values": {
+        "solveRate": 99.48
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-018-f000",
+      "values": {
+        "solveRate": 95.24
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-019-f000",
+      "values": {
+        "solveRate": 99.8
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-020-f000",
+      "values": {
+        "solveRate": 99.8
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-021-f000",
+      "values": {
+        "solveRate": 97.02
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-022-f000",
+      "values": {
+        "solveRate": 99.48
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-023-f000",
+      "values": {
+        "solveRate": 97.22
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-024-f000",
+      "values": {
+        "solveRate": 95.24
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-024-f001",
+      "values": {
+        "solveRate": 95.24
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oloj-025-f000",
+      "values": {
+        "solveRate": 11.43
+      },
+      "direction": "source-basis"
+    }
+  ],
+  "selectionRules": []
+}

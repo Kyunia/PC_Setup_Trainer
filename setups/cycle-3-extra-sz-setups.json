@@ -1,0 +1,3486 @@
+[
+  {
+    "id": "cycle3-extra-sz-001-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-001",
+    "displayName": "100%",
+    "pieceSignature": [
+      "L",
+      "S",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-001-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-001-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-001-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-001-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@EhR4AtFeR4BtFeR4AtglEeR4ilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-002-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-002",
+    "displayName": "100% (Still 100% Without I or S)",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-002-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-002-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-002-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-002-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-002-f000-s-5",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@BhzhR4EeRpR4g0EeRpR4g0FeR4h0JeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-004-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-004",
+    "displayName": "Cradle 5P",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-004-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-004-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-004-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-004-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-004-f000-s-5",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gh0R4Feg0R4RpEeg0R4RpEeR4zhNeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-005-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-005",
+    "displayName": "-S",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-005-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-005-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-005-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-005-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gh0Heg0BeRpEeg0R4RpEeR4zhNeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-006-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-006",
+    "displayName": "-J",
+    "pieceSignature": [
+      "I",
+      "O",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-006-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-006-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-006-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-006-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@/gR4GeR4RpFeR4RpEeR4zhNeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-007-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-007",
+    "displayName": "-O",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-007-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-007-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-007-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-007-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gh0R4Feg0R4Geg0R4GeR4zhNeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-008-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-008",
+    "displayName": "+Z",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-008-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-008-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-008-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-008-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-008-f000-s-5",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-008-f000-z-6",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gh0R4BtDeg0R4RpBtCeg0R4RpEeR4zhNeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-009-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-009",
+    "displayName": "Shoe + I",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-009-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-009-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-009-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-009-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gwhHeAtwhGeBtwhEeR4AtglwhDeR4ilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-010-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-010",
+    "displayName": "Legs",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-010-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-010-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-010-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-010-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@Ehi0GeR4g0FeR4RpDezhRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-011-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-011",
+    "displayName": "Shoe + O",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-011-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-011-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-011-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-011-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@GhAtHeBtRpDeR4AtglRpCeR4ilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-012-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-012",
+    "displayName": "Alt. Jaws",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-012-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-012-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-012-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-012-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gzhFeh0AtGeg0BtR4Eeg0AtR4PeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-013-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-013",
+    "displayName": "Jaws",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-013-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-013-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-013-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-013-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gzhFeglRpGeglRpR4EehlR4PeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-014-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-014",
+    "displayName": "Jaws",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-014-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-014-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-014-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-014-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gwhilFewhglAtGewhBtR4EewhAtR4PeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-015-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-015",
+    "displayName": "Elephant",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-015-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-015-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-015-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-015-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@DhzhFeR4hlEeR4RpglGeRpglJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-016-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-016",
+    "displayName": "Cliff",
+    "pieceSignature": [
+      "L",
+      "S",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-016-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-016-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-016-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-016-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gilR4EeglAtR4FeBtR4FeAtR4QeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-017-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-017",
+    "displayName": "Jaws",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-017-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-017-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-017-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-017-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gzhFei0GeRpg0R4EeRpR4PeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-018-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-018",
+    "displayName": "96.47%",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-018-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-018-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-018-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-018-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@FhRpHeRpCeR4zhglBeR4CeilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-019-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-019",
+    "displayName": "Jaws + O",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-019-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-019-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-019-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-019-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gilGeglAtHeBtR4DeRpAtR4EeRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-020-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-020",
+    "displayName": "Alt. Shoe",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-020-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-020-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-020-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-020-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@FhAtg0GeBtg0EeR4Ath0DeR4zhJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-021-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-021",
+    "displayName": "Shoe + O",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-021-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-021-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-021-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-021-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gQ4IeR4Heg0Q4BtDeRpi0BtCeRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-022-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-022",
+    "displayName": "Elephant",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-022-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-022-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-022-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-022-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@DhzhFeT4EeT4glGeilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-023-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-023",
+    "displayName": "95.40%",
+    "pieceSignature": [
+      "I",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-023-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-023-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-023-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-023-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@+gzhHeAtFeRpBtR4DeRpAtR4OeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-024-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-024",
+    "displayName": "95.28%",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-024-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-024-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-024-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-024-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@DhQ4i0FeS4g0GeS4EezhQ4JeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-025-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-025",
+    "displayName": "91.83%",
+    "pieceSignature": [
+      "O",
+      "S",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-025-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-025-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-025-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-025-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@AhBtIeBtDeRpAeT4CeRpT4NeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-026-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-026",
+    "displayName": "90.99%",
+    "pieceSignature": [
+      "S",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-026-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-026-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-026-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-026-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gwwBtGexwBtFewwT4EeT4PeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-027-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-027",
+    "displayName": "90.95%",
+    "pieceSignature": [
+      "J",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-027-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-027-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-027-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-027-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gh0wwGeg0ywFeg0T4EeT4PeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-028-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-028",
+    "displayName": "90.95%",
+    "pieceSignature": [
+      "L",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-028-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-028-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-028-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-028-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@EhR4AtFeR4BtEeywAtglFewwilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-029-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-029",
+    "displayName": "90.48%",
+    "pieceSignature": [
+      "O",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-029-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-029-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-029-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-029-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gwwIexwHewwT4CeRpT4DeRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-030-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-030",
+    "displayName": "90.00%",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-030-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-030-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-030-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-030-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gilGeglywFeRpwwR4EeRpR4PeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-031-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-031",
+    "displayName": "87.06%",
+    "pieceSignature": [
+      "L",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-031-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-031-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-031-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-031-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gwwIexwHewwT4DeglT4CeilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-032-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-032",
+    "displayName": "86.79%",
+    "pieceSignature": [
+      "O",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-032-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-032-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-032-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-032-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@FhR4GeR4wwRpDeBtxwRpEeBtwwJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle3-extra-sz-033-f000",
+    "cycle": 3,
+    "family": "pcinfokorea-extra-sz-source-item-033",
+    "displayName": "82.62%",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle3-extra-sz-033-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-033-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-033-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle3-extra-sz-033-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@9gwwIexwFeRpwwR4Deg0RpR4Eei0JeAgH",
+    "reviewStatus": "reviewed"
+  }
+]

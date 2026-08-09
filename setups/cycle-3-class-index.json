@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 3,
+  "cycle": 3,
+  "selector": {
+    "kind": "saved-piece"
+  },
+  "classes": {
+    "O": {
+      "classId": "extra-o",
+      "sourceDirection": "source-basis"
+    },
+    "T": {
+      "classId": "extra-t",
+      "sourceDirection": "source-basis"
+    },
+    "I": {
+      "classId": "extra-i",
+      "sourceDirection": "source-basis"
+    },
+    "L": {
+      "classId": "extra-lj",
+      "sourceDirection": "source-basis"
+    },
+    "J": {
+      "classId": "extra-lj",
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "S": {
+      "classId": "extra-sz",
+      "sourceDirection": "source-basis"
+    },
+    "Z": {
+      "classId": "extra-sz",
+      "sourceDirection": "horizontal-runtime-mirror"
+    }
+  }
+}

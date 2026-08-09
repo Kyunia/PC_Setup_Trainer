@@ -1,0 +1,136 @@
+{
+  "id": "cycle-6-no-lj-pcinfokorea",
+  "schemaVersion": 2,
+  "cycle": 6,
+  "classId": "no-lj",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle6-no-lj-001-f000",
+      "values": {
+        "solveRate": 99.6
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-002-f000",
+      "values": {
+        "solveRate": 99.01
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-007-f000",
+      "values": {
+        "solveRate": 98.81
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-021-f000",
+      "values": {
+        "solveRate": 98.81
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-012-f000",
+      "values": {
+        "solveRate": 98.69
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-039-f000",
+      "values": {
+        "solveRate": 98.33
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-013-f000",
+      "values": {
+        "solveRate": 98.33
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-037-f000",
+      "values": {
+        "solveRate": 97.94
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-010-f000",
+      "values": {
+        "solveRate": 97.7
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-028-f000",
+      "values": {
+        "solveRate": 97.62
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-022-f000",
+      "values": {
+        "solveRate": 97.26
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-023-f000",
+      "values": {
+        "solveRate": 96.9
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-032-f000",
+      "values": {
+        "solveRate": 96.47
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-024-f000",
+      "values": {
+        "solveRate": 95.65
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-038-f000",
+      "values": {
+        "solveRate": 95.52
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-018-f000",
+      "values": {
+        "solveRate": 95.52
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-025-f000",
+      "values": {
+        "solveRate": 94.13
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-lj-029-f000",
+      "values": {
+        "solveRate": 93.65
+      },
+      "direction": "source-basis"
+    }
+  ],
+  "selectionRules": []
+}

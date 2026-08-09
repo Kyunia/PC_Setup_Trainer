@@ -1,0 +1,45 @@
+{
+  "id": "pcinfokorea-cycle-4-no-oi-v1",
+  "schemaVersion": 2,
+  "cycle": 4,
+  "classId": "no-oi",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle4-no-oi-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle4-no-oi-001-f001",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle4-no-oi-002-f000",
+      "values": {
+        "solveRate": 99.92
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle4-no-oi-002-f001",
+      "values": {
+        "solveRate": 99.92
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle4-no-oi-003-f000",
+      "values": {
+        "solveRate": 99.96
+      },
+      "direction": "source-basis"
+    }
+  ],
+  "selectionRules": []
+}

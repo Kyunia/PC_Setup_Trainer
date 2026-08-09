@@ -1,0 +1,299 @@
+{
+  "id": "cycle-7-source-main",
+  "schemaVersion": 2,
+  "cycle": 7,
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "pcinfokorea-c7-002-iot",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-004-ost",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-004-otz",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-006-ist",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-006-itz",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-008-lot",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-008-jot",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-008-lst",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-008-jtz",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-013-ilt",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-013-ijt",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-013-jlt",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-013-ltz",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-013-jst",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-017-stz",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-021-ilo",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-021-ijo",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-024-os",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-024-oz",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-027-ils",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-027-ilz",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-027-los",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-027-jos",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-028-ijz",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-028-ijs",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-028-joz",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-028-loz",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-032-jlo-form-1",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-032-ijl-form-1",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-032-ijl-form-2",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-032-jlo-form-2",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-032-ijl-form-3",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-032-ijl-form-4",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-033-jls",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-033-jlz",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-038-jlo",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-038-jls",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-038-jlz",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-039-lsz",
+      "values": {
+        "solveRate": 99.4
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-039-jsz",
+      "values": {
+        "solveRate": 99.4
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-040-isz-form-1",
+      "values": {
+        "solveRate": 99.52
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-040-isz-form-2",
+      "values": {
+        "solveRate": 99.52
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-041-osz-form-1",
+      "values": {
+        "solveRate": 89.84
+      }
+    },
+    {
+      "setupId": "pcinfokorea-c7-041-osz-form-2",
+      "values": {
+        "solveRate": 89.84
+      }
+    }
+  ],
+  "buildConstraints": [
+    {
+      "id": "cycle7-ois-2p-save-i",
+      "candidateSetupIds": [
+        "pcinfokorea-c7-024-os"
+      ],
+      "requiredSavedPiece": "I",
+      "exactPoolSignature": "IOS"
+    },
+    {
+      "id": "cycle7-oiz-2p-save-i",
+      "candidateSetupIds": [
+        "pcinfokorea-c7-024-oz"
+      ],
+      "requiredSavedPiece": "I",
+      "exactPoolSignature": "IOZ"
+    }
+  ],
+  "selectionRules": [],
+  "rankingHints": [
+    {
+      "kind": "project-default-save-priority",
+      "valuesByPieceCount": {
+        "3": 0
+      }
+    }
+  ]
+}

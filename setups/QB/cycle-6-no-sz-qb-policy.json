@@ -1,0 +1,459 @@
+{
+  "id": "pcinfokorea-cycle-6-no-sz-qb-v1",
+  "schemaVersion": 2,
+  "cycle": 6,
+  "classId": "no-s-qb",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle6-no-sz-054-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-055-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-055-f001",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-056-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-057-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-058-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-059-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-060-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-061-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-062-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-063-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-064-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-065-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-066-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-067-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-068-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-069-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-070-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-071-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-072-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-073-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-074-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-075-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-076-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-077-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-078-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-079-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-080-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-081-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-082-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-083-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-084-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-085-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-086-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-087-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-088-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-089-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-090-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-091-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-092-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    }
+  ],
+  "selectionRules": [
+    {
+      "id": "cycle6-no-s-qb-by-next-bag-first-piece",
+      "candidateSetupIds": [
+        "cycle6-no-sz-054-f000",
+        "cycle6-no-sz-055-f000",
+        "cycle6-no-sz-055-f001",
+        "cycle6-no-sz-056-f000",
+        "cycle6-no-sz-057-f000",
+        "cycle6-no-sz-058-f000",
+        "cycle6-no-sz-059-f000",
+        "cycle6-no-sz-060-f000",
+        "cycle6-no-sz-061-f000",
+        "cycle6-no-sz-062-f000",
+        "cycle6-no-sz-063-f000",
+        "cycle6-no-sz-064-f000",
+        "cycle6-no-sz-065-f000",
+        "cycle6-no-sz-066-f000",
+        "cycle6-no-sz-067-f000",
+        "cycle6-no-sz-068-f000",
+        "cycle6-no-sz-069-f000",
+        "cycle6-no-sz-070-f000",
+        "cycle6-no-sz-071-f000",
+        "cycle6-no-sz-072-f000",
+        "cycle6-no-sz-073-f000",
+        "cycle6-no-sz-074-f000",
+        "cycle6-no-sz-075-f000",
+        "cycle6-no-sz-076-f000",
+        "cycle6-no-sz-077-f000",
+        "cycle6-no-sz-078-f000",
+        "cycle6-no-sz-079-f000",
+        "cycle6-no-sz-080-f000",
+        "cycle6-no-sz-081-f000",
+        "cycle6-no-sz-082-f000",
+        "cycle6-no-sz-083-f000",
+        "cycle6-no-sz-084-f000",
+        "cycle6-no-sz-085-f000",
+        "cycle6-no-sz-086-f000",
+        "cycle6-no-sz-087-f000",
+        "cycle6-no-sz-088-f000",
+        "cycle6-no-sz-089-f000",
+        "cycle6-no-sz-090-f000",
+        "cycle6-no-sz-091-f000",
+        "cycle6-no-sz-092-f000"
+      ],
+      "observation": {
+        "kind": "next-bag-prefix",
+        "length": 1
+      },
+      "branches": [
+        {
+          "id": "next-t",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "T"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-sz-054-f000",
+            "cycle6-no-sz-055-f000",
+            "cycle6-no-sz-055-f001"
+          ]
+        },
+        {
+          "id": "next-o",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "O"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-sz-056-f000",
+            "cycle6-no-sz-057-f000",
+            "cycle6-no-sz-058-f000",
+            "cycle6-no-sz-059-f000",
+            "cycle6-no-sz-060-f000"
+          ]
+        },
+        {
+          "id": "next-i",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "I"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-sz-061-f000",
+            "cycle6-no-sz-062-f000",
+            "cycle6-no-sz-063-f000",
+            "cycle6-no-sz-064-f000",
+            "cycle6-no-sz-065-f000",
+            "cycle6-no-sz-066-f000",
+            "cycle6-no-sz-067-f000",
+            "cycle6-no-sz-068-f000",
+            "cycle6-no-sz-069-f000",
+            "cycle6-no-sz-070-f000",
+            "cycle6-no-sz-071-f000",
+            "cycle6-no-sz-072-f000"
+          ]
+        },
+        {
+          "id": "next-l",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "L"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-sz-073-f000",
+            "cycle6-no-sz-074-f000",
+            "cycle6-no-sz-075-f000",
+            "cycle6-no-sz-076-f000",
+            "cycle6-no-sz-077-f000"
+          ]
+        },
+        {
+          "id": "next-j",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "J"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-sz-078-f000",
+            "cycle6-no-sz-079-f000"
+          ]
+        },
+        {
+          "id": "next-s",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "S"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-sz-080-f000",
+            "cycle6-no-sz-081-f000",
+            "cycle6-no-sz-082-f000",
+            "cycle6-no-sz-083-f000",
+            "cycle6-no-sz-084-f000"
+          ]
+        },
+        {
+          "id": "next-z",
+          "when": {
+            "operator": "prefixIn",
+            "values": [
+              "Z"
+            ]
+          },
+          "preferSetupIds": [
+            "cycle6-no-sz-085-f000",
+            "cycle6-no-sz-086-f000",
+            "cycle6-no-sz-087-f000",
+            "cycle6-no-sz-088-f000",
+            "cycle6-no-sz-089-f000",
+            "cycle6-no-sz-090-f000",
+            "cycle6-no-sz-091-f000",
+            "cycle6-no-sz-092-f000"
+          ]
+        }
+      ]
+    }
+  ]
+}

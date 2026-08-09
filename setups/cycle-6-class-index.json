@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 3,
+  "cycle": 6,
+  "selector": {
+    "kind": "first-bag-multiset",
+    "distinctPoolMode": "missing-piece",
+    "duplicatePoolMode": "unsupported"
+  },
+  "classes": {
+    "S": {
+      "classId": "no-sz",
+      "sourceDirection": "source-basis"
+    },
+    "Z": {
+      "classId": "no-sz",
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "O": {
+      "classId": "no-o",
+      "sourceDirection": "source-basis"
+    },
+    "L": {
+      "classId": "no-lj",
+      "sourceDirection": "source-basis"
+    },
+    "J": {
+      "classId": "no-lj",
+      "sourceDirection": "horizontal-runtime-mirror"
+    },
+    "I": {
+      "classId": "no-i",
+      "sourceDirection": "source-basis"
+    },
+    "T": {
+      "classId": "no-t",
+      "sourceDirection": "source-basis"
+    }
+  }
+}

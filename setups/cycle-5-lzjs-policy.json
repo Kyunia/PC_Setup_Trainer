@@ -1,0 +1,241 @@
+{
+  "id": "pcinfokorea-cycle-5-lzjs-v1",
+  "schemaVersion": 2,
+  "cycle": 5,
+  "classId": "lzjs",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle5-lzjs-001-f000",
+      "values": {
+        "solveRate": 99.6
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-002-f000",
+      "values": {
+        "solveRate": 95.99
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-003-f000",
+      "values": {
+        "solveRate": 95.16
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-004-f000",
+      "values": {
+        "solveRate": 92.46
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-005-f000",
+      "values": {
+        "solveRate": 97.7
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-006-f000",
+      "values": {
+        "solveRate": 94.44
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-007-f000",
+      "values": {
+        "solveRate": 99.21
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-008-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-009-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-010-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-011-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-012-f000",
+      "values": {
+        "solveRate": 97.18
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-013-f000",
+      "values": {
+        "solveRate": 94.44
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-014-f000",
+      "values": {
+        "solveRate": 99.88
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-015-f000",
+      "values": {
+        "solveRate": 98.45
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-016-f000",
+      "values": {
+        "solveRate": 99.44
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-017-f000",
+      "values": {
+        "solveRate": 97.62
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-018-f000",
+      "values": {
+        "solveRate": 99.68
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-019-f000",
+      "values": {
+        "solveRate": 98.41
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-020-f000",
+      "values": {
+        "solveRate": 96.23
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-021-f000",
+      "values": {
+        "solveRate": 92.58
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-022-f000",
+      "values": {
+        "solveRate": 94.92
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-023-f000",
+      "values": {
+        "solveRate": 94.29
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-024-f000",
+      "values": {
+        "solveRate": 99.64
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-025-f000",
+      "values": {
+        "solveRate": 99.4
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-026-f000",
+      "values": {
+        "solveRate": 99.44
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-027-f000",
+      "values": {
+        "solveRate": 89.6
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-028-f000",
+      "values": {
+        "solveRate": 96.83
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-029-f000",
+      "values": {
+        "solveRate": 93.81
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-030-f000",
+      "values": {
+        "solveRate": 98.25
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-031-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-031-f001",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-lzjs-032-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    }
+  ],
+  "selectionRules": []
+}

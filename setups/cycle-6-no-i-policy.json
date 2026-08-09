@@ -1,0 +1,77 @@
+{
+  "id": "cycle-6-no-i-pcinfokorea",
+  "schemaVersion": 2,
+  "cycle": 6,
+  "classId": "no-i",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle6-no-i-003-f000",
+      "values": {
+        "solveRate": 98.65
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-i-007-f000",
+      "values": {
+        "solveRate": 98.57
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-i-004-f000",
+      "values": {
+        "solveRate": 96.47
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-i-005-f000",
+      "values": {
+        "solveRate": 96.43
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-i-016-f000",
+      "values": {
+        "solveRate": 92.86
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-i-011-f000",
+      "values": {
+        "solveRate": 92.78
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-i-008-f000",
+      "values": {
+        "solveRate": 92.18
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle6-no-i-002-f000",
+      "values": {
+        "solveRate": 90.95
+      },
+      "direction": "source-basis"
+    }
+  ],
+  "selectionRules": [],
+  "symmetryPolicy": {
+    "appliesToSetupIds": [
+      "cycle6-no-i-003-f000",
+      "cycle6-no-i-007-f000",
+      "cycle6-no-i-004-f000",
+      "cycle6-no-i-005-f000",
+      "cycle6-no-i-016-f000",
+      "cycle6-no-i-011-f000",
+      "cycle6-no-i-008-f000"
+    ]
+  }
+}

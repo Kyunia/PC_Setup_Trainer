@@ -1,0 +1,554 @@
+{
+  "schemaVersion": 3,
+  "runtimeDataContract": {
+    "schemaVersion": 1,
+    "promotedArtifactMode": "runtime-only",
+    "allowlistedFieldsOnly": true,
+    "provenanceExcluded": true,
+    "sourceMetadataExcluded": true,
+    "evidenceExcluded": true,
+    "localProvenanceLayerRequired": true,
+    "runtimeReadsLocalProvenance": false
+  },
+  "cycles": {
+    "1": {
+      "setups": "cycle-1-setups.json",
+      "policy": "cycle-1-policy.json",
+      "setupCount": 45,
+      "logicalSetupCount": 44,
+      "runtimeEnabled": true,
+      "setupsSha256": "58f02fe2e1f7939e127de4c7ea2886bcf45c91a797ffa0d25dc8a0e4fb262388",
+      "policySha256": "ce6a15e9de48f4f7ff51982b4a1e65061f830db0ce296ae51e014f1bbcfaaf86",
+      "complete": false,
+      "note": "Partial Cycle 1 catalog: 44 logical setups represented by 45 canonical source geometries."
+    },
+    "2": {
+      "setups": "cycle-2-setups.json",
+      "policy": "cycle-2-policy.json",
+      "setupCount": 97,
+      "logicalSetupCount": 87,
+      "runtimeEnabled": true,
+      "setupsSha256": "42470ad9f4dafebfde5f736c3ff36da69511b9c9a4c44f91e984d153b7bc854b",
+      "policySha256": "052d5bf259f580b616431912d246c803b887c0988b49e6686cea52b7084239ac",
+      "additionalCatalogs": [
+        {
+          "setups": "cycle-2-advanced-3p-setups.json",
+          "policy": "cycle-2-advanced-3p-policy.json",
+          "setupCount": 49,
+          "logicalSetupCount": 49,
+          "runtimeEnabled": true,
+          "setupsSha256": "5289eb83742ef10fec40818ce5dfbe0083f53f45c2b9bde2ea179e795cfa27b8",
+          "policySha256": "e634e6b99a0b7e0f181b5c90097f92f4c13f1c50cac6ddde8d99af2489b2d390"
+        }
+      ],
+      "qb": {
+        "setups": "QB/cycle-2-advanced-qb-setups.json",
+        "policy": "QB/cycle-2-advanced-qb-policy.json",
+        "setupCount": 284,
+        "logicalSetupCount": 284,
+        "runtimeEnabled": true,
+        "setupsSha256": "ed88b9995127e5ad32396ae36f7aed39d2fb35c140c05dc728f0c1ed6e966621",
+        "policySha256": "6548c7c1244cf7d936436c9324d242e1562d13e013b47402c7a7f791829e6abe",
+        "queueSurveyPerformed": true,
+        "saveTargetsNormalized": true
+      },
+      "complete": false,
+      "note": "Normal and advanced 3P catalogs are active. Advanced QB is active; OQB remains unavailable."
+    },
+    "3": {
+      "classIndex": "cycle-3-class-index.json",
+      "classIndexSha256": "f7c2db5541db4e7aba15f54c6f1242d7d7ff8adfe376a42b81b17ba5c7135052",
+      "classFiles": {
+        "o": {
+          "setups": "cycle-3-extra-o-setups.json",
+          "policy": "cycle-3-extra-o-policy.json",
+          "setupCount": 36,
+          "logicalSetupCount": 35,
+          "runtimeEnabled": true,
+          "setupsSha256": "f809e3591934aeae9d6490ab4305170cdec780d54778579b746aaccfc4f804b6",
+          "policySha256": "61fc873a18e92dd3b28467e21f19c61227e1d4cebdef83ca76c1bcd4792e7e3f"
+        },
+        "t": {
+          "setups": "cycle-3-extra-t-setups.json",
+          "policy": "cycle-3-extra-t-policy.json",
+          "setupCount": 55,
+          "logicalSetupCount": 52,
+          "runtimeEnabled": true,
+          "setupsSha256": "1cd6f654d1e1ec2f75d5794892c8828a958024a67bf04c8501257fa677d35ac7",
+          "policySha256": "e9b8247bdaec6908a65600d5c43c0218aef3fbc731c428a7754e2b79cf47b94e",
+          "stagedOqbRuntimeEnabled": true
+        },
+        "i": {
+          "setups": "cycle-3-extra-i-setups.json",
+          "policy": "cycle-3-extra-i-policy.json",
+          "setupCount": 28,
+          "logicalSetupCount": 26,
+          "runtimeEnabled": true,
+          "setupsSha256": "d5c8b9145e0431395a0b92898fa7ac4c385608698da96d96066789c68d30d6be",
+          "policySha256": "b42f7a38b9db56334c6f85e8edd46c13f1b13bc2bda24f0c86b7934aa7d0b385"
+        },
+        "lj": {
+          "setups": "cycle-3-extra-lj-setups.json",
+          "policy": "cycle-3-extra-lj-policy.json",
+          "setupCount": 52,
+          "logicalSetupCount": 51,
+          "runtimeEnabled": true,
+          "setupsSha256": "b3ab0d3034bfdf68f22a2e0740c2a2ba7a4ffeac3096989ec87810fec2fa41f8",
+          "policySha256": "f232843fb0eb19f81ba7f9aa7dd8fa6ca3aba1b0ed93fb0c146165d724fa0c75"
+        },
+        "sz": {
+          "setups": "cycle-3-extra-sz-setups.json",
+          "policy": "cycle-3-extra-sz-policy.json",
+          "setupCount": 32,
+          "logicalSetupCount": 32,
+          "runtimeEnabled": true,
+          "setupsSha256": "dc259cef442744a48c03db511102df613477567ef2dffe3eae626c663b716d81",
+          "policySha256": "3bc6e7be1bbc0d38fe66434a7959bba9bb99fe4854f4d23a2858d665414f6977"
+        }
+      },
+      "setupCount": 203,
+      "logicalSetupCount": 196,
+      "runtimeEnabled": true,
+      "complete": false,
+      "note": "Saved-piece classes O/T/I/L/J/S/Z are active; the catalog is not exhaustive."
+    },
+    "4": {
+      "classIndex": "cycle-4-class-index.json",
+      "classIndexSha256": "37cf19100481eaa972551191bea1d41d84c88c1c0fd3d5276dca86ee0f619a86",
+      "classFiles": {
+        "no-oi": {
+          "setups": "cycle-4-no-oi-setups.json",
+          "policy": "cycle-4-no-oi-policy.json",
+          "setupCount": 5,
+          "logicalSetupCount": 3,
+          "runtimeEnabled": true,
+          "setupsSha256": "51e1a3fa9e78c8d7b26b4e6269ca535278c26655d852e72e4986cd27741eefc9",
+          "policySha256": "b4216cf05eea4183e14d7634c973c8c1bac5dc12226752f2ec7ffd9df747441d"
+        },
+        "no-oloj": {
+          "setups": "cycle-4-no-oloj-setups.json",
+          "policy": "cycle-4-no-oloj-policy.json",
+          "setupCount": 4,
+          "logicalSetupCount": 4,
+          "runtimeEnabled": true,
+          "setupsSha256": "5f0e1d377ec1ebb1059c6335c107e6299d2720d8e2d1d97628efbe0d0fe2029d",
+          "policySha256": "50564c235ea6d49c665482c7e3a4f4a3623fb051b75bf748be7c31087c530ce6"
+        },
+        "no-osoz": {
+          "setups": "cycle-4-no-osoz-setups.json",
+          "policy": "cycle-4-no-osoz-policy.json",
+          "setupCount": 7,
+          "logicalSetupCount": 5,
+          "runtimeEnabled": true,
+          "setupsSha256": "9fbb4f41ac233fbab6f09182e71621a65205a347f7184439811644321fe93acc",
+          "policySha256": "644a0de5c00af33a9417c1e90eb891f168f675d3f839ada11ddbbb2bc09fd134"
+        },
+        "no-ilij": {
+          "setups": "cycle-4-no-ilij-setups.json",
+          "policy": "cycle-4-no-ilij-policy.json",
+          "setupCount": 3,
+          "logicalSetupCount": 2,
+          "runtimeEnabled": true,
+          "setupsSha256": "384021a2e86ac3b6e02d030f1a52a1c57b52e57eeb4d00c2952302a1ac3e8542",
+          "policySha256": "9f67f0622e854dc68d4e0f776c0198f6f344cd3f34a09774eec17bd8cbdd60df"
+        },
+        "no-isiz": {
+          "setups": "cycle-4-no-isiz-setups.json",
+          "policy": "cycle-4-no-isiz-policy.json",
+          "setupCount": 4,
+          "logicalSetupCount": 3,
+          "runtimeEnabled": true,
+          "setupsSha256": "f73f84e30680b3f338035e3a1e7553b14ceb68fc72f9b228c1295aa1aa700572",
+          "policySha256": "6263afe0065c5921f0477b27ac29548d18c248a1f0377741e23d5916f98c4d76"
+        },
+        "no-lj": {
+          "setups": "cycle-4-no-lj-setups.json",
+          "policy": "cycle-4-no-lj-policy.json",
+          "setupCount": 2,
+          "logicalSetupCount": 1,
+          "runtimeEnabled": true,
+          "setupsSha256": "fa75bb2d10068cf560c140851728be66d0e2edc352344505960c2ffe9c97f766",
+          "policySha256": "72f51e1615353d77fc352f236fa7f8fa780ef015f7d135d5c4560a457e12cb43"
+        },
+        "no-lsjz": {
+          "setups": "cycle-4-no-lsjz-setups.json",
+          "policy": "cycle-4-no-lsjz-policy.json",
+          "setupCount": 9,
+          "logicalSetupCount": 9,
+          "runtimeEnabled": true,
+          "setupsSha256": "9f4348e7a8ca2886b400d7eb162890a9ec2ec4411152a267923bfc71078db861",
+          "policySha256": "d4beade4370830e1c78c1c8885b11ad3fc26584172b0e4ec1b966f16fc06b5ce"
+        },
+        "no-lzjs": {
+          "setups": "cycle-4-no-lzjs-setups.json",
+          "policy": "cycle-4-no-lzjs-policy.json",
+          "setupCount": 6,
+          "logicalSetupCount": 6,
+          "runtimeEnabled": true,
+          "setupsSha256": "6e1ade9f0dd2d36386d371f797bc1e9e9a2f5abd4dc3147e65c9ee45db9530c7",
+          "policySha256": "36e6e1a02f52036e08cbd79abbf3562b67ce389cb4af6080536b2707ef190d39"
+        },
+        "no-sz": {
+          "setups": "cycle-4-no-sz-setups.json",
+          "policy": "cycle-4-no-sz-policy.json",
+          "setupCount": 3,
+          "logicalSetupCount": 2,
+          "runtimeEnabled": true,
+          "setupsSha256": "1565117973a9cad951b1c3b480d89642ad7ac9bca73989e4010b39f7948050aa",
+          "policySha256": "9a1e1df9fe018bb474cb986138b9390d7ca9da07af0c52d4800db74c5cb47898"
+        },
+        "no-tstz": {
+          "setups": "cycle-4-no-tstz-setups.json",
+          "policy": "cycle-4-no-tstz-policy.json",
+          "setupCount": 3,
+          "logicalSetupCount": 3,
+          "runtimeEnabled": true,
+          "setupsSha256": "17a7315c031331f278586e45504aa79e97cd6e671d9ecfd4a01984adcca22a24",
+          "policySha256": "8f3bf0502f37816eb449c212bf5bc68e31d3f1170a37ff16c2e444e81b9e94a9"
+        },
+        "no-to": {
+          "setups": "cycle-4-no-to-setups.json",
+          "policy": "cycle-4-no-to-policy.json",
+          "setupCount": 5,
+          "logicalSetupCount": 5,
+          "runtimeEnabled": true,
+          "setupsSha256": "8ff874aa333b8023574e6dde9de2df52d8370c2548a75ef79a42c65e49563f18",
+          "policySha256": "316d18a54ddde5573f45161a81e7b1096969078b35ae08e258ce4e0764731335"
+        },
+        "no-ti": {
+          "setups": "cycle-4-no-ti-setups.json",
+          "policy": "cycle-4-no-ti-policy.json",
+          "setupCount": 2,
+          "logicalSetupCount": 1,
+          "runtimeEnabled": true,
+          "setupsSha256": "83b14099d1d32d9ad2f9e429dd573c3859292a11a73b5bb7b0fad1ea51b11407",
+          "policySha256": "f6408846949b74a0d5fa4a00e3c747a9c8c1f0fe6c4ea33aa3a0d580acbf3df2"
+        },
+        "no-tltj": {
+          "setups": "cycle-4-no-tltj-setups.json",
+          "policy": "cycle-4-no-tltj-policy.json",
+          "setupCount": 3,
+          "logicalSetupCount": 3,
+          "runtimeEnabled": true,
+          "setupsSha256": "06af5b5a18b8732b0f6f39c7f9cc7945599e7cf534471ba55009777fc762d89d",
+          "policySha256": "8732a2971b0d7905167dda64c1e492bd221b5aa78f99ede250d1a9cbf4d79a65"
+        }
+      },
+      "setupCount": 56,
+      "logicalSetupCount": 47,
+      "runtimeEnabled": true,
+      "complete": false,
+      "note": "All 21 normal distinct missing-piece pairs are active; duplicate-piece and QB/OQB classes are unavailable."
+    },
+    "5": {
+      "classIndex": "cycle-5-class-index.json",
+      "classIndexSha256": "1837d414428dd709235bbb1e0bf23a92d82a17230fe6546fdbdbba91cc15ba02",
+      "classFiles": {
+        "tltj": {
+          "setups": "cycle-5-tltj-setups.json",
+          "policy": "cycle-5-tltj-policy.json",
+          "setupCount": 33,
+          "logicalSetupCount": 28,
+          "runtimeEnabled": true,
+          "setupsSha256": "f5bd549508aca93022b29f5d6463bb5d17a055addf2de29dccb96e3bf29b909c",
+          "policySha256": "b0e246d7a125cbe207bb93a011b402af84a553fef7120582dd84f229144e97ea",
+          "runtimeEligibleSourceSetupCount": 33,
+          "static7pTimelinePendingCount": 0
+        },
+        "ti": {
+          "setups": "cycle-5-ti-setups.json",
+          "policy": "cycle-5-ti-policy.json",
+          "setupCount": 26,
+          "logicalSetupCount": 16,
+          "runtimeEnabled": true,
+          "setupsSha256": "2e05a1ffc0b51b7b9759dadd1b9af0b57dd1e625dd5314263ec5018f43d997bf",
+          "policySha256": "6349382a9cb695da4b9b421dc638fad3b7c73e05c48026e41bc25cbe9a0ba902",
+          "runtimeEligibleSourceSetupCount": 26,
+          "static7pTimelinePendingCount": 0
+        },
+        "to": {
+          "setups": "cycle-5-to-setups.json",
+          "policy": "cycle-5-to-policy.json",
+          "setupCount": 35,
+          "logicalSetupCount": 26,
+          "runtimeEnabled": true,
+          "setupsSha256": "2ac6ce0098e806c32387aeaf6d5d22d9c1e6a2020abe6904bf62a799febdc5db",
+          "policySha256": "370f6080ab4b2b75418ed121d3d32100a96950f800a7e874c9e3afe88b9bf436",
+          "runtimeEligibleSourceSetupCount": 35,
+          "static7pTimelinePendingCount": 0
+        },
+        "tstz": {
+          "setups": "cycle-5-tstz-setups.json",
+          "policy": "cycle-5-tstz-policy.json",
+          "setupCount": 33,
+          "logicalSetupCount": 31,
+          "runtimeEnabled": true,
+          "setupsSha256": "9cda39515a8f81b8067b647e45edde9eca82cdc11b2d326e1642f1f10a6c7a3b",
+          "policySha256": "accf37722e329ef6d202a39fd28baf98bf373da4154d53c5c6103165a6983500",
+          "runtimeEligibleSourceSetupCount": 29,
+          "static7pTimelinePendingCount": 4
+        },
+        "oi": {
+          "setups": "cycle-5-oi-setups.json",
+          "policy": "cycle-5-oi-policy.json",
+          "setupCount": 27,
+          "logicalSetupCount": 25,
+          "runtimeEnabled": true,
+          "setupsSha256": "0ffcfd8d5a003431274483199749d8f81f952f9a96e8129d82579cbb912c90a0",
+          "policySha256": "c440f38f337854ce656cbb145696759c73a7e57d88095fe187fd770d952c1307",
+          "runtimeEligibleSourceSetupCount": 23,
+          "static7pTimelinePendingCount": 4
+        },
+        "lj": {
+          "setups": "cycle-5-lj-setups.json",
+          "policy": "cycle-5-lj-policy.json",
+          "setupCount": 51,
+          "logicalSetupCount": 31,
+          "runtimeEnabled": true,
+          "setupsSha256": "c1a94b7d6c47bd0f6185f43eea1ef53e15828a2eb2c88aa14f747336dc86fa93",
+          "policySha256": "7890bdb30ab4eb8d34b63522fb606770a7e9c8eb917dbfa3a0d5b6d359bd9030",
+          "runtimeEligibleSourceSetupCount": 23,
+          "static7pTimelinePendingCount": 28
+        },
+        "ilij": {
+          "setups": "cycle-5-ilij-setups.json",
+          "policy": "cycle-5-ilij-policy.json",
+          "setupCount": 33,
+          "logicalSetupCount": 30,
+          "runtimeEnabled": true,
+          "setupsSha256": "ad8ec49bfd6c9ebbeb2a3990e0eeb76c689b2ad128c440be0214ae9f69de2937",
+          "policySha256": "6b04c3ec7184c472674c2267788dbc26c8ddcdde6d6ed51cc6ba9eaa0687ae3b",
+          "runtimeEligibleSourceSetupCount": 33,
+          "static7pTimelinePendingCount": 0
+        },
+        "oloj": {
+          "setups": "cycle-5-oloj-setups.json",
+          "policy": "cycle-5-oloj-policy.json",
+          "setupCount": 27,
+          "logicalSetupCount": 25,
+          "runtimeEnabled": true,
+          "setupsSha256": "c32be2cf7ec7e57c7ec687e74a616218aa056b93b4df308f875b9dad51f44999",
+          "policySha256": "d54c5a1dce5056c79a79e417093ff6fe1359d686010f81d0c9a8c64b3c1709f0",
+          "runtimeEligibleSourceSetupCount": 27,
+          "static7pTimelinePendingCount": 0
+        },
+        "isiz": {
+          "setups": "cycle-5-isiz-setups.json",
+          "policy": "cycle-5-isiz-policy.json",
+          "setupCount": 36,
+          "logicalSetupCount": 35,
+          "runtimeEnabled": true,
+          "setupsSha256": "a798ff32b9c44dd987a17df9d689a2ad06da7f829c6ce322c263e84a4525589e",
+          "policySha256": "6c80220ddfb1dc38065e52dbacc14e3acb6862a71a88fdef2a29a0b1e2e6870c",
+          "runtimeEligibleSourceSetupCount": 33,
+          "static7pTimelinePendingCount": 3
+        },
+        "osoz": {
+          "setups": "cycle-5-osoz-setups.json",
+          "policy": "cycle-5-osoz-policy.json",
+          "setupCount": 35,
+          "logicalSetupCount": 34,
+          "runtimeEnabled": true,
+          "setupsSha256": "db69aeb08de2ffc28d9d32deb2faa5a9880de1355f776eb498d036c3ba796a27",
+          "policySha256": "edf5e95f447ded73423adeaa300807bb8ad24730aeb6d55ac23a35b9e43dc078",
+          "runtimeEligibleSourceSetupCount": 33,
+          "static7pTimelinePendingCount": 2
+        },
+        "lsjz": {
+          "setups": "cycle-5-lsjz-setups.json",
+          "policy": "cycle-5-lsjz-policy.json",
+          "setupCount": 29,
+          "logicalSetupCount": 27,
+          "runtimeEnabled": true,
+          "setupsSha256": "cb1dc218c37a6e88222d14a7f757891b7b9bb22975e64622c24a2a442b162fd4",
+          "policySha256": "ec041b50ee3f3fd386f44ea5b16dfb2f9c913f686e0b269c63d4dc4dff9774d2",
+          "runtimeEligibleSourceSetupCount": 29,
+          "static7pTimelinePendingCount": 0
+        },
+        "lzjs": {
+          "setups": "cycle-5-lzjs-setups.json",
+          "policy": "cycle-5-lzjs-policy.json",
+          "setupCount": 33,
+          "logicalSetupCount": 32,
+          "runtimeEnabled": true,
+          "setupsSha256": "8573e49bcaa3abf2220934999c16a395148c85a0f65c9f3b3e1e539d460209b8",
+          "policySha256": "b58a8cc08eb9c72f7dfcada925656418e142b6a717e9cebe1161dacfe25edb5c",
+          "runtimeEligibleSourceSetupCount": 33,
+          "static7pTimelinePendingCount": 0
+        },
+        "sz": {
+          "setups": "cycle-5-sz-setups.json",
+          "policy": "cycle-5-sz-policy.json",
+          "setupCount": 15,
+          "logicalSetupCount": 14,
+          "runtimeEnabled": true,
+          "setupsSha256": "6c281115a120695d03d96fc296a665c0452d3f00ac44724a7a6cd42bd1e1c7dc",
+          "policySha256": "3d1fba0ba1154b82ace04083fa6dc47eacd77da5ca16aeb4cca7d9ffcca2ef56",
+          "runtimeEligibleSourceSetupCount": 15,
+          "static7pTimelinePendingCount": 0
+        }
+      },
+      "setupCount": 413,
+      "logicalSetupCount": 354,
+      "runtimeEnabled": true,
+      "complete": false,
+      "note": "All 21 normal distinct first-piece pairs are active for reviewed 3P-6P setups; static 7P timelines remain disabled.",
+      "runtimeEligibleSourceSetupCount": 372,
+      "static7pTimelinePendingCount": 41
+    },
+    "6": {
+      "classIndex": "cycle-6-class-index.json",
+      "classIndexSha256": "bd2356d4c604c5b682cb2baa5877f91330b627c70a7ad260ddfe0c98793c2529",
+      "classFiles": {
+        "no-sz": {
+          "general": {
+            "setups": "cycle-6-no-sz-setups.json",
+            "policy": "cycle-6-no-sz-policy.json",
+            "setupCount": 53,
+            "logicalSetupCount": 53,
+            "runtimeEnabled": true,
+            "setupsSha256": "4995a7825bb39ee001a7043ec423d44e07996562ca6b7abb7a89f39f650aad63",
+            "policySha256": "8d22936969a6248c12f41143e86b8dc0bf917529af3a490d71405b15c5fb81b4"
+          },
+          "qb": {
+            "setups": "QB/cycle-6-no-sz-qb-setups.json",
+            "policy": "QB/cycle-6-no-sz-qb-policy.json",
+            "setupCount": 40,
+            "logicalSetupCount": 39,
+            "runtimeEnabled": false,
+            "setupsSha256": "2ce676102dae3902d15857ea536c052fba9f24a953603ecc1c451aecb05ead17",
+            "policySha256": "2b3b1c084a6fc08a25a9b82be44c8de12c639be7f521e0cf060c4141d14c8686"
+          }
+        },
+        "no-o": {
+          "general": {
+            "setups": "cycle-6-no-o-setups.json",
+            "policy": "cycle-6-no-o-policy.json",
+            "setupCount": 21,
+            "logicalSetupCount": 21,
+            "runtimeEnabled": true,
+            "setupsSha256": "21c30476f278fe210b9e894d05933b3fff682b17af6d97eaf046370aaeedb739",
+            "policySha256": "d446211bc72a8f762ee3dc47df941193a2721cac46111cd432f0a5379e38caf2"
+          },
+          "qb": {
+            "setups": "QB/cycle-6-no-o-qb-setups.json",
+            "policy": "QB/cycle-6-no-o-qb-policy.json",
+            "setupCount": 25,
+            "logicalSetupCount": 23,
+            "runtimeEnabled": false,
+            "setupsSha256": "3c9490227565f8452e5b818b74102615c16a90356d3103c7d48cce914a576d9e",
+            "policySha256": "6a7cb5623d1c175bad3710bd1fecb3daa4def4364f7b5d3db31d2aea7302dea8"
+          }
+        },
+        "no-lj": {
+          "general": {
+            "setups": "cycle-6-no-lj-setups.json",
+            "policy": "cycle-6-no-lj-policy.json",
+            "setupCount": 18,
+            "logicalSetupCount": 18,
+            "runtimeEnabled": true,
+            "setupsSha256": "faab5a6dba3a2e35990e26b54d7610f9eec8d7ea618dd8b8514d966c35afb9b4",
+            "policySha256": "e84d09267ba02ae73b9d3d3d1b121b0e5dec12ce92ddb15f1a7a7bdf6939be61"
+          },
+          "qb": {
+            "setups": "QB/cycle-6-no-lj-qb-setups.json",
+            "policy": "QB/cycle-6-no-lj-qb-policy.json",
+            "setupCount": 21,
+            "logicalSetupCount": 21,
+            "runtimeEnabled": false,
+            "setupsSha256": "29ffb737c684bd100a55f1ab4d5483122ca01c844e8d922bd3a7677440b30543",
+            "policySha256": "1bd830115d3d75a3a0e2f04d845a9e262ef9a78a1f36a91613b12272a96cd5a8"
+          }
+        },
+        "no-i": {
+          "general": {
+            "setups": "cycle-6-no-i-setups.json",
+            "policy": "cycle-6-no-i-policy.json",
+            "setupCount": 8,
+            "logicalSetupCount": 8,
+            "runtimeEnabled": true,
+            "setupsSha256": "c3f8b8c051724bd1add431e3576fe1373497d285465ca1a9c736e695d51f2125",
+            "policySha256": "ef59c59ad1f9d3d255dcf39bda2769ea47638ef485c8b72d20fec81dd6c2887a"
+          },
+          "qb": {
+            "setups": "QB/cycle-6-no-i-qb-setups.json",
+            "policy": "QB/cycle-6-no-i-qb-policy.json",
+            "setupCount": 13,
+            "logicalSetupCount": 12,
+            "runtimeEnabled": false,
+            "setupsSha256": "bd86a327756ad632192f34165170b3e9bbc9de66952bee9559b71c1b07e2e22b",
+            "policySha256": "5089576c3c39b173f51b6eee7588347e0b40628b3f1aabd8dde6bcafd41c33e0"
+          }
+        },
+        "no-t": {
+          "general": {
+            "setups": "cycle-6-no-t-setups.json",
+            "policy": "cycle-6-no-t-policy.json",
+            "setupCount": 10,
+            "logicalSetupCount": 10,
+            "runtimeEnabled": true,
+            "setupsSha256": "7d96e2282768bdc6d4bbcc56a2fee19f2dad7bcf4b104260adefe14dd020e49a",
+            "policySha256": "b63899631020d6368aa8ced719b337d6a00df5a2ec83b46ec406a63ee95497a7"
+          },
+          "qb": {
+            "setups": "QB/cycle-6-no-t-qb-setups.json",
+            "policy": "QB/cycle-6-no-t-qb-policy.json",
+            "setupCount": 16,
+            "logicalSetupCount": 16,
+            "runtimeEnabled": false,
+            "setupsSha256": "c49a577e0622d92c0c7550b8c0f1c2944a4c015833955417122fb3da7d2edb87",
+            "policySha256": "a105bcc92e2cb1d3b3900a4c18754a0246d16687d6d409238294cfdb7c067966"
+          }
+        }
+      },
+      "setupCount": 110,
+      "logicalSetupCount": 110,
+      "runtimeEnabled": true,
+      "complete": false,
+      "note": "Normal distinct six-piece classes are active. Duplicate pools are unsupported and QB catalogs are inactive.",
+      "qbSetupCount": 115,
+      "qbLogicalSetupCount": 111
+    },
+    "7": {
+      "setups": "cycle-7-setups.json",
+      "policy": "cycle-7-policy.json",
+      "setupCount": 44,
+      "logicalSetupCount": 35,
+      "runtimeEnabled": true,
+      "setupsSha256": "47bb3e3e424c8221d53a164ca8d1c98aeaf3721cb91a0f9cfc5d9a0cf9eee4ea",
+      "policySha256": "93fac9d8f330880cc1e7e6b03c2b513efd904ce8ed8dfad212db08b2db7f89d3",
+      "advanced4p": {
+        "setups": "cycle-7-4p-setups.json",
+        "policy": "cycle-7-4p-policy.json",
+        "setupCount": 121,
+        "logicalSetupCount": 93,
+        "runtimeEnabled": true,
+        "setupsSha256": "cfb4c1758c8a0e25f348c6414b681944e2e903116c02f34a3bc7c4ea36b83062",
+        "policySha256": "a6311bed86c7299520ef172efa100db5f213332ee002072777a4d30ab5b6b039"
+      },
+      "qb": {
+        "setups": "QB/cycle-7-qb-setups.json",
+        "policy": "QB/cycle-7-qb-policy.json",
+        "setupCount": 13,
+        "logicalSetupCount": 12,
+        "runtimeEnabled": true,
+        "setupsSha256": "33e20756171f105d0de4ff30641fb02f88637c721b79e3aed887f1c75d6b9958",
+        "policySha256": "e2f6c2e590de27072365203d31afeb5337c5ccdc2d4e9aae29ae2e0438e7b6df"
+      },
+      "complete": false,
+      "note": "Normal Cycle 7, reviewed advanced 4P, and the reviewed LSZ/JSZ/ISZ/OSZ QB subset are active. OQB-gated advanced 4P branches remain staged; duplicate-pool QB remains unavailable."
+    }
+  },
+  "geometryFumen": {
+    "schemaVersion": 1,
+    "field": "fumen",
+    "versionPrefix": "v115@",
+    "pageCount": 1,
+    "colored": true,
+    "comments": false,
+    "operations": false,
+    "fileCount": 48,
+    "setupCount": 1501,
+    "allRoundTripExact": true
+  }
+}

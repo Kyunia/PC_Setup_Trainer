@@ -1,0 +1,183 @@
+{
+  "id": "cycle-7-qb-normal-through-osz-pcinfokorea",
+  "schemaVersion": 2,
+  "cycle": 7,
+  "reviewStatus": "reviewed",
+  "metrics": [],
+  "selectionRules": [],
+  "entries": [
+    {
+      "id": "cycle7-qb-policy-lsz-oz-or-iz-early",
+      "setupId": "cycle7-qb-lsz-oz-or-iz-early",
+      "conditionId": "oz-or-iz-early",
+      "priorPoolClass": "LSZ",
+      "conditionLabel": "OZ or IZ Early",
+      "sourceOrder": 1,
+      "mirror": {
+        "kind": "class-mirror",
+        "priorPoolClass": "JSZ"
+      }
+    },
+    {
+      "id": "cycle7-qb-policy-lsz-oj-early",
+      "setupId": "cycle7-qb-lsz-oj-early",
+      "conditionId": "oj-early",
+      "priorPoolClass": "LSZ",
+      "conditionLabel": "OJ Early",
+      "sourceOrder": 2,
+      "mirror": {
+        "kind": "class-mirror",
+        "priorPoolClass": "JSZ"
+      }
+    },
+    {
+      "id": "cycle7-qb-policy-lsz-ti-early",
+      "setupId": "cycle7-qb-lsz-ti-early",
+      "conditionId": "ti-early",
+      "priorPoolClass": "LSZ",
+      "conditionLabel": "TI Early",
+      "sourceOrder": 3,
+      "mirror": {
+        "kind": "class-mirror",
+        "priorPoolClass": "JSZ"
+      }
+    },
+    {
+      "id": "cycle7-qb-policy-lsz-ts-early-a",
+      "setupId": "cycle7-qb-lsz-ts-early-a",
+      "conditionId": "ts-early",
+      "priorPoolClass": "LSZ",
+      "conditionLabel": "TS Early",
+      "sourceOrder": 4,
+      "mirror": {
+        "kind": "class-mirror",
+        "priorPoolClass": "JSZ"
+      }
+    },
+    {
+      "id": "cycle7-qb-policy-lsz-ts-early-b",
+      "setupId": "cycle7-qb-lsz-ts-early-b",
+      "conditionId": "ts-early",
+      "priorPoolClass": "LSZ",
+      "conditionLabel": "TS Early",
+      "sourceOrder": 5,
+      "mirror": {
+        "kind": "class-mirror",
+        "priorPoolClass": "JSZ"
+      }
+    },
+    {
+      "id": "cycle7-qb-policy-lsz-l-early-o-visible",
+      "setupId": "cycle7-qb-lsz-l-early-o-visible",
+      "conditionId": "l-early-o-visible",
+      "priorPoolClass": "LSZ",
+      "conditionLabel": "L Early with O Visible",
+      "sourceOrder": 6,
+      "mirror": {
+        "kind": "class-mirror",
+        "priorPoolClass": "JSZ"
+      }
+    },
+    {
+      "id": "cycle7-qb-policy-lsz-l-early-o-not-visible",
+      "setupId": "cycle7-qb-lsz-l-early-o-not-visible",
+      "conditionId": "l-early-o-not-visible",
+      "priorPoolClass": "LSZ",
+      "conditionLabel": "L Early with O Hidden",
+      "sourceOrder": 7,
+      "mirror": {
+        "kind": "class-mirror",
+        "priorPoolClass": "JSZ"
+      }
+    },
+    {
+      "id": "cycle7-qb-policy-isz-l-before-j",
+      "setupId": "cycle7-qb-isz-l-before-j",
+      "conditionId": "l-before-j",
+      "priorPoolClass": "ISZ",
+      "conditionLabel": "L Before J",
+      "sourceOrder": 8,
+      "mirror": {
+        "kind": "conditional-horizontal"
+      }
+    },
+    {
+      "id": "cycle7-qb-policy-isz-o-before-sz",
+      "setupId": "cycle7-qb-isz-o-before-sz",
+      "conditionId": "o-before-sz",
+      "priorPoolClass": "ISZ",
+      "conditionLabel": "O Visible (4th Included)",
+      "sourceOrder": 9,
+      "mirror": {
+        "kind": "none"
+      },
+      "runtimeDescription": "O is within the four visible pieces (the fourth position is a validated fallback)."
+    },
+    {
+      "id": "cycle7-qb-policy-isz-tsz-early",
+      "setupId": "cycle7-qb-isz-tsz-early",
+      "conditionId": "tsz-early",
+      "priorPoolClass": "ISZ",
+      "conditionLabel": "TSZ Early",
+      "sourceOrder": 10,
+      "mirror": {
+        "kind": "none"
+      }
+    },
+    {
+      "id": "cycle7-qb-policy-osz-i-early",
+      "setupId": "cycle7-qb-osz-i-early",
+      "conditionId": "i-early",
+      "priorPoolClass": "OSZ",
+      "conditionLabel": "I Early",
+      "sourceOrder": 11,
+      "mirror": {
+        "kind": "none"
+      }
+    },
+    {
+      "id": "cycle7-qb-policy-osz-jls-or-jlz-early",
+      "setupId": "cycle7-qb-osz-jls-or-jlz-early",
+      "conditionId": "jls-or-jlz-early",
+      "priorPoolClass": "OSZ",
+      "conditionLabel": "JLS or JLZ Early",
+      "sourceOrder": 12,
+      "mirror": {
+        "kind": "none"
+      },
+      "runtimeDescription": "No I is visible, while J, L, and either S or Z are visible (T may also be present)."
+    },
+    {
+      "id": "cycle7-qb-policy-osz-all-other",
+      "setupId": "cycle7-qb-osz-all-other",
+      "conditionId": "all-other",
+      "priorPoolClass": "OSZ",
+      "conditionLabel": "All Other Cases",
+      "sourceOrder": 13,
+      "mirror": {
+        "kind": "conditional-horizontal"
+      },
+      "runtimeDescription": "All cases outside See I and See JLS/JLZ."
+    }
+  ],
+  "runtimePolicy": {
+    "formSelectionRules": [
+      {
+        "id": "cycle7-qb-lsz-ts-early-form-by-lz-before-s",
+        "priorPoolClass": "LSZ",
+        "mirrorClass": "JSZ",
+        "conditionId": "ts-early",
+        "visiblePrefixLength": 4,
+        "allBefore": {
+          "pieces": [
+            "L",
+            "Z"
+          ],
+          "pivot": "S"
+        },
+        "selectSetupId": "cycle7-qb-lsz-ts-early-b",
+        "otherwiseSetupId": "cycle7-qb-lsz-ts-early-a"
+      }
+    ]
+  }
+}

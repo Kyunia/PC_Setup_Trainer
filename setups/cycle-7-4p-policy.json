@@ -1,0 +1,2913 @@
+{
+  "id": "pcinfokorea-cycle-7-advanced-4p-v1",
+  "schemaVersion": 2,
+  "cycle": 7,
+  "classId": "advanced-4p",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle7-4p-001-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-002-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-003-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-004-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-005-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-006-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-007-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-008-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-009-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-010-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-011-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-012-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-013-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-014-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-015-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-016-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-017-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-018-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-019-f000",
+      "direction": "neutral",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-020-f000",
+      "direction": "neutral",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-021-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-022-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-023-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-024-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-025-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-026-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-027-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-028-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-029-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-030-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-031-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-032-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-033-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-034-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-035-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-036-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-036-f001",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-037-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-038-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-039-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-040-f000",
+      "direction": "neutral",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-041-f000",
+      "direction": "neutral",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-042-f000",
+      "direction": "neutral",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-043-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-044-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-045-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-046-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-047-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-048-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-049-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-050-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-051-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-052-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-053-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-054-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-055-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-056-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-057-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-058-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-059-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-060-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-061-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-062-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-063-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-064-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-065-f000",
+      "direction": "neutral",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-066-f000",
+      "direction": "neutral",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-067-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-068-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-069-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-070-f000",
+      "direction": "neutral",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-071-f000",
+      "direction": "neutral",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-072-f000",
+      "direction": "neutral",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-073-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-074-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-075-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-076-f000",
+      "direction": "neutral",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-077-f000",
+      "direction": "neutral",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-078-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-079-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-080-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-081-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-082-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-083-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-084-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-085-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-086-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-087-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-088-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-089-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-090-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-091-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-092-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-093-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-094-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-095-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-096-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-097-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-098-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-099-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-100-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-101-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-102-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-103-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-104-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-105-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-106-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-107-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-108-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-109-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-110-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-111-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-112-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-113-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-114-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-115-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-117-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-118-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-119-f000",
+      "direction": "neutral",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-120-f000",
+      "direction": "neutral",
+      "values": {
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle7-4p-121-f000",
+      "direction": "left",
+      "values": {
+        "solveRate": 100
+      }
+    }
+  ],
+  "buildConstraints": [
+    {
+      "id": "cycle7-4p-oil-tj-requires-t-hold",
+      "candidateSetupIds": [
+        "cycle7-4p-092-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "IJLOT"
+    }
+  ],
+  "selectionRules": [],
+  "rankingHints": [],
+  "runtimePolicy": {
+    "catalogKind": "advanced-4p",
+    "integrationState": "active",
+    "classSelector": {
+      "kind": "previous-bag-three",
+      "pieceCount": 3
+    },
+    "buildWindow": {
+      "setupBuildSegments": [
+        3,
+        1
+      ],
+      "fourthPieceRole": "next-bag-first-placeable-piece"
+    },
+    "mirrorExpansion": "runtime-horizontal-reflection",
+    "goodCycle8": {
+      "observation": "eleventh-piece",
+      "entryRates": [
+        {
+          "setupId": "cycle7-4p-001-f000",
+          "percent": 60.24
+        },
+        {
+          "setupId": "cycle7-4p-002-f000",
+          "percent": 48.81
+        },
+        {
+          "setupId": "cycle7-4p-003-f000",
+          "percent": 45.87
+        },
+        {
+          "setupId": "cycle7-4p-004-f000",
+          "percent": 46.39
+        },
+        {
+          "setupId": "cycle7-4p-005-f000",
+          "percent": 39.52
+        },
+        {
+          "setupId": "cycle7-4p-006-f000",
+          "percent": 63.77
+        },
+        {
+          "setupId": "cycle7-4p-007-f000",
+          "percent": 48.49
+        },
+        {
+          "setupId": "cycle7-4p-008-f000",
+          "percent": 63.77
+        },
+        {
+          "setupId": "cycle7-4p-009-f000",
+          "percent": 48.57
+        },
+        {
+          "setupId": "cycle7-4p-010-f000",
+          "percent": 60.24
+        },
+        {
+          "setupId": "cycle7-4p-011-f000",
+          "percent": 45.87
+        },
+        {
+          "setupId": "cycle7-4p-012-f000",
+          "percent": 57.54
+        },
+        {
+          "setupId": "cycle7-4p-013-f000",
+          "percent": 46.39
+        },
+        {
+          "setupId": "cycle7-4p-014-f000",
+          "percent": 57.54
+        },
+        {
+          "setupId": "cycle7-4p-015-f000",
+          "percent": 60.32
+        },
+        {
+          "setupId": "cycle7-4p-016-f000",
+          "percent": 51.31
+        },
+        {
+          "setupId": "cycle7-4p-017-f000",
+          "percent": 66.59
+        },
+        {
+          "setupId": "cycle7-4p-018-f000",
+          "percent": 51.31
+        },
+        {
+          "setupId": "cycle7-4p-019-f000",
+          "percent": 49.52
+        },
+        {
+          "setupId": "cycle7-4p-020-f000",
+          "percent": 48.17
+        },
+        {
+          "setupId": "cycle7-4p-021-f000",
+          "percent": 43.57
+        },
+        {
+          "setupId": "cycle7-4p-022-f000",
+          "percent": 66.87
+        },
+        {
+          "setupId": "cycle7-4p-023-f000",
+          "percent": 51.31
+        },
+        {
+          "setupId": "cycle7-4p-024-f000",
+          "percent": 47.94
+        },
+        {
+          "setupId": "cycle7-4p-025-f000",
+          "percent": 45.87
+        },
+        {
+          "setupId": "cycle7-4p-026-f000",
+          "percent": 39.52
+        },
+        {
+          "setupId": "cycle7-4p-027-f000",
+          "percent": 39.52
+        },
+        {
+          "setupId": "cycle7-4p-028-f000",
+          "percent": 66.87
+        },
+        {
+          "setupId": "cycle7-4p-029-f000",
+          "percent": 51.31
+        },
+        {
+          "setupId": "cycle7-4p-030-f000",
+          "percent": 62.78
+        },
+        {
+          "setupId": "cycle7-4p-031-f000",
+          "percent": 49.29
+        },
+        {
+          "setupId": "cycle7-4p-032-f000",
+          "percent": 47.94
+        },
+        {
+          "setupId": "cycle7-4p-033-f000",
+          "percent": 44.44
+        },
+        {
+          "setupId": "cycle7-4p-034-f000",
+          "percent": 57.54
+        },
+        {
+          "setupId": "cycle7-4p-035-f000",
+          "percent": 39.52
+        },
+        {
+          "setupId": "cycle7-4p-036-f000",
+          "percent": 66.59
+        },
+        {
+          "setupId": "cycle7-4p-036-f001",
+          "percent": 66.59
+        },
+        {
+          "setupId": "cycle7-4p-037-f000",
+          "percent": 48.61
+        },
+        {
+          "setupId": "cycle7-4p-038-f000",
+          "percent": 58.53
+        },
+        {
+          "setupId": "cycle7-4p-039-f000",
+          "percent": 50.91
+        },
+        {
+          "setupId": "cycle7-4p-040-f000",
+          "percent": 49.21
+        },
+        {
+          "setupId": "cycle7-4p-041-f000",
+          "percent": 42.5
+        },
+        {
+          "setupId": "cycle7-4p-042-f000",
+          "percent": 24.76
+        },
+        {
+          "setupId": "cycle7-4p-043-f000",
+          "percent": 44.52
+        },
+        {
+          "setupId": "cycle7-4p-044-f000",
+          "percent": 36.67
+        },
+        {
+          "setupId": "cycle7-4p-045-f000",
+          "percent": 46.19
+        },
+        {
+          "setupId": "cycle7-4p-046-f000",
+          "percent": 45.91
+        },
+        {
+          "setupId": "cycle7-4p-047-f000",
+          "percent": 45
+        },
+        {
+          "setupId": "cycle7-4p-048-f000",
+          "percent": 41.63
+        },
+        {
+          "setupId": "cycle7-4p-049-f000",
+          "percent": 27.94
+        },
+        {
+          "setupId": "cycle7-4p-050-f000",
+          "percent": 46.39
+        },
+        {
+          "setupId": "cycle7-4p-051-f000",
+          "percent": 44.52
+        },
+        {
+          "setupId": "cycle7-4p-052-f000",
+          "percent": 46.19
+        },
+        {
+          "setupId": "cycle7-4p-053-f000",
+          "percent": 35.71
+        },
+        {
+          "setupId": "cycle7-4p-054-f000",
+          "percent": 46.19
+        },
+        {
+          "setupId": "cycle7-4p-055-f000",
+          "percent": 35.71
+        },
+        {
+          "setupId": "cycle7-4p-056-f000",
+          "percent": 45.16
+        },
+        {
+          "setupId": "cycle7-4p-057-f000",
+          "percent": 36.63
+        },
+        {
+          "setupId": "cycle7-4p-058-f000",
+          "percent": 37.3
+        },
+        {
+          "setupId": "cycle7-4p-059-f000",
+          "percent": 43.57
+        },
+        {
+          "setupId": "cycle7-4p-060-f000",
+          "percent": 43.57
+        },
+        {
+          "setupId": "cycle7-4p-061-f000",
+          "percent": 45.16
+        },
+        {
+          "setupId": "cycle7-4p-062-f000",
+          "percent": 40.75
+        },
+        {
+          "setupId": "cycle7-4p-063-f000",
+          "percent": 66.87
+        },
+        {
+          "setupId": "cycle7-4p-064-f000",
+          "percent": 45.16
+        },
+        {
+          "setupId": "cycle7-4p-065-f000",
+          "percent": 31.9
+        },
+        {
+          "setupId": "cycle7-4p-066-f000",
+          "percent": 32.9
+        },
+        {
+          "setupId": "cycle7-4p-067-f000",
+          "percent": 39.01
+        },
+        {
+          "setupId": "cycle7-4p-068-f000",
+          "percent": 66.87
+        },
+        {
+          "setupId": "cycle7-4p-069-f000",
+          "percent": 41.43
+        },
+        {
+          "setupId": "cycle7-4p-070-f000",
+          "percent": 56.35
+        },
+        {
+          "setupId": "cycle7-4p-071-f000",
+          "percent": 48.17
+        },
+        {
+          "setupId": "cycle7-4p-072-f000",
+          "percent": 47.26
+        },
+        {
+          "setupId": "cycle7-4p-073-f000",
+          "percent": 38.85
+        },
+        {
+          "setupId": "cycle7-4p-074-f000",
+          "percent": 37.3
+        },
+        {
+          "setupId": "cycle7-4p-075-f000",
+          "percent": 55.32
+        },
+        {
+          "setupId": "cycle7-4p-076-f000",
+          "percent": 56.35
+        },
+        {
+          "setupId": "cycle7-4p-077-f000",
+          "percent": 46.51
+        },
+        {
+          "setupId": "cycle7-4p-078-f000",
+          "percent": 38.85
+        },
+        {
+          "setupId": "cycle7-4p-079-f000",
+          "percent": 54.64
+        },
+        {
+          "setupId": "cycle7-4p-080-f000",
+          "percent": 51.03
+        },
+        {
+          "setupId": "cycle7-4p-081-f000",
+          "percent": 49.56
+        },
+        {
+          "setupId": "cycle7-4p-082-f000",
+          "percent": 47.26
+        },
+        {
+          "setupId": "cycle7-4p-083-f000",
+          "percent": 38.85
+        },
+        {
+          "setupId": "cycle7-4p-084-f000",
+          "percent": 44.8
+        },
+        {
+          "setupId": "cycle7-4p-085-f000",
+          "percent": 55.32
+        },
+        {
+          "setupId": "cycle7-4p-086-f000",
+          "percent": 56.71
+        },
+        {
+          "setupId": "cycle7-4p-087-f000",
+          "percent": 59.6
+        },
+        {
+          "setupId": "cycle7-4p-088-f000",
+          "percent": 49.64
+        },
+        {
+          "setupId": "cycle7-4p-089-f000",
+          "percent": 4.8
+        },
+        {
+          "setupId": "cycle7-4p-090-f000",
+          "percent": 63.33
+        },
+        {
+          "setupId": "cycle7-4p-091-f000",
+          "percent": 63.33
+        },
+        {
+          "setupId": "cycle7-4p-092-f000",
+          "percent": 24.64
+        },
+        {
+          "setupId": "cycle7-4p-093-f000",
+          "percent": 35.2
+        },
+        {
+          "setupId": "cycle7-4p-094-f000",
+          "percent": 4.8
+        },
+        {
+          "setupId": "cycle7-4p-095-f000",
+          "percent": 4.8
+        },
+        {
+          "setupId": "cycle7-4p-096-f000",
+          "percent": 64.56
+        },
+        {
+          "setupId": "cycle7-4p-097-f000",
+          "percent": 59.6
+        },
+        {
+          "setupId": "cycle7-4p-098-f000",
+          "percent": 49.64
+        },
+        {
+          "setupId": "cycle7-4p-099-f000",
+          "percent": 30.6
+        },
+        {
+          "setupId": "cycle7-4p-100-f000",
+          "percent": 3.81
+        },
+        {
+          "setupId": "cycle7-4p-101-f000",
+          "percent": 4.8
+        },
+        {
+          "setupId": "cycle7-4p-102-f000",
+          "percent": 34.8
+        },
+        {
+          "setupId": "cycle7-4p-103-f000",
+          "percent": 46.19
+        },
+        {
+          "setupId": "cycle7-4p-104-f000",
+          "percent": 59.6
+        },
+        {
+          "setupId": "cycle7-4p-105-f000",
+          "percent": 61.35
+        },
+        {
+          "setupId": "cycle7-4p-106-f000",
+          "percent": 59.6
+        },
+        {
+          "setupId": "cycle7-4p-107-f000",
+          "percent": 40.04
+        },
+        {
+          "setupId": "cycle7-4p-108-f000",
+          "percent": 3.81
+        },
+        {
+          "setupId": "cycle7-4p-109-f000",
+          "percent": 64.52
+        },
+        {
+          "setupId": "cycle7-4p-110-f000",
+          "percent": 44.48
+        },
+        {
+          "setupId": "cycle7-4p-111-f000",
+          "percent": 23.93
+        },
+        {
+          "setupId": "cycle7-4p-112-f000",
+          "percent": 8.73
+        },
+        {
+          "setupId": "cycle7-4p-113-f000",
+          "percent": 23.93
+        },
+        {
+          "setupId": "cycle7-4p-114-f000",
+          "percent": 35.79
+        },
+        {
+          "setupId": "cycle7-4p-115-f000",
+          "percent": 33.69
+        },
+        {
+          "setupId": "cycle7-4p-117-f000",
+          "percent": 17.14
+        },
+        {
+          "setupId": "cycle7-4p-118-f000",
+          "percent": 14.29
+        },
+        {
+          "setupId": "cycle7-4p-119-f000",
+          "percent": 43.25
+        },
+        {
+          "setupId": "cycle7-4p-120-f000",
+          "percent": 4.76
+        },
+        {
+          "setupId": "cycle7-4p-121-f000",
+          "percent": 21.9
+        }
+      ],
+      "saveBranches": [
+        {
+          "eleventhPiece": "T",
+          "savePieces": []
+        },
+        {
+          "eleventhPiece": "I",
+          "savePieces": [
+            "T"
+          ]
+        },
+        {
+          "eleventhPiece": "L/J",
+          "savePieces": [
+            "T"
+          ]
+        },
+        {
+          "eleventhPiece": "O",
+          "savePieces": [
+            "T",
+            "I",
+            "L/J"
+          ]
+        },
+        {
+          "eleventhPiece": "S/Z",
+          "savePieces": [
+            "T",
+            "O",
+            "I",
+            "L/J"
+          ]
+        }
+      ]
+    },
+    "conditionalVariants": [
+      {
+        "family": "cycle7-4p-ois-i",
+        "requiresOqb": true,
+        "preconditionPieceSignature": "IS",
+        "observation": {
+          "kind": "relative-order",
+          "pieces": [
+            "T",
+            "Z"
+          ]
+        },
+        "branches": [
+          {
+            "when": {
+              "operator": "orderBefore",
+              "values": [
+                "T",
+                "Z"
+              ]
+            },
+            "setupId": "cycle7-4p-117-f000"
+          },
+          {
+            "when": {
+              "operator": "orderBefore",
+              "values": [
+                "Z",
+                "T"
+              ]
+            },
+            "setupId": "cycle7-4p-118-f000"
+          }
+        ]
+      }
+    ],
+    "fallbackClasses": [
+      {
+        "classes": [
+          "LSZ",
+          "JSZ"
+        ],
+        "fallback": "normal-3p-or-qb"
+      },
+      {
+        "classes": [
+          "OSZ"
+        ],
+        "fallback": "normal-3p-or-qb"
+      }
+    ],
+    "entries": [
+      {
+        "setupId": "cycle7-4p-001-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-002-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-003-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-004-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-005-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "J",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-006-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-007-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-008-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-009-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-010-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-011-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-012-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-013-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-014-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "J",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-015-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-016-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-017-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-018-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-019-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-020-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-021-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-022-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-023-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-024-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-025-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-026-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-027-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "J",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-028-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-029-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-030-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-031-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-032-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-033-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-034-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-035-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "J",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-036-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-036-f001",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-037-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-038-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-039-f000",
+        "previousBagPieces": [
+          "T",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-040-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "I"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-041-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "I"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-042-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "I"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-043-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "I"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-044-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "I"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-045-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "I"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-046-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "I"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-047-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-048-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-049-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-050-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-051-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "J",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-052-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-053-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-054-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-055-f000",
+        "previousBagPieces": [
+          "T",
+          "O",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-056-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-057-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-058-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-059-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-060-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "J",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-061-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-062-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-063-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-064-f000",
+        "previousBagPieces": [
+          "T",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-065-f000",
+        "previousBagPieces": [
+          "T",
+          "S",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-066-f000",
+        "previousBagPieces": [
+          "T",
+          "S",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-067-f000",
+        "previousBagPieces": [
+          "T",
+          "S",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-068-f000",
+        "previousBagPieces": [
+          "T",
+          "S",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-069-f000",
+        "previousBagPieces": [
+          "T",
+          "S",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-070-f000",
+        "previousBagPieces": [
+          "I",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-071-f000",
+        "previousBagPieces": [
+          "I",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-072-f000",
+        "previousBagPieces": [
+          "I",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-073-f000",
+        "previousBagPieces": [
+          "I",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-074-f000",
+        "previousBagPieces": [
+          "I",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-075-f000",
+        "previousBagPieces": [
+          "I",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-076-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-077-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-078-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-079-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "J"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-080-f000",
+        "previousBagPieces": [
+          "L",
+          "J",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-081-f000",
+        "previousBagPieces": [
+          "L",
+          "J",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-082-f000",
+        "previousBagPieces": [
+          "L",
+          "J",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-083-f000",
+        "previousBagPieces": [
+          "L",
+          "J",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-084-f000",
+        "previousBagPieces": [
+          "L",
+          "J",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "J",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-085-f000",
+        "previousBagPieces": [
+          "L",
+          "J",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-086-f000",
+        "previousBagPieces": [
+          "L",
+          "J",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-087-f000",
+        "previousBagPieces": [
+          "O",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-088-f000",
+        "previousBagPieces": [
+          "O",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-089-f000",
+        "previousBagPieces": [
+          "O",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-090-f000",
+        "previousBagPieces": [
+          "O",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-091-f000",
+        "previousBagPieces": [
+          "O",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-092-f000",
+        "previousBagPieces": [
+          "O",
+          "I",
+          "L"
+        ],
+        "fourthPieceFromNextBag": "J",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": "T",
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-093-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-094-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-095-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "J",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-096-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-097-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-098-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-099-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-100-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-101-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "J",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-102-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-103-f000",
+        "previousBagPieces": [
+          "O",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-104-f000",
+        "previousBagPieces": [
+          "I",
+          "L",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-105-f000",
+        "previousBagPieces": [
+          "I",
+          "L",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-106-f000",
+        "previousBagPieces": [
+          "I",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-107-f000",
+        "previousBagPieces": [
+          "I",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-108-f000",
+        "previousBagPieces": [
+          "I",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "J",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-109-f000",
+        "previousBagPieces": [
+          "I",
+          "L",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-110-f000",
+        "previousBagPieces": [
+          "O",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-111-f000",
+        "previousBagPieces": [
+          "O",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-112-f000",
+        "previousBagPieces": [
+          "O",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-113-f000",
+        "previousBagPieces": [
+          "O",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "J",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-114-f000",
+        "previousBagPieces": [
+          "O",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "S",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-115-f000",
+        "previousBagPieces": [
+          "O",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "Z",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-117-f000",
+        "previousBagPieces": [
+          "O",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": "T-before-Z"
+      },
+      {
+        "setupId": "cycle7-4p-118-f000",
+        "previousBagPieces": [
+          "O",
+          "I",
+          "S"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": "Z-before-T"
+      },
+      {
+        "setupId": "cycle7-4p-119-f000",
+        "previousBagPieces": [
+          "I",
+          "S",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "O",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-120-f000",
+        "previousBagPieces": [
+          "I",
+          "S",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "I",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      },
+      {
+        "setupId": "cycle7-4p-121-f000",
+        "previousBagPieces": [
+          "I",
+          "S",
+          "Z"
+        ],
+        "fourthPieceFromNextBag": "L",
+        "nextBagSourcePosition": 0,
+        "requiredHeldPieceAfterBuild": null,
+        "branch": null
+      }
+    ]
+  }
+}

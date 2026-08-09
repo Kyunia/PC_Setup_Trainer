@@ -1,0 +1,1107 @@
+[
+  {
+    "id": "cycle7-qb-lsz-oz-or-iz-early",
+    "cycle": 7,
+    "family": "cycle7-qb-lsz-oz-or-iz-early",
+    "displayName": "OZ or IZ Early",
+    "formLabel": "LSZ · OZ or IZ Early",
+    "pieceSignature": [
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle7-qb-lsz-oz-or-iz-early-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-lsz-oz-or-iz-early-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-lsz-oz-or-iz-early-z-3",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@GhAtHeBtFeR4AtglEeR4ilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle7-qb-lsz-oj-early",
+    "cycle": 7,
+    "family": "cycle7-qb-lsz-oj-early",
+    "displayName": "OJ Early",
+    "formLabel": "LSZ · OJ Early",
+    "pieceSignature": [
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle7-qb-lsz-oj-early-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-lsz-oj-early-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-lsz-oj-early-z-3",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@HhglIeglBtBeR4CehlBtR4NeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle7-qb-lsz-ti-early",
+    "cycle": 7,
+    "family": "cycle7-qb-lsz-ti-early",
+    "displayName": "TI Early",
+    "formLabel": "LSZ · TI Early",
+    "pieceSignature": [
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle7-qb-lsz-ti-early-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-lsz-ti-early-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-lsz-ti-early-z-3",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@BhAtHeBtFeR4AtglEeR4ilOeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle7-qb-lsz-ts-early-a",
+    "cycle": 7,
+    "family": "cycle7-qb-lsz-ts-early",
+    "displayName": "TS Early (Form A)",
+    "formLabel": "LSZ · TS Early",
+    "pieceSignature": [
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle7-qb-lsz-ts-early-a-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-lsz-ts-early-a-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-lsz-ts-early-a-z-3",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@PhQ4CeilAeBtR4BeglDeBtQ4JeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle7-qb-lsz-ts-early-b",
+    "cycle": 7,
+    "family": "cycle7-qb-lsz-ts-early",
+    "displayName": "TS Early (Form B)",
+    "formLabel": "LSZ · TS Early",
+    "pieceSignature": [
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle7-qb-lsz-ts-early-b-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-lsz-ts-early-b-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-lsz-ts-early-b-z-3",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@BhQ4IeR4FeilQ4BtDeglDeBtKeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle7-qb-lsz-l-early-o-visible",
+    "cycle": 7,
+    "family": "cycle7-qb-lsz-l-early-o-visible",
+    "displayName": "L Early with O Visible",
+    "formLabel": "LSZ · L Early with O Visible",
+    "pieceSignature": [
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle7-qb-lsz-l-early-o-visible-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-lsz-l-early-o-visible-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-lsz-l-early-o-visible-z-3",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@MhQ4BtGeR4BtglFeQ4ilJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle7-qb-lsz-l-early-o-not-visible",
+    "cycle": 7,
+    "family": "cycle7-qb-lsz-l-early-o-not-visible",
+    "displayName": "L Early with O Hidden",
+    "formLabel": "LSZ · L Early with O Hidden",
+    "pieceSignature": [
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle7-qb-lsz-l-early-o-not-visible-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-lsz-l-early-o-not-visible-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-lsz-l-early-o-not-visible-z-3",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": -1,
+    "difficulty": 3,
+    "fumen": "v115@LhglQ4BtFeglR4BtEehlQ4MeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle7-qb-isz-l-before-j",
+    "cycle": 7,
+    "family": "cycle7-qb-isz-l-before-j",
+    "displayName": "L Before J",
+    "formLabel": "ISZ · L Before J",
+    "pieceSignature": [
+      "I",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle7-qb-isz-l-before-j-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-isz-l-before-j-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-isz-l-before-j-z-3",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@/gQ4IeR4IeQ4BtEezhBtMeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle7-qb-isz-o-before-sz",
+    "cycle": 7,
+    "family": "cycle7-qb-isz-o-before-sz",
+    "displayName": "O Before S/Z",
+    "formLabel": "ISZ · O Before S/Z",
+    "pieceSignature": [
+      "I",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle7-qb-isz-o-before-sz-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-isz-o-before-sz-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-isz-o-before-sz-z-3",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@ThR4BeBtCeR4zhBtKeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle7-qb-isz-tsz-early",
+    "cycle": 7,
+    "family": "cycle7-qb-isz-tsz-early",
+    "displayName": "TSZ Early",
+    "formLabel": "ISZ · TSZ Early",
+    "pieceSignature": [
+      "I",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle7-qb-isz-tsz-early-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-isz-tsz-early-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-isz-tsz-early-z-3",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@LhAtHeBtR4FeAtR4zhJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle7-qb-osz-i-early",
+    "cycle": 7,
+    "family": "cycle7-qb-osz-i-early",
+    "displayName": "I Early",
+    "formLabel": "OSZ · I Early",
+    "pieceSignature": [
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle7-qb-osz-i-early-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-osz-i-early-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-osz-i-early-z-3",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@ThR4BtBeRpAeR4BeBtAeRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle7-qb-osz-jls-or-jlz-early",
+    "cycle": 7,
+    "family": "cycle7-qb-osz-jls-or-jlz-early",
+    "displayName": "JLS or JLZ Early",
+    "formLabel": "OSZ · JLS or JLZ Early",
+    "pieceSignature": [
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle7-qb-osz-jls-or-jlz-early-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-osz-jls-or-jlz-early-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-osz-jls-or-jlz-early-z-3",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@ShR4BeBtAeRpR4DeBtRpJeAgH",
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle7-qb-osz-all-other",
+    "cycle": 7,
+    "family": "cycle7-qb-osz-all-other",
+    "displayName": "All Other Cases",
+    "formLabel": "OSZ · All Other Cases",
+    "pieceSignature": [
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle7-qb-osz-all-other-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-osz-all-other-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle7-qb-osz-all-other-z-3",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 3,
+    "fumen": "v115@IhAtHeBtR4DeRpAtR4EeRpJeAgH",
+    "reviewStatus": "reviewed"
+  }
+]

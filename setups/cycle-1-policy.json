@@ -1,0 +1,332 @@
+{
+  "id": "xlsx-cycle1-sheet1-v1",
+  "schemaVersion": 2,
+  "cycle": 1,
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle1-jaws-a",
+      "values": {
+        "saves": 99.13,
+        "solveRate": 100
+      }
+    },
+    {
+      "setupId": "cycle1-legs-a",
+      "values": {
+        "saves": 98.85,
+        "solveRate": 99.52,
+        "mirroredSolveRate": 99.52
+      }
+    },
+    {
+      "setupId": "cycle1-shoes-a",
+      "values": {
+        "saves": 97.58,
+        "solveRate": 99.21
+      }
+    },
+    {
+      "setupId": "cycle1-alt-jaws-a",
+      "values": {
+        "saves": 95.51,
+        "solveRate": 99.17
+      }
+    },
+    {
+      "setupId": "cycle1-jeremy-a",
+      "values": {
+        "saves": 96.47,
+        "solveRate": 98.57
+      }
+    },
+    {
+      "setupId": "cycle1-hills-a",
+      "values": {
+        "saves": 97.62,
+        "solveRate": 98.45,
+        "mirroredSolveRate": 98.45
+      }
+    },
+    {
+      "setupId": "cycle1-elephant-a",
+      "values": {
+        "saves": 94.05,
+        "solveRate": 98.21,
+        "mirroredSolveRate": 98.33
+      }
+    },
+    {
+      "setupId": "cycle1-big-jaws-a",
+      "values": {
+        "saves": 92.74,
+        "solveRate": 95.12
+      }
+    },
+    {
+      "setupId": "cycle1-elephant-j-a",
+      "values": {
+        "saves": 93.21,
+        "solveRate": 94.64,
+        "mirroredSolveRate": 94.48
+      }
+    },
+    {
+      "setupId": "cycle1-cliff-o-a",
+      "values": {
+        "saves": 91.98,
+        "solveRate": 98.1,
+        "mirroredSolveRate": 97.74
+      }
+    },
+    {
+      "setupId": "cycle1-alt-shoes-a",
+      "values": {
+        "saves": 95.48,
+        "solveRate": 98.57,
+        "mirroredSolveRate": 98.57
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-006",
+      "values": {
+        "solveRate": 98.1,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-007",
+      "values": {
+        "solveRate": 96.91,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-011",
+      "values": {
+        "solveRate": 97.38,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-013",
+      "values": {
+        "solveRate": 97.82,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-014",
+      "values": {
+        "solveRate": 92.74,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-015",
+      "values": {
+        "solveRate": 90.08,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-016",
+      "values": {
+        "solveRate": 88.85,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-018",
+      "values": {
+        "solveRate": 92.9,
+        "mirroredSolveRate": 92.82,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-019",
+      "values": {
+        "solveRate": 91.03,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-020",
+      "values": {
+        "solveRate": 92.46,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-021",
+      "values": {
+        "solveRate": 96.91,
+        "mirroredSolveRate": 96.19,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-022",
+      "values": {
+        "solveRate": 96.51,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-023",
+      "values": {
+        "solveRate": 96.23,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-024",
+      "values": {
+        "solveRate": 92.42,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-025",
+      "values": {
+        "solveRate": 92.02,
+        "mirroredSolveRate": 91.79,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-026",
+      "values": {
+        "solveRate": 91.94,
+        "mirroredSolveRate": 92.1,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-027",
+      "values": {
+        "solveRate": 91.19,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-028",
+      "values": {
+        "solveRate": 89.29,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-029",
+      "values": {
+        "solveRate": 89.21,
+        "saves": 1
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-030",
+      "values": {
+        "solveRate": 97.86,
+        "saves": 0
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-031",
+      "values": {
+        "solveRate": 97.66,
+        "saves": 0
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-032",
+      "values": {
+        "solveRate": 94.05,
+        "saves": 0
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-033",
+      "values": {
+        "solveRate": 93.65,
+        "saves": 0
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-034",
+      "values": {
+        "solveRate": 90.32,
+        "saves": 0
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-035",
+      "values": {
+        "solveRate": 98.49,
+        "mirroredSolveRate": 98.57,
+        "saves": 0
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-036",
+      "values": {
+        "solveRate": 96.35,
+        "saves": 0
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-037",
+      "values": {
+        "solveRate": 98.25,
+        "saves": 0
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-038",
+      "values": {
+        "solveRate": 97.62,
+        "saves": 0
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-039",
+      "values": {
+        "solveRate": 95.48,
+        "saves": 0
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-040",
+      "values": {
+        "solveRate": 98.77,
+        "saves": 0
+      }
+    },
+    {
+      "setupId": "cycle1-pcinfo-041",
+      "values": {
+        "solveRate": 98.49,
+        "saves": 0
+      }
+    },
+    {
+      "setupId": "cycle1-grace-system-a",
+      "values": {
+        "solveRate": 88.57
+      }
+    },
+    {
+      "setupId": "cycle1-grace-system-b",
+      "values": {
+        "solveRate": 88.57
+      }
+    },
+    {
+      "setupId": "cycle1-6p-pco-a",
+      "values": {
+        "solveRate": 85.36
+      }
+    }
+  ],
+  "selectionRules": []
+}

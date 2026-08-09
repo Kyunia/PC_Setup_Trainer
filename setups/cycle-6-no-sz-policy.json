@@ -1,0 +1,381 @@
+{
+  "id": "pcinfokorea-cycle-6-no-sz-general-v1",
+  "schemaVersion": 2,
+  "cycle": 6,
+  "classId": "no-s",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle6-no-sz-001-f000",
+      "values": {
+        "solveRate": 96.71
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-002-f000",
+      "values": {
+        "solveRate": 96.71
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-003-f000",
+      "values": {
+        "solveRate": 96.71
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-004-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-005-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-006-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-007-f000",
+      "values": {
+        "solveRate": 99.96
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-008-f000",
+      "values": {
+        "solveRate": 99.92
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-009-f000",
+      "values": {
+        "solveRate": 99.88
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-010-f000",
+      "values": {
+        "solveRate": 99.8
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-011-f000",
+      "values": {
+        "solveRate": 99.4
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-012-f000",
+      "values": {
+        "solveRate": 98.97
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-013-f000",
+      "values": {
+        "solveRate": 98.81
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-014-f000",
+      "values": {
+        "solveRate": 97.06
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-015-f000",
+      "values": {
+        "solveRate": 96.75
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-016-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-017-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-018-f000",
+      "values": {
+        "solveRate": 99.96
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-019-f000",
+      "values": {
+        "solveRate": 99.44
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-020-f000",
+      "values": {
+        "solveRate": 99.17
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-021-f000",
+      "values": {
+        "solveRate": 98.65
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-022-f000",
+      "values": {
+        "solveRate": 98.33
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-023-f000",
+      "values": {
+        "solveRate": 97.94
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-024-f000",
+      "values": {
+        "solveRate": 97.58
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-025-f000",
+      "values": {
+        "solveRate": 97.38
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-026-f000",
+      "values": {
+        "solveRate": 93.17
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-027-f000",
+      "values": {
+        "solveRate": 92.98
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-028-f000",
+      "values": {
+        "solveRate": 99.76
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-029-f000",
+      "values": {
+        "solveRate": 99.17
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-030-f000",
+      "values": {
+        "solveRate": 98.45
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-031-f000",
+      "values": {
+        "solveRate": 98.45
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-032-f000",
+      "values": {
+        "solveRate": 97.46
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-033-f000",
+      "values": {
+        "solveRate": 97.1
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-034-f000",
+      "values": {
+        "solveRate": 97.02
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-035-f000",
+      "values": {
+        "solveRate": 96.83
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-036-f000",
+      "values": {
+        "solveRate": 96.51
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-037-f000",
+      "values": {
+        "solveRate": 96.19
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-038-f000",
+      "values": {
+        "solveRate": 95.32
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-039-f000",
+      "values": {
+        "solveRate": 94.76
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-040-f000",
+      "values": {
+        "solveRate": 94.05
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-041-f000",
+      "values": {
+        "solveRate": 94.05
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-042-f000",
+      "values": {
+        "solveRate": 92.94
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-043-f000",
+      "values": {
+        "solveRate": 91.19
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-044-f000",
+      "values": {
+        "solveRate": 90.24
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-045-f000",
+      "values": {
+        "solveRate": 99.33
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-046-f000",
+      "values": {
+        "solveRate": 99.05
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-047-f000",
+      "values": {
+        "solveRate": 98.97
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-048-f000",
+      "values": {
+        "solveRate": 98.81
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-049-f000",
+      "values": {
+        "solveRate": 98.69
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-050-f000",
+      "values": {
+        "solveRate": 97.5
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-051-f000",
+      "values": {
+        "solveRate": 95.79
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-052-f000",
+      "values": {
+        "solveRate": 95.36
+      },
+      "direction": "source-basis-no-s"
+    },
+    {
+      "setupId": "cycle6-no-sz-053-f000",
+      "values": {
+        "solveRate": 84.84
+      },
+      "direction": "source-basis-no-s"
+    }
+  ],
+  "selectionRules": []
+}

@@ -1,0 +1,199 @@
+{
+  "id": "pcinfokorea-cycle-5-oi-v1",
+  "schemaVersion": 2,
+  "cycle": 5,
+  "classId": "oi",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle5-oi-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-003-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-004-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-005-f000",
+      "values": {
+        "solveRate": 98.41
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-006-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-007-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-008-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-009-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-010-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-011-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-012-f000",
+      "values": {
+        "solveRate": 99.72
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-013-f000",
+      "values": {
+        "solveRate": 97.9
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-014-f000",
+      "values": {
+        "solveRate": 99.8
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-014-f001",
+      "values": {
+        "solveRate": 99.8
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-015-f000",
+      "values": {
+        "solveRate": 99.52
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-016-f000",
+      "values": {
+        "solveRate": 99.29
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-017-f000",
+      "values": {
+        "solveRate": 99.72
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-018-f000",
+      "values": {
+        "solveRate": 99.4
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-018-f001",
+      "values": {
+        "solveRate": 99.4
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-019-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-020-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-021-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-022-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-023-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-024-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source-basis"
+    },
+    {
+      "setupId": "cycle5-oi-025-f000",
+      "values": {
+        "solveRate": 11.43
+      },
+      "direction": "source-basis"
+    }
+  ],
+  "selectionRules": []
+}

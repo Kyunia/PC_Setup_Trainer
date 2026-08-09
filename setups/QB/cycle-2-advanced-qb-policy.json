@@ -1,0 +1,6140 @@
+{
+  "id": "cycle-2-advanced-qb-policy",
+  "schemaVersion": 2,
+  "cycle": 2,
+  "reviewStatus": "reviewed",
+  "metrics": [],
+  "buildConstraints": [
+    {
+      "id": "cycle2-advanced-even-qb-toistoiz-006-f000-save-o",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-toistoiz-006-f000"
+      ],
+      "requiredSavedPiece": "O",
+      "exactPoolSignature": "IOST"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-toistoiz-007-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-toistoiz-007-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "IOST"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-toistoiz-008-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-toistoiz-008-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "IOST"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-toistoiz-010-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-toistoiz-010-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "IOST"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-toistoiz-014-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-toistoiz-014-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "IOST"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-toistoiz-015-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-toistoiz-015-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "IOST"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-toistoiz-016-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-toistoiz-016-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "IOST"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-toistoiz-017-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-toistoiz-017-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "IOST"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-toistoiz-018-f000-save-o",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-toistoiz-018-f000"
+      ],
+      "requiredSavedPiece": "O",
+      "exactPoolSignature": "IOST"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tolj-004-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tolj-004-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "JLOT"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tolj-005-f000-save-j",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tolj-005-f000"
+      ],
+      "requiredSavedPiece": "J",
+      "exactPoolSignature": "JLOT"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tolj-006-f000-save-j",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tolj-006-f000"
+      ],
+      "requiredSavedPiece": "J",
+      "exactPoolSignature": "JLOT"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tolj-010-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tolj-010-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "JLOT"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tosz-006-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tosz-006-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "OSTZ"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tosz-007-f000-save-z",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tosz-007-f000"
+      ],
+      "requiredSavedPiece": "Z",
+      "exactPoolSignature": "OSTZ"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tosz-009-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tosz-009-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "OSTZ"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tosz-013-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tosz-013-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "OSTZ"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tilj-003-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tilj-003-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "IJLT"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tilj-009-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tilj-009-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "IJLT"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tilj-012-f000-save-j",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tilj-012-f000"
+      ],
+      "requiredSavedPiece": "J",
+      "exactPoolSignature": "IJLT"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tilj-014-f000-save-i",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tilj-014-f000"
+      ],
+      "requiredSavedPiece": "I",
+      "exactPoolSignature": "IJLT"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tisz-008-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tisz-008-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "ISTZ"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tljstljz-006-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tljstljz-006-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "JLST"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tljstljz-007-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tljstljz-007-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "JLST"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-tljstljz-008-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-tljstljz-008-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "JLST"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-oilj-003-f000-save-i",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-oilj-003-f000"
+      ],
+      "requiredSavedPiece": "I",
+      "exactPoolSignature": "IJLO"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-oisz-005-f000-save-z",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-oisz-005-f000"
+      ],
+      "requiredSavedPiece": "Z",
+      "exactPoolSignature": "IOSZ"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-oisz-007-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-oisz-007-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "IOSZ"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-oljsoljz-005-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-oljsoljz-005-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "JLOS"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-oljsoljz-006-f000-save-j",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-oljsoljz-006-f000"
+      ],
+      "requiredSavedPiece": "J",
+      "exactPoolSignature": "JLOS"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-oljsoljz-007-f000-save-j",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-oljsoljz-007-f000"
+      ],
+      "requiredSavedPiece": "J",
+      "exactPoolSignature": "JLOS"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-iljsiljz-007-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-iljsiljz-007-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "IJLS"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-iljsiljz-008-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-iljsiljz-008-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "IJLS"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-iljsiljz-009-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-iljsiljz-009-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "IJLS"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-iljsiljz-010-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-iljsiljz-010-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "IJLS"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-ljsz-005-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-ljsz-005-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "JLSZ"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-ljsz-008-f000-save-z",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-ljsz-008-f000"
+      ],
+      "requiredSavedPiece": "Z",
+      "exactPoolSignature": "JLSZ"
+    },
+    {
+      "id": "cycle2-advanced-even-qb-ljsz-009-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-even-qb-ljsz-009-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "JLSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-toiltoij-009-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-toiltoij-009-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "ILOT"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-toiltoij-010-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-toiltoij-010-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "ILOT"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-toiltoij-012-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-toiltoij-012-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "ILOT"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-toiltoij-014-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-toiltoij-014-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "ILOT"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tolstojz-006-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tolstojz-006-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "LOST"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tolstojz-009-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tolstojz-009-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "LOST"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tolstojz-011-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tolstojz-011-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "LOST"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tolztojs-001-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tolztojs-001-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "LOTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tolztojs-006-f000-save-z",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tolztojs-006-f000"
+      ],
+      "requiredSavedPiece": "Z",
+      "exactPoolSignature": "LOTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tolztojs-007-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tolztojs-007-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "LOTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tolztojs-008-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tolztojs-008-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "LOTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tolztojs-009-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tolztojs-009-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "LOTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tilstijz-006-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tilstijz-006-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "ILST"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tilstijz-010-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tilstijz-010-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "ILST"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tilstijz-012-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tilstijz-012-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "ILST"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tilztijs-009-f000-save-z",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tilztijs-009-f000"
+      ],
+      "requiredSavedPiece": "Z",
+      "exactPoolSignature": "ILTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tilztijs-010-f000-save-z",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tilztijs-010-f000"
+      ],
+      "requiredSavedPiece": "Z",
+      "exactPoolSignature": "ILTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tilztijs-011-f000-save-i",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tilztijs-011-f000"
+      ],
+      "requiredSavedPiece": "I",
+      "exactPoolSignature": "ILTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tilztijs-012-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tilztijs-012-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "ILTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tilztijs-013-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tilztijs-013-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "ILTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tilztijs-014-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tilztijs-014-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "ILTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tilztijs-015-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tilztijs-015-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "ILTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tlsztjsz-003-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tlsztjsz-003-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "LSTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tlsztjsz-013-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tlsztjsz-013-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "LSTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tlsztjsz-019-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tlsztjsz-019-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "LSTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tlsztjsz-020-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tlsztjsz-020-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "LSTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-tlsztjsz-021-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-tlsztjsz-021-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "LSTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-oilsoijz-003-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-oilsoijz-003-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "ILOS"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-oilsoijz-009-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-oilsoijz-009-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "ILOS"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-oilzoijs-007-f000-save-z",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-oilzoijs-007-f000"
+      ],
+      "requiredSavedPiece": "Z",
+      "exactPoolSignature": "ILOZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-olszojsz-004-f000-save-z",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-olszojsz-004-f000"
+      ],
+      "requiredSavedPiece": "Z",
+      "exactPoolSignature": "LOSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-olszojsz-005-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-olszojsz-005-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "LOSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-olszojsz-006-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-olszojsz-006-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "LOSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-olszojsz-007-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-olszojsz-007-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "LOSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-olszojsz-008-f000-save-z",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-olszojsz-008-f000"
+      ],
+      "requiredSavedPiece": "Z",
+      "exactPoolSignature": "LOSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-olszojsz-009-f000-save-z",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-olszojsz-009-f000"
+      ],
+      "requiredSavedPiece": "Z",
+      "exactPoolSignature": "LOSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-olszojsz-010-f000-save-z",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-olszojsz-010-f000"
+      ],
+      "requiredSavedPiece": "Z",
+      "exactPoolSignature": "LOSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-olszojsz-014-f000-save-o",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-olszojsz-014-f000"
+      ],
+      "requiredSavedPiece": "O",
+      "exactPoolSignature": "LOSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-olszojsz-020-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-olszojsz-020-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "LOSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-olszojsz-025-f000-save-o",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-olszojsz-025-f000"
+      ],
+      "requiredSavedPiece": "O",
+      "exactPoolSignature": "LOSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-qb-ilszijsz-022-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-qb-ilszijsz-022-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "ILSZ"
+    }
+  ],
+  "selectionRules": [],
+  "qbSemantics": {
+    "oqbExcluded": true
+  },
+  "entries": [
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-001-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-001-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "OJ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 1,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OJ"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-002-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-002-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "OS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 2,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OS"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-003-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-003-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "IJ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 3,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IJ"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-004-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-004-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "LS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 4,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LS"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-005-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-005-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "JS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 5,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "JS"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-006-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-006-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "LJ (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 6,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LJ"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-007-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-007-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "IZ (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 7,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IZ"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-008-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-008-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "SZ (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 8,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "SZ"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-009-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-009-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "OLZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 9,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OLZ"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-010-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-010-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "OIL (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 10,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIL"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-011-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-011-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "*OZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 11,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OZ"
+        ],
+        "guidance": "The TOIZ mirror cannot be built when the existing four pieces are ordered [TZ]!OI; use another QB or the existing 3P instead."
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-012-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-012-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "LZ (Form 1, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 12,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LZ"
+        ],
+        "guidance": "This LZ form cannot be built when the existing TOIS pieces are ordered [TS]!OI."
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-013-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-013-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "LZ (Form 2, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 13,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LZ"
+        ],
+        "guidance": "This LZ form cannot be built when the existing TOIS pieces are ordered [TS]!OI."
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-014-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-014-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "[IL]!X (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 14,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "[IL]!X"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-015-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-015-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "TOI (3P, save T/O)",
+      "saveTargets": [
+        "O",
+        "T"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 15,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TOI"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-016-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-016-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "TOL (3P, save T/O)",
+      "saveTargets": [
+        "O",
+        "T"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 16,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TOL"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-017-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-017-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "TIL (3P, save T/O)",
+      "saveTargets": [
+        "O",
+        "T"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 17,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TIL"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-toistoiz-018-f000",
+      "setupId": "cycle2-advanced-even-qb-toistoiz-018-f000",
+      "sourcePool": "TOIS",
+      "conditionLabel": "All Other Cases (TIS, TLZ, TJZ)",
+      "saveTargets": [
+        "O",
+        "T"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 18,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "All Other Cases"
+        ]
+      },
+      "mirrorPool": "TOIZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tolj-001-f000",
+      "setupId": "cycle2-advanced-even-qb-tolj-001-f000",
+      "sourcePool": "TOLJ",
+      "conditionLabel": "OS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 19,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tolj-002-f000",
+      "setupId": "cycle2-advanced-even-qb-tolj-002-f000",
+      "sourcePool": "TOLJ",
+      "conditionLabel": "IS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 20,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tolj-003-f000",
+      "setupId": "cycle2-advanced-even-qb-tolj-003-f000",
+      "sourcePool": "TOLJ",
+      "conditionLabel": "LZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 21,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LZ"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tolj-004-f000",
+      "setupId": "cycle2-advanced-even-qb-tolj-004-f000",
+      "sourcePool": "TOLJ",
+      "conditionLabel": "OI (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 22,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OI"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tolj-005-f000",
+      "setupId": "cycle2-advanced-even-qb-tolj-005-f000",
+      "sourcePool": "TOLJ",
+      "conditionLabel": "L<S (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 23,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "L<S"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tolj-006-f000",
+      "setupId": "cycle2-advanced-even-qb-tolj-006-f000",
+      "sourcePool": "TOLJ",
+      "conditionLabel": "S<L (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 24,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "S<L"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tolj-007-f000",
+      "setupId": "cycle2-advanced-even-qb-tolj-007-f000",
+      "sourcePool": "TOLJ",
+      "conditionLabel": "OIL (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 25,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIL"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tolj-008-f000",
+      "setupId": "cycle2-advanced-even-qb-tolj-008-f000",
+      "sourcePool": "TOLJ",
+      "conditionLabel": "ILJ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 26,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILJ"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tolj-009-f000",
+      "setupId": "cycle2-advanced-even-qb-tolj-009-f000",
+      "sourcePool": "TOLJ",
+      "conditionLabel": "OLJ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 27,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OLJ"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tolj-010-f000",
+      "setupId": "cycle2-advanced-even-qb-tolj-010-f000",
+      "sourcePool": "TOLJ",
+      "conditionLabel": "[LJ]!T (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 28,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "[LJ]!T"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tolj-011-f000",
+      "setupId": "cycle2-advanced-even-qb-tolj-011-f000",
+      "sourcePool": "TOLJ",
+      "conditionLabel": "TLJ (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 29,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TLJ"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tosz-001-f000",
+      "setupId": "cycle2-advanced-even-qb-tosz-001-f000",
+      "sourcePool": "TOSZ",
+      "conditionLabel": "LS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 30,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tosz-002-f000",
+      "setupId": "cycle2-advanced-even-qb-tosz-002-f000",
+      "sourcePool": "TOSZ",
+      "conditionLabel": "ILZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 31,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILZ"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tosz-003-f000",
+      "setupId": "cycle2-advanced-even-qb-tosz-003-f000",
+      "sourcePool": "TOSZ",
+      "conditionLabel": "OLZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 32,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OLZ"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tosz-004-f000",
+      "setupId": "cycle2-advanced-even-qb-tosz-004-f000",
+      "sourcePool": "TOSZ",
+      "conditionLabel": "ILJ 1 (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 33,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILJ 1"
+        ],
+        "guidance": "The ILJ form follows the S/Z order of the existing TOSZ pieces; BFS confirms buildability."
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tosz-005-f000",
+      "setupId": "cycle2-advanced-even-qb-tosz-005-f000",
+      "sourcePool": "TOSZ",
+      "conditionLabel": "ILJ 2 (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 34,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILJ 2"
+        ],
+        "guidance": "The ILJ form follows the S/Z order of the existing TOSZ pieces; BFS confirms buildability."
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tosz-006-f000",
+      "setupId": "cycle2-advanced-even-qb-tosz-006-f000",
+      "sourcePool": "TOSZ",
+      "conditionLabel": "OLJ 1 (L<J) (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 35,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OLJ 1"
+        ],
+        "nextBagOrderBefore": [
+          "L",
+          "J"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tosz-007-f000",
+      "setupId": "cycle2-advanced-even-qb-tosz-007-f000",
+      "sourcePool": "TOSZ",
+      "conditionLabel": "OLJ 2 (J<L) (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 36,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OLJ 2"
+        ],
+        "nextBagOrderBefore": [
+          "J",
+          "L"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tosz-008-f000",
+      "setupId": "cycle2-advanced-even-qb-tosz-008-f000",
+      "sourcePool": "TOSZ",
+      "conditionLabel": "L<Z (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 37,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "L<Z"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tosz-009-f000",
+      "setupId": "cycle2-advanced-even-qb-tosz-009-f000",
+      "sourcePool": "TOSZ",
+      "conditionLabel": "[OS]!Z (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 38,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "[OS]!Z"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tosz-010-f000",
+      "setupId": "cycle2-advanced-even-qb-tosz-010-f000",
+      "sourcePool": "TOSZ",
+      "conditionLabel": "TL (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 39,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TL"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tosz-011-f000",
+      "setupId": "cycle2-advanced-even-qb-tosz-011-f000",
+      "sourcePool": "TOSZ",
+      "conditionLabel": "TS (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 40,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tosz-012-f000",
+      "setupId": "cycle2-advanced-even-qb-tosz-012-f000",
+      "sourcePool": "TOSZ",
+      "conditionLabel": "TO (save I)",
+      "saveTargets": [
+        "I"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 41,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TO"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tosz-013-f000",
+      "setupId": "cycle2-advanced-even-qb-tosz-013-f000",
+      "sourcePool": "TOSZ",
+      "conditionLabel": "All Other Cases",
+      "saveTargets": [
+        "I",
+        "O",
+        "T"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 42,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "All Other Cases"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tilj-001-f000",
+      "setupId": "cycle2-advanced-even-qb-tilj-001-f000",
+      "sourcePool": "TILJ",
+      "conditionLabel": "OS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 43,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tilj-002-f000",
+      "setupId": "cycle2-advanced-even-qb-tilj-002-f000",
+      "sourcePool": "TILJ",
+      "conditionLabel": "L (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 44,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "L"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tilj-003-f000",
+      "setupId": "cycle2-advanced-even-qb-tilj-003-f000",
+      "sourcePool": "TILJ",
+      "conditionLabel": "All Other Cases",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 45,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "All Other Cases"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tilj-004-f000",
+      "setupId": "cycle2-advanced-even-qb-tilj-004-f000",
+      "sourcePool": "TILJ",
+      "conditionLabel": "OL",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 46,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OL"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tilj-005-f000",
+      "setupId": "cycle2-advanced-even-qb-tilj-005-f000",
+      "sourcePool": "TILJ",
+      "conditionLabel": "OS",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 47,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tilj-006-f000",
+      "setupId": "cycle2-advanced-even-qb-tilj-006-f000",
+      "sourcePool": "TILJ",
+      "conditionLabel": "IS",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 48,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tilj-007-f000",
+      "setupId": "cycle2-advanced-even-qb-tilj-007-f000",
+      "sourcePool": "TILJ",
+      "conditionLabel": "LZ",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 49,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LZ"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tilj-008-f000",
+      "setupId": "cycle2-advanced-even-qb-tilj-008-f000",
+      "sourcePool": "TILJ",
+      "conditionLabel": "S,Z",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 50,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "S,Z"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tilj-009-f000",
+      "setupId": "cycle2-advanced-even-qb-tilj-009-f000",
+      "sourcePool": "TILJ",
+      "conditionLabel": "OI (3P)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 51,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OI"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tilj-010-f000",
+      "setupId": "cycle2-advanced-even-qb-tilj-010-f000",
+      "sourcePool": "TILJ",
+      "conditionLabel": "ILJ",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 52,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILJ"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tilj-011-f000",
+      "setupId": "cycle2-advanced-even-qb-tilj-011-f000",
+      "sourcePool": "TILJ",
+      "conditionLabel": "L,S 1 (single solution)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 53,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "L,S 1"
+        ],
+        "guidance": "L,S Forms 1/2 use both the next-bag L/S order and the leading piece of the existing TILJ pool; BFS confirms the result."
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tilj-012-f000",
+      "setupId": "cycle2-advanced-even-qb-tilj-012-f000",
+      "sourcePool": "TILJ",
+      "conditionLabel": "L,S 2 (3P)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 54,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "L,S 2"
+        ],
+        "guidance": "L,S Forms 1/2 use both the next-bag L/S order and the leading piece of the existing TILJ pool; BFS confirms the result."
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tilj-013-f000",
+      "setupId": "cycle2-advanced-even-qb-tilj-013-f000",
+      "sourcePool": "TILJ",
+      "conditionLabel": "S,L 1 (single solution)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 55,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "S,L 1"
+        ],
+        "guidance": "S,L Forms 1/2 use both the next-bag S/L order and the leading piece of the existing TILJ pool; BFS confirms the result."
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tilj-014-f000",
+      "setupId": "cycle2-advanced-even-qb-tilj-014-f000",
+      "sourcePool": "TILJ",
+      "conditionLabel": "S,L 2 (3P)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 56,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "S,L 2"
+        ],
+        "guidance": "S,L Forms 1/2 use both the next-bag S/L order and the leading piece of the existing TILJ pool; BFS confirms the result."
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tisz-001-f000",
+      "setupId": "cycle2-advanced-even-qb-tisz-001-f000",
+      "sourcePool": "TISZ",
+      "conditionLabel": "OL (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 57,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OL"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tisz-002-f000",
+      "setupId": "cycle2-advanced-even-qb-tisz-002-f000",
+      "sourcePool": "TISZ",
+      "conditionLabel": "OS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 58,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tisz-003-f000",
+      "setupId": "cycle2-advanced-even-qb-tisz-003-f000",
+      "sourcePool": "TISZ",
+      "conditionLabel": "ILS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 59,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tisz-004-f000",
+      "setupId": "cycle2-advanced-even-qb-tisz-004-f000",
+      "sourcePool": "TISZ",
+      "conditionLabel": "ILZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 60,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILZ"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tisz-005-f000",
+      "setupId": "cycle2-advanced-even-qb-tisz-005-f000",
+      "sourcePool": "TISZ",
+      "conditionLabel": "LJS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 61,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LJS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tisz-006-f000",
+      "setupId": "cycle2-advanced-even-qb-tisz-006-f000",
+      "sourcePool": "TISZ",
+      "conditionLabel": "LSZ 1 (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 62,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LSZ 1"
+        ],
+        "guidance": "LSZ Form 1 has the source [TZ]![IS]! build exception; BFS filters it together with Form 2."
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tisz-007-f000",
+      "setupId": "cycle2-advanced-even-qb-tisz-007-f000",
+      "sourcePool": "TISZ",
+      "conditionLabel": "LSZ 2 (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 63,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LSZ 2"
+        ],
+        "guidance": "LSZ Form 2 covers the [TZ]![IS]! build exception of Form 1."
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tisz-008-f000",
+      "setupId": "cycle2-advanced-even-qb-tisz-008-f000",
+      "sourcePool": "TISZ",
+      "conditionLabel": "ISZ (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 64,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ISZ"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tisz-009-f000",
+      "setupId": "cycle2-advanced-even-qb-tisz-009-f000",
+      "sourcePool": "TISZ",
+      "conditionLabel": "LS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 65,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LS"
+        ],
+        "guidance": "This LS baseline cannot be built when T and Z precede I in the existing TISZ order."
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tisz-010-f000",
+      "setupId": "cycle2-advanced-even-qb-tisz-010-f000",
+      "sourcePool": "TISZ",
+      "conditionLabel": "LZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 66,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LZ"
+        ],
+        "guidance": "BFS filters the source [TS]![IZ]! build exception."
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tisz-011-f000",
+      "setupId": "cycle2-advanced-even-qb-tisz-011-f000",
+      "sourcePool": "TISZ",
+      "conditionLabel": "L (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 67,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "L"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tisz-012-f000",
+      "setupId": "cycle2-advanced-even-qb-tisz-012-f000",
+      "sourcePool": "TISZ",
+      "conditionLabel": "T (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 68,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "T"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tljstljz-001-f000",
+      "setupId": "cycle2-advanced-even-qb-tljstljz-001-f000",
+      "sourcePool": "TLJS",
+      "conditionLabel": "OS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 69,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OS"
+        ]
+      },
+      "mirrorPool": "TLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tljstljz-002-f000",
+      "setupId": "cycle2-advanced-even-qb-tljstljz-002-f000",
+      "sourcePool": "TLJS",
+      "conditionLabel": "IS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 70,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": "TLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tljstljz-003-f000",
+      "setupId": "cycle2-advanced-even-qb-tljstljz-003-f000",
+      "sourcePool": "TLJS",
+      "conditionLabel": "IZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 71,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IZ"
+        ]
+      },
+      "mirrorPool": "TLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tljstljz-004-f000",
+      "setupId": "cycle2-advanced-even-qb-tljstljz-004-f000",
+      "sourcePool": "TLJS",
+      "conditionLabel": "LZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 72,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LZ"
+        ]
+      },
+      "mirrorPool": "TLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tljstljz-005-f000",
+      "setupId": "cycle2-advanced-even-qb-tljstljz-005-f000",
+      "sourcePool": "TLJS",
+      "conditionLabel": "JS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 73,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "JS"
+        ]
+      },
+      "mirrorPool": "TLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tljstljz-006-f000",
+      "setupId": "cycle2-advanced-even-qb-tljstljz-006-f000",
+      "sourcePool": "TLJS",
+      "conditionLabel": "OL (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 74,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OL"
+        ]
+      },
+      "mirrorPool": "TLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tljstljz-007-f000",
+      "setupId": "cycle2-advanced-even-qb-tljstljz-007-f000",
+      "sourcePool": "TLJS",
+      "conditionLabel": "OJ (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 75,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OJ"
+        ]
+      },
+      "mirrorPool": "TLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tljstljz-008-f000",
+      "setupId": "cycle2-advanced-even-qb-tljstljz-008-f000",
+      "sourcePool": "TLJS",
+      "conditionLabel": "JZ (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 76,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "JZ"
+        ]
+      },
+      "mirrorPool": "TLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tljstljz-009-f000",
+      "setupId": "cycle2-advanced-even-qb-tljstljz-009-f000",
+      "sourcePool": "TLJS",
+      "conditionLabel": "SZ (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 77,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "SZ"
+        ]
+      },
+      "mirrorPool": "TLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tljstljz-010-f000",
+      "setupId": "cycle2-advanced-even-qb-tljstljz-010-f000",
+      "sourcePool": "TLJS",
+      "conditionLabel": "ILJ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 78,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILJ"
+        ]
+      },
+      "mirrorPool": "TLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tljstljz-011-f000",
+      "setupId": "cycle2-advanced-even-qb-tljstljz-011-f000",
+      "sourcePool": "TLJS",
+      "conditionLabel": "J<L (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 79,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "J<L"
+        ]
+      },
+      "mirrorPool": "TLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-tljstljz-012-f000",
+      "setupId": "cycle2-advanced-even-qb-tljstljz-012-f000",
+      "sourcePool": "TLJS",
+      "conditionLabel": "TJ (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 80,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TJ"
+        ]
+      },
+      "mirrorPool": "TLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oilj-001-f000",
+      "setupId": "cycle2-advanced-even-qb-oilj-001-f000",
+      "sourcePool": "OILJ",
+      "conditionLabel": "LZ",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 81,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LZ"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oilj-002-f000",
+      "setupId": "cycle2-advanced-even-qb-oilj-002-f000",
+      "sourcePool": "OILJ",
+      "conditionLabel": "JS",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 82,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "JS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oilj-003-f000",
+      "setupId": "cycle2-advanced-even-qb-oilj-003-f000",
+      "sourcePool": "OILJ",
+      "conditionLabel": "All Other Cases (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 83,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "All Other Cases"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oisz-001-f000",
+      "setupId": "cycle2-advanced-even-qb-oisz-001-f000",
+      "sourcePool": "OISZ",
+      "conditionLabel": "I (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 84,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "I"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oisz-002-f000",
+      "setupId": "cycle2-advanced-even-qb-oisz-002-f000",
+      "sourcePool": "OISZ",
+      "conditionLabel": "OL (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 85,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OL"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oisz-003-f000",
+      "setupId": "cycle2-advanced-even-qb-oisz-003-f000",
+      "sourcePool": "OISZ",
+      "conditionLabel": "LS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 86,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oisz-004-f000",
+      "setupId": "cycle2-advanced-even-qb-oisz-004-f000",
+      "sourcePool": "OISZ",
+      "conditionLabel": "SZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 87,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "SZ"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oisz-005-f000",
+      "setupId": "cycle2-advanced-even-qb-oisz-005-f000",
+      "sourcePool": "OISZ",
+      "conditionLabel": "[LJ]!X · S<Z → OIS 3P",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 88,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "[LJ]!X"
+        ],
+        "buildOrderBefore": [
+          "S",
+          "Z"
+        ],
+        "automaticMirror": false,
+        "guidance": "The next bag matches [LJ]!X; use the OIS orientation when S precedes Z in the existing OISZ pieces."
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oisz-007-f000",
+      "setupId": "cycle2-advanced-even-qb-oisz-007-f000",
+      "sourcePool": "OISZ",
+      "conditionLabel": "[LJ]!X · Z<S → OIZ 3P",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 89,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "[LJ]!X"
+        ],
+        "buildOrderBefore": [
+          "Z",
+          "S"
+        ],
+        "automaticMirror": false,
+        "guidance": "The next bag matches [LJ]!X; use the OIZ orientation when Z precedes S in the existing OISZ pieces."
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oisz-009-f000",
+      "setupId": "cycle2-advanced-even-qb-oisz-009-f000",
+      "sourcePool": "OISZ",
+      "conditionLabel": "TL (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 90,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TL"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oisz-010-f000",
+      "setupId": "cycle2-advanced-even-qb-oisz-010-f000",
+      "sourcePool": "OISZ",
+      "conditionLabel": "TS (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 91,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oljsoljz-001-f000",
+      "setupId": "cycle2-advanced-even-qb-oljsoljz-001-f000",
+      "sourcePool": "OLJS",
+      "conditionLabel": "Z",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 92,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "Z"
+        ]
+      },
+      "mirrorPool": "OLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oljsoljz-002-f000",
+      "setupId": "cycle2-advanced-even-qb-oljsoljz-002-f000",
+      "sourcePool": "OLJS",
+      "conditionLabel": "O,Z",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 93,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "O,Z"
+        ]
+      },
+      "mirrorPool": "OLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oljsoljz-003-f000",
+      "setupId": "cycle2-advanced-even-qb-oljsoljz-003-f000",
+      "sourcePool": "OLJS",
+      "conditionLabel": "IS",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 94,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": "OLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oljsoljz-004-f000",
+      "setupId": "cycle2-advanced-even-qb-oljsoljz-004-f000",
+      "sourcePool": "OLJS",
+      "conditionLabel": "JS",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 95,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "JS"
+        ]
+      },
+      "mirrorPool": "OLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oljsoljz-005-f000",
+      "setupId": "cycle2-advanced-even-qb-oljsoljz-005-f000",
+      "sourcePool": "OLJS",
+      "conditionLabel": "OL 3P",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 96,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OL 3P"
+        ]
+      },
+      "mirrorPool": "OLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oljsoljz-006-f000",
+      "setupId": "cycle2-advanced-even-qb-oljsoljz-006-f000",
+      "sourcePool": "OLJS",
+      "conditionLabel": "OJ 3P",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 97,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OJ 3P"
+        ]
+      },
+      "mirrorPool": "OLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oljsoljz-007-f000",
+      "setupId": "cycle2-advanced-even-qb-oljsoljz-007-f000",
+      "sourcePool": "OLJS",
+      "conditionLabel": "OS 3P",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 98,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OS 3P"
+        ]
+      },
+      "mirrorPool": "OLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oljsoljz-008-f000",
+      "setupId": "cycle2-advanced-even-qb-oljsoljz-008-f000",
+      "sourcePool": "OLJS",
+      "conditionLabel": "LS 4P",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 99,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LS 4P"
+        ]
+      },
+      "mirrorPool": "OLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-oljsoljz-009-f000",
+      "setupId": "cycle2-advanced-even-qb-oljsoljz-009-f000",
+      "sourcePool": "OLJS",
+      "conditionLabel": "LJ 4P",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 100,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LJ 4P"
+        ]
+      },
+      "mirrorPool": "OLJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-iljsiljz-001-f000",
+      "setupId": "cycle2-advanced-even-qb-iljsiljz-001-f000",
+      "sourcePool": "ILJS",
+      "conditionLabel": "Z",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 101,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "Z"
+        ]
+      },
+      "mirrorPool": "ILJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-iljsiljz-002-f000",
+      "setupId": "cycle2-advanced-even-qb-iljsiljz-002-f000",
+      "sourcePool": "ILJS",
+      "conditionLabel": "IS",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 102,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": "ILJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-iljsiljz-003-f000",
+      "setupId": "cycle2-advanced-even-qb-iljsiljz-003-f000",
+      "sourcePool": "ILJS",
+      "conditionLabel": "I,O",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 103,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "I,O"
+        ]
+      },
+      "mirrorPool": "ILJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-iljsiljz-004-f000",
+      "setupId": "cycle2-advanced-even-qb-iljsiljz-004-f000",
+      "sourcePool": "ILJS",
+      "conditionLabel": "SZ",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 104,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "SZ"
+        ]
+      },
+      "mirrorPool": "ILJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-iljsiljz-005-f000",
+      "setupId": "cycle2-advanced-even-qb-iljsiljz-005-f000",
+      "sourcePool": "ILJS",
+      "conditionLabel": "LS / JS",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 105,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LS",
+          "JS"
+        ]
+      },
+      "mirrorPool": "ILJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-iljsiljz-006-f000",
+      "setupId": "cycle2-advanced-even-qb-iljsiljz-006-f000",
+      "sourcePool": "ILJS",
+      "conditionLabel": "LJ",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 106,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LJ"
+        ]
+      },
+      "mirrorPool": "ILJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-iljsiljz-007-f000",
+      "setupId": "cycle2-advanced-even-qb-iljsiljz-007-f000",
+      "sourcePool": "ILJS",
+      "conditionLabel": "O (3P)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 107,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "O"
+        ]
+      },
+      "mirrorPool": "ILJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-iljsiljz-008-f000",
+      "setupId": "cycle2-advanced-even-qb-iljsiljz-008-f000",
+      "sourcePool": "ILJS",
+      "conditionLabel": "IL/IJ (3P, Form 1)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 108,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IL",
+          "IJ"
+        ]
+      },
+      "mirrorPool": "ILJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-iljsiljz-009-f000",
+      "setupId": "cycle2-advanced-even-qb-iljsiljz-009-f000",
+      "sourcePool": "ILJS",
+      "conditionLabel": "IL (3P, Form 2)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 109,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IL"
+        ]
+      },
+      "mirrorPool": "ILJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-iljsiljz-010-f000",
+      "setupId": "cycle2-advanced-even-qb-iljsiljz-010-f000",
+      "sourcePool": "ILJS",
+      "conditionLabel": "IJ (3P, Form 2)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 110,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IJ"
+        ]
+      },
+      "mirrorPool": "ILJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-ljsz-001-f000",
+      "setupId": "cycle2-advanced-even-qb-ljsz-001-f000",
+      "sourcePool": "LJSZ",
+      "conditionLabel": "OS",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 111,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-ljsz-002-f000",
+      "setupId": "cycle2-advanced-even-qb-ljsz-002-f000",
+      "sourcePool": "LJSZ",
+      "conditionLabel": "IS",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 112,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-ljsz-003-f000",
+      "setupId": "cycle2-advanced-even-qb-ljsz-003-f000",
+      "sourcePool": "LJSZ",
+      "conditionLabel": "LS",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 113,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LS"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-ljsz-004-f000",
+      "setupId": "cycle2-advanced-even-qb-ljsz-004-f000",
+      "sourcePool": "LJSZ",
+      "conditionLabel": "SZ",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 114,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "SZ"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-ljsz-005-f000",
+      "setupId": "cycle2-advanced-even-qb-ljsz-005-f000",
+      "sourcePool": "LJSZ",
+      "conditionLabel": "OL (3P)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 115,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OL"
+        ],
+        "guidance": "If S is last in the next bag, place the first S over J before continuing."
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-ljsz-006-f000",
+      "setupId": "cycle2-advanced-even-qb-ljsz-006-f000",
+      "sourcePool": "LJSZ",
+      "conditionLabel": "LZ",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 116,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LZ"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-ljsz-007-f000",
+      "setupId": "cycle2-advanced-even-qb-ljsz-007-f000",
+      "sourcePool": "LJSZ",
+      "conditionLabel": "I,L (Form 1)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 117,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "I,L"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-ljsz-008-f000",
+      "setupId": "cycle2-advanced-even-qb-ljsz-008-f000",
+      "sourcePool": "LJSZ",
+      "conditionLabel": "I,L (Form 2, 3P)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 118,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "I,L"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-even-qb-ljsz-009-f000",
+      "setupId": "cycle2-advanced-even-qb-ljsz-009-f000",
+      "sourcePool": "LJSZ",
+      "conditionLabel": "L,I (3P)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 119,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "L,I"
+        ]
+      },
+      "mirrorPool": null,
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-001-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-001-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "OS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 1,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OS"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-002-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-002-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "OZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 2,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OZ"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-003-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-003-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "IS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 3,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-004-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-004-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "IZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 4,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IZ"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-005-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-005-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "LZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 5,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LZ"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-006-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-006-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "JS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 6,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "JS"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-007-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-007-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "J<Z (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 7,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "J<Z"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-008-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-008-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "Z<J (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 8,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "Z<J"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-009-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-009-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "OI (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 9,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OI"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-010-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-010-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "SZ (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 10,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "SZ"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-011-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-011-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "OLJ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 11,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OLJ"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-012-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-012-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "ILJ (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 12,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILJ"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-013-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-013-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "OIL (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 13,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIL"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-014-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-014-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "OIJ (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 14,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIJ"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-015-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-015-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "TL (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 15,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TL"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-toiltoij-016-f000",
+      "setupId": "cycle2-advanced-odd-qb-toiltoij-016-f000",
+      "sourcePool": "TOIL",
+      "conditionLabel": "TJ (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 16,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TJ"
+        ]
+      },
+      "mirrorPool": "TOIJ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolstojz-001-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolstojz-001-f000",
+      "sourcePool": "TOLS",
+      "conditionLabel": "OS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 17,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OS"
+        ]
+      },
+      "mirrorPool": "TOJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolstojz-002-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolstojz-002-f000",
+      "sourcePool": "TOLS",
+      "conditionLabel": "IS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 18,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": "TOJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolstojz-003-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolstojz-003-f000",
+      "sourcePool": "TOLS",
+      "conditionLabel": "IZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 19,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IZ"
+        ]
+      },
+      "mirrorPool": "TOJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolstojz-004-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolstojz-004-f000",
+      "sourcePool": "TOLS",
+      "conditionLabel": "LZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 20,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LZ"
+        ]
+      },
+      "mirrorPool": "TOJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolstojz-005-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolstojz-005-f000",
+      "sourcePool": "TOLS",
+      "conditionLabel": "JS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 21,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "JS"
+        ]
+      },
+      "mirrorPool": "TOJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolstojz-006-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolstojz-006-f000",
+      "sourcePool": "TOLS",
+      "conditionLabel": "OJ (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 22,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OJ"
+        ]
+      },
+      "mirrorPool": "TOJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolstojz-007-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolstojz-007-f000",
+      "sourcePool": "TOLS",
+      "conditionLabel": "J<L (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 23,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "J<L"
+        ]
+      },
+      "mirrorPool": "TOJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolstojz-008-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolstojz-008-f000",
+      "sourcePool": "TOLS",
+      "conditionLabel": "L<J (save T/O)",
+      "saveTargets": [
+        "O",
+        "T"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 24,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "L<J"
+        ]
+      },
+      "mirrorPool": "TOJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolstojz-009-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolstojz-009-f000",
+      "sourcePool": "TOLS",
+      "conditionLabel": "[OL]!I (3P, save T/O)",
+      "saveTargets": [
+        "O",
+        "T"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 25,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "[OL]!I"
+        ]
+      },
+      "mirrorPool": "TOJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolstojz-010-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolstojz-010-f000",
+      "sourcePool": "TOLS",
+      "conditionLabel": "I<L (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 26,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "I<L"
+        ]
+      },
+      "mirrorPool": "TOJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolstojz-011-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolstojz-011-f000",
+      "sourcePool": "TOLS",
+      "conditionLabel": "T (3P, save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 27,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "T"
+        ]
+      },
+      "mirrorPool": "TOJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolstojz-012-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolstojz-012-f000",
+      "sourcePool": "TOLS",
+      "conditionLabel": "TZ (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 28,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TZ"
+        ]
+      },
+      "mirrorPool": "TOJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolztojs-001-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolztojs-001-f000",
+      "sourcePool": "TOLZ",
+      "conditionLabel": "S (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 29,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "S"
+        ]
+      },
+      "mirrorPool": "TOJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolztojs-002-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolztojs-002-f000",
+      "sourcePool": "TOLZ",
+      "conditionLabel": "OZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 30,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OZ"
+        ]
+      },
+      "mirrorPool": "TOJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolztojs-003-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolztojs-003-f000",
+      "sourcePool": "TOLZ",
+      "conditionLabel": "IZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 31,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IZ"
+        ]
+      },
+      "mirrorPool": "TOJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolztojs-004-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolztojs-004-f000",
+      "sourcePool": "TOLZ",
+      "conditionLabel": "LZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 32,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LZ"
+        ]
+      },
+      "mirrorPool": "TOJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolztojs-005-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolztojs-005-f000",
+      "sourcePool": "TOLZ",
+      "conditionLabel": "OLJ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 33,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OLJ"
+        ]
+      },
+      "mirrorPool": "TOJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolztojs-006-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolztojs-006-f000",
+      "sourcePool": "TOLZ",
+      "conditionLabel": "OIJ (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 34,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIJ"
+        ]
+      },
+      "mirrorPool": "TOJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolztojs-007-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolztojs-007-f000",
+      "sourcePool": "TOLZ",
+      "conditionLabel": "TOI (3P, save T/O)",
+      "saveTargets": [
+        "O",
+        "T"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 35,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TOI"
+        ]
+      },
+      "mirrorPool": "TOJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolztojs-008-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolztojs-008-f000",
+      "sourcePool": "TOLZ",
+      "conditionLabel": "OIL (3P, save T/O)",
+      "saveTargets": [
+        "O",
+        "T"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 36,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIL"
+        ]
+      },
+      "mirrorPool": "TOJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolztojs-009-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolztojs-009-f000",
+      "sourcePool": "TOLZ",
+      "conditionLabel": "ILJ (3P, save T/O)",
+      "saveTargets": [
+        "O",
+        "T"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 37,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILJ"
+        ]
+      },
+      "mirrorPool": "TOJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolztojs-010-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolztojs-010-f000",
+      "sourcePool": "TOLZ",
+      "conditionLabel": "TL (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 38,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TL"
+        ]
+      },
+      "mirrorPool": "TOJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolztojs-011-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolztojs-011-f000",
+      "sourcePool": "TOLZ",
+      "conditionLabel": "TJ (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 39,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TJ"
+        ]
+      },
+      "mirrorPool": "TOJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tolztojs-012-f000",
+      "setupId": "cycle2-advanced-odd-qb-tolztojs-012-f000",
+      "sourcePool": "TOLZ",
+      "conditionLabel": "TS (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 40,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TS"
+        ]
+      },
+      "mirrorPool": "TOJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilstijz-001-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilstijz-001-f000",
+      "sourcePool": "TILS",
+      "conditionLabel": "OS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 41,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OS"
+        ]
+      },
+      "mirrorPool": "TIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilstijz-002-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilstijz-002-f000",
+      "sourcePool": "TILS",
+      "conditionLabel": "OZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 42,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OZ"
+        ]
+      },
+      "mirrorPool": "TIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilstijz-003-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilstijz-003-f000",
+      "sourcePool": "TILS",
+      "conditionLabel": "IS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 43,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": "TIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilstijz-004-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilstijz-004-f000",
+      "sourcePool": "TILS",
+      "conditionLabel": "LZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 44,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LZ"
+        ]
+      },
+      "mirrorPool": "TIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilstijz-005-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilstijz-005-f000",
+      "sourcePool": "TILS",
+      "conditionLabel": "JS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 45,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "JS"
+        ]
+      },
+      "mirrorPool": "TIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilstijz-006-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilstijz-006-f000",
+      "sourcePool": "TILS",
+      "conditionLabel": "SZ (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 46,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "SZ"
+        ]
+      },
+      "mirrorPool": "TIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilstijz-007-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilstijz-007-f000",
+      "sourcePool": "TILS",
+      "conditionLabel": "IJZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 47,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IJZ"
+        ]
+      },
+      "mirrorPool": "TIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilstijz-008-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilstijz-008-f000",
+      "sourcePool": "TILS",
+      "conditionLabel": "OIL (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 48,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIL"
+        ]
+      },
+      "mirrorPool": "TIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilstijz-009-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilstijz-009-f000",
+      "sourcePool": "TILS",
+      "conditionLabel": "J<L (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 49,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "J<L"
+        ]
+      },
+      "mirrorPool": "TIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilstijz-010-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilstijz-010-f000",
+      "sourcePool": "TILS",
+      "conditionLabel": "O<L (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 50,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "O<L"
+        ]
+      },
+      "mirrorPool": "TIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilstijz-011-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilstijz-011-f000",
+      "sourcePool": "TILS",
+      "conditionLabel": "O<J (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 51,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "O<J"
+        ]
+      },
+      "mirrorPool": "TIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilstijz-012-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilstijz-012-f000",
+      "sourcePool": "TILS",
+      "conditionLabel": "J<O (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 52,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "J<O"
+        ]
+      },
+      "mirrorPool": "TIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilstijz-013-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilstijz-013-f000",
+      "sourcePool": "TILS",
+      "conditionLabel": "T (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 53,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "T"
+        ]
+      },
+      "mirrorPool": "TIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-001-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-001-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "OL (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 54,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OL"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-002-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-002-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "OS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 55,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OS"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-003-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-003-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "OZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 56,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OZ"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-004-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-004-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "IS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 57,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-005-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-005-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "IZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 58,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IZ"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-006-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-006-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "LZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 59,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LZ"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-007-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-007-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "JS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 60,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "JS"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-008-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-008-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "ILJ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 61,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILJ"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-009-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-009-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "LS (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 62,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LS"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-010-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-010-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "OIJ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 63,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIJ"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-011-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-011-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "S<Z (3P 1, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 64,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "S<Z"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-012-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-012-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "S<Z (3P 2, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 65,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "S<Z"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-013-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-013-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "Z<S (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 66,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "Z<S"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-014-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-014-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "J<Z (3P, save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 67,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "J<Z"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tilztijs-015-f000",
+      "setupId": "cycle2-advanced-odd-qb-tilztijs-015-f000",
+      "sourcePool": "TILZ",
+      "conditionLabel": "All Other Cases (3P, save T/O)",
+      "saveTargets": [
+        "O",
+        "T"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 68,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "All Other Cases"
+        ]
+      },
+      "mirrorPool": "TIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-001-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-001-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "OZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 69,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OZ"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-002-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-002-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "LZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 70,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LZ"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-003-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-003-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "OIL (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 71,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIL"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-004-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-004-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "OIJ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 72,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIJ"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-005-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-005-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "OIS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 73,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIS"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-006-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-006-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "OLJ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 74,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OLJ"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-007-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-007-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "OLS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 75,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OLS"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-008-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-008-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "OJS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 76,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OJS"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-009-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-009-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "ILJ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 77,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILJ"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-010-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-010-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "ILS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 78,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILS"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-011-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-011-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "IJS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 79,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IJS"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-012-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-012-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "IJZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 80,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IJZ"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-013-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-013-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "I first / SI/ZI start · ISZ",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 81,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "I[SZ]!",
+          "=SIZ",
+          "=ZIS"
+        ],
+        "guidance": "Use ISZ QB only when I is first or the next bag starts with SI or ZI."
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-014-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-014-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "LJS (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 82,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LJS"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-015-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-015-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "JSZ (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 83,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "JSZ"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-016-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-016-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "T (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 84,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "T"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-017-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-017-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "I<Z (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 85,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "I<Z"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-018-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-018-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "S<I (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 86,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "S<I"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-019-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-019-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "O<L (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 87,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "O<L"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-020-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-020-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "J<Z (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 88,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "J<Z"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-tlsztjsz-021-f000",
+      "setupId": "cycle2-advanced-odd-qb-tlsztjsz-021-f000",
+      "sourcePool": "TLSZ",
+      "conditionLabel": "S<J (save T)",
+      "saveTargets": [
+        "T"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 89,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "S<J"
+        ]
+      },
+      "mirrorPool": "TJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-001-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-001-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "IS (save L)",
+      "saveTargets": [
+        "L"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 90,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-002-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-002-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "IZ (save L)",
+      "saveTargets": [
+        "L"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 91,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IZ"
+        ]
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-003-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-003-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "ILJ 3P",
+      "saveTargets": [
+        "J",
+        "L",
+        "S",
+        "Z"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 92,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILJ 3P"
+        ]
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-004-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-004-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "LJS 4P",
+      "saveTargets": [
+        "L",
+        "Z"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 93,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LJS 4P"
+        ]
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-005-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-005-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "LJZ 4P",
+      "saveTargets": [
+        "J",
+        "L",
+        "S"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 94,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LJZ 4P"
+        ]
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-006-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-006-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "IS (save L)",
+      "saveTargets": [
+        "L"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 95,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-007-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-007-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "IZ (save L)",
+      "saveTargets": [
+        "L"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 96,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IZ"
+        ]
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-008-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-008-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "OJZ (save L)",
+      "saveTargets": [
+        "L"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 97,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OJZ"
+        ]
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-009-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-009-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "TIL/TLJ/TLZ/LJZ (specific solutions)",
+      "saveTargets": [
+        "I",
+        "J",
+        "L",
+        "O"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 98,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TIL",
+          "TLJ",
+          "TLZ",
+          "LJZ"
+        ],
+        "guidance": "Four specific solutions—TIL, TLJ, TLZ, and LJZ—linked to one source image share this QB baseline."
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-010-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-010-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "TJ (Form 1, save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 99,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TJ"
+        ]
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-011-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-011-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "TJ (Form 2, save I)",
+      "saveTargets": [
+        "I"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 100,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TJ"
+        ]
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-012-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-012-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "TS (Form 1, save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 101,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TS"
+        ]
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-013-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-013-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "TS (Form 2, save I/O)",
+      "saveTargets": [
+        "I",
+        "O"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 102,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TS"
+        ]
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-014-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-014-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "TZ (Form 1, save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 103,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TZ"
+        ]
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilsoijz-015-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilsoijz-015-f000",
+      "sourcePool": "OILS",
+      "conditionLabel": "TZ (Form 2, save I/O)",
+      "saveTargets": [
+        "I",
+        "O"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 104,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TZ"
+        ]
+      },
+      "mirrorPool": "OIJZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilzoijs-001-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilzoijs-001-f000",
+      "sourcePool": "OILZ",
+      "conditionLabel": "LJZ (3P Setup 2 coverage)",
+      "saveTargets": [
+        "J",
+        "S"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 105,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LJZ"
+        ]
+      },
+      "mirrorPool": "OIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilzoijs-002-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilzoijs-002-f000",
+      "sourcePool": "OILZ",
+      "conditionLabel": "TL (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 106,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TL"
+        ]
+      },
+      "mirrorPool": "OIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilzoijs-003-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilzoijs-003-f000",
+      "sourcePool": "OILZ",
+      "conditionLabel": "TS (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 107,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TS"
+        ]
+      },
+      "mirrorPool": "OIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilzoijs-004-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilzoijs-004-f000",
+      "sourcePool": "OILZ",
+      "conditionLabel": "IS (save L)",
+      "saveTargets": [
+        "L"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 108,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": "OIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilzoijs-005-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilzoijs-005-f000",
+      "sourcePool": "OILZ",
+      "conditionLabel": "IZ (save L)",
+      "saveTargets": [
+        "L"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 109,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IZ"
+        ]
+      },
+      "mirrorPool": "OIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilzoijs-006-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilzoijs-006-f000",
+      "sourcePool": "OILZ",
+      "conditionLabel": "I>L / [OIL]! · save J",
+      "saveTargets": [
+        "J"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 110,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "I>L",
+          "OIL"
+        ],
+        "guidance": "I should normally precede L, but this QB remains valid for [OIL]! even when I arrives later."
+      },
+      "mirrorPool": "OIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilzoijs-007-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilzoijs-007-f000",
+      "sourcePool": "OILZ",
+      "conditionLabel": "TIJ 3P",
+      "saveTargets": [
+        "L",
+        "O"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 111,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TIJ 3P"
+        ]
+      },
+      "mirrorPool": "OIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilzoijs-008-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilzoijs-008-f000",
+      "sourcePool": "OILZ",
+      "conditionLabel": "TS (save I)",
+      "saveTargets": [
+        "I"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 112,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TS"
+        ]
+      },
+      "mirrorPool": "OIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilzoijs-009-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilzoijs-009-f000",
+      "sourcePool": "OILZ",
+      "conditionLabel": "T<Z (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 113,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "T<Z"
+        ]
+      },
+      "mirrorPool": "OIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-oilzoijs-010-f000",
+      "setupId": "cycle2-advanced-odd-qb-oilzoijs-010-f000",
+      "sourcePool": "OILZ",
+      "conditionLabel": "TZ (save I)",
+      "saveTargets": [
+        "I"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 114,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TZ"
+        ]
+      },
+      "mirrorPool": "OIJS",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-001-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-001-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "TS (save O/I)",
+      "saveTargets": [
+        "I",
+        "O"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 115,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TS"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-002-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-002-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "TLJ (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 116,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TLJ"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-003-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-003-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "OJS (save L)",
+      "saveTargets": [
+        "L"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 117,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OJS"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-004-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-004-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "OLJ 3P",
+      "saveTargets": [
+        "L",
+        "S",
+        "Z"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 118,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OLJ 3P"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-005-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-005-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "[JZ]!I 3P",
+      "saveTargets": [
+        "L",
+        "S"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 119,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "[JZ]!I 3P"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-006-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-006-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "[JZ]!L 3P",
+      "saveTargets": [
+        "L",
+        "S"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 120,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "[JZ]!L 3P"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-007-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-007-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "L[JZ]! 3P",
+      "saveTargets": [
+        "J",
+        "S"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 121,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "L[JZ]! 3P"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-008-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-008-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "[LJ]!I 3P",
+      "saveTargets": [
+        "L",
+        "S",
+        "Z"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 122,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "[LJ]!I 3P"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-009-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-009-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "[LJ]!S 3P 1 (L first)",
+      "saveTargets": [
+        "L",
+        "S",
+        "Z"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 123,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "[LJ]!S"
+        ],
+        "guidance": "Form 1 is the [LJ]!S branch where L precedes S."
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-010-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-010-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "[JS]!L 3P 2 (S first)",
+      "saveTargets": [
+        "L",
+        "Z"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 124,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "[JS]!L"
+        ],
+        "guidance": "Form 2 is the [JS]!L branch where S precedes L."
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-011-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-011-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "TZ (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 125,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TZ"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-012-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-012-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "J>T (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 126,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "J>T"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-013-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-013-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "TIS (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 127,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TIS"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-014-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-014-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "TLS (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 128,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TLS"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-015-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-015-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "TJS (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 129,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TJS"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-016-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-016-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "TOJ (save I)",
+      "saveTargets": [
+        "I"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 130,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TOJ"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-017-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-017-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "OJZ (save I/L)",
+      "saveTargets": [
+        "I",
+        "L"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 131,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OJZ"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-018-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-018-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "I<J (save L)",
+      "saveTargets": [
+        "L"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 132,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "I<J"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-019-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-019-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "IJZ (save L)",
+      "saveTargets": [
+        "L"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 133,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IJZ"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-020-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-020-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "TOI (save J)",
+      "saveTargets": [
+        "J"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 134,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TOI"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-021-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-021-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "TOL (save J)",
+      "saveTargets": [
+        "J"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 135,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TOL"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-022-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-022-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "IS (save J)",
+      "saveTargets": [
+        "J"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 136,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-023-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-023-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "LSZ (save J)",
+      "saveTargets": [
+        "J"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 137,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LSZ"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-024-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-024-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "TJZ 4P",
+      "saveTargets": [
+        "L",
+        "O"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 138,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TJZ 4P"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-025-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-025-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "OIL 3P",
+      "saveTargets": [
+        "J",
+        "L",
+        "S"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 139,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIL 3P"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-026-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-026-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "OSZ 4P",
+      "saveTargets": [
+        "J"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 140,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OSZ 4P"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-olszojsz-027-f000",
+      "setupId": "cycle2-advanced-odd-qb-olszojsz-027-f000",
+      "sourcePool": "OLSZ",
+      "conditionLabel": "JSZ 4P",
+      "saveTargets": [
+        "I",
+        "L",
+        "O"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 141,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "JSZ 4P"
+        ]
+      },
+      "mirrorPool": "OJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-001-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-001-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "TJ (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 142,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TJ"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-002-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-002-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "TIL (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 143,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TIL"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-003-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-003-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "TIS (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 144,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TIS"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-004-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-004-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "TIZ (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 145,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TIZ"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-005-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-005-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "TLS (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 146,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TLS"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-006-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-006-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "TLZ (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 147,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TLZ"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-007-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-007-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "TSZ (save O)",
+      "saveTargets": [
+        "O"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 148,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "TSZ"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-008-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-008-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "OJS (save L)",
+      "saveTargets": [
+        "L"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 149,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OJS"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-009-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-009-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "OJZ (save L)",
+      "saveTargets": [
+        "L"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 150,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OJZ"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-010-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-010-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "IJZ (save L)",
+      "saveTargets": [
+        "L"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 151,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IJZ"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-011-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-011-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "JSZ (save L)",
+      "saveTargets": [
+        "L"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 152,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "JSZ"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-012-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-012-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "IS (save J)",
+      "saveTargets": [
+        "J"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 153,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "IS"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-013-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-013-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "OIL (save J)",
+      "saveTargets": [
+        "J"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 154,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIL"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-014-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-014-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "OIZ (save J)",
+      "saveTargets": [
+        "J"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 155,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIZ"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-015-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-015-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "OLS (save J)",
+      "saveTargets": [
+        "J"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 156,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OLS"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-016-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-016-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "OSZ (save J)",
+      "saveTargets": [
+        "J"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 157,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OSZ"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-017-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-017-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "ILZ (save J)",
+      "saveTargets": [
+        "J"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 158,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILZ"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-018-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-018-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "ILZ alternate order",
+      "saveTargets": [
+        "J"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 159,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILZ alternate order"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-019-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-019-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "OIJ 4P",
+      "saveTargets": [
+        "L",
+        "Z"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 160,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OIJ 4P"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-020-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-020-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "OLJ 4P",
+      "saveTargets": [
+        "J",
+        "S"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 161,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OLJ 4P"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-021-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-021-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "OLZ 4P",
+      "saveTargets": [
+        "J",
+        "S"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 162,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "OLZ 4P"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-022-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-022-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "LSZ 3P",
+      "saveTargets": [
+        "J",
+        "L"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 163,
+      "setupBuildPieceCount": 3,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LSZ 3P"
+        ]
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-023-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-023-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "ILJ 4P",
+      "saveTargets": [
+        "J"
+      ],
+      "saveTargetMode": "fixed",
+      "sourceOrder": 164,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "ILJ 4P"
+        ],
+        "guidance": "ILJ 4P is buildable only when L or Z is early among the existing ILSZ pieces."
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    },
+    {
+      "id": "policy-cycle2-advanced-odd-qb-ilszijsz-024-f000",
+      "setupId": "cycle2-advanced-odd-qb-ilszijsz-024-f000",
+      "sourcePool": "ILSZ",
+      "conditionLabel": "LJS 4P",
+      "saveTargets": [
+        "J",
+        "O",
+        "Z"
+      ],
+      "saveTargetMode": "solution-dependent",
+      "sourceOrder": 165,
+      "setupBuildPieceCount": 4,
+      "runtimeCondition": {
+        "includeNextBagPatterns": [
+          "LJS 4P"
+        ],
+        "guidance": "LJS 4P is buildable only when L is early among the existing ILSZ pieces."
+      },
+      "mirrorPool": "IJSZ",
+      "runtimeEnabled": true
+    }
+  ]
+}

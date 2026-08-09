@@ -1,0 +1,754 @@
+{
+  "id": "pcinfokorea-cycle-2-advanced-3p-v1",
+  "schemaVersion": 2,
+  "cycle": 2,
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle2-advanced-toistoiz-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-toistoiz-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-tolj-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-tolj-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-tolj-003-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-tosz-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-tosz-001-f001",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "right"
+    },
+    {
+      "setupId": "cycle2-advanced-tilj-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-tilj-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-tisz-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-tisz-001-f001",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "right"
+    },
+    {
+      "setupId": "cycle2-advanced-tljstljz-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "right"
+    },
+    {
+      "setupId": "cycle2-advanced-tljstljz-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "right"
+    },
+    {
+      "setupId": "cycle2-advanced-tljstljz-002-f001",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "right"
+    },
+    {
+      "setupId": "cycle2-advanced-tljstljz-003-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "right"
+    },
+    {
+      "setupId": "cycle2-advanced-oilj-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-oisz-001-f000",
+      "values": {
+        "solveRate": 99.84
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-oisz-001-f001",
+      "values": {
+        "solveRate": 99.84
+      },
+      "direction": "right"
+    },
+    {
+      "setupId": "cycle2-advanced-oljsoljz-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-oljsoljz-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-oljsoljz-003-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-iljsiljz-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-iljsiljz-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-ljsz-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-ljsz-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-toiltoij-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-tolstojz-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-tolstojz-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-tolztojs-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-tolztojs-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-tilstijz-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-tilstijz-003-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-tilstijz-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-tilztijs-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-tilztijs-003-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "right"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-tilztijs-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-tlsztjsz-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-tlsztjsz-002-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "right"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-tlsztjsz-003-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "right"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-oilsoijz-001-f000",
+      "values": {
+        "solveRate": 99.37
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-oilsoijz-002-f000",
+      "values": {
+        "solveRate": 99.58
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-oilzoijs-001-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-oilzoijs-002-f000",
+      "values": {
+        "solveRate": 99.88
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-olszojsz-001-f000",
+      "values": {
+        "solveRate": 98.93
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-olszojsz-003-f000",
+      "values": {
+        "solveRate": 98.13
+      },
+      "direction": "right"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-olszojsz-002-f000",
+      "values": {
+        "solveRate": 97.38
+      },
+      "direction": "neutral"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-ilszijsz-001-f000",
+      "values": {
+        "solveRate": 99.17
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-ilszijsz-002-f000",
+      "values": {
+        "solveRate": 97.18
+      },
+      "direction": "left"
+    },
+    {
+      "setupId": "cycle2-advanced-odd-ilszijsz-003-f000",
+      "values": {
+        "solveRate": 96.11
+      },
+      "direction": "right"
+    }
+  ],
+  "buildConstraints": [
+    {
+      "id": "cycle2-advanced-toistoiz-001-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-toistoiz-001-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "IOST"
+    },
+    {
+      "id": "cycle2-advanced-toistoiz-002-f000-save-o",
+      "candidateSetupIds": [
+        "cycle2-advanced-toistoiz-002-f000"
+      ],
+      "requiredSavedPiece": "O",
+      "exactPoolSignature": "IOST"
+    },
+    {
+      "id": "cycle2-advanced-tolj-001-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-tolj-001-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "JLOT"
+    },
+    {
+      "id": "cycle2-advanced-tolj-002-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-tolj-002-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "JLOT"
+    },
+    {
+      "id": "cycle2-advanced-tolj-003-f000-save-o",
+      "candidateSetupIds": [
+        "cycle2-advanced-tolj-003-f000"
+      ],
+      "requiredSavedPiece": "O",
+      "exactPoolSignature": "JLOT"
+    },
+    {
+      "id": "cycle2-advanced-tosz-001-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-tosz-001-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "OSTZ"
+    },
+    {
+      "id": "cycle2-advanced-tosz-001-f001-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-tosz-001-f001"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "OSTZ"
+    },
+    {
+      "id": "cycle2-advanced-tilj-001-f000-save-j",
+      "candidateSetupIds": [
+        "cycle2-advanced-tilj-001-f000"
+      ],
+      "requiredSavedPiece": "J",
+      "exactPoolSignature": "IJLT"
+    },
+    {
+      "id": "cycle2-advanced-tilj-002-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-tilj-002-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "IJLT"
+    },
+    {
+      "id": "cycle2-advanced-tisz-001-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-tisz-001-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "ISTZ"
+    },
+    {
+      "id": "cycle2-advanced-tisz-001-f001-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-tisz-001-f001"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "ISTZ"
+    },
+    {
+      "id": "cycle2-advanced-tljstljz-001-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-tljstljz-001-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "JLST"
+    },
+    {
+      "id": "cycle2-advanced-tljstljz-002-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-tljstljz-002-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "JLST"
+    },
+    {
+      "id": "cycle2-advanced-tljstljz-002-f001-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-tljstljz-002-f001"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "JLST"
+    },
+    {
+      "id": "cycle2-advanced-tljstljz-003-f000-save-j",
+      "candidateSetupIds": [
+        "cycle2-advanced-tljstljz-003-f000"
+      ],
+      "requiredSavedPiece": "J",
+      "exactPoolSignature": "JLST"
+    },
+    {
+      "id": "cycle2-advanced-oilj-001-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-oilj-001-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "IJLO"
+    },
+    {
+      "id": "cycle2-advanced-oisz-001-f000-save-i",
+      "candidateSetupIds": [
+        "cycle2-advanced-oisz-001-f000"
+      ],
+      "requiredSavedPiece": "I",
+      "exactPoolSignature": "IOSZ"
+    },
+    {
+      "id": "cycle2-advanced-oisz-001-f001-save-i",
+      "candidateSetupIds": [
+        "cycle2-advanced-oisz-001-f001"
+      ],
+      "requiredSavedPiece": "I",
+      "exactPoolSignature": "IOSZ"
+    },
+    {
+      "id": "cycle2-advanced-oljsoljz-001-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-oljsoljz-001-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "JLOS"
+    },
+    {
+      "id": "cycle2-advanced-oljsoljz-002-f000-save-o",
+      "candidateSetupIds": [
+        "cycle2-advanced-oljsoljz-002-f000"
+      ],
+      "requiredSavedPiece": "O",
+      "exactPoolSignature": "JLOS"
+    },
+    {
+      "id": "cycle2-advanced-oljsoljz-003-f000-save-j",
+      "candidateSetupIds": [
+        "cycle2-advanced-oljsoljz-003-f000"
+      ],
+      "requiredSavedPiece": "J",
+      "exactPoolSignature": "JLOS"
+    },
+    {
+      "id": "cycle2-advanced-iljsiljz-001-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-iljsiljz-001-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "IJLS"
+    },
+    {
+      "id": "cycle2-advanced-iljsiljz-002-f000-save-j",
+      "candidateSetupIds": [
+        "cycle2-advanced-iljsiljz-002-f000"
+      ],
+      "requiredSavedPiece": "J",
+      "exactPoolSignature": "IJLS"
+    },
+    {
+      "id": "cycle2-advanced-ljsz-001-f000-save-z",
+      "candidateSetupIds": [
+        "cycle2-advanced-ljsz-001-f000"
+      ],
+      "requiredSavedPiece": "Z",
+      "exactPoolSignature": "JLSZ"
+    },
+    {
+      "id": "cycle2-advanced-ljsz-002-f000-save-j",
+      "candidateSetupIds": [
+        "cycle2-advanced-ljsz-002-f000"
+      ],
+      "requiredSavedPiece": "J",
+      "exactPoolSignature": "JLSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-toiltoij-001-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-toiltoij-001-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "ILOT"
+    },
+    {
+      "id": "cycle2-advanced-odd-tolstojz-001-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-tolstojz-001-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "LOST"
+    },
+    {
+      "id": "cycle2-advanced-odd-tolstojz-002-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-tolstojz-002-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "LOST"
+    },
+    {
+      "id": "cycle2-advanced-odd-tolztojs-001-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-tolztojs-001-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "LOTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-tolztojs-002-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-tolztojs-002-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "LOTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-tilstijz-001-f000-save-i",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-tilstijz-001-f000"
+      ],
+      "requiredSavedPiece": "I",
+      "exactPoolSignature": "ILST"
+    },
+    {
+      "id": "cycle2-advanced-odd-tilstijz-003-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-tilstijz-003-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "ILST"
+    },
+    {
+      "id": "cycle2-advanced-odd-tilstijz-002-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-tilstijz-002-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "ILST"
+    },
+    {
+      "id": "cycle2-advanced-odd-tilztijs-001-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-tilztijs-001-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "ILTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-tilztijs-003-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-tilztijs-003-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "ILTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-tilztijs-002-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-tilztijs-002-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "ILTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-tlsztjsz-001-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-tlsztjsz-001-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "LSTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-tlsztjsz-002-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-tlsztjsz-002-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "LSTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-tlsztjsz-003-f000-save-t",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-tlsztjsz-003-f000"
+      ],
+      "requiredSavedPiece": "T",
+      "exactPoolSignature": "LSTZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-oilsoijz-001-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-oilsoijz-001-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "ILOS"
+    },
+    {
+      "id": "cycle2-advanced-odd-oilsoijz-002-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-oilsoijz-002-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "ILOS"
+    },
+    {
+      "id": "cycle2-advanced-odd-oilzoijs-001-f000-save-l",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-oilzoijs-001-f000"
+      ],
+      "requiredSavedPiece": "L",
+      "exactPoolSignature": "ILOZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-oilzoijs-002-f000-save-z",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-oilzoijs-002-f000"
+      ],
+      "requiredSavedPiece": "Z",
+      "exactPoolSignature": "ILOZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-olszojsz-001-f000-save-s",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-olszojsz-001-f000"
+      ],
+      "requiredSavedPiece": "S",
+      "exactPoolSignature": "LOSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-olszojsz-003-f000-save-o",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-olszojsz-003-f000"
+      ],
+      "requiredSavedPiece": "O",
+      "exactPoolSignature": "LOSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-olszojsz-002-f000-save-z",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-olszojsz-002-f000"
+      ],
+      "requiredSavedPiece": "Z",
+      "exactPoolSignature": "LOSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-ilszijsz-001-f000-save-i",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-ilszijsz-001-f000"
+      ],
+      "requiredSavedPiece": "I",
+      "exactPoolSignature": "ILSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-ilszijsz-002-f000-save-i",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-ilszijsz-002-f000"
+      ],
+      "requiredSavedPiece": "I",
+      "exactPoolSignature": "ILSZ"
+    },
+    {
+      "id": "cycle2-advanced-odd-ilszijsz-003-f000-save-i",
+      "candidateSetupIds": [
+        "cycle2-advanced-odd-ilszijsz-003-f000"
+      ],
+      "requiredSavedPiece": "I",
+      "exactPoolSignature": "ILSZ"
+    }
+  ],
+  "selectionRules": [],
+  "rankingHints": [
+    {
+      "kind": "project-default-save-priority",
+      "valuesByPieceCount": {
+        "3": 0
+      }
+    }
+  ]
+}

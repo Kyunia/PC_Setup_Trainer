@@ -1,0 +1,374 @@
+{
+  "id": "cycle-3-extra-lj-pcinfokorea",
+  "schemaVersion": 2,
+  "cycle": 3,
+  "classId": "extra-lj",
+  "reviewStatus": "reviewed",
+  "metrics": [
+    {
+      "setupId": "cycle3-extra-lj-001-f000",
+      "values": {
+        "solveRate": 96.67
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-002-f000",
+      "values": {
+        "solveRate": 96.67
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-002-f001",
+      "values": {
+        "solveRate": 96.67
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-003-f000",
+      "values": {
+        "solveRate": 96.67
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-004-f000",
+      "values": {
+        "solveRate": 98.57
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-005-f000",
+      "values": {
+        "solveRate": 98.1
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-006-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-007-f000",
+      "values": {
+        "solveRate": 99.96
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-008-f000",
+      "values": {
+        "solveRate": 99.96
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-009-f000",
+      "values": {
+        "solveRate": 99.48
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-010-f000",
+      "values": {
+        "solveRate": 99.25
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-011-f000",
+      "values": {
+        "solveRate": 99.05
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-012-f000",
+      "values": {
+        "solveRate": 99.05
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-013-f000",
+      "values": {
+        "solveRate": 98.57
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-014-f000",
+      "values": {
+        "solveRate": 98.29
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-015-f000",
+      "values": {
+        "solveRate": 98.18
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-016-f000",
+      "values": {
+        "solveRate": 98.18
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-017-f000",
+      "values": {
+        "solveRate": 98.1
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-018-f000",
+      "values": {
+        "solveRate": 97.98
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-019-f000",
+      "values": {
+        "solveRate": 97.58
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-020-f000",
+      "values": {
+        "solveRate": 96.35
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-021-f000",
+      "values": {
+        "solveRate": 95.79
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-022-f000",
+      "values": {
+        "solveRate": 95.08
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-023-f000",
+      "values": {
+        "solveRate": 82.14
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-024-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-025-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-026-f000",
+      "values": {
+        "solveRate": 100
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-027-f000",
+      "values": {
+        "solveRate": 99.96
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-028-f000",
+      "values": {
+        "solveRate": 99.96
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-029-f000",
+      "values": {
+        "solveRate": 99.76
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-030-f000",
+      "values": {
+        "solveRate": 99.72
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-031-f000",
+      "values": {
+        "solveRate": 99.52
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-032-f000",
+      "values": {
+        "solveRate": 98.41
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-033-f000",
+      "values": {
+        "solveRate": 97.5
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-034-f000",
+      "values": {
+        "solveRate": 95.56
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-035-f000",
+      "values": {
+        "solveRate": 94.29
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-036-f000",
+      "values": {
+        "solveRate": 93.33
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-037-f000",
+      "values": {
+        "solveRate": 93.06
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-038-f000",
+      "values": {
+        "solveRate": 90.95
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-039-f000",
+      "values": {
+        "solveRate": 87.06
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-040-f000",
+      "values": {
+        "solveRate": 99.84
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-041-f000",
+      "values": {
+        "solveRate": 99.84
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-042-f000",
+      "values": {
+        "solveRate": 99.84
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-043-f000",
+      "values": {
+        "solveRate": 99.09
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-044-f000",
+      "values": {
+        "solveRate": 98.29
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-045-f000",
+      "values": {
+        "solveRate": 97.5
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-046-f000",
+      "values": {
+        "solveRate": 97.02
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-047-f000",
+      "values": {
+        "solveRate": 94.44
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-048-f000",
+      "values": {
+        "solveRate": 93.53
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-049-f000",
+      "values": {
+        "solveRate": 93.14
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-050-f000",
+      "values": {
+        "solveRate": 87.54
+      },
+      "direction": "source"
+    },
+    {
+      "setupId": "cycle3-extra-lj-051-f000",
+      "values": {
+        "solveRate": 85.04
+      },
+      "direction": "source"
+    }
+  ],
+  "selectionRules": []
+}
