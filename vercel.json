@@ -19,7 +19,7 @@
       "destination": "/replay.html"
     },
     {
-      "source": "^/replay/(\\d{1,32})/?$",
+      "source": "/replay/:id",
       "destination": "/replay.html"
     }
   ]
