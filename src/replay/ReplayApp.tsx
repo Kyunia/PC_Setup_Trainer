@@ -333,7 +333,7 @@ export function ReplayApp() {
 
     {!replay && <section className="replay-loader" aria-labelledby="load-replay-title">
       <h2 id="load-replay-title">Load a Replay</h2>
-      <p>Paste a QPCR code, a raw Jstris replay code, or a Jstris replay link. URL lookup uses the Vercel proxy; Jstris conversion runs locally in a Web Worker.</p>
+      <p>Paste a QPCR code, a raw Jstris replay code, or a Jstris replay link.</p>
       <textarea value={input} onChange={(event) => setInput(event.target.value)} placeholder={`${QPCR3_CODE_PREFIX}… or Jstris N4Ig…`} aria-label="Replay code" />
       <div><button type="button" className="primary-button" disabled={loading} onClick={() => void loadReplay(input)}>{loading ? "Loading…" : "Load Replay"}</button><label className="file-button">Choose File<input type="file" accept=".txt,.bin,text/plain,application/json,application/octet-stream" onChange={chooseFile} disabled={loading} /></label></div>
       {error && <p className="replay-error" role="alert">{error}</p>}
