@@ -5,5 +5,22 @@
     "api/**/*.ts": {
       "maxDuration": 10
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/replay.html",
+      "destination": "/replay",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/replay",
+      "destination": "/replay.html"
+    },
+    {
+      "source": "^/replay/(\\d{1,32})/?$",
+      "destination": "/replay.html"
+    }
+  ]
 }

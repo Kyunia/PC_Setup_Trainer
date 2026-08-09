@@ -20,6 +20,7 @@ import {
   recommendationInputForSegment,
 } from "./recommendationController";
 import { ReplayRecommendationPool } from "./recommendationPool";
+import { jstrisReplayUrlFromViewerPath } from "./replayRoute";
 import { replayShortcutForCode } from "./shortcuts";
 import { buildReplaySetupRecommendationResult, type ReplaySetupRecommendationResult } from "./setupRecommendations";
 import { createReplayTimeline, type ReplayTimeline } from "./timeline";
@@ -78,6 +79,7 @@ export function ReplayApp() {
   const replayGeneration = useRef(0);
   const selectedRecommendationSegment = useRef<string | null>(null);
   const snapshotEntryPosition = useRef<number | null>(null);
+  const initialLoadStarted = useRef(false);
 
   function installReplay(loaded: ReplayTimeline) {
     recommendationPool.current?.cancelAll();
@@ -112,6 +114,14 @@ export function ReplayApp() {
   }
 
   useEffect(() => {
+    if (initialLoadStarted.current) return;
+    initialLoadStarted.current = true;
+    const routeReplayUrl = jstrisReplayUrlFromViewerPath(window.location.pathname);
+    if (routeReplayUrl) {
+      setInput(routeReplayUrl);
+      void loadReplay(routeReplayUrl);
+      return;
+    }
     try {
       const transferred = localStorage.getItem(REPLAY_TRANSFER_STORAGE_KEY);
       if (transferred) {

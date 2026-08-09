@@ -54,7 +54,7 @@ export function ReplayExportDialog({ replay, onClose }: { replay: ReplayData; on
     } catch {
       // The code remains available for manual paste if storage is unavailable.
     }
-    window.open("/replay.html", "_blank", "noopener");
+    window.open("/replay", "_blank", "noopener");
   }
 
   return <div className="settings-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>

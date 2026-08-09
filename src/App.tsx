@@ -287,7 +287,7 @@ export default function App() {
   return <main className="app-shell" onPointerUpCapture={releaseGameplayButtonFocus}>
     <header className="topbar">
       <div><h1>GUIDED PC MODE</h1><p>JST180 · SEE7 · 7-BAG</p></div>
-      <a href="/replay.html">Replay Viewer</a>
+      <a href="/replay">Replay Viewer</a>
     </header>
 
     <section className="game-layout">
