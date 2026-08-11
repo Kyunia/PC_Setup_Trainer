@@ -75,13 +75,19 @@ describe("6회차 6+5 일반 셋업 추천", () => {
         || plan.steps.some(({ action }) => action === "hold"))).toBe(true);
   });
 
-  it("No O의 ILJZ 4×4 box를 회전·이동형까지 탐색해 추천한다", () => {
+  it("No O의 ILJZ 4×4 box는 양쪽 벽 형태만 탐색해 추천한다", () => {
     const candidates = querySetups(query({
       hold: "I",
       active: "J",
       next: ["Z", "L", "T", "S", "Z"],
     }));
     expect(candidates.some(({ setup }) => setup.recommendationGroup === "cycle6-iljs-box")).toBe(true);
+    const boxForms = setupsForCycle6Class("O")
+      .filter(({ recommendationGroup }) => recommendationGroup === "cycle6-iljs-box");
+    expect(boxForms.length).toBeGreaterThan(0);
+    expect(new Set(boxForms.map(({ placements }) => Math.min(
+      ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
+    )))).toEqual(new Set([0, 6]));
   });
 
   it("setup signature의 중복 개수까지 첫 가방 multiset과 대조한다", () => {

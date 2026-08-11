@@ -16,8 +16,8 @@ function stageHierarchyFixture() {
     next: pieces.slice(1),
   };
   const sourcePlan = queryCatalog([source], query)[0]!.plan;
-  const placementOrder = sourcePlan.steps
-    .filter((step): step is Extract<typeof step, { action: "place" }> => step.action === "place")
+  const placementOrder: Piece[] = sourcePlan.steps
+    .filter((step) => step.action === "place")
     .map(({ piece }) => piece);
   const atStage = (count: number, id: string, group = "stage:test-hierarchy"): SetupVariant => {
     const included = new Set(placementOrder.slice(0, count));
@@ -59,7 +59,7 @@ describe("setup catalog/query", () => {
     for (const setup of sourceSetupCatalog) {
       expect(setup.displayName).not.toMatch(/[가-힣]/);
       expect(setup.formLabel ?? "").not.toMatch(/[가-힣]/);
-      for (const alias of setup.aliases ?? []) expect(alias).not.toMatch(/[가-힣]/);
+      for (const alias of (setup as SetupVariant & { aliases?: string[] }).aliases ?? []) expect(alias).not.toMatch(/[가-힣]/);
     }
   });
 
@@ -212,7 +212,7 @@ describe("setup catalog/query", () => {
     expect(cliffO).toMatchObject({ solveRate: 98.1, mirroredSolveRate: 97.74 });
   });
 
-  it("OILJ BOX는 승격본에는 대표 하나만 두고 런타임에서 다섯 minimal과 일곱 위치를 만든다", () => {
+  it("OILJ BOX는 승격 anchor와 허용된 mirror에서만 다섯 minimal을 만든다", () => {
     const source = sourceSetupCatalog.filter(({ id }) => id.startsWith("cycle1-pcinfo-020"));
     expect(source).toHaveLength(1);
     expect(source[0]).toMatchObject({ id: "cycle1-pcinfo-020", formLabel: "ILJO", solveRate: 92.46, saves: 1 });
@@ -221,13 +221,13 @@ describe("setup catalog/query", () => {
       cycle === 1
       && [...pieceSignature].sort().join("") === "IJLO"
       && recommendationGroup === "cycle1-box");
-    expect(runtime).toHaveLength(35);
+    expect(runtime).toHaveLength(10);
     expect(new Set(runtime.map(({ placements }) => Math.min(
       ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
-    )))).toEqual(new Set([0, 1, 2, 3, 4, 5, 6]));
+    )))).toEqual(new Set([0, 6]));
     expect(new Set(runtime
       .map(({ formLabel }) => formLabel?.match(/minimal (\d+)/)?.[1])
-      .filter((value) => value !== undefined)).size).toBe(5);
+      .filter((value) => value !== undefined)).size).toBe(4);
   });
 
   it("같은 BOX 그룹에서 여러 형상이 가능해도 가장 높은 후보 하나만 추천한다", () => {
@@ -250,16 +250,16 @@ describe("setup catalog/query", () => {
     expect(boxes).toHaveLength(2);
     expect(new Set(boxes.map(({ recommendationGroup }) => recommendationGroup))).toEqual(new Set(["cycle1-box"]));
     expect(setupCatalog.filter(({ cycle, recommendationGroup }) =>
-      cycle === 1 && recommendationGroup === "cycle1-box")).toHaveLength(91);
+      cycle === 1 && recommendationGroup === "cycle1-box")).toHaveLength(18);
   });
 
-  it("2회차 OILJ BOX는 SFinder minimal 다섯 개와 일곱 가로 위치만 확장한다", () => {
+  it("2회차 OILJ BOX는 source와 mirror anchor에서만 SFinder minimal을 확장한다", () => {
     const forms = setupCatalog.filter(({ cycle, recommendationGroup }) =>
       cycle === 2 && recommendationGroup === "cycle2-oilj-box");
-    expect(forms).toHaveLength(35);
+    expect(forms).toHaveLength(10);
     expect(new Set(forms.map(({ placements }) => Math.min(
       ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
-    )))).toEqual(new Set([0, 1, 2, 3, 4, 5, 6]));
+    )))).toEqual(new Set([0, 6]));
     expect(forms.every(({ derivedVariant }) => derivedVariant === "box-minimal")).toBe(true);
   });
 

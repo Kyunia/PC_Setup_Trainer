@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { sourceSetupCatalog } from "./catalog";
 import { expandMirroredSetups, mirrorCell, mirrorPiece, mirrorSetup, setupGeometryKey } from "./mirror";
 import { validateSetup } from "./schema";
+import type { SetupVariant } from "./schema";
 
 describe("setup mirror variants", () => {
   it("좌표와 chirality가 있는 미노를 함께 반전한다", () => {
@@ -96,5 +97,32 @@ describe("setup mirror variants", () => {
     const keys = expanded.map(setupGeometryKey);
     expect(new Set(keys).size).toBe(keys.length);
     expect(expanded).toHaveLength(2);
+  });
+
+  it("line-clear solution shadow의 색상과 시각 셀을 정확히 좌우 반전한다", () => {
+    const source: SetupVariant = {
+      id: "shadow",
+      cycle: 5,
+      family: "test",
+      displayName: "Z solution",
+      geometryKind: "solution-shadow",
+      pieceSignature: ["Z"],
+      placements: [{
+        id: "z-projection",
+        piece: "Z",
+        cells: [{ x: 0, y: 0 }, { x: 2, y: 0 }, { x: 3, y: 1 }, { x: 5, y: 3 }],
+      }],
+      fumen: "v115@shadow",
+      difficulty: 3,
+      reviewStatus: "reviewed",
+    };
+
+    const mirrored = mirrorSetup(source);
+    expect(mirrored.geometryKind).toBe("solution-shadow");
+    expect(mirrored.placements[0]).toMatchObject({
+      piece: "S",
+      cells: [{ x: 7, y: 0 }, { x: 9, y: 0 }, { x: 6, y: 1 }, { x: 4, y: 3 }],
+    });
+    expect(validateSetup(mirrored)).toEqual([]);
   });
 });

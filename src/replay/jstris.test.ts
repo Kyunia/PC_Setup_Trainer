@@ -10,6 +10,7 @@ import { convertJstrisCodeToQpcr1 } from "./jstrisLocal";
 import { decodeJstrisReplayCode } from "./jstrisLocal/decode";
 import { JstrisSevenBag } from "./jstrisLocal/randomizer";
 import { normalizeJstrisQpcr1Pose } from "./jstrisLocal/simulator";
+import { decompressFromEncodedURIComponent, LzDecompressionLimitError } from "./jstrisLocal/lzString";
 import type { ReplayDataV1 } from "./schema";
 
 const FIXTURES = [
@@ -55,6 +56,9 @@ function savedFumenSemanticDigest(replay: ReplayDataV1): string {
 }
 
 describe("local Jstris PC Mode replay import", () => {
+  it("aborts URI-safe LZ decompression inside the loop when the output limit is reached", () => {
+    expect(() => decompressFromEncodedURIComponent(fixture01.trim(), 64)).toThrow(LzDecompressionLimitError);
+  });
   it.each(FIXTURES.map((fixture, index) => [index + 1, fixture] as const))(
     "matches saved Fumen golden semantics for fixture %s",
     (_index, fixture) => {
@@ -84,7 +88,7 @@ describe("local Jstris PC Mode replay import", () => {
 
   it("loads a Jstris URL through the proxy then converts locally", async () => {
     const rawJson = JSON.stringify(decodeJstrisReplayCode(fixture05));
-    const fetcher = vi.fn(async () => new Response(rawJson, { status: 200, headers: { "Content-Type": "application/json" } }));
+    const fetcher = vi.fn(async (_input: RequestInfo | URL) => new Response(rawJson, { status: 200, headers: { "Content-Type": "application/json" } }));
     const replay = await importJstrisReplay("https://jstris.jezevec10.com/replay/105149731", fetcher as typeof fetch);
     expect(replay.frames.filter((frame) => frame.kind === "placement")).toHaveLength(219);
     expect(String(fetcher.mock.calls[0]?.[0])).toBe("/api/jstris-replay?id=105149731&type=0");

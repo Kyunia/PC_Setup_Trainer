@@ -244,6 +244,10 @@ function transformedFormLabel(
   return `${base}box ${degrees}° x${targetX}`;
 }
 
+function horizontalTargets(component: BoxComponent): number[] {
+  return [component.minX];
+}
+
 function transformBoxSetup(
   setup: SetupVariant,
   component: BoxComponent,
@@ -320,10 +324,12 @@ function minimalBoxSetup(
 /**
  * 회차와 무관하게 완전히 채워진 4×4 및 3×4 box의 geometry orbit를 만든다.
  *
- * 셋업 전체가 box이면 4×4는 네 방향과 x=0..6, 3×4는 두 180° 방향과
- * x=0..7을 생성한다. `box + O`처럼 나머지 미노가 있으면 그 미노는 그대로
- * 두고 box 부분만 원래 bounding box 안에서 회전한다. source에 이미 모든
- * 방향이 있더라도 geometry 중복은 만들지 않고 같은 attachment별 그룹으로 묶는다.
+ * Box minimal/rotation variants are generated only at each promoted physical
+ * source anchor. Horizontal translations must already exist as canonical
+ * records, explicit equivalentPlacementVariants, or policy-authorized mirrors.
+ * `box + O`처럼 나머지 미노가 있으면 그 미노와 box anchor를 그대로 둔다.
+ * source에 이미 모든 방향이 있더라도 geometry 중복은 만들지 않고 같은
+ * attachment별 그룹으로 묶는다.
  */
 export function expandBoxSetups(sourceCatalog: SetupVariant[]): SetupVariant[] {
   const minimalSources = new Map<SetupVariant, {
@@ -379,12 +385,9 @@ export function expandBoxSetups(sourceCatalog: SetupVariant[]): SetupVariant[] {
     geometryKeysByCycle.set(source.cycle, geometryKeys);
     sourceCopy.recommendationGroup = boxRecommendationGroup(source, component);
 
-    const wholeSetup = component.placementIndexes.length === source.placements.length;
     const turns = component.width === 4 ? [0, 1, 2, 3] : [0, 2];
-    const targetXs = wholeSetup
-      ? Array.from({ length: BOARD_WIDTH - component.width + 1 }, (_, index) => index)
-      : [component.minX];
-    const targetY = wholeSetup ? 0 : component.minY;
+    const targetXs = horizontalTargets(component);
+    const targetY = component.minY;
 
     if (minimal) {
       for (let minimalIndex = 0; minimalIndex < minimal.tilings.length; minimalIndex += 1) {

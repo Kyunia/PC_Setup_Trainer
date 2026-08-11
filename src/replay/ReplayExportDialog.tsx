@@ -8,10 +8,21 @@ import {
 } from "./format";
 import { encodeQpcr3Container } from "./qpcr3";
 
+export type ReplayCodeResult = { code: string; error: null } | { code: ""; error: string };
+
+export function safeEncodeReplayCode(replay: ReplayData): ReplayCodeResult {
+  try {
+    return { code: encodeReplayCode(replay), error: null };
+  } catch (reason) {
+    return { code: "", error: reason instanceof Error ? reason.message : "Replay encoding failed." };
+  }
+}
+
 export function ReplayExportDialog({ replay, onClose }: { replay: ReplayData; onClose: () => void }) {
-  const code = useMemo(() => encodeReplayCode(replay), [replay]);
+  const encoded = useMemo(() => safeEncodeReplayCode(replay), [replay]);
+  const code = encoded.code;
   const recordCount = replay.version === 1 ? replay.frames.filter((frame) => frame.kind === "placement").length : replay.events.eventCount;
-  const [message, setMessage] = useState(`${recordCount} replay ${replay.version === 1 ? "frames" : "lock events"} ready.`);
+  const [message, setMessage] = useState(encoded.error ?? `${recordCount} replay ${replay.version === 1 ? "frames" : "lock events"} ready.`);
 
   useEffect(() => {
     const closeOnEscape = (event: KeyboardEvent) => { if (event.key === "Escape") onClose(); };
@@ -29,23 +40,31 @@ export function ReplayExportDialog({ replay, onClose }: { replay: ReplayData; on
   }
 
   function downloadText() {
-    const url = URL.createObjectURL(new Blob([replayToText(replay)], { type: "text/plain;charset=utf-8" }));
-    const anchor = document.createElement("a");
-    anchor.href = url;
-    anchor.download = replayFileName(replay);
-    anchor.click();
-    URL.revokeObjectURL(url);
-    setMessage("Replay TXT downloaded.");
+    try {
+      const url = URL.createObjectURL(new Blob([replayToText(replay)], { type: "text/plain;charset=utf-8" }));
+      const anchor = document.createElement("a");
+      anchor.href = url;
+      anchor.download = replayFileName(replay);
+      anchor.click();
+      URL.revokeObjectURL(url);
+      setMessage("Replay TXT downloaded.");
+    } catch (reason) {
+      setMessage(reason instanceof Error ? reason.message : "Replay TXT encoding failed.");
+    }
   }
 
   function downloadBinary() {
     if (replay.version !== 3) return;
-    const bytes = encodeQpcr3Container(replay);
-    const url = URL.createObjectURL(new Blob([bytes.slice().buffer as ArrayBuffer], { type: "application/octet-stream" }));
-    const anchor = document.createElement("a");
-    anchor.href = url;
-    anchor.download = replayFileName(replay).replace(/\.txt$/i, ".bin");
-    anchor.click(); URL.revokeObjectURL(url); setMessage("QPCR3 binary downloaded.");
+    try {
+      const bytes = encodeQpcr3Container(replay);
+      const url = URL.createObjectURL(new Blob([bytes.slice().buffer as ArrayBuffer], { type: "application/octet-stream" }));
+      const anchor = document.createElement("a");
+      anchor.href = url;
+      anchor.download = replayFileName(replay).replace(/\.txt$/i, ".bin");
+      anchor.click(); URL.revokeObjectURL(url); setMessage("QPCR3 binary downloaded.");
+    } catch (reason) {
+      setMessage(reason instanceof Error ? reason.message : "QPCR3 binary encoding failed.");
+    }
   }
 
   function openViewer() {
@@ -70,9 +89,9 @@ export function ReplayExportDialog({ replay, onClose }: { replay: ReplayData; on
       <footer className="settings-footer">
         <p aria-live="polite">{message}</p>
         <div>
-          <button type="button" onClick={downloadText}>Download TXT</button>{replay.version === 3 && <button type="button" onClick={downloadBinary}>Download BIN</button>}
-          <button type="button" onClick={copyCode}>Copy Code</button>
-          <button type="button" className="primary-button" onClick={openViewer}>Open Viewer</button>
+          <button type="button" disabled={encoded.error !== null} onClick={downloadText}>Download TXT</button>{replay.version === 3 && <button type="button" disabled={encoded.error !== null} onClick={downloadBinary}>Download BIN</button>}
+          <button type="button" disabled={encoded.error !== null} onClick={copyCode}>Copy Code</button>
+          <button type="button" disabled={encoded.error !== null} className="primary-button" onClick={openViewer}>Open Viewer</button>
         </div>
       </footer>
     </section>

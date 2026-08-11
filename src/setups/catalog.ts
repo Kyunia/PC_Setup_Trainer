@@ -38,6 +38,7 @@ import {
   setupsForCycle5Class,
 } from "./cycle5Catalog";
 import { expandMirroredSetups, mirrorSetup } from "./mirror";
+import { expandEquivalentPlacementVariants } from "./placementVariants";
 import { applyStructuredPolicyMetrics, type StructuredSetupPolicy } from "./policy";
 import { expandBoxSetups } from "./rotation";
 import { assertValidCatalog, type SetupVariant } from "./schema";
@@ -89,19 +90,26 @@ const cycle6T = applyStructuredPolicyMetrics(rawCycle6T as unknown as SetupVaria
 const cycle7Policy = rawCycle7Policy as unknown as StructuredSetupPolicy;
 const cycle7Catalog = applyStructuredPolicyMetrics(rawCycle7 as SetupVariant[], cycle7Policy);
 
-const cycle1RuntimeCatalog = expandBoxSetups(expandMirroredSetups(cycle1Catalog));
+const cycle1RuntimeCatalog = expandBoxSetups(expandMirroredSetups(
+  expandEquivalentPlacementVariants(cycle1Catalog),
+));
 // Expand the two Cycle 2 source catalogs together so an existing cross-catalog
 // mirror geometry remains one physical runtime record. Split the resulting
 // records back into recommendation tiers by their canonical source identity.
-const cycle2RuntimeCatalog = expandBoxSetups(expandMirroredSetups(cycle2Catalog));
+const cycle2RuntimeCatalog = expandBoxSetups(expandMirroredSetups(
+  expandEquivalentPlacementVariants(cycle2Catalog),
+));
 const cycle2StandardSourceIds = new Set(cycle2StandardCatalog.map(({ id }) => id));
 const cycle2Advanced3PSourceIds = new Set(cycle2Advanced3PCatalog.map(({ id }) => id));
-const cycle2CanonicalSourceId = (id: string): string => id.split("--box-")[0].replace(/--mirror$/, "");
-const cycle2StandardRuntimeCatalog = cycle2RuntimeCatalog.filter(({ id }) =>
-  cycle2StandardSourceIds.has(cycle2CanonicalSourceId(id)));
-const cycle2Advanced3PRuntimeCatalog = cycle2RuntimeCatalog.filter(({ id }) =>
-  cycle2Advanced3PSourceIds.has(cycle2CanonicalSourceId(id)));
-const cycle7RuntimeCatalog = expandBoxSetups(expandMirroredSetups(cycle7Catalog));
+const cycle2CanonicalSourceId = (setup: SetupVariant): string =>
+  setup.policySourceId ?? setup.id.split("--box-")[0].replace(/--mirror$/, "");
+const cycle2StandardRuntimeCatalog = cycle2RuntimeCatalog.filter((setup) =>
+  cycle2StandardSourceIds.has(cycle2CanonicalSourceId(setup)));
+const cycle2Advanced3PRuntimeCatalog = cycle2RuntimeCatalog.filter((setup) =>
+  cycle2Advanced3PSourceIds.has(cycle2CanonicalSourceId(setup)));
+const cycle7RuntimeCatalog = expandBoxSetups(expandMirroredSetups(
+  expandEquivalentPlacementVariants(cycle7Catalog),
+));
 const nonClassedSource = [...cycle1Catalog, ...cycle2Catalog, ...cycle7Catalog];
 const nonClassedRuntime = [
   ...cycle1RuntimeCatalog,
@@ -110,13 +118,13 @@ const nonClassedRuntime = [
 ];
 
 const cycle3RuntimeByPiece: Record<Piece, SetupVariant[]> = {
-  O: expandBoxSetups(expandMirroredSetups(cycle3O)),
-  T: expandBoxSetups(expandMirroredSetups(cycle3T)),
-  I: expandBoxSetups(expandMirroredSetups(cycle3I)),
-  L: expandBoxSetups(cycle3LJ),
-  J: expandBoxSetups(cycle3LJ.map(mirrorSetup)),
-  S: expandBoxSetups(cycle3SZ),
-  Z: expandBoxSetups(cycle3SZ.map(mirrorSetup)),
+  O: expandBoxSetups(expandMirroredSetups(expandEquivalentPlacementVariants(cycle3O))),
+  T: expandBoxSetups(expandMirroredSetups(expandEquivalentPlacementVariants(cycle3T))),
+  I: expandBoxSetups(expandMirroredSetups(expandEquivalentPlacementVariants(cycle3I))),
+  L: expandBoxSetups(expandEquivalentPlacementVariants(cycle3LJ)),
+  J: expandBoxSetups(expandEquivalentPlacementVariants(cycle3LJ).map(mirrorSetup)),
+  S: expandBoxSetups(expandEquivalentPlacementVariants(cycle3SZ)),
+  Z: expandBoxSetups(expandEquivalentPlacementVariants(cycle3SZ).map(mirrorSetup)),
 };
 
 interface SymmetryPolicyFile extends StructuredSetupPolicy {
@@ -125,15 +133,19 @@ interface SymmetryPolicyFile extends StructuredSetupPolicy {
 
 function expandSelectedMirrors(catalog: SetupVariant[], policy: StructuredSetupPolicy): SetupVariant[] {
   const ids = new Set((policy as SymmetryPolicyFile).symmetryPolicy?.appliesToSetupIds ?? []);
-  return [...catalog, ...catalog.filter(({ id }) => ids.has(id)).map(mirrorSetup)];
+  const physicalCatalog = expandEquivalentPlacementVariants(catalog);
+  return [
+    ...physicalCatalog,
+    ...physicalCatalog.filter((setup) => ids.has(setup.policySourceId ?? setup.id)).map(mirrorSetup),
+  ];
 }
 
 const cycle6RuntimeByPiece: Record<Piece, SetupVariant[]> = {
-  S: expandBoxSetups(cycle6SZ),
-  Z: expandBoxSetups(cycle6SZ.map(mirrorSetup)),
+  S: expandBoxSetups(expandEquivalentPlacementVariants(cycle6SZ)),
+  Z: expandBoxSetups(expandEquivalentPlacementVariants(cycle6SZ).map(mirrorSetup)),
   O: expandBoxSetups(expandSelectedMirrors(cycle6O, cycle6OPolicy)),
-  L: expandBoxSetups(cycle6LJ),
-  J: expandBoxSetups(cycle6LJ.map(mirrorSetup)),
+  L: expandBoxSetups(expandEquivalentPlacementVariants(cycle6LJ)),
+  J: expandBoxSetups(expandEquivalentPlacementVariants(cycle6LJ).map(mirrorSetup)),
   I: expandBoxSetups(expandSelectedMirrors(cycle6I, cycle6IPolicy)),
   T: expandBoxSetups(expandSelectedMirrors(cycle6T, cycle6TPolicy)),
 };

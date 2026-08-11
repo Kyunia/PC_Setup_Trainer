@@ -1,0 +1,5981 @@
+[
+  {
+    "id": "cycle5-advanced-tstz-001-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-001",
+    "displayName": "TS-[TLJ]! (⇔ TZ-[TLJ]!)",
+    "formLabel": "TS-[TLJ]! (⇔ TZ-[TLJ]!)",
+    "pieceSignature": [
+      "J",
+      "L",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-001-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-001-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-001-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-001-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0Heg0Ieg0R4wwEeglR4ywBeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-002-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-002",
+    "displayName": "TS가 우측에 위치해도 무방함",
+    "formLabel": "TS가 우측에 위치해도 무방함",
+    "pieceSignature": [
+      "J",
+      "L",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-002-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-002-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-002-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-002-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhhlIeglg0EeR4wwgli0BeR4ywJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-003-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-003",
+    "displayName": "TS-[OIS]! (⇔ TZ-[OIZ]!)",
+    "formLabel": "TS-[OIS]! (⇔ TZ-[OIZ]!)",
+    "pieceSignature": [
+      "I",
+      "O",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-003-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-003-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-003-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-003-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhwhIewhAeT4BeRpwhT4CeRpwhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-004-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-004",
+    "displayName": "TS-[OJZ]! (⇔ TZ-[OLS]!)",
+    "formLabel": "TS-[OJZ]! (⇔ TZ-[OLS]!)",
+    "pieceSignature": [
+      "O",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-004-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-004-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-004-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-004-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@BhR4GeR4EeRpAewwBtDeRpywBtMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-005-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-005",
+    "displayName": "TS-[OSZ]! (⇔ TZ-[OSZ]!)",
+    "formLabel": "TS-[OSZ]! (⇔ TZ-[OSZ]!)",
+    "pieceSignature": [
+      "O",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-005-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-005-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-005-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-005-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@AhBtIeBtQ4HewwR4RpDeywQ4RpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-006-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-006",
+    "displayName": "TS-[TSZ]! (T홀드 4p)",
+    "formLabel": "TS-[TSZ]! (T홀드 4p)",
+    "pieceSignature": [
+      "S",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-006-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-006-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-006-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-006-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@AhR4FeAtR4FeBtR4wwEeAtR4ywNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-007-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-007",
+    "displayName": "우측에 위치해도 무방함",
+    "formLabel": "우측에 위치해도 무방함",
+    "pieceSignature": [
+      "S",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-007-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-007-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-007-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-007-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChBtIeBtQ4FeR4wwR4DeR4ywQ4JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-008-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-008",
+    "displayName": "TSTZ 5th [TIS]!로 시작할 경우 셋업 1",
+    "formLabel": "TSTZ 5th [TIS]!로 시작할 경우 셋업 1",
+    "pieceSignature": [
+      "I",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-008-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-008-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-008-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-008-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@AhywHewwFeT4EeT4zhLeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-009-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-009",
+    "displayName": "TSTZ 5th [TIS]!로 시작할 경우 셋업 2",
+    "formLabel": "TSTZ 5th [TIS]!로 시작할 경우 셋업 2",
+    "pieceSignature": [
+      "I",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-009-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-009-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-009-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-009-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChywHewwFeT4EeT4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-010-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-010",
+    "displayName": "TSTZ 5th [ILS]!로 시작할 경우 셋업 1",
+    "formLabel": "TSTZ 5th [ILS]!로 시작할 경우 셋업 1",
+    "pieceSignature": [
+      "L",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-010-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-010-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-010-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-010-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@DhR4hlEeT4glFeR4wwglGeywJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-011-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-011",
+    "displayName": "TSTZ 5th [ILS]!로 시작할 경우 셋업 2",
+    "formLabel": "TSTZ 5th [ILS]!로 시작할 경우 셋업 2",
+    "pieceSignature": [
+      "I",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-011-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-011-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-011-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-011-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@/gwwFewhAeywEewhAeT4DewhT4EewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-012-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-012",
+    "displayName": "TSTZ 5th [OIZ]!로 시작할 경우 셋업 1",
+    "formLabel": "TSTZ 5th [OIZ]!로 시작할 경우 셋업 1",
+    "pieceSignature": [
+      "O",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-012-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-012-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-012-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-012-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhR4GeR4wwRpDeBtxwRpEeBtwwJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-013-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-013",
+    "displayName": "TSTZ 5th [OIZ]!로 시작할 경우 셋업 2",
+    "formLabel": "TSTZ 5th [OIZ]!로 시작할 경우 셋업 2",
+    "pieceSignature": [
+      "O",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-013-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-013-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-013-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-013-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@BhBtIeBtGeR4wwAeRpCeR4ywRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-014-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-014",
+    "displayName": "TSTZ 5th [OLJ]!로 시작할 경우 셋업 4",
+    "formLabel": "TSTZ 5th [OLJ]!로 시작할 경우 셋업 4",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-014-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-014-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-014-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-014-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhglFeQ4ilEewwR4RpDeywQ4RpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-015-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-015",
+    "displayName": "TSTZ 5th [OLS]!로 시작할 경우 셋업 2",
+    "formLabel": "TSTZ 5th [OLS]!로 시작할 경우 셋업 2",
+    "pieceSignature": [
+      "L",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-015-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-015-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-015-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-015-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gywGeglwwR4FeglT4EehlR4PeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-016-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-016",
+    "displayName": "TSTZ 5th [OLS]!로 시작할 경우 셋업 3",
+    "formLabel": "TSTZ 5th [OLS]!로 시작할 경우 셋업 3",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-016-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-016-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-016-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-016-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhwwglRpEexwglRpDeR4wwhlDeR4LeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-017-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-017",
+    "displayName": "TSTZ 5th [OLS]!로 시작할 경우 셋업 4",
+    "formLabel": "TSTZ 5th [OLS]!로 시작할 경우 셋업 4",
+    "pieceSignature": [
+      "L",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-017-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-017-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-017-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-017-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@BhR4GeR4HeR4wwCeglBeR4ywilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-018-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-018",
+    "displayName": "TSTZ 5th [IJZ]!로 시작할 경우 셋업 1",
+    "formLabel": "TSTZ 5th [IJZ]!로 시작할 경우 셋업 1",
+    "pieceSignature": [
+      "J",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-018-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-018-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-018-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-018-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@JhR4AtEeg0R4BtwwDei0AtywMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-019-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-019",
+    "displayName": "TSTZ 5th [IJZ]!로 시작할 경우 셋업 2",
+    "formLabel": "TSTZ 5th [IJZ]!로 시작할 경우 셋업 2",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-019-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-019-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-019-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-019-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChywHewwg0GeR4i0DeR4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-020-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-020",
+    "displayName": "TSTZ 5th [IJZ]!로 시작할 경우 셋업 3",
+    "formLabel": "TSTZ 5th [IJZ]!로 시작할 경우 셋업 3",
+    "pieceSignature": [
+      "J",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-020-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-020-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-020-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-020-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0R4Feg0R4Geg0wwBtFeywBtOeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-021-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-021",
+    "displayName": "TSTZ 5th [IJZ]!로 시작할 경우 셋업 4",
+    "formLabel": "TSTZ 5th [IJZ]!로 시작할 경우 셋업 4",
+    "pieceSignature": [
+      "J",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-021-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-021-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-021-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-021-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhR4GeR4wwg0EeBtxwi0DeBtwwJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-022-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-022",
+    "displayName": "TSTZ 5th [OLJ]!로 시작할 경우 셋업 1",
+    "formLabel": "TSTZ 5th [OLJ]!로 시작할 경우 셋업 1",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-022-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-022-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-022-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-022-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@MhRpBeg0DewwRpR4g0CeywR4h0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-023-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-023",
+    "displayName": "TSTZ 5th [OLJ]!로 시작할 경우 셋업 5",
+    "formLabel": "TSTZ 5th [OLJ]!로 시작할 경우 셋업 5",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-023-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-023-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-023-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-023-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpHeRpwwGeg0ywR4Dei0R4OeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-024-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-024",
+    "displayName": "TSTZ 5th [OLJ]!로 시작할 경우 셋업 6",
+    "formLabel": "TSTZ 5th [OLJ]!로 시작할 경우 셋업 6",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-024-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-024-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-024-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-024-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@BhR4DeglRpR4EeglRpwwFehlywOeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-025-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-025",
+    "displayName": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 2",
+    "formLabel": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 2",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-025-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-025-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-025-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-025-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Ehi0HeQ4g0RpEewwR4RpDeywQ4JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-026-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-026",
+    "displayName": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 1",
+    "formLabel": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 1",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-026-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-026-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-026-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-026-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0Gewhg0Hewhg0R4DeRpwhR4EeRpwhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-027-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-027",
+    "displayName": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 3",
+    "formLabel": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 3",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-027-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-027-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-027-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-027-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0wwFewhg0ywEewhg0R4FewhR4GewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-028-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-028",
+    "displayName": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 4",
+    "formLabel": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 4",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-028-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-028-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-028-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-028-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0R4Feg0R4Geg0wwFeRpywEeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-029-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-029",
+    "displayName": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 5",
+    "formLabel": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 5",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-029-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-029-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-029-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-029-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@BhR4Dei0R4EeRpg0wwFeRpywOeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-030-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-030",
+    "displayName": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 6",
+    "formLabel": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 6",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-030-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-030-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-030-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-030-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gQ4IeR4RpFeg0Q4RpwwEei0ywNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-031-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-031",
+    "displayName": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 8",
+    "formLabel": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 8",
+    "pieceSignature": [
+      "I",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-031-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-031-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-031-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-031-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChywHewwRpFeR4RpEeR4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-032-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-032",
+    "displayName": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 9",
+    "formLabel": "TSTZ 5th [OIJ]!로 시작할 경우 셋업 9",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-032-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-032-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-032-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-032-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpFeR4RpEeR4wwg0Gexwi0FewwJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-033-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-033",
+    "displayName": "TS-[TIL]! (⇔ TZ-[TIJ]!)",
+    "formLabel": "TS-[TIL]! (⇔ TZ-[TIJ]!)",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-033-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-033-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-033-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-033-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhhlGeR4glFeR4wwglCezhywJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-034-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-034",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 1",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 1",
+    "pieceSignature": [
+      "J",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-034-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-034-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-034-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-034-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChBti0FeBtQ4g0GewwR4FeywQ4JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-035-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-035",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 3",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 3",
+    "pieceSignature": [
+      "J",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-035-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-035-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-035-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-035-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gQ4BtGeR4BtFeg0Q4BewwEei0ywNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-036-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-036",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 3",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 3",
+    "pieceSignature": [
+      "J",
+      "L",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-036-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-036-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-036-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-036-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0R4Feg0R4Geg0wwGeglywDeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-037-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-037",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 1",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 1",
+    "pieceSignature": [
+      "I",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-037-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-037-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-037-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-037-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChzhGeQ4HewwR4RpDeywQ4RpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-038-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-038",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 3",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 3",
+    "pieceSignature": [
+      "I",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-038-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-038-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-038-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-038-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@/gR4EewhAeR4FewhAewwEeRpwhywDeRpwhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-039-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-039",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 2",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 2",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-039-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-039-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-039-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-039-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhFei0whGeQ4g0whFewwR4whEeywQ4JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-040-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-040",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 3",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 3",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-040-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-040-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-040-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-040-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhR4whFeR4g0whEeywg0whFewwh0whJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-041-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-041",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 1",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 1",
+    "pieceSignature": [
+      "I",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-041-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-041-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-041-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-041-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@AhBtywFeBtwwHeR4GeR4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-042-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-042",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 2",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 2",
+    "pieceSignature": [
+      "I",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-042-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-042-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-042-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-042-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@/gzhFeR4AtFeR4BtwwGeAtywMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-043-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-043",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 3",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 3",
+    "pieceSignature": [
+      "I",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-043-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-043-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-043-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-043-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwwBtGexwBtFewwR4GeR4zhNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-044-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-044",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 1",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 1",
+    "pieceSignature": [
+      "O",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-044-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-044-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-044-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-044-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@BhR4GeR4EeRpAeR4wwDeRpR4ywMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-045-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-045",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 2",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 2",
+    "pieceSignature": [
+      "O",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-045-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-045-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-045-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-045-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@QhwwBeT4RpxwAeT4AeRpAewwJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-046-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-046",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 3",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 3",
+    "pieceSignature": [
+      "O",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-046-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-046-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-046-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-046-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@BhR4GeT4GeR4wwAeRpEeywRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-047-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-047",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 4",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 4",
+    "pieceSignature": [
+      "O",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-047-f000-o-1",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-047-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-047-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-047-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@IhywFeRpwwT4CeRpT4NeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-048-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-048",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 1",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 1",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-048-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-048-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-048-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-048-f000-s-4",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@QhglRpCeR4ilRpBeR4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-049-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-049",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 3",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 3",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-049-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-049-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-049-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-049-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhRpGewwRpDeR4ywglCeR4BeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-050-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-050",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 4",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 4",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-050-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-050-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-050-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-050-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglywFeRpwwR4EeRpR4PeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-051-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-051",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 5",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 5",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-051-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-051-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-051-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-051-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhglGeilAeR4ywBeRpR4BewwCeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-052-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-052",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 5",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 5",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-052-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-052-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-052-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-052-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChR4EeRpR4Deg0AeRpwwEei0ywNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-053-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-053",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 6",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 6",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-053-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-053-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-053-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-053-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Ehi0wwFeR4g0xwDeR4RpwwGeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-054-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-054",
+    "displayName": "S가 나올 경우",
+    "formLabel": "S가 나올 경우",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-054-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-054-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-054-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-054-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwwIexwFeRpwwR4Deg0RpR4Eei0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-055-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-055",
+    "displayName": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 8: S 1p OQB",
+    "formLabel": "TSTZ 5th 베스트세이브가 항상 가능하진 않은 조합들 셋업 8: S 1p OQB",
+    "pieceSignature": [
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-055-f000-s-1",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ShR4GeR4ReAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tstz-056-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tstz-056",
+    "displayName": "L이 나올 경우",
+    "formLabel": "L이 나올 경우",
+    "pieceSignature": [
+      "J",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tstz-056-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-056-f000-o-2",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-056-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tstz-056-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwwGeRpxwFeRpwwR4Dei0R4Geg0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  }
+]

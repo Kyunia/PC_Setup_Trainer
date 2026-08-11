@@ -1,5 +1,5 @@
 const JSTRIS_ORIGIN = "https://jstris.jezevec10.com";
-const MAX_UPSTREAM_BYTES = 2_000_000;
+export const MAX_UPSTREAM_BYTES = 2_000_000;
 const UPSTREAM_TIMEOUT_MS = 8_000;
 const REPLAY_ID = /^[A-Za-z0-9]+$/;
 
@@ -11,6 +11,34 @@ function validReplayPayload(value: unknown): value is { c: Record<string, unknow
   if (!value || typeof value !== "object") return false;
   const record = value as { c?: unknown; d?: unknown };
   return Boolean(record.c && typeof record.c === "object" && typeof record.d === "string");
+}
+
+class UpstreamBodyTooLarge extends Error {}
+
+async function readLimitedBody(response: Response): Promise<Uint8Array> {
+  if (!response.body) return new Uint8Array();
+  const reader = response.body.getReader();
+  const chunks: Uint8Array[] = [];
+  let total = 0;
+  try {
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      if (!value) continue;
+      if (total + value.byteLength > MAX_UPSTREAM_BYTES) {
+        await reader.cancel().catch(() => undefined);
+        throw new UpstreamBodyTooLarge();
+      }
+      chunks.push(value);
+      total += value.byteLength;
+    }
+  } finally {
+    reader.releaseLock();
+  }
+  const result = new Uint8Array(total);
+  let offset = 0;
+  for (const chunk of chunks) { result.set(chunk, offset); offset += chunk.byteLength; }
+  return result;
 }
 
 /** Fixed-destination Vercel proxy. Replay simulation remains client-side. */
@@ -35,10 +63,29 @@ export async function fetchJstrisReplay(request: Request, fetcher: typeof fetch 
     try { upstream = await fetcher(upstreamUrl, upstreamInit); }
     finally { await warmup.body?.cancel().catch(() => undefined); }
   } catch { return errorResponse("Jstris replay service did not respond.", 504); }
-  if (!upstream.ok) return errorResponse(upstream.status === 404 ? "Jstris replay was not found." : "Jstris replay service rejected the request.", upstream.status === 404 ? 404 : 502);
-  const declaredLength = Number(upstream.headers.get("content-length"));
-  if (Number.isFinite(declaredLength) && declaredLength > MAX_UPSTREAM_BYTES) return errorResponse("Jstris replay is too large.", 413);
-  const raw = await upstream.text(); if (new TextEncoder().encode(raw).byteLength > MAX_UPSTREAM_BYTES) return errorResponse("Jstris replay is too large.", 413);
+  if (!upstream.ok) {
+    await upstream.body?.cancel().catch(() => undefined);
+    return errorResponse(upstream.status === 404 ? "Jstris replay was not found." : "Jstris replay service rejected the request.", upstream.status === 404 ? 404 : 502);
+  }
+  const declaredHeader = upstream.headers.get("content-length");
+  const declaredLength = declaredHeader === null ? null : Number(declaredHeader);
+  if (declaredLength !== null && Number.isFinite(declaredLength) && declaredLength > MAX_UPSTREAM_BYTES) {
+    await upstream.body?.cancel().catch(() => undefined);
+    return errorResponse("Jstris replay is too large.", 413);
+  }
+  let body: Uint8Array;
+  try {
+    body = await readLimitedBody(upstream);
+  } catch (reason) {
+    if (reason instanceof UpstreamBodyTooLarge) return errorResponse("Jstris replay is too large.", 413);
+    const name = reason instanceof Error ? reason.name : "";
+    return errorResponse(name === "AbortError" || name === "TimeoutError"
+      ? "Jstris replay service did not respond."
+      : "Jstris replay response could not be read.", name === "AbortError" || name === "TimeoutError" ? 504 : 502);
+  }
+  let raw: string;
+  try { raw = new TextDecoder("utf-8", { fatal: true }).decode(body); }
+  catch { return errorResponse("Jstris returned invalid replay data.", 502); }
   let payload: unknown; try { payload = JSON.parse(raw); } catch { return errorResponse("Jstris returned invalid replay data.", 502); }
   if (!validReplayPayload(payload)) return errorResponse("Jstris returned invalid replay data.", 502);
   return new Response(JSON.stringify(payload), {

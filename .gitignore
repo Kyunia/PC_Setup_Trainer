@@ -39,3 +39,4 @@ Thumbs.db
 /headless_conversation_log*.md
 /extracted_original_policy_part.json
 /original_policy_view.txt
+/src/toFumen/

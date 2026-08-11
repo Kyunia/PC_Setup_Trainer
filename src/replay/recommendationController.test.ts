@@ -19,8 +19,9 @@ function fixture() {
     queue: [frame.snapshot.active, ...frame.snapshot.next].slice(0, 7),
     hasTrustworthyStart: true,
   };
-  const frameAt = vi.fn(() => frame);
-  const replay = { createdAt: "2026-08-08T00:00:00.000Z", seed: state.seed, length: 10, segments: [segment], frameAt } satisfies ReplayTimeline;
+  const frameAt = vi.fn((_position: number) => frame);
+  const nextQueueAt = vi.fn((_position: number, count: number) => frame.snapshot.next.slice(0, count));
+  const replay = { createdAt: "2026-08-08T00:00:00.000Z", seed: state.seed, length: 10, segments: [segment], frameAt, nextQueueAt } satisfies ReplayTimeline;
   return { replay, segment, frameAt };
 }
 

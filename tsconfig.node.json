@@ -2,8 +2,11 @@
   "compilerOptions": {
     "composite": true,
     "skipLibCheck": true,
+    "target": "ES2022",
+    "types": ["node"],
     "module": "ESNext",
-    "moduleResolution": "Bundler"
+    "moduleResolution": "Bundler",
+    "outDir": "node_modules/.cache/tetrispc-vite-config"
   },
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts", "vite/**/*.ts"]
 }

@@ -1,0 +1,6524 @@
+{
+  "id": "pcinfokorea-cycle-5-advanced-tstz-v1",
+  "schemaVersion": 3,
+  "cycle": 5,
+  "classId": "tstz",
+  "reviewStatus": "reviewed",
+  "qbSemantics": {
+    "oqbIncluded": true,
+    "initialObservationWindow": "HOLD+ACTIVE+NEXT[0..4]",
+    "canonicalRecommendationUsesExplicitQueueNotation": true,
+    "holdAccessInterchangeablePostBuild": true,
+    "holdAccessInterchangeabilityBroadensEligibility": false
+  },
+  "entries": [
+    {
+      "id": "tstz5-advanced-direct-003",
+      "kind": "direct",
+      "sourceOrder": 1,
+      "label": "TS-[TLJ]! / TZ-[TLJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-001-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-tstz-002-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-001-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-tstz-002-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "tstz5-advanced-direct-005",
+      "kind": "direct",
+      "sourceOrder": 2,
+      "label": "TS-[OIS]! / TZ-[OIZ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "I",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-003-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "I",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-003-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "tstz5-advanced-direct-006",
+      "kind": "direct",
+      "sourceOrder": 3,
+      "label": "TS-[OJZ]! / TZ-[OLS]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "J",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-004-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "L",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-004-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "J"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "tstz5-advanced-direct-007",
+      "kind": "direct",
+      "sourceOrder": 4,
+      "label": "TS-[OSZ]! / TZ-[OSZ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "S",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-005-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "S",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-005-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "S"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "tstz5-advanced-direct-008",
+      "kind": "direct",
+      "sourceOrder": 5,
+      "label": "TS-[ISZ]! / TZ-[ISZ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "S",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-006-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-tstz-007-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "S",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-006-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-tstz-007-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "setupPreference": {
+        "kind": "relative-order",
+        "pieces": [
+          "L",
+          "J"
+        ],
+        "preferredSetupByFirstPiece": {
+          "L": "cycle5-advanced-tstz-006-f000",
+          "J": "cycle5-advanced-tstz-007-f000"
+        },
+        "affectsEligibility": false
+      },
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "I"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "tstz5-advanced-direct-045",
+      "kind": "direct",
+      "sourceOrder": 6,
+      "label": "TS-[TIL]! / TZ-[TIJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-033-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-033-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "tstz5-advanced-direct-046",
+      "kind": "direct",
+      "sourceOrder": 7,
+      "label": "TS-[TSZ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-006-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "tstz5-advanced-tis",
+      "kind": "selection-group",
+      "sourceOrder": 8,
+      "label": "TIS",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "I",
+                "S"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-tis-1",
+          "order": 1,
+          "label": "[TIS]![OX]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "X"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-008-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tis-2",
+          "order": 2,
+          "label": "fallback",
+          "fallback": true,
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-009-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-ils",
+      "kind": "selection-group",
+      "sourceOrder": 9,
+      "label": "ILS",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "I",
+                "L",
+                "S"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-ils-1",
+          "order": 1,
+          "label": "[ILS]!T / [ILS]!Z",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-010-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ils-2",
+          "order": 2,
+          "label": "[ILS]!O",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-011-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ils-3",
+          "order": 3,
+          "label": "[ILS]!JT / [ILS]!JZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "T"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-010-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ils-4",
+          "order": 4,
+          "label": "[ILS]!JO",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "O"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-011-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-toz",
+      "kind": "selection-group",
+      "sourceOrder": 10,
+      "label": "TOZ",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "O",
+                "Z"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-toz-1",
+          "order": 1,
+          "label": "[TOZ]!I / [TOZ]!S",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-012-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toz-2",
+          "order": 2,
+          "label": "[TOZ]!L",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-013-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toz-3",
+          "order": 3,
+          "label": "[TOZ]!J",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-004-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-oiz",
+      "kind": "selection-group",
+      "sourceOrder": 11,
+      "label": "OIZ",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "O",
+                "I",
+                "Z"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-oiz-1",
+          "order": 1,
+          "label": "[OIZ]!T",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-012-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oiz-2",
+          "order": 2,
+          "label": "[OIZ]!L",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-013-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oiz-3",
+          "order": 3,
+          "label": "[OIZ]!J",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-004-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oiz-4",
+          "order": 4,
+          "label": "[OIZ]!S",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-005-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-ols",
+      "kind": "selection-group",
+      "sourceOrder": 12,
+      "label": "OLS",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "O",
+                "L",
+                "S"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-ols-1",
+          "order": 1,
+          "label": "[OL]!S / [OS]!L",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-014-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ols-2",
+          "order": 2,
+          "label": "LSO",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "S",
+                    "O"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-015-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ols-3",
+          "order": 3,
+          "label": "SLO[TI]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "S",
+                    "L",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-016-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ols-4",
+          "order": 4,
+          "label": "fallback",
+          "fallback": true,
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-017-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-ijz",
+      "kind": "selection-group",
+      "sourceOrder": 13,
+      "label": "IJZ",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "I",
+                "J",
+                "Z"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-ijz-1",
+          "order": 1,
+          "label": "JZI / ZJI / ZIJ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "Z",
+                    "I"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z",
+                    "J",
+                    "I"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z",
+                    "I",
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-018-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ijz-2",
+          "order": 2,
+          "label": "IJZT / IZJT / JIZT",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "Z",
+                    "T"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "Z",
+                    "J",
+                    "T"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "I",
+                    "Z",
+                    "T"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-019-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ijz-3",
+          "order": 3,
+          "label": "IJZL / IZJL / JIZL",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "Z",
+                    "L"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "Z",
+                    "J",
+                    "L"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "I",
+                    "Z",
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-020-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ijz-4",
+          "order": 4,
+          "label": "IJZS / IZJS / JIZS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "Z",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "Z",
+                    "J",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "I",
+                    "Z",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-021-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ijz-5",
+          "order": 5,
+          "label": "IJZOT / IZJOT / JIZOT",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "Z",
+                    "O",
+                    "T"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "Z",
+                    "J",
+                    "O",
+                    "T"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "I",
+                    "Z",
+                    "O",
+                    "T"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-019-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ijz-6",
+          "order": 6,
+          "label": "IJZOL / IZJOL / JIZOL",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "Z",
+                    "O",
+                    "L"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "Z",
+                    "J",
+                    "O",
+                    "L"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "I",
+                    "Z",
+                    "O",
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-020-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ijz-7",
+          "order": 7,
+          "label": "IJZOS / IZJOS / JIZOS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "Z",
+                    "O",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "Z",
+                    "J",
+                    "O",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "I",
+                    "Z",
+                    "O",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-021-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-olj",
+      "kind": "selection-group",
+      "sourceOrder": 14,
+      "label": "OLJ",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "O",
+                "L",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-olj-1",
+          "order": 1,
+          "label": "OJL / JOL / JLO",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "J",
+                    "L"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "O",
+                    "L"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "L",
+                    "O"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-022-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-olj-2",
+          "order": 2,
+          "label": "OLJT / LOJT / LJOT",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "L",
+                    "J",
+                    "T"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "O",
+                    "J",
+                    "T"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "J",
+                    "O",
+                    "T"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-001-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-tstz-002-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-olj-3",
+          "order": 3,
+          "label": "OLJS / LOJS / LJOS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "L",
+                    "J",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "O",
+                    "J",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "J",
+                    "O",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-014-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-tstz-023-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-olj-4",
+          "order": 4,
+          "label": "OLJZ / LOJZ / LJOZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "L",
+                    "J",
+                    "Z"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "O",
+                    "J",
+                    "Z"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "J",
+                    "O",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-024-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-olj-5",
+          "order": 5,
+          "label": "OLJIT / LOJIT / LJOIT",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "L",
+                    "J",
+                    "I",
+                    "T"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "O",
+                    "J",
+                    "I",
+                    "T"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "J",
+                    "O",
+                    "I",
+                    "T"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-025-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-olj-6",
+          "order": 6,
+          "label": "OLJIS / LOJIS / LJOIS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "L",
+                    "J",
+                    "I",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "O",
+                    "J",
+                    "I",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "J",
+                    "O",
+                    "I",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-014-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-tstz-023-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-olj-7",
+          "order": 7,
+          "label": "OLJIZ / LOJIZ / LJOIZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "L",
+                    "J",
+                    "I",
+                    "Z"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "O",
+                    "J",
+                    "I",
+                    "Z"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "J",
+                    "O",
+                    "I",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-024-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-oij",
+      "kind": "selection-group",
+      "sourceOrder": 15,
+      "label": "OIJ",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "O",
+                "I",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-oij-1",
+          "order": 1,
+          "label": "[OIJ]!S",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-026-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oij-2",
+          "order": 2,
+          "label": "[OIJ]!LT",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "T"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-025-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oij-3",
+          "order": 3,
+          "label": "[OIJ]!LS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-027-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oij-4",
+          "order": 4,
+          "label": "[OIJ]!LZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-028-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oij-5",
+          "order": 5,
+          "label": "fallback",
+          "fallback": true,
+          "excludedPatterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "O",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-029-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-tstz-030-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oij-6",
+          "order": 6,
+          "label": "IJOZT",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "O",
+                    "Z",
+                    "T"
+                  ]
+                }
+              ]
+            }
+          ],
+          "excludedPatterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "O",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-019-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oij-7",
+          "order": 7,
+          "label": "IJOZL",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "O",
+                    "Z",
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "excludedPatterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "O",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-028-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oij-8",
+          "order": 8,
+          "label": "IJOZS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "O",
+                    "Z",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "excludedPatterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "O",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-031-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oij-9",
+          "order": 9,
+          "label": "[OJ]!IT / [IJ]!OT",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "T"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "T"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-032-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oij-10",
+          "order": 10,
+          "label": "[OI]!JTL",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "T",
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-025-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oij-11",
+          "order": 11,
+          "label": "[OI]!JTS / [OI]!JTZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "T",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "T",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-019-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-tls",
+      "kind": "selection-group",
+      "sourceOrder": 16,
+      "label": "TLS",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "L",
+                "S"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-tls-1",
+          "order": 1,
+          "label": "[TLS]!I",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "L",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-010-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tls-2",
+          "order": 2,
+          "label": "[TLS]!J",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "L",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-010-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tls-3",
+          "order": 3,
+          "label": "[TLS]!Z",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "L",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-010-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tls-4",
+          "order": 4,
+          "label": "[TLS]!OJ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "L",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-017-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tls-5",
+          "order": 5,
+          "label": "[TLS]!OZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "L",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-010-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-tstz-017-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tls-6",
+          "order": 6,
+          "label": "LSTOI",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "S",
+                    "T",
+                    "O",
+                    "I"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-015-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tls-7",
+          "order": 7,
+          "label": "fallback",
+          "fallback": true,
+          "outcome": "no-bestsave",
+          "setupRefs": []
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-tjz",
+      "kind": "selection-group",
+      "sourceOrder": 17,
+      "label": "TJZ",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "J",
+                "Z"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-tjz-1",
+          "order": 1,
+          "label": "[TJZ]!L",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-034-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tjz-2",
+          "order": 2,
+          "label": "[TJZ]!S",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-034-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tjz-3",
+          "order": 3,
+          "label": "[TJZ]!IL",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-034-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tjz-4",
+          "order": 4,
+          "label": "[TJZ]!IS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-034-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tjz-5",
+          "order": 5,
+          "label": "[TJZ]!OL",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-021-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tjz-6",
+          "order": 6,
+          "label": "[TJZ]!OS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-021-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tjz-7",
+          "order": 7,
+          "label": "J[TZ]![OI]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-035-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tjz-8",
+          "order": 8,
+          "label": "Z[TJ]![OI]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-018-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tjz-9",
+          "order": 9,
+          "label": "T[JZ]![OI]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "J",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "no-bestsave",
+          "setupRefs": []
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-ilj-fallback",
+      "kind": "selection-group",
+      "sourceOrder": 18,
+      "label": "ILJ fallback",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "I",
+                "L",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-ilj-fallback-1",
+          "order": 1,
+          "label": "[ILJ]!T",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-033-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ilj-fallback-2",
+          "order": 2,
+          "label": "[ILJ]![OS]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-027-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ilj-fallback-3",
+          "order": 3,
+          "label": "[ILJ]![SZ]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "S",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-036-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-ilj-fallback-4",
+          "order": 4,
+          "label": "[ILJ]![OZ]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "no-bestsave",
+          "setupRefs": []
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-toi-fallback",
+      "kind": "selection-group",
+      "sourceOrder": 19,
+      "label": "TOI fallback",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "O",
+                "I"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-toi-fallback-1",
+          "order": 1,
+          "label": "[TOI]!S",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-037-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-tstz-031-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toi-fallback-2",
+          "order": 2,
+          "label": "[TOI]!LS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-037-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-tstz-031-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toi-fallback-3",
+          "order": 3,
+          "label": "[TOI]!ZS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-037-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-tstz-031-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toi-fallback-4",
+          "order": 4,
+          "label": "[TOI]![LZ]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "L",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-038-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-tij",
+      "kind": "selection-group",
+      "sourceOrder": 20,
+      "label": "TIJ",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "I",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-tij-1",
+          "order": 1,
+          "label": "[TI]!JS / [IJ]!TS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-019-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tij-2",
+          "order": 2,
+          "label": "[TJ]!ISL",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "S",
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-039-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tij-3",
+          "order": 3,
+          "label": "[TI]!JZ / [IJ]!TZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "Z"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-019-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tij-4",
+          "order": 4,
+          "label": "[TI]!JOS / [IJ]!TOS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "O",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-019-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tij-5",
+          "order": 5,
+          "label": "[TI]!JOZ / [IJ]!TOZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "O",
+                    "Z"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-019-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tij-6",
+          "order": 6,
+          "label": "J[TI]!L",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-040-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tij-7",
+          "order": 7,
+          "label": "T[IJ]!LS / I[TJ]!LS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-039-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-tiz",
+      "kind": "selection-group",
+      "sourceOrder": 21,
+      "label": "TIZ",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "I",
+                "Z"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-tiz-1",
+          "order": 1,
+          "label": "[TIZ]!S",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-041-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tiz-2",
+          "order": 2,
+          "label": "Z[IT]!J",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "T"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-042-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tiz-3",
+          "order": 3,
+          "label": "T[IZ]!JL / I[TZ]!JL",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "L"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-043-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tiz-4",
+          "order": 4,
+          "label": "T[IZ]!JS / I[TZ]!JS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-041-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tiz-5",
+          "order": 5,
+          "label": "[TIZ]!OS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-041-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tiz-6",
+          "order": 6,
+          "label": "Z[TI]!OJ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-042-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tiz-7",
+          "order": 7,
+          "label": "[TIZ]!LJ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-043-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tiz-8",
+          "order": 8,
+          "label": "[TIZ]!LS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-041-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-tos",
+      "kind": "selection-group",
+      "sourceOrder": 22,
+      "label": "TOS",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "O",
+                "S"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-tos-1",
+          "order": 1,
+          "label": "[TOS]!J",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-044-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tos-2",
+          "order": 2,
+          "label": "[TOS]!ZI",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z",
+                    "I"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-045-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tos-3",
+          "order": 3,
+          "label": "[TOS]!ZL",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z",
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-046-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tos-4",
+          "order": 4,
+          "label": "[TOS]!ZJ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z",
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-044-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tos-5",
+          "order": 5,
+          "label": "[TOS]!LJ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-044-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tos-6",
+          "order": 6,
+          "label": "[TOS]!LZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-046-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tos-7",
+          "order": 7,
+          "label": "[TOS]!IJ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-044-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tos-8",
+          "order": 8,
+          "label": "[OS]!TIZ / OTSIZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T",
+                    "I",
+                    "Z"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "T",
+                    "S",
+                    "I",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-047-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tos-9",
+          "order": 9,
+          "label": "[TOS]![IL]! / [TS]!OIZ / TOSIZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "S"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "I",
+                    "Z"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "S",
+                    "I",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "no-bestsave",
+          "setupRefs": []
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-oil",
+      "kind": "selection-group",
+      "sourceOrder": 23,
+      "label": "OIL",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "O",
+                "I",
+                "L"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-oil-1",
+          "order": 1,
+          "label": "[OI]!L / ILO",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "I"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "O"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-048-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oil-2",
+          "order": 2,
+          "label": "[OL]!IS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-014-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oil-3",
+          "order": 3,
+          "label": "[OL]!IJT",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "T"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-033-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oil-4",
+          "order": 4,
+          "label": "[OL]!IJS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-014-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oil-5",
+          "order": 5,
+          "label": "[OL]!IJZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "J",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-024-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oil-6",
+          "order": 6,
+          "label": "[OL]!IZT",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "Z",
+                    "T"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-038-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oil-7",
+          "order": 7,
+          "label": "[OL]!IZJ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "Z",
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-024-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oil-8",
+          "order": 8,
+          "label": "[OL]!IZS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "Z",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-014-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oil-9",
+          "order": 9,
+          "label": "[OL]!ITS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "T",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-014-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oil-10",
+          "order": 10,
+          "label": "[OL]!ITZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "T",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-038-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oil-11",
+          "order": 11,
+          "label": "[OL]!ITJ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "T",
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "no-bestsave",
+          "setupRefs": []
+        },
+        {
+          "id": "tstz5-advanced-oil-12",
+          "order": 12,
+          "label": "LIO[SX]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "I",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "S",
+                    "X"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-031-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oil-13",
+          "order": 13,
+          "label": "LIO[TZ]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "I",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-038-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oil-14",
+          "order": 14,
+          "label": "LIO[JZ]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "I",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "J",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-024-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-oil-15",
+          "order": 15,
+          "label": "LIO[TJ]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "I",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "no-bestsave",
+          "setupRefs": []
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-tol",
+      "kind": "selection-group",
+      "sourceOrder": 24,
+      "label": "TOL",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "O",
+                "L"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-tol-1",
+          "order": 1,
+          "label": "[TO]!LS / [LO]!TS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "L",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-014-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tol-2",
+          "order": 2,
+          "label": "[TL]!OSI",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "S",
+                    "I"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-016-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tol-3",
+          "order": 3,
+          "label": "LTOSJ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "T",
+                    "O",
+                    "S",
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-049-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tol-4",
+          "order": 4,
+          "label": "O[TL]!I",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-050-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tol-5",
+          "order": 5,
+          "label": "T[OL]!IS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-014-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tol-6",
+          "order": 6,
+          "label": "L[TO]!IS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-016-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tol-7",
+          "order": 7,
+          "label": "[TO]!LJS / [OL]!TJS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "J",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T",
+                    "J",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-051-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tol-8",
+          "order": 8,
+          "label": "O[TL]!ZI",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z",
+                    "I"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-050-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tol-9",
+          "order": 9,
+          "label": "[TL]!OZJ / [OL]!TZJ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "Z",
+                    "J"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T",
+                    "Z",
+                    "J"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-024-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tol-10",
+          "order": 10,
+          "label": "[TO]!LZS / [OL]!TZS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "Z",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T",
+                    "Z",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-014-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-toj",
+      "kind": "selection-group",
+      "sourceOrder": 25,
+      "label": "TOJ",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "O",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-toj-1",
+          "order": 1,
+          "label": "[TJ]!OI / [JO]!TI",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "I"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "J",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T",
+                    "I"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-032-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toj-2",
+          "order": 2,
+          "label": "[TO]!JIL",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "I",
+                    "L"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-025-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toj-3",
+          "order": 3,
+          "label": "[TO]!JIZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "I",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-029-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toj-4",
+          "order": 4,
+          "label": "[TJ]!OS / [OJ]!TS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-023-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toj-5",
+          "order": 5,
+          "label": "[TO]!JSZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "S",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-052-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toj-6",
+          "order": 6,
+          "label": "OTJSI",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "T",
+                    "J",
+                    "S",
+                    "I"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-053-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toj-7",
+          "order": 7,
+          "label": "[TO]!JZ / [OJ]!TZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J",
+                    "Z"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-029-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toj-8",
+          "order": 8,
+          "label": "[TJ]!OZL / [TJ]!OZS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "Z",
+                    "L"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "Z",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-052-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toj-9",
+          "order": 9,
+          "label": "[TJ]!OZI",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "Z",
+                    "I"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-055-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toj-10",
+          "order": 10,
+          "label": "[TOJ]!LI / [TOJ]!LZ",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "I"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "L",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-025-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-toj-11",
+          "order": 11,
+          "label": "[TJ]!OLS / [OJ]!TLS",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O",
+                    "L",
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T",
+                    "L",
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-054-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tstz5-toj-ozi",
+      "kind": "oqb",
+      "sourceOrder": 89,
+      "label": "TS-[TJ]!OZI",
+      "initialPatterns": [
+        {
+          "scope": "visible-seven",
+          "parts": [
+            {
+              "kind": "ordered",
+              "symbols": [
+                "T",
+                "S"
+              ]
+            },
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "J"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "O",
+                "Z",
+                "I"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-tstz-055-f000",
+      "checkpoint": {
+        "placedCount": 1,
+        "placedPieces": [
+          "S"
+        ]
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "tstz5-toj-ozi-branch-1",
+          "observedPieces": [
+            "L"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-056-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "tstz5-toj-ozi-branch-2",
+          "observedPieces": [
+            "S"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-054-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "runtimeStatus": "compiled"
+    }
+  ],
+  "runtimePolicy": {
+    "schemaVersion": 2,
+    "status": "compiled",
+    "executable": true,
+    "setupRoles": [
+      {
+        "setupId": "cycle5-advanced-tstz-001-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-002-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-003-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-004-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-005-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-006-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-007-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-008-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-009-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-010-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-011-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-012-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-013-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-014-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-015-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-016-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-017-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-018-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-019-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-020-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-021-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-022-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-023-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-024-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-025-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-026-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-027-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-028-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-029-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-030-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-031-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-032-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-033-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-034-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-035-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-036-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-037-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-038-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-039-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-040-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-041-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-042-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-043-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-044-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-045-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-046-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-047-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-048-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-049-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-050-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-051-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-052-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-053-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-054-f000",
+        "roles": [
+          "final",
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-055-f000",
+        "roles": [
+          "final",
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tstz-056-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      }
+    ],
+    "compiledEntryCount": 26,
+    "deferredEntryIds": [],
+    "queueConditionsAreAstOnly": true
+  }
+}

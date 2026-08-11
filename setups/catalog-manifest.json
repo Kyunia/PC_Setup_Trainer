@@ -392,9 +392,68 @@
       "logicalSetupCount": 354,
       "runtimeEnabled": true,
       "complete": false,
-      "note": "All 21 normal distinct first-piece pairs are active for reviewed 3P-6P setups; static 7P timelines remain disabled.",
+      "note": "All 21 normal distinct first-piece pairs are active for reviewed 3P-6P setups; static 7P timelines remain disabled. Advanced QB/OQB is promoted as an inactive staged catalog.",
       "runtimeEligibleSourceSetupCount": 372,
-      "static7pTimelinePendingCount": 41
+      "static7pTimelinePendingCount": 41,
+      "advanced": {
+        "classFiles": {
+          "oi": {
+            "setups": "QB/cycle-5-advanced-oi-setups.json",
+            "policy": "QB/cycle-5-advanced-oi-policy.json",
+            "setupCount": 53,
+            "logicalSetupCount": 53,
+            "runtimeEnabled": true,
+            "setupsSha256": "c06910e213566a5fa2a5bab4a03ca89c3816480dadb55558f78612db9e58cbbb",
+            "policySha256": "3b14c43f99d2182b62a46ff609e79cf6d16442f102f036cbd9f5bd332bd378c0",
+            "conditionCompilerReady": true
+          },
+          "tltj": {
+            "setups": "QB/cycle-5-advanced-tltj-setups.json",
+            "policy": "QB/cycle-5-advanced-tltj-policy.json",
+            "setupCount": 8,
+            "logicalSetupCount": 8,
+            "runtimeEnabled": true,
+            "setupsSha256": "55e99c7fd4f1144d87faf0ee312b5fb42fc4d64901746a1f2fc93de2c7274e57",
+            "policySha256": "886295622300feb92af33ecd3a9e382618102797878d695e680c732525780cc6",
+            "conditionCompilerReady": true
+          },
+          "ti": {
+            "setups": "QB/cycle-5-advanced-ti-setups.json",
+            "policy": "QB/cycle-5-advanced-ti-policy.json",
+            "setupCount": 24,
+            "logicalSetupCount": 24,
+            "runtimeEnabled": true,
+            "setupsSha256": "92581e2d039e77620d476cff92ab075e98f002cef5b9d6b497499b9e8a6c508a",
+            "policySha256": "ba8e24d019ee64cd0188ca9b7ea37c88dd062dd7d731e10cf573fbfc9c983571",
+            "conditionCompilerReady": true
+          },
+          "to": {
+            "setups": "QB/cycle-5-advanced-to-setups.json",
+            "policy": "QB/cycle-5-advanced-to-policy.json",
+            "setupCount": 7,
+            "logicalSetupCount": 7,
+            "runtimeEnabled": true,
+            "setupsSha256": "4647280c0737bc7bf8dc743aeabebaeda2002f4817d7653f37115a7ee8dafec5",
+            "policySha256": "30dc46be3acccf714f0c0e2963ea67839b92b64b4e1b32eacc8e904fccc674c7",
+            "conditionCompilerReady": true
+          },
+          "tstz": {
+            "setups": "QB/cycle-5-advanced-tstz-setups.json",
+            "policy": "QB/cycle-5-advanced-tstz-policy.json",
+            "setupCount": 56,
+            "logicalSetupCount": 56,
+            "runtimeEnabled": true,
+            "setupsSha256": "5ed0ece8e6c8acf07b88368799062558e8786bdf34cf6410f6018c83d6925e42",
+            "policySha256": "3b91091e79ffdbfbcdb7d4fbac068dedd48c2ccfb7ab101eb715e3f3f623000d",
+            "conditionCompilerReady": true
+          }
+        },
+        "setupCount": 148,
+        "logicalSetupCount": 148,
+        "runtimeEnabled": true,
+        "conditionCompilerReady": true,
+        "note": "Reviewed advanced QB/OQB geometry and normalized runtime policy are active. Policy-selected complete solutions use solution-shadow geometry validated by declared-condition SFinder coverage."
+      }
     },
     "6": {
       "classIndex": "cycle-6-class-index.json",
@@ -547,8 +606,8 @@
     "colored": true,
     "comments": false,
     "operations": false,
-    "fileCount": 48,
-    "setupCount": 1501,
+    "fileCount": 53,
+    "setupCount": 1649,
     "allRoundTripExact": true
   }
 }

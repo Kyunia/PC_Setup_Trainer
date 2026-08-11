@@ -1,0 +1,2033 @@
+[
+  {
+    "id": "cycle5-advanced-ti-001-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-001",
+    "displayName": "TI-[TIL]! (⇔ TI-[TIJ]!)",
+    "formLabel": "TI-[TIL]! (⇔ TI-[TIJ]!)",
+    "pieceSignature": [
+      "I",
+      "I",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-001-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-001-f000-i-2",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-001-f000-l-3",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-001-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gglIeglHewwhlzhBexwzhEewwJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-002-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-002",
+    "displayName": "TI-[TIS]! (⇔ TI-[TIZ]!)",
+    "formLabel": "TI-[TIS]! (⇔ TI-[TIZ]!)",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-002-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-002-f000-i-2",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-002-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-002-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@DhzhGeR4wwFeR4xwEezhwwJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-003-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-003",
+    "displayName": "TI-[TLZ]! (⇔ TI-[TJS]!)",
+    "formLabel": "TI-[TLZ]! (⇔ TI-[TJS]!)",
+    "pieceSignature": [
+      "I",
+      "L",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-003-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-003-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-003-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-003-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglwwHeywBtEezhBtNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-004-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-004",
+    "displayName": "TI-[TSZ]!, TI-[ISZ]!",
+    "formLabel": "TI-[TSZ]!, TI-[ISZ]!",
+    "pieceSignature": [
+      "I",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-004-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-004-f000-s-2",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-004-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-004-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhCeR4DewhAeAtR4EewhBtwwFewhAtywOeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-005-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-005",
+    "displayName": "I 1p 셋업",
+    "formLabel": "I 1p 셋업",
+    "pieceSignature": [
+      "I"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-005-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ehzhMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-006-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-006",
+    "displayName": "S가 Z보다 빠를 경우",
+    "formLabel": "S가 Z보다 빠를 경우",
+    "pieceSignature": [
+      "I",
+      "I",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-006-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-006-f000-i-2",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-006-f000-l-3",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-006-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@BhzhIewwHeywglCezhilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-007-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-007",
+    "displayName": "Z가 S보다 빠를 경우",
+    "formLabel": "Z가 S보다 빠를 경우",
+    "pieceSignature": [
+      "I",
+      "I",
+      "J",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-007-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-007-f000-i-2",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-007-f000-j-3",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-007-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@/gzhFewwGeg0ywFei0zhMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-008-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-008",
+    "displayName": "TI-[TOI]![SX]!",
+    "formLabel": "TI-[TOI]![SX]!",
+    "pieceSignature": [
+      "I",
+      "I",
+      "O",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-008-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-008-f000-i-2",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-008-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-008-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gxhHexhHexhBewwCeRpxhAeywBeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-010-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-010",
+    "displayName": "TI 5th [TOI]!로 시작할 경우 셋업 1",
+    "formLabel": "TI 5th [TOI]!로 시작할 경우 셋업 1",
+    "pieceSignature": [
+      "I",
+      "I",
+      "O",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-010-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-010-f000-i-2",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-010-f000-o-3",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-010-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@BhzhGeRpGewwRpFeywzhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-011-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-011",
+    "displayName": "TI 5th [TOI]!로 시작할 경우 셋업 2: I 1p OQB",
+    "formLabel": "TI 5th [TOI]!로 시작할 경우 셋업 2: I 1p OQB",
+    "pieceSignature": [
+      "I"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-011-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhIewhIewhIewhSeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-012-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-012",
+    "displayName": "2a. S가 나올 경우",
+    "formLabel": "2a. S가 나올 경우",
+    "pieceSignature": [
+      "I",
+      "I",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-012-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-012-f000-i-2",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-012-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhHexhGewwxhFexwxhGewwwhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-013-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-013",
+    "displayName": "2b. Z가 나올 경우",
+    "formLabel": "2b. Z가 나올 경우",
+    "pieceSignature": [
+      "I",
+      "I",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-013-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-013-f000-i-2",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-013-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhHexhwwGexhxwFexhwwGewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-014-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-014",
+    "displayName": "S가 나올 경우",
+    "formLabel": "S가 나올 경우",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-014-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-014-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-014-f000-l-3",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-014-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0Fehlg0Heglg0GewwglzhCeywJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-015-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-015",
+    "displayName": "Z가 나올 경우",
+    "formLabel": "Z가 나올 경우",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-015-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-015-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-015-f000-l-3",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-015-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0Fehlg0Heglg0wwGeglywCezhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-016-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-016",
+    "displayName": "TI 5th [TLJ]!로 시작할 경우 셋업 3 (T 1p OQB)",
+    "formLabel": "TI 5th [TLJ]!로 시작할 경우 셋업 3 (T 1p OQB)",
+    "pieceSignature": [
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-016-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ZhwwHeywJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-017-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-017",
+    "displayName": "O가 나올 경우",
+    "formLabel": "O가 나올 경우",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-017-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-017-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-017-f000-l-3",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-017-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Fhhlh0Geglg0Gewwglg0zhBeywJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-018-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-018",
+    "displayName": "Z가 나올 경우",
+    "formLabel": "Z가 나올 경우",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-018-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-018-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-018-f000-l-3",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-018-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Fhhli0FeglBeg0EewwglzhCeywJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-019-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-019",
+    "displayName": "TI 5th [TLJ]!로 시작할 경우 셋업 4 (I 1p OQB)",
+    "formLabel": "TI 5th [TLJ]!로 시작할 경우 셋업 4 (I 1p OQB)",
+    "pieceSignature": [
+      "I"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-019-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@hhzhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-020-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-020",
+    "displayName": "S가 나올 경우",
+    "formLabel": "S가 나올 경우",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-020-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-020-f000-j-2",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-020-f000-l-3",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-020-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gywFeg0glwwGeg0glGeh0hlDezhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-021-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-021",
+    "displayName": "TI 5th [TLJ]!로 시작할 경우 셋업 4 (I 1p OQB)",
+    "formLabel": "TI 5th [TLJ]!로 시작할 경우 셋업 4 (I 1p OQB)",
+    "pieceSignature": [
+      "I"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-021-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@bhzhPeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-022-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-022",
+    "displayName": "Z가 나올 경우, 먼저 3p",
+    "formLabel": "Z가 나올 경우, 먼저 3p",
+    "pieceSignature": [
+      "I",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-022-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-022-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-ti-022-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhhlIeglHewwglzhCeywJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-solution-016-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-solution-016",
+    "displayName": "TI OQB Complete Solution (Reveal Z)",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "S",
+      "T",
+      "Z",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-solution-016-f000-shadow-01",
+        "piece": "O",
+        "cells": [{ "x": 3, "y": 2 }, { "x": 4, "y": 2 }, { "x": 3, "y": 3 }, { "x": 4, "y": 3 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-016-f000-shadow-02",
+        "piece": "S",
+        "cells": [{ "x": 6, "y": 2 }, { "x": 7, "y": 2 }, { "x": 7, "y": 3 }, { "x": 8, "y": 3 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-016-f000-shadow-03",
+        "piece": "J",
+        "cells": [{ "x": 1, "y": 0 }, { "x": 1, "y": 1 }, { "x": 1, "y": 2 }, { "x": 2, "y": 2 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-016-f000-shadow-04",
+        "piece": "T",
+        "cells": [{ "x": 5, "y": 0 }, { "x": 5, "y": 1 }, { "x": 6, "y": 1 }, { "x": 5, "y": 2 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-016-f000-shadow-05",
+        "piece": "Z",
+        "cells": [{ "x": 2, "y": 1 }, { "x": 3, "y": 1 }, { "x": 1, "y": 3 }, { "x": 2, "y": 3 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-016-f000-shadow-06",
+        "piece": "L",
+        "cells": [{ "x": 2, "y": 0 }, { "x": 3, "y": 0 }, { "x": 4, "y": 0 }, { "x": 4, "y": 1 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-016-f000-shadow-07",
+        "piece": "Z",
+        "cells": [{ "x": 6, "y": 0 }, { "x": 7, "y": 0 }, { "x": 5, "y": 3 }, { "x": 6, "y": 3 }]
+      }
+    ],
+    "fumen": "v115@+gBtRpBtR4Beh0RpwwR4Ceg0BtglxwDeg0ilwwBtLe?AgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-solution-019-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-solution-019",
+    "displayName": "TI OQB Complete Solution (Reveal S)",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "S",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-solution-019-f000-shadow-01",
+        "piece": "Z",
+        "cells": [{ "x": 2, "y": 2 }, { "x": 3, "y": 2 }, { "x": 1, "y": 3 }, { "x": 2, "y": 3 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-019-f000-shadow-02",
+        "piece": "O",
+        "cells": [{ "x": 5, "y": 2 }, { "x": 6, "y": 2 }, { "x": 5, "y": 3 }, { "x": 6, "y": 3 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-019-f000-shadow-03",
+        "piece": "T",
+        "cells": [{ "x": 4, "y": 0 }, { "x": 3, "y": 1 }, { "x": 4, "y": 1 }, { "x": 4, "y": 2 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-019-f000-shadow-04",
+        "piece": "L",
+        "cells": [{ "x": 8, "y": 0 }, { "x": 8, "y": 1 }, { "x": 7, "y": 2 }, { "x": 8, "y": 2 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-019-f000-shadow-05",
+        "piece": "S",
+        "cells": [{ "x": 6, "y": 1 }, { "x": 7, "y": 1 }, { "x": 7, "y": 3 }, { "x": 8, "y": 3 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-019-f000-shadow-06",
+        "piece": "J",
+        "cells": [{ "x": 5, "y": 0 }, { "x": 6, "y": 0 }, { "x": 7, "y": 0 }, { "x": 5, "y": 1 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-019-f000-shadow-07",
+        "piece": "S",
+        "cells": [{ "x": 2, "y": 0 }, { "x": 3, "y": 0 }, { "x": 3, "y": 3 }, { "x": 4, "y": 3 }]
+      }
+    ],
+    "fumen": "v115@+gBtR4RpR4CeBtwwRphlDexwg0R4glCeR4wwi0glKe?AgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-ti-solution-032-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-ti-solution-032",
+    "displayName": "TLJIO OQB Complete Solution (Reveal S)",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S",
+      "S",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-ti-solution-032-f000-shadow-01",
+        "piece": "Z",
+        "cells": [{ "x": 1, "y": 2 }, { "x": 2, "y": 2 }, { "x": 0, "y": 3 }, { "x": 1, "y": 3 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-032-f000-shadow-02",
+        "piece": "I",
+        "cells": [{ "x": 2, "y": 3 }, { "x": 3, "y": 3 }, { "x": 4, "y": 3 }, { "x": 5, "y": 3 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-032-f000-shadow-03",
+        "piece": "S",
+        "cells": [{ "x": 5, "y": 2 }, { "x": 6, "y": 2 }, { "x": 6, "y": 3 }, { "x": 7, "y": 3 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-032-f000-shadow-04",
+        "piece": "J",
+        "cells": [{ "x": 0, "y": 1 }, { "x": 1, "y": 1 }, { "x": 2, "y": 1 }, { "x": 0, "y": 2 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-032-f000-shadow-05",
+        "piece": "O",
+        "cells": [{ "x": 3, "y": 1 }, { "x": 4, "y": 1 }, { "x": 3, "y": 2 }, { "x": 4, "y": 2 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-032-f000-shadow-06",
+        "piece": "S",
+        "cells": [{ "x": 6, "y": 1 }, { "x": 7, "y": 1 }, { "x": 7, "y": 2 }, { "x": 8, "y": 2 }]
+      },
+      {
+        "id": "cycle5-advanced-ti-solution-032-f000-shadow-07",
+        "piece": "T",
+        "cells": [{ "x": 4, "y": 0 }, { "x": 5, "y": 0 }, { "x": 6, "y": 0 }, { "x": 5, "y": 1 }]
+      }
+    ],
+    "fumen": "v115@9gBtzhR4Beg0BtRpT4Aei0RpwwR4FeywMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  }
+]

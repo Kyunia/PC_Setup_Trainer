@@ -1,0 +1,800 @@
+[
+  {
+    "id": "cycle5-advanced-tltj-001-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tltj-001",
+    "displayName": "TL/TJ 5th TL-[TLS]! / TJ-[TJZ]! QB (Hold T)",
+    "formLabel": "TL/TJ 5th TL-[TLS]! / TJ-[TJZ]! QB (Hold T)",
+    "pieceSignature": [
+      "L",
+      "L",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tltj-001-f000-l-1",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-001-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-001-f000-s-3",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-001-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@AhhlIeglFeR4wwglDeglR4ywBeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tltj-002-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tltj-002",
+    "displayName": "TL/TJ 5th TL-[TJZ]! / TJ-[TLS]! QB (Hold T)",
+    "formLabel": "TL/TJ 5th TL-[TJZ]! / TJ-[TLS]! QB (Hold T)",
+    "pieceSignature": [
+      "J",
+      "L",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tltj-002-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-002-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-002-f000-t-3",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-002-f000-z-4",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChywGeglwwCeg0DeglBtBei0BehlBtKeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tltj-003-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tltj-003",
+    "displayName": "TL/TJ 5th TL-[TIL]! J/S QB (Hold T)",
+    "formLabel": "TL/TJ 5th TL-[TIL]! J/S QB (Hold T)",
+    "pieceSignature": [
+      "I",
+      "L",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tltj-003-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-003-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-003-f000-l-3",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-003-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9ghlHehlGewwhlFexwhlCezhwwJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tltj-004-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tltj-004",
+    "displayName": "TL/TJ 5th TL-[TIL]! O/Z QB (Hold T)",
+    "formLabel": "TL/TJ 5th TL-[TIL]! O/Z QB (Hold T)",
+    "pieceSignature": [
+      "I",
+      "L",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tltj-004-f000-i-1",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-004-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-004-f000-l-3",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-004-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@AhilGehlGeilwwDezhywMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tltj-005-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tltj-005",
+    "displayName": "TL/TJ 5th [TLJ]!OS/IS QB setup 1 (Hold T)",
+    "formLabel": "TL/TJ 5th [TLJ]!OS/IS QB setup 1 (Hold T)",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tltj-005-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-005-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-005-f000-l-3",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-005-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@BhhlIeglh0Fewwglg0BeglCeywg0ilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed",
+    "bestsave": true
+  },
+  {
+    "id": "cycle5-advanced-tltj-006-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tltj-006",
+    "displayName": "TL/TJ 5th OQB bestsave continuation",
+    "formLabel": "TL/TJ 5th OQB bestsave continuation",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tltj-006-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-006-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-006-f000-l-3",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-006-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0Heg0Gehlg0wwDejlywCeglBeglJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed",
+    "bestsave": true
+  },
+  {
+    "id": "cycle5-advanced-tltj-007-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tltj-007",
+    "displayName": "TL/TJ 5th [TLJ]![OI]! / [TLJ]!ZS OQB precondition (T 1P)",
+    "formLabel": "TL/TJ 5th [TLJ]![OI]! / [TLJ]!ZS OQB precondition (T 1P)",
+    "pieceSignature": [
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tltj-007-f000-t-1",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ShwwHeywQeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-tltj-008-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-tltj-008",
+    "displayName": "TL/TJ 5th [TLJ]![IZ]! QB alternative",
+    "formLabel": "TL/TJ 5th [TLJ]![IZ]! QB alternative",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-tltj-008-f000-j-1",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-008-f000-l-2",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-008-f000-l-3",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-tltj-008-f000-t-4",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0EeglBeg0FeglBeg0wwEeilywDeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed",
+    "bestsave": false
+  }
+]

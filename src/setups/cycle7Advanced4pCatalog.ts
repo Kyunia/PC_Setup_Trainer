@@ -3,6 +3,7 @@ import rawCatalog from "../../setups/cycle-7-4p-setups.json";
 import rawPolicy from "../../setups/cycle-7-4p-policy.json";
 import type { Piece } from "../engine/types";
 import { expandMirroredSetups, mirrorPiece } from "./mirror";
+import { expandEquivalentPlacementVariants } from "./placementVariants";
 import { applyStructuredPolicyMetrics, type StructuredSetupPolicy } from "./policy";
 import { expandBoxSetups } from "./rotation";
 import type { SetupVariant } from "./schema";
@@ -68,7 +69,9 @@ const manifest = rawManifest as Cycle7Advanced4pManifest;
 const sourceCatalog = rawCatalog as unknown as SetupVariant[];
 const policy = rawPolicy as unknown as Cycle7Advanced4pPolicy;
 const policyAppliedCatalog = applyStructuredPolicyMetrics(sourceCatalog, policy);
-const runtimeCatalog = expandBoxSetups(expandMirroredSetups(policyAppliedCatalog));
+const runtimeCatalog = expandBoxSetups(expandMirroredSetups(
+  expandEquivalentPlacementVariants(policyAppliedCatalog),
+));
 const sourceEntriesById = new Map(policy.runtimePolicy.entries.map((entry) => [entry.setupId, entry]));
 const goodCycle8Rates = new Map(
   policy.runtimePolicy.goodCycle8.entryRates.map(({ setupId, percent }) => [setupId, percent]),
@@ -78,7 +81,7 @@ const conditionalSetupIds = new Set(policy.runtimePolicy.conditionalVariants
   .flatMap(({ branches }) => branches.map(({ setupId }) => setupId)));
 
 function canonicalSourceId(setup: SetupVariant): string {
-  return setup.id.split("--box-")[0].replace(/--mirror$/, "");
+  return setup.policySourceId ?? setup.id.split("--box-")[0].replace(/--mirror$/, "");
 }
 
 function isMirroredRuntimeVariant(setup: SetupVariant): boolean {

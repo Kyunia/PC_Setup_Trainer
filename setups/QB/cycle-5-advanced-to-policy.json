@@ -1,0 +1,791 @@
+{
+  "id": "pcinfokorea-cycle-5-advanced-to-v1",
+  "schemaVersion": 3,
+  "cycle": 5,
+  "classId": "to",
+  "reviewStatus": "reviewed",
+  "qbSemantics": {
+    "oqbIncluded": false,
+    "initialObservationWindow": "HOLD+ACTIVE+NEXT[0..4]",
+    "canonicalRecommendationUsesExplicitQueueNotation": true,
+    "holdAccessInterchangeablePostBuild": true,
+    "holdAccessInterchangeabilityBroadensEligibility": false
+  },
+  "entries": [
+    {
+      "id": "to5-advanced-direct-006",
+      "kind": "direct",
+      "sourceOrder": 1,
+      "label": "TO-[TIL]! / TO-[TIJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "O"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-001-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "O"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-001-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "to5-advanced-direct-007",
+      "kind": "direct",
+      "sourceOrder": 2,
+      "label": "TO-[TLS]! / TO-[TJZ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "O"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-002-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "O"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "J",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-002-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "to5-advanced-direct-008",
+      "kind": "direct",
+      "sourceOrder": 3,
+      "label": "TO-[TSZ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "O"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-003-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "to5-advanced-direct-009",
+      "kind": "direct",
+      "sourceOrder": 4,
+      "label": "TO-[OLJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "O"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "L",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-004-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "J"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "to5-advanced-tol-toj",
+      "kind": "selection-group",
+      "sourceOrder": 5,
+      "label": "TOL/TOJ",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "O",
+                "L"
+              ]
+            }
+          ]
+        },
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "O",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "to5-advanced-tol-toj-1",
+          "order": 1,
+          "label": "[TOL]!I",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-005-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "to5-advanced-tol-toj-2",
+          "order": 2,
+          "label": "fallback",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "J"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "S"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "O",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "fallback": true,
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-004-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "to5-advanced-ilj",
+      "kind": "selection-group",
+      "sourceOrder": 6,
+      "label": "ILJ",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "I",
+                "L",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "to5-advanced-ilj-1",
+          "order": 1,
+          "label": "[ILJ]!T",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "T"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-001-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "to5-advanced-ilj-2",
+          "order": 2,
+          "label": "[ILJ]!S",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-006-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "to5-advanced-ilj-3",
+          "order": 3,
+          "label": "[ILJ]!Z",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-007-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "to5-advanced-ilj-4",
+          "order": 4,
+          "label": "[ILJ]!O",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "L",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-006-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-to-007-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "to5-advanced-tlj-immediate",
+      "kind": "selection-group",
+      "sourceOrder": 7,
+      "label": "TLJ immediate",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "L",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "to5-advanced-tlj-immediate-1",
+          "order": 1,
+          "label": "[TLJ]!S",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "L",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "S"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-006-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "to5-advanced-tlj-immediate-2",
+          "order": 2,
+          "label": "[TLJ]!Z",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "L",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-007-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "to5-advanced-tlj-immediate-3",
+          "order": 3,
+          "label": "[TLJ]!O",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "L",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "O"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-006-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-to-007-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "to5-advanced-tlj-immediate-4",
+          "order": 4,
+          "label": "[TLJ]!IO",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "L",
+                    "J"
+                  ]
+                },
+                {
+                  "kind": "ordered",
+                  "symbols": [
+                    "I",
+                    "O"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-to-006-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-to-007-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "runtimePolicy": {
+    "schemaVersion": 2,
+    "status": "compiled",
+    "executable": true,
+    "setupRoles": [
+      {
+        "setupId": "cycle5-advanced-to-001-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-to-002-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-to-003-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-to-004-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-to-005-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-to-006-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-to-007-f000",
+        "roles": [
+          "final"
+        ]
+      }
+    ],
+    "compiledEntryCount": 7,
+    "deferredEntryIds": [],
+    "queueConditionsAreAstOnly": true
+  }
+}

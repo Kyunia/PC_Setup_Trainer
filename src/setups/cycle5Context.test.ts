@@ -259,15 +259,24 @@ describe("5회차 2+7+2 일반 셋업 추천 context", () => {
     expect(tsOiIndex).toBeLessThan(tsOIndex);
   });
 
-  it("정식 querySetups가 HOLD+ACTIVE class만 골라 승격 catalog를 실시간 BFS로 조회한다", () => {
+  it("정식 querySetups가 HOLD+ACTIVE class의 활성 고급 policy를 일반 catalog보다 먼저 조회한다", () => {
     const candidates = querySetups(query());
-    expect(candidates.length).toBeGreaterThan(0);
-    expect(candidates.filter(({ setup }) => setup.placements.length >= 4).length).toBeLessThanOrEqual(8);
-    expect(candidates.filter(({ setup }) => setup.placements.length === 3).length).toBeLessThanOrEqual(4);
-    expect(candidates.every(({ setup }) => setupsForCycle5Class(["T", "O"])
-      .some(({ id }) => id === setup.id))).toBe(true);
-    expect(candidates.every(({ setup }) => setup.placements.length <= 6)).toBe(true);
-    expect(candidates.every(({ reasons }) => reasons[0] === "Classified as Cycle 5 T/O from HOLD + ACTIVE.")).toBe(true);
+    expect(candidates).toHaveLength(1);
+    expect(candidates[0]).toMatchObject({
+      setup: {
+        id: "cycle5-advanced-to-006-f000",
+        placements: expect.any(Array),
+      },
+      recommendationSource: {
+        bundleId: "promoted:cycle5-advanced-to",
+        kind: "cycle5-advanced",
+      },
+      policy: {
+        ruleId: "to5-advanced-ilj-2",
+        branchId: "initial",
+      },
+    });
+    expect(candidates[0]!.setup.placements.length).toBeLessThanOrEqual(6);
   });
 
   it("중복 class와 다른 회차 query에는 후보를 반환하지 않는다", () => {

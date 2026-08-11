@@ -271,7 +271,7 @@ describe("7회차 3+7 큐 경계", () => {
       const top = candidates[0];
       expect(top?.setup.id, `${order}/${prefix}`).toBe("cycle7-qb-lsz-ts-early-b");
       expect(top?.setup.placements, `${order}/${prefix}`).toHaveLength(3);
-      expect(top?.solutionMedia, `${order}/${prefix}`).toBeUndefined();
+      expect((top as typeof top & { solutionMedia?: unknown })?.solutionMedia, `${order}/${prefix}`).toBeUndefined();
     }
     const formA = querySetups({
       cycle: 7,

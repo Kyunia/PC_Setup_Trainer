@@ -1,6 +1,8 @@
 import type { StagedRecommendationResult } from "./cooperativeQuery";
 import type { SetupQuery } from "./query";
 import type { RecommendationWorkerMessage } from "./recommendationWorkerProtocol";
+import type { SelectedRecommendationScope } from "./recommendationScope";
+import type { SetupVariant } from "./schema";
 
 export class RecommendationRequestCancelled extends Error {
   constructor() {
@@ -23,12 +25,18 @@ interface PendingRequest {
 let nextRequestId = 0;
 
 export class RecommendationWorkerSlot {
-  private readonly worker: Worker;
+  private worker: Worker;
   private pending: PendingRequest | null = null;
   private activeRequestId: number | null = null;
+  private readonly createWorker: () => Worker;
 
-  constructor() {
-    this.worker = new Worker(new URL("./recommendation.worker.ts", import.meta.url), { type: "module" });
+  constructor(createWorker: () => Worker = () => new Worker(new URL("./recommendation.worker.ts", import.meta.url), { type: "module" })) {
+    this.createWorker = createWorker;
+    this.worker = this.createWorker();
+    this.bindWorker();
+  }
+
+  private bindWorker(): void {
     this.worker.onmessage = (event: MessageEvent<RecommendationWorkerMessage>) => {
       const message = event.data;
       if (message.requestId !== this.activeRequestId || !this.pending) return;
@@ -54,18 +62,32 @@ export class RecommendationWorkerSlot {
       else pending.reject(new Error(message.error));
     };
     this.worker.onerror = () => {
-      const pending = this.pending;
-      this.pending = null;
-      this.activeRequestId = null;
-      pending?.reject(new Error("Recommendation Web Worker failed."));
+      this.failAndReplace(new Error("Recommendation Web Worker failed."));
     };
+    this.worker.onmessageerror = () => {
+      this.failAndReplace(new Error("Recommendation Web Worker returned an unreadable message."));
+    };
+  }
+
+  private failAndReplace(reason: Error): void {
+    const pending = this.pending;
+    this.pending = null;
+    this.activeRequestId = null;
+    this.worker.terminate();
+    this.worker = this.createWorker();
+    this.bindWorker();
+    pending?.reject(reason);
   }
 
   get busy(): boolean {
     return this.activeRequestId !== null;
   }
 
-  start(query: SetupQuery, onStage: (result: StagedRecommendationResult) => void): RecommendationWorkerTask {
+  start(
+    query: SetupQuery,
+    onStage: (result: StagedRecommendationResult) => void,
+    scopeOrLegacyCatalog?: SelectedRecommendationScope | SetupVariant[],
+  ): RecommendationWorkerTask {
     if (this.busy) throw new Error("Recommendation Worker is already busy.");
     const requestId = ++nextRequestId;
     let resolve!: (result: StagedRecommendationResult) => void;
@@ -76,7 +98,27 @@ export class RecommendationWorkerSlot {
     });
     this.activeRequestId = requestId;
     this.pending = { onStage, resolve, reject };
-    this.worker.postMessage({ type: "recommend", requestId, query });
+    const scope: SelectedRecommendationScope | undefined = Array.isArray(scopeOrLegacyCatalog)
+      ? {
+          mode: "selected-bundles",
+          bundles: [{
+            bundleId: "legacy-selected-catalog",
+            kind: "structured",
+            cycle: query.cycle,
+            catalog: scopeOrLegacyCatalog,
+          }],
+        }
+      : scopeOrLegacyCatalog;
+    try {
+      this.worker.postMessage({
+        type: "recommend",
+        requestId,
+        query,
+        ...(scope ? { scope } : {}),
+      });
+    } catch (reason) {
+      this.failAndReplace(reason instanceof Error ? reason : new Error(String(reason)));
+    }
     return {
       requestId,
       done,
@@ -86,4 +128,3 @@ export class RecommendationWorkerSlot {
     };
   }
 }
-

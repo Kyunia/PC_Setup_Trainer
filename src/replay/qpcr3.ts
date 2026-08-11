@@ -1,5 +1,6 @@
 import { applyPlacementEvent, copyGameState, type PlacementEvent } from "../engine/placement";
 import { occupiedCells } from "../engine/pieces";
+import { MAX_SEED_UTF8_BYTES } from "../engine/seed";
 import {
   BOARD_HEIGHT,
   BOARD_WIDTH,
@@ -365,7 +366,7 @@ export function encodeQpcr3Container(replay: ReplayDataV3): Uint8Array {
     || replay.checkpointSchemaVersion !== QPCR3_CHECKPOINT_SCHEMA_VERSION) throw new Error("Unsupported QPCR3 version tuple.");
   verifyReplaySemanticsDetailed(replay);
   const body = new ByteWriter();
-  body.string(replay.createdAt, 128, "QPCR3 createdAt"); body.string(replay.seed, 200, "QPCR3 seed");
+  body.string(replay.createdAt, 128, "QPCR3 createdAt"); body.string(replay.seed, MAX_SEED_UTF8_BYTES, "QPCR3 seed");
   writeInitial(body, replay.initial);
   body.raw(replay.events.bytes);
   if (replay.checkpoints.length > Math.floor(replay.events.eventCount / 10) + 3) throw new Error("QPCR3 has too many checkpoints.");
@@ -398,7 +399,7 @@ export function decodeQpcr3Container(bytes: Uint8Array): ReplayDataV3 {
   if (expectedCrc !== actualCrc) throw new Error("QPCR3 CRC32C check failed.");
   const reader = new ByteReader(bytes.subarray(HEADER_SIZE, bytes.length - CRC_SIZE));
   const createdAt = reader.string(128, "QPCR3 createdAt"); if (Number.isNaN(Date.parse(createdAt))) throw new Error("QPCR3 createdAt is invalid.");
-  const seed = reader.string(200, "QPCR3 seed");
+  const seed = reader.string(MAX_SEED_UTF8_BYTES, "QPCR3 seed");
   const initial = readInitial(reader);
   const eventBytes = reader.raw(eventCount * 2).slice(); const events = packedReplayEvents(eventBytes, eventCount);
   const checkpointCount = reader.u16(); if (checkpointCount > Math.floor(eventCount / 10) + 3) throw new Error("QPCR3 checkpoint count is invalid.");
@@ -418,4 +419,3 @@ export function decodeQpcr3Container(bytes: Uint8Array): ReplayDataV3 {
   verifyReplaySemanticsDetailed(replay);
   return replay;
 }
-

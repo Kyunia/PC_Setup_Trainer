@@ -29,6 +29,7 @@ import { formatPieceSetForDisplay } from "../engine/pieceDisplay";
 import type { Piece } from "../engine/types";
 import { cycle5PiecePairKey } from "./cycle5Context";
 import { expandMirroredSetups, mirrorPiece, mirrorSetup } from "./mirror";
+import { expandEquivalentPlacementVariants } from "./placementVariants";
 import { applyStructuredPolicyMetrics, type StructuredSetupPolicy } from "./policy";
 import { expandBoxSetups } from "./rotation";
 import type { SetupVariant } from "./schema";
@@ -75,13 +76,14 @@ function materializeClass(descriptor: Cycle5ClassDescriptor): SetupVariant[] {
   const runtimeEligible = source.catalog.filter((setup) => setup.runtimeEligible !== false);
   const directed = applyStructuredPolicyMetrics(runtimeEligible, source.policy);
   if (descriptor.sourceDirection === "horizontal-runtime-mirror") {
-    return expandBoxSetups(directed.map(mirrorSetup));
+    return expandBoxSetups(expandEquivalentPlacementVariants(directed).map(mirrorSetup));
   }
 
   const mirroredPair = descriptor.firstBagPieces.map(mirrorPiece) as [Piece, Piece];
+  const physicalCatalog = expandEquivalentPlacementVariants(directed);
   const materialized = cycle5PiecePairKey(mirroredPair) === cycle5PiecePairKey(descriptor.firstBagPieces)
-    ? expandMirroredSetups(directed)
-    : directed;
+    ? expandMirroredSetups(physicalCatalog)
+    : physicalCatalog;
   return expandBoxSetups(materialized);
 }
 

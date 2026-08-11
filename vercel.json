@@ -11,6 +11,11 @@
       "source": "/replay.html",
       "destination": "/replay",
       "permanent": true
+    },
+    {
+      "source": "/setup_test.html",
+      "destination": "/setup_test",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -21,6 +26,10 @@
     {
       "source": "/replay/:id",
       "destination": "/replay.html"
+    },
+    {
+      "source": "/setup_test",
+      "destination": "/setup_test.html"
     }
   ]
 }

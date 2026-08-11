@@ -3,6 +3,7 @@ import rawCatalog from "../../setups/QB/cycle-7-qb-setups.json";
 import rawPolicy from "../../setups/QB/cycle-7-qb-policy.json";
 import type { Piece } from "../engine/types";
 import { expandBoxSetups } from "./rotation";
+import { expandEquivalentPlacementVariants } from "./placementVariants";
 import { mirrorPiece, mirrorSetup } from "./mirror";
 import type { SetupVariant } from "./schema";
 
@@ -87,10 +88,15 @@ export function cycle7QbClass(pieces: Piece[]): "LSZ" | "JSZ" | "ISZ" | "OSZ" | 
 function sourceEntryVariants(entry: Cycle7QbPolicyEntry, classId: string): SetupVariant[] {
   const setup = byId.get(entry.setupId);
   if (!setup) return [];
-  if (classId === "JSZ") return entry.mirror.kind === "class-mirror" ? [mirrorSetup(setup)] : [];
+  const physicalSetups = expandEquivalentPlacementVariants([setup]);
+  if (classId === "JSZ") {
+    return entry.mirror.kind === "class-mirror" ? physicalSetups.map(mirrorSetup) : [];
+  }
   if (entry.priorPoolClass !== classId) return [];
-  if (entry.mirror.kind === "conditional-horizontal") return [setup, mirrorSetup(setup)];
-  return [setup];
+  if (entry.mirror.kind === "conditional-horizontal") {
+    return [...physicalSetups, ...physicalSetups.map(mirrorSetup)];
+  }
+  return physicalSetups;
 }
 
 export function cycle7QbCatalogForClass(classId: "LSZ" | "JSZ" | "ISZ" | "OSZ"): SetupVariant[] {
@@ -102,7 +108,7 @@ function canonicalId(id: string): string {
 }
 
 export function cycle7QbPolicyEntryForSetup(setup: SetupVariant): Cycle7QbPolicyEntry | undefined {
-  const id = canonicalId(setup.id);
+  const id = setup.policySourceId ?? canonicalId(setup.id);
   return policy.entries.find((entry) => entry.setupId === id);
 }
 

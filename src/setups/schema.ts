@@ -9,6 +9,15 @@ export interface TargetPlacement {
   origin?: Cell;
 }
 
+export interface EquivalentPlacementVariant {
+  id: string;
+  translations: Array<{
+    placementId: string;
+    dx: number;
+    dy: number;
+  }>;
+}
+
 export interface SetupVariant {
   id: string;
   cycle: Cycle;
@@ -21,7 +30,11 @@ export interface SetupVariant {
   /** 여러 형상·회전·미러 중 추천 목록에는 가장 좋은 하나만 남길 논리 그룹이다. */
   recommendationGroup?: string;
   pieceSignature: Piece[];
+  /** Policy-only colored target after line clears; never an initial BFS setup or placement order. */
+  geometryKind?: "solution-shadow";
   placements: TargetPlacement[];
+  /** Canonical geometry remains stored once; these physical alternatives are expanded before BFS. */
+  equivalentPlacementVariants?: EquivalentPlacementVariant[];
   /** Canonical colored one-page v115 field Fumen for the promoted source geometry. */
   fumen?: string;
   mirrorOf?: string;
@@ -67,8 +80,12 @@ function placementMatchesTetromino(placement: TargetPlacement): boolean {
 
 export function validateSetup(setup: SetupVariant): string[] {
   const errors: string[] = [];
+  const solutionShadow = setup.geometryKind === "solution-shadow";
   if (!setup.id) errors.push("id가 없습니다.");
-  if (setup.placements.length < 2 || setup.placements.length > 8) errors.push("placement는 2~8개여야 합니다.");
+  if (setup.geometryKind !== undefined && setup.geometryKind !== "solution-shadow") {
+    errors.push("geometryKind가 올바르지 않습니다.");
+  }
+  if (setup.placements.length < 1 || setup.placements.length > 8) errors.push("placement는 1~8개여야 합니다.");
   if (setup.pieceSignature.length !== setup.placements.length || setup.pieceSignature.some((piece) => !isPiece(piece))) {
     errors.push(`pieceSignature는 유효한 미노 ${setup.placements.length}개여야 합니다.`);
   }
@@ -76,7 +93,10 @@ export function validateSetup(setup: SetupVariant): string[] {
   for (const placement of setup.placements) {
     if (!isPiece(placement.piece)) errors.push(`${placement.id}: 잘못된 piece입니다.`);
     if (placement.cells.length !== 4) errors.push(`${placement.id}: cell이 4개가 아닙니다.`);
-    if (!placementMatchesTetromino(placement)) errors.push(`${placement.id}: 미노 형태와 cell이 일치하지 않습니다.`);
+    if (!solutionShadow && !placementMatchesTetromino(placement)) errors.push(`${placement.id}: 미노 형태와 cell이 일치하지 않습니다.`);
+    if (solutionShadow && (placement.orientation !== undefined || placement.origin !== undefined)) {
+      errors.push(`${placement.id}: solution-shadow는 실행 순서 정보를 가질 수 없습니다.`);
+    }
     for (const cell of placement.cells) {
       if (!Number.isInteger(cell.x) || !Number.isInteger(cell.y)) errors.push(`${placement.id}: 좌표는 정수여야 합니다.`);
       if (cell.x < 0 || cell.x >= BOARD_WIDTH || cell.y < 0 || cell.y >= 4) errors.push(`${placement.id}: 10×4 영역 밖 좌표입니다.`);
@@ -92,6 +112,12 @@ export function validateSetup(setup: SetupVariant): string[] {
   if (setup.fumen !== undefined && (typeof setup.fumen !== "string" || !setup.fumen.startsWith("v115@"))) {
     errors.push("fumen은 v115@ 형식이어야 합니다.");
   }
+  if (solutionShadow && setup.fumen === undefined && setup.derivedVariant !== "mirror") {
+    errors.push("source solution-shadow에는 canonical fumen이 필요합니다.");
+  }
+  if (solutionShadow && (setup.equivalentPlacementVariants?.length ?? 0) > 0) {
+    errors.push("solution-shadow에는 equivalentPlacementVariants를 사용할 수 없습니다.");
+  }
   if (setup.solveRate !== undefined && (setup.solveRate < 0 || setup.solveRate > 100)) errors.push("solveRate는 0~100이어야 합니다.");
   if (setup.mirroredSolveRate !== undefined && (setup.mirroredSolveRate < 0 || setup.mirroredSolveRate > 100)) errors.push("mirroredSolveRate는 0~100이어야 합니다.");
   if (setup.saves !== undefined && (setup.saves < 0 || setup.saves > 100)) errors.push("saves는 0~100이어야 합니다.");
@@ -102,7 +128,44 @@ export function validateSetup(setup: SetupVariant): string[] {
     && (!Number.isFinite(setup.priority) || setup.priority < -100 || setup.priority > 100)) {
     errors.push("priority는 -100~100이어야 합니다.");
   }
+  const variantIds = new Set<string>();
+  const placementIds = new Set(setup.placements.map(({ id }) => id));
+  for (const variant of setup.equivalentPlacementVariants ?? []) {
+    if (!variant.id || variantIds.has(variant.id)) errors.push("equivalent placement variant id가 없거나 중복입니다.");
+    variantIds.add(variant.id);
+    if (!Array.isArray(variant.translations) || variant.translations.length === 0) {
+      errors.push(`${variant.id}: translation이 없습니다.`);
+      continue;
+    }
+    const movedIds = new Set<string>();
+    for (const translation of variant.translations) {
+      if (!placementIds.has(translation.placementId)) errors.push(`${variant.id}: 존재하지 않는 placement입니다.`);
+      if (movedIds.has(translation.placementId)) errors.push(`${variant.id}: placement translation이 중복입니다.`);
+      movedIds.add(translation.placementId);
+      if (!Number.isInteger(translation.dx) || !Number.isInteger(translation.dy)
+        || (translation.dx === 0 && translation.dy === 0)) {
+        errors.push(`${variant.id}: translation offset이 올바르지 않습니다.`);
+      }
+    }
+    const offsets = new Map(variant.translations.map(({ placementId, dx, dy }) => [placementId, { dx, dy }]));
+    const variantOccupied = new Set<string>();
+    for (const placement of setup.placements) {
+      const { dx = 0, dy = 0 } = offsets.get(placement.id) ?? {};
+      for (const cell of placement.cells) {
+        const x = cell.x + dx;
+        const y = cell.y + dy;
+        const key = `${x},${y}`;
+        if (x < 0 || x >= BOARD_WIDTH || y < 0 || y >= 4) errors.push(`${variant.id}: ${key}가 10×4 영역 밖입니다.`);
+        if (variantOccupied.has(key)) errors.push(`${variant.id}: ${key}가 겹칩니다.`);
+        variantOccupied.add(key);
+      }
+    }
+  }
   return [...new Set(errors)];
+}
+
+export function isSolutionShadowSetup(setup: SetupVariant): boolean {
+  return setup.geometryKind === "solution-shadow";
 }
 
 export function assertValidCatalog(catalog: SetupVariant[]): void {

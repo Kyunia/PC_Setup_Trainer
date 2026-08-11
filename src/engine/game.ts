@@ -6,6 +6,7 @@ import { parseQueueJumpInput, type QueueJumpTarget } from "../rules/queueJump";
 import { tryRotate } from "../rules/rotation";
 import { applyUnlimitedHold, copyGameState, lockGameState, placementEventFromStates, type PlacementTransitionOptions } from "./placement";
 import { PlacementHistory } from "./placementHistory";
+import { assertValidSeed } from "./seed";
 
 function initialSeed(): string {
   return Math.random().toString(36).slice(2, 10);
@@ -98,7 +99,9 @@ export class GameSession {
   }
 
   setSeed(seed: string): void {
-    this.restart(seed.trim() || initialSeed());
+    const normalized = seed.trim();
+    if (normalized) assertValidSeed(normalized);
+    this.restart(normalized || initialSeed());
   }
 
   jumpToQueue(input: string): QueueJumpTarget {

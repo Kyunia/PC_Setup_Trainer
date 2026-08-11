@@ -1,5 +1,6 @@
 import type { Piece } from "../engine/types";
 import { mirrorPiece, mirrorPieceNotationForDisplay, mirrorSetup, setupGeometryKey } from "./mirror";
+import { expandEquivalentPlacementVariants } from "./placementVariants";
 import { expandBoxSetups } from "./rotation";
 import type { SetupVariant } from "./schema";
 
@@ -295,19 +296,40 @@ function variantsForClass(
   classInfo: Cycle2AdvancedQbClass,
   automaticMirror = true,
 ): Array<{ setup: SetupVariant; mirroredGeometry: boolean; sourcePrefixMirror: boolean }> {
+  const physicalSetups = expandEquivalentPlacementVariants([setup]);
   if (classInfo.mirroredClass) {
-    return [{ setup: mirrorSetup(setup), mirroredGeometry: true, sourcePrefixMirror: true }];
+    return physicalSetups.map((physicalSetup) => ({
+      setup: mirrorSetup(physicalSetup),
+      mirroredGeometry: true,
+      sourcePrefixMirror: true,
+    }));
   }
   if (classInfo.selfMirroredClass) {
     if (!automaticMirror) {
-      return [{ setup, mirroredGeometry: false, sourcePrefixMirror: false }];
+      return physicalSetups.map((physicalSetup) => ({
+        setup: physicalSetup,
+        mirroredGeometry: false,
+        sourcePrefixMirror: false,
+      }));
     }
     return [
-      { setup, mirroredGeometry: false, sourcePrefixMirror: false },
-      { setup: mirrorSetup(setup), mirroredGeometry: true, sourcePrefixMirror: true },
+      ...physicalSetups.map((physicalSetup) => ({
+        setup: physicalSetup,
+        mirroredGeometry: false,
+        sourcePrefixMirror: false,
+      })),
+      ...physicalSetups.map((physicalSetup) => ({
+        setup: mirrorSetup(physicalSetup),
+        mirroredGeometry: true,
+        sourcePrefixMirror: true,
+      })),
     ];
   }
-  return [{ setup, mirroredGeometry: false, sourcePrefixMirror: false }];
+  return physicalSetups.map((physicalSetup) => ({
+    setup: physicalSetup,
+    mirroredGeometry: false,
+    sourcePrefixMirror: false,
+  }));
 }
 
 function matchesBuildOrderCondition(

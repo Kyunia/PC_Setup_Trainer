@@ -28,6 +28,7 @@ import rawTSTZPolicy from "../../setups/cycle-4-no-tstz-policy.json";
 import { normalizePieceNotationForDisplay } from "../engine/pieceDisplay";
 import { PIECES, type Piece } from "../engine/types";
 import { expandMirroredSetups, mirrorSetup } from "./mirror";
+import { expandEquivalentPlacementVariants } from "./placementVariants";
 import { applyStructuredPolicyMetrics, type StructuredSetupPolicy } from "./policy";
 import { expandBoxSetups } from "./rotation";
 import type { SetupVariant } from "./schema";
@@ -105,7 +106,7 @@ function materializeClass(descriptor: Cycle4ClassDescriptor): SetupVariant[] {
     policyForDirection(source.policy, descriptor.sourceDirection),
   );
   if (descriptor.sourceDirection === "horizontal-runtime-mirror") {
-    return expandBoxSetups(directed.map(mirrorSetup));
+    return expandBoxSetups(expandEquivalentPlacementVariants(directed).map(mirrorSetup));
   }
 
   // 누락쌍 자체가 좌우반전에 닫혀 있는 class는 source geometry를 보존하면서
@@ -117,9 +118,10 @@ function materializeClass(descriptor: Cycle4ClassDescriptor): SetupVariant[] {
     if (piece === "Z") return "S";
     return piece;
   });
+  const physicalCatalog = expandEquivalentPlacementVariants(directed);
   const materialized = cycle4PiecePairKey(mirroredMissing) === cycle4PiecePairKey(descriptor.missingPieces)
-    ? expandMirroredSetups(directed)
-    : directed;
+    ? expandMirroredSetups(physicalCatalog)
+    : physicalCatalog;
   return expandBoxSetups(materialized);
 }
 

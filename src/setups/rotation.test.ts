@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { sourceSetupCatalog } from "./catalog";
+import { setupsForCycle6Class, sourceSetupCatalog } from "./catalog";
 import { setupGeometryKey } from "./mirror";
+import { expandEquivalentPlacementVariants } from "./placementVariants";
 import { expandBoxSetups } from "./rotation";
 
 function isFourByFour(setup: (typeof sourceSetupCatalog)[number]): boolean {
@@ -9,22 +10,37 @@ function isFourByFour(setup: (typeof sourceSetupCatalog)[number]): boolean {
     && Math.max(...cells.map(({ y }) => y)) - Math.min(...cells.map(({ y }) => y)) === 3;
 }
 
+function wholeBoxWidth(setup: (typeof sourceSetupCatalog)[number]): 3 | 4 | null {
+  if (setup.placements.length !== 3 && setup.placements.length !== 4) return null;
+  const cells = setup.placements.flatMap((placement) => placement.cells);
+  const xs = cells.map(({ x }) => x);
+  const ys = cells.map(({ y }) => y);
+  const width = setup.placements.length as 3 | 4;
+  const minX = Math.min(...xs);
+  const maxX = Math.max(...xs);
+  const minY = Math.min(...ys);
+  const maxY = Math.max(...ys);
+  if (maxX - minX !== width - 1 || maxY - minY !== 3) return null;
+  const occupied = new Set(cells.map(({ x, y }) => `${x},${y}`));
+  return Array.from({ length: 4 }, (_, y) =>
+    Array.from({ length: width }, (_, x) => occupied.has(`${minX + x},${minY + y}`)))
+    .flat().every(Boolean) ? width : null;
+}
+
 describe("공통 box geometry orbit", () => {
-  it("ILJS 계열은 SFinder 회전형 minimal 네 개와 일곱 가로 위치만 생성한다", () => {
+  it("ILJS 계열은 source anchor에서 SFinder minimal 네 개만 생성한다", () => {
     const source = sourceSetupCatalog.find((setup) =>
       [...setup.pieceSignature].sort().join("") === "IJLS" && isFourByFour(setup));
     expect(source).toBeDefined();
     const expanded = expandBoxSetups([source!]);
-    expect(expanded).toHaveLength(28);
-    const layoutsAtX0 = new Set(expanded
-      .filter(({ placements }) => Math.min(
-        ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
-      ) === 0)
+    expect(expanded).toHaveLength(4);
+    const sourceX = Math.min(...source!.placements.flatMap(({ cells }) => cells.map(({ x }) => x)));
+    const layoutsAtSource = new Set(expanded
       .map(({ placements }) => Array.from({ length: 4 }, (_, y) =>
         Array.from({ length: 4 }, (_, x) => placements.find(({ cells }) =>
-          cells.some((cell) => cell.x === x && cell.y === y))!.piece).join(""),
+          cells.some((cell) => cell.x === sourceX + x && cell.y === y))!.piece).join(""),
       ).join("/")));
-    expect(layoutsAtX0).toEqual(new Set([
+    expect(layoutsAtSource).toEqual(new Set([
       "LLSI/LSSI/LSJI/JJJI",
       "JJJI/JSLI/SSLI/SLLI",
       "JLLL/JSSL/JJSS/IIII",
@@ -33,7 +49,7 @@ describe("공통 box geometry orbit", () => {
     const xPositions = new Set(expanded.map(({ placements }) => Math.min(
       ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
     )));
-    expect(xPositions).toEqual(new Set([0, 1, 2, 3, 4, 5, 6]));
+    expect(xPositions).toEqual(new Set([sourceX]));
     expect(new Set(expanded.map(setupGeometryKey)).size).toBe(expanded.length);
     expect(expanded.every(({ placements }) => placements.flatMap(({ cells }) => cells)
       .every(({ x, y }) => x >= 0 && x < 10 && y >= 0 && y < 4))).toBe(true);
@@ -44,22 +60,20 @@ describe("공통 box geometry orbit", () => {
       recommendationGroup === expectedGroup)).toBe(true);
   });
 
-  it("ILJO 계열은 SFinder 회전형 minimal 다섯 개와 일곱 가로 위치만 생성한다", () => {
+  it("ILJO 계열은 source anchor에서 SFinder minimal 다섯 개만 생성한다", () => {
     const source = sourceSetupCatalog.find((setup) =>
       [...setup.pieceSignature].sort().join("") === "IJLO" && isFourByFour(setup));
     expect(source).toBeDefined();
     const expanded = expandBoxSetups([source!]);
-    expect(expanded).toHaveLength(35);
-    expect(expanded.filter(({ derivedVariant }) => derivedVariant === "box-minimal")).toHaveLength(34);
-    const layoutsAtX0 = new Set(expanded
-      .filter(({ placements }) => Math.min(
-        ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
-      ) === 0)
+    expect(expanded).toHaveLength(5);
+    expect(expanded.filter(({ derivedVariant }) => derivedVariant === "box-minimal")).toHaveLength(4);
+    const sourceX = Math.min(...source!.placements.flatMap(({ cells }) => cells.map(({ x }) => x)));
+    const layoutsAtSource = new Set(expanded
       .map(({ placements }) => Array.from({ length: 4 }, (_, y) =>
         Array.from({ length: 4 }, (_, x) => placements.find(({ cells }) =>
-          cells.some((cell) => cell.x === x && cell.y === y))!.piece).join(""),
+          cells.some((cell) => cell.x === sourceX + x && cell.y === y))!.piece).join(""),
       ).join("/")));
-    expect(layoutsAtX0).toEqual(new Set([
+    expect(layoutsAtSource).toEqual(new Set([
       "IJJJ/IJOO/ILOO/ILLL",
       "JOOL/JOOL/JJLL/IIII",
       "LLJJ/LOOJ/LOOJ/IIII",
@@ -68,7 +82,52 @@ describe("공통 box geometry orbit", () => {
     ]));
     expect(new Set(expanded.map(({ placements }) => Math.min(
       ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
-    )))).toEqual(new Set([0, 1, 2, 3, 4, 5, 6]));
+    )))).toEqual(new Set([sourceX]));
+  });
+
+  it("명시적 physical alternative는 각 선언 anchor에서 minimal을 유지한다", () => {
+    const source = sourceSetupCatalog.find((setup) =>
+      [...setup.pieceSignature].sort().join("") === "IJLS" && isFourByFour(setup))!;
+    const sourceX = Math.min(...source.placements.flatMap(({ cells }) => cells.map(({ x }) => x)));
+    const targetX = sourceX === 0 ? 6 : 0;
+    const physical = expandEquivalentPlacementVariants([{
+      ...source,
+      equivalentPlacementVariants: [{
+        id: "opposite-wall",
+        translations: source.placements.map(({ id }) => ({
+          placementId: id,
+          dx: targetX - sourceX,
+          dy: 0,
+        })),
+      }],
+    }]);
+    const expanded = expandBoxSetups(physical);
+    expect(expanded).toHaveLength(8);
+    expect(new Set(expanded.map(({ placements }) => Math.min(
+      ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
+    )))).toEqual(new Set([sourceX, targetX]));
+  });
+
+  it("Cycle 6 No O의 policy-authorized mirror만 반대쪽 Box 위치를 만든다", () => {
+    const source = sourceSetupCatalog.find(({ id }) => id === "cycle6-no-o-005-f000")!;
+    expect(source).not.toHaveProperty("boxHorizontalConstraint");
+    const expanded = setupsForCycle6Class("O")
+      .filter(({ recommendationGroup }) => recommendationGroup === "cycle6-iljs-box");
+    expect(expanded).toHaveLength(8);
+    expect(new Set(expanded.map(({ placements }) => Math.min(
+      ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
+    )))).toEqual(new Set([0, 6]));
+  });
+
+  it("모든 일반 source whole Box는 데이터 anchor 밖의 가로 위치를 만들지 않는다", () => {
+    const sources = sourceSetupCatalog.filter((setup) => wholeBoxWidth(setup) !== null);
+    expect(sources.length).toBeGreaterThan(0);
+    for (const source of sources) {
+      const sourceX = Math.min(...source.placements.flatMap(({ cells }) => cells.map(({ x }) => x)));
+      expect(new Set(expandBoxSetups([source]).map(({ placements }) => Math.min(
+        ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
+      ))), source.id).toEqual(new Set([sourceX]));
+    }
   });
 
   it("4×4를 채우지 않는 일반 셋업은 파생하지 않는다", () => {

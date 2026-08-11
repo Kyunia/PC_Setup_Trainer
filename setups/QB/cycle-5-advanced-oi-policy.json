@@ -1,0 +1,4528 @@
+{
+  "id": "pcinfokorea-cycle-5-advanced-oi-v1",
+  "schemaVersion": 3,
+  "cycle": 5,
+  "classId": "oi",
+  "reviewStatus": "reviewed",
+  "qbSemantics": {
+    "oqbIncluded": true,
+    "initialObservationWindow": "HOLD+ACTIVE+NEXT[0..4]",
+    "canonicalRecommendationUsesExplicitQueueNotation": true,
+    "holdAccessInterchangeablePostBuild": true,
+    "holdAccessInterchangeabilityBroadensEligibility": false
+  },
+  "entries": [
+    {
+      "id": "oi5-advanced-rule-001",
+      "kind": "direct",
+      "sourceOrder": 1,
+      "label": "[OLJX]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "L",
+                  "J",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-001-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": true
+    },
+    {
+      "id": "oi5-advanced-rule-002",
+      "kind": "direct",
+      "sourceOrder": 2,
+      "label": "[OSZ]![TX]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-005-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-003",
+      "kind": "direct",
+      "sourceOrder": 3,
+      "label": "[OSZ]![IL]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-006-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-004",
+      "kind": "direct",
+      "sourceOrder": 4,
+      "label": "[OSZ]![IJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-007-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-005",
+      "kind": "direct",
+      "sourceOrder": 5,
+      "label": "[OSZ]![LJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-006-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-oi-007-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-009",
+      "kind": "direct",
+      "sourceOrder": 9,
+      "label": "[ILS]!T / [ILS]!OT / [ILS]!JT",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-012-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O",
+                  "T"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-012-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "J",
+                  "T"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-012-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-010",
+      "kind": "direct",
+      "sourceOrder": 10,
+      "label": "L[IS]!ZO / SLIZO",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-013-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S",
+                  "L",
+                  "I",
+                  "Z",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-013-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-011",
+      "kind": "group-fallback",
+      "sourceOrder": 11,
+      "label": "",
+      "alternatives": [],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "groupId": "oi5-advanced-section-04",
+      "groupGuardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "I",
+                "L",
+                "S"
+              ]
+            }
+          ]
+        },
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "I",
+                "J",
+                "Z"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oi5-advanced-rule-012",
+      "kind": "direct",
+      "sourceOrder": 12,
+      "label": "[TIS]![LX]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-012-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-013",
+      "kind": "direct",
+      "sourceOrder": 13,
+      "label": "[TIS]![OZ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-015-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-014",
+      "kind": "direct",
+      "sourceOrder": 14,
+      "label": "[TIS]![OJ]! / [TIS]![JZ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-016-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "J",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-016-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-015",
+      "kind": "direct",
+      "sourceOrder": 15,
+      "label": "[LJS]!O",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-001-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": true
+    },
+    {
+      "id": "oi5-advanced-rule-016",
+      "kind": "direct",
+      "sourceOrder": 16,
+      "label": "[LJ]!S[OX]! / [JS]!L[OX]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-017-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "J",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-017-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-017",
+      "kind": "direct",
+      "sourceOrder": 17,
+      "label": "[LJ]!S[ZX]! / [JS]!L[ZX]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "Z",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-017-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "J",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "Z",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-017-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-018",
+      "kind": "direct",
+      "sourceOrder": 18,
+      "label": "[LS]!JZO",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "J",
+                  "Z",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-018-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-019",
+      "kind": "group-fallback",
+      "sourceOrder": 19,
+      "label": "",
+      "alternatives": [],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "groupId": "oi5-advanced-section-06",
+      "groupGuardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "L",
+                "J",
+                "S"
+              ]
+            }
+          ]
+        },
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "L",
+                "J",
+                "Z"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oi5-advanced-rule-020",
+      "kind": "direct",
+      "sourceOrder": 20,
+      "label": "[LS]!Z / [LZ]!S",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-020-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-020-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-021",
+      "kind": "direct",
+      "sourceOrder": 21,
+      "label": "[ZS]!L[OX]! / [ZS]!LTI / [ZS]!LTJ",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "Z",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-021-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "Z",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "T",
+                  "I"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-021-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "Z",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "T",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-021-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-022",
+      "kind": "direct",
+      "sourceOrder": 22,
+      "label": "[ZS]!LIT",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "Z",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "I",
+                  "T"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-022-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-023",
+      "kind": "direct",
+      "sourceOrder": 23,
+      "label": "[ZS]!LJT",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "Z",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "J",
+                  "T"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-021-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-024",
+      "kind": "direct",
+      "sourceOrder": 24,
+      "label": "[ZS]!L[IJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "Z",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-014-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-025",
+      "kind": "direct",
+      "sourceOrder": 25,
+      "label": "[TL]!Z[OX]! / [LZ]!T[OX]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-020-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-020-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-026",
+      "kind": "direct",
+      "sourceOrder": 26,
+      "label": "[TL]!Z[SX]! / [LZ]!T[SX]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "S",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-020-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "S",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-020-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-027",
+      "kind": "direct",
+      "sourceOrder": 27,
+      "label": "[TL]!Z[IJ]! / [LZ]!T[IJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-020-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-020-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-028",
+      "kind": "direct",
+      "sourceOrder": 28,
+      "label": "[TZ]!L[SX]! / [TZ]!LJS",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "S",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-021-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "J",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-021-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-029",
+      "kind": "direct",
+      "sourceOrder": 29,
+      "label": "[TZ]!LOI",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "O",
+                  "I"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-022-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-030",
+      "kind": "direct",
+      "sourceOrder": 30,
+      "label": "[TZ]!LIO",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "I",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-023-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-031",
+      "kind": "direct",
+      "sourceOrder": 31,
+      "label": "[TZ]!LJS",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "J",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-021-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-032",
+      "kind": "direct",
+      "sourceOrder": 32,
+      "label": "[TZ]!L[OJ]! / [TZ]!L[IJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-024-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-024-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-033",
+      "kind": "direct",
+      "sourceOrder": 33,
+      "label": "[ISZ]![OL]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "L"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-006-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-034",
+      "kind": "direct",
+      "sourceOrder": 34,
+      "label": "[ISZ]![OJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-007-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-035",
+      "kind": "direct",
+      "sourceOrder": 35,
+      "label": "[ISZ]!TL",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-012-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-036",
+      "kind": "direct",
+      "sourceOrder": 36,
+      "label": "[ISZ]!TJ",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-025-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-038",
+      "kind": "direct",
+      "sourceOrder": 38,
+      "label": "[ISZ]![LJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-027-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-039",
+      "kind": "direct",
+      "sourceOrder": 39,
+      "label": "[ISZ]!LT",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "T"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-015-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-040",
+      "kind": "direct",
+      "sourceOrder": 40,
+      "label": "[ISZ]!JT",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "J",
+                  "T"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-028-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-041",
+      "kind": "direct",
+      "sourceOrder": 41,
+      "label": "[ILZ]![OX]! / [ILZ]!JO",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-023-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "J",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-023-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-042",
+      "kind": "direct",
+      "sourceOrder": 42,
+      "label": "[ILZ]![TJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-025-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-043",
+      "kind": "direct",
+      "sourceOrder": 43,
+      "label": "[IL]!ZJO / [LZ]!IJO",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z",
+                  "J",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-020-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "I",
+                  "J",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-020-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-045",
+      "kind": "direct",
+      "sourceOrder": 45,
+      "label": "[IL]!Z[TS]! / [LZ]!I[TS]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-020-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-020-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-046",
+      "kind": "direct",
+      "sourceOrder": 46,
+      "label": "[IZ]!LTS",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "T",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-021-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-047",
+      "kind": "direct",
+      "sourceOrder": 47,
+      "label": "[IZ]!LST",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "S",
+                  "T"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-021-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-048",
+      "kind": "direct",
+      "sourceOrder": 48,
+      "label": "[IL]!Z[JS]! / [LZ]!I[JS]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "J",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-020-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "J",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-020-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-049",
+      "kind": "direct",
+      "sourceOrder": 49,
+      "label": "[IZ]!L[JS]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "J",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-022-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-050",
+      "kind": "direct",
+      "sourceOrder": 50,
+      "label": "[TSZ]![OI]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "I"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-031-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-oi-032-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-051",
+      "kind": "direct",
+      "sourceOrder": 51,
+      "label": "[TSZ]!LO",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-006-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-052",
+      "kind": "direct",
+      "sourceOrder": 52,
+      "label": "[TSZ]!JO",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "J",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-007-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-053",
+      "kind": "direct",
+      "sourceOrder": 53,
+      "label": "[TSZ]!OL",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O",
+                  "L"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-006-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-054",
+      "kind": "direct",
+      "sourceOrder": 54,
+      "label": "[TSZ]!OJ",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-007-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-055",
+      "kind": "direct",
+      "sourceOrder": 55,
+      "label": "[TSZ]![IL]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-033-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-056",
+      "kind": "direct",
+      "sourceOrder": 56,
+      "label": "[TSZ]![IJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-034-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-057",
+      "kind": "direct",
+      "sourceOrder": 57,
+      "label": "[TSZ]![LJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-035-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-oi-036-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-058",
+      "kind": "direct",
+      "sourceOrder": 58,
+      "label": "[ILJ]!O",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-001-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": true
+    },
+    {
+      "id": "oi5-advanced-rule-059",
+      "kind": "direct",
+      "sourceOrder": 59,
+      "label": "[ILJ]!OT",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O",
+                  "T"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-001-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": true
+    },
+    {
+      "id": "oi5-advanced-rule-060",
+      "kind": "direct",
+      "sourceOrder": 60,
+      "label": "[ILJ]![SX]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "S",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-037-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-061",
+      "kind": "direct",
+      "sourceOrder": 61,
+      "label": "[ILJ]![ZX]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "Z",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-038-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-062",
+      "kind": "direct",
+      "sourceOrder": 62,
+      "label": "[ILJ]!TO",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-039-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-063",
+      "kind": "direct",
+      "sourceOrder": 63,
+      "label": "[TIL]!J",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-039-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-064",
+      "kind": "direct",
+      "sourceOrder": 64,
+      "label": "[TIL]!S",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-040-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-065",
+      "kind": "direct",
+      "sourceOrder": 65,
+      "label": "[TIL]!Z",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-041-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-066",
+      "kind": "direct",
+      "sourceOrder": 66,
+      "label": "[TIL]!OJ",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-042-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-067",
+      "kind": "direct",
+      "sourceOrder": 67,
+      "label": "[TIL]!OS",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-040-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-068",
+      "kind": "direct",
+      "sourceOrder": 68,
+      "label": "[TIL]!OZ",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-041-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-069",
+      "kind": "direct",
+      "sourceOrder": 69,
+      "label": "[TS]!LO / [LS]!TO",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-043-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-043-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-070",
+      "kind": "direct",
+      "sourceOrder": 70,
+      "label": "[TL]!SO",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-044-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-071",
+      "kind": "direct",
+      "sourceOrder": 71,
+      "label": "[TLS]!I",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "I"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-014-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-072",
+      "kind": "direct",
+      "sourceOrder": 72,
+      "label": "[TLS]!J",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-019-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-073",
+      "kind": "direct",
+      "sourceOrder": 73,
+      "label": "[TL]!SZ / [LS]!TZ",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-044-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-044-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-074",
+      "kind": "direct",
+      "sourceOrder": 74,
+      "label": "[TS]!LZO",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "Z",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-045-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-075",
+      "kind": "direct",
+      "sourceOrder": 75,
+      "label": "[TS]!LZI",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "Z",
+                  "I"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-046-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-076",
+      "kind": "direct",
+      "sourceOrder": 76,
+      "label": "[TS]!LZJ",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "Z",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-043-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-077",
+      "kind": "direct",
+      "sourceOrder": 77,
+      "label": "[TLJ]!O",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-001-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": true
+    },
+    {
+      "id": "oi5-advanced-rule-078",
+      "kind": "direct",
+      "sourceOrder": 78,
+      "label": "[TLJ]!S",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-047-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-079",
+      "kind": "direct",
+      "sourceOrder": 79,
+      "label": "[TLJ]!Z",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-048-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-080",
+      "kind": "direct",
+      "sourceOrder": 80,
+      "label": "[TLJ]!IS",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "I",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-047-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-081",
+      "kind": "direct",
+      "sourceOrder": 81,
+      "label": "[TLJ]!IZ",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "I",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-048-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-082",
+      "kind": "direct",
+      "sourceOrder": 82,
+      "label": "L[TJ]!IO",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "I",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-049-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-083",
+      "kind": "direct",
+      "sourceOrder": 83,
+      "label": "J[TL]!IO",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "I",
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-050-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-084",
+      "kind": "direct",
+      "sourceOrder": 84,
+      "label": "[OLX]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "L",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-002-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-085",
+      "kind": "direct",
+      "sourceOrder": 85,
+      "label": "[OJX]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "J",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-002-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "oi5-advanced-rule-086",
+      "kind": "direct",
+      "sourceOrder": 86,
+      "label": "[TOI]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "O",
+                  "I"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-003-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "oi5-advanced-rule-087",
+      "kind": "direct",
+      "sourceOrder": 87,
+      "label": "[OIS]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "I",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-004-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "S"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "oi5-advanced-rule-088",
+      "kind": "direct",
+      "sourceOrder": 88,
+      "label": "[OIZ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "I",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-004-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "Z"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "oi5-advanced-oqb-tos-toz-hidden-last",
+      "kind": "oqb",
+      "sourceOrder": 8,
+      "label": "[TOS]! / [TOZ]!",
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "O",
+                "S"
+              ]
+            }
+          ]
+        },
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "O",
+                "Z"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-oi-008-f000",
+      "checkpoint": {
+        "placedCount": 1,
+        "placedPieces": [
+          "O"
+        ]
+      },
+      "observation": {
+        "kind": "hidden-bag-piece",
+        "knownRemainingBagPieces": [
+          "I",
+          "L",
+          "J",
+          "Z"
+        ],
+        "visibleCountFromThatSet": 3
+      },
+      "branches": [
+        {
+          "id": "oi5-advanced-oqb-tos-toz-hidden-last-branch-1",
+          "observedPieces": [
+            "I",
+            "L"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-009-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "oi5-advanced-oqb-tos-toz-hidden-last-branch-2",
+          "observedPieces": [
+            "J"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-010-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "oi5-advanced-oqb-tos-toz-hidden-last-branch-3",
+          "observedPieces": [
+            "Z"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-011-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "runtimeStatus": "compiled"
+    },
+    {
+      "id": "oi5-advanced-oqb-isz-to",
+      "kind": "oqb",
+      "sourceOrder": 35,
+      "label": "[ISZ]![TO]!",
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "I",
+                "S",
+                "Z"
+              ]
+            },
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "O"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-oi-008-f000",
+      "checkpoint": {
+        "placedCount": 1,
+        "placedPieces": [
+          "O"
+        ]
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "oi5-advanced-oqb-isz-to-branch-1",
+          "observedPieces": [
+            "L"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-012-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "oi5-advanced-oqb-isz-to-branch-2",
+          "observedPieces": [
+            "J"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-026-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "runtimeStatus": "compiled"
+    },
+    {
+      "id": "oi5-advanced-oqb-ilz-jo",
+      "kind": "oqb",
+      "sourceOrder": 44,
+      "label": "[IZ]!LJO",
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "I",
+                "Z"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "L",
+                "J",
+                "O"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-oi-029-f000",
+      "checkpoint": {
+        "placedCount": 1,
+        "placedPieces": [
+          "O"
+        ]
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "oi5-advanced-oqb-ilz-jo-branch-1",
+          "observedPieces": [
+            "T"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-025-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "oi5-advanced-oqb-ilz-jo-branch-2",
+          "observedPieces": [
+            "S"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-030-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "runtimeStatus": "compiled"
+    },
+    {
+      "id": "oi5-advanced-oqb-tsz-lj-tip",
+      "kind": "oqb",
+      "sourceOrder": 51,
+      "label": "[TSZ]![LJ]!",
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "S",
+                "Z"
+              ]
+            },
+            {
+              "kind": "permutation",
+              "symbols": [
+                "L",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-oi-i1p-wall-vertical",
+      "checkpoint": {
+        "placedCount": 1,
+        "placedPieces": [
+          "I"
+        ]
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "oi5-advanced-oqb-tsz-lj-tip-branch-1",
+          "observedPieces": [
+            "O"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-006-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": true
+        },
+        {
+          "id": "oi5-advanced-oqb-tsz-lj-tip-branch-2",
+          "observedPieces": [
+            "I"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-035-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-oi-036-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "runtimeStatus": "compiled"
+    },
+    {
+      "id": "oi5-advanced-oqb-tlj-io-last-t",
+      "kind": "oqb",
+      "sourceOrder": 76,
+      "label": "T[LJ]!IO",
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "ordered",
+              "symbols": [
+                "T"
+              ]
+            },
+            {
+              "kind": "permutation",
+              "symbols": [
+                "L",
+                "J"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "I",
+                "O"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-oi-051-f000",
+      "checkpoint": {
+        "placedCount": 3,
+        "placedPieces": [
+          "I",
+          "L",
+          "O"
+        ]
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "oi5-advanced-oqb-tlj-io-last-t-branch-1",
+          "observedPieces": [
+            "T"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-052-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null,
+          "action": {
+            "placePiece": "J",
+            "claimedEffect": "avoid No T Cycle 6 with probability 1/3"
+          }
+        }
+      ],
+      "runtimeStatus": "compiled"
+    }
+  ],
+  "runtimePolicy": {
+    "schemaVersion": 2,
+    "status": "compiled",
+    "executable": true,
+    "setupRoles": [
+      {
+        "setupId": "cycle5-advanced-oi-001-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-002-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-003-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-004-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-005-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-006-f000",
+        "roles": [
+          "final",
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-007-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-008-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-009-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-010-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-011-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-012-f000",
+        "roles": [
+          "final",
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-013-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-014-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-015-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-016-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-017-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-018-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-019-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-020-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-021-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-022-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-023-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-024-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-025-f000",
+        "roles": [
+          "final",
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-026-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-027-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-028-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-029-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-030-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-031-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-032-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-033-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-034-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-035-f000",
+        "roles": [
+          "final",
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-036-f000",
+        "roles": [
+          "final",
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-037-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-038-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-039-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-040-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-041-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-042-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-043-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-044-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-045-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-046-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-047-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-048-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-049-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-050-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-051-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-052-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-oi-i1p-wall-vertical",
+        "roles": [
+          "oqb-precondition"
+        ]
+      }
+    ],
+    "compiledEntryCount": 88,
+    "deferredEntryIds": [],
+    "queueConditionsAreAstOnly": true
+  }
+}

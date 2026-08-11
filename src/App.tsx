@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type MutableRefObject } from "react";
 import { GameSession } from "./engine/game";
 import { normalizePieceNotationForDisplay } from "./engine/pieceDisplay";
+import { seedValidationError } from "./engine/seed";
 import { PIECES, type GameAction, type GameState, type Piece } from "./engine/types";
 import { InputController } from "./input/controller";
 import { releaseGameplayButtonFocus } from "./input/buttonFocus";
@@ -14,7 +15,8 @@ import { setupCoverageForCycle } from "./setups/catalog";
 import { cycle4ClassLabel } from "./setups/cycle4Catalog";
 import { GuideUndoHistory, guideSegmentIdentity, type GuideSnapshot } from "./setups/guideHistory";
 import { countSetupShadowWrongCells, shouldAutoHideSetupShadow } from "./setups/shadow";
-import { resolveCycle3StagedSetup, splitsSetupCandidatesByPieceCount, type SetupCandidate } from "./setups/query";
+import { splitsSetupCandidatesByPieceCount, type SetupCandidate } from "./setups/query";
+import { oqbContinuationCandidates, resolveOqbProgress, type OqbProgressResult } from "./setups/oqbProgress";
 import { recommendationSetupLabel } from "./setups/recommendationLabel";
 import {
   RecommendationRequestCancelled,
@@ -76,6 +78,7 @@ export default function App() {
   const [revision, setRevision] = useState(0);
   const [resetNonce, setResetNonce] = useState(0);
   const [seedInput, setSeedInput] = useState(session.current.state.seed);
+  const seedInputError = seedValidationError(seedInput.trim());
   const [queueJumpInput, setQueueJumpInput] = useState("");
   const [queueJumpStatus, setQueueJumpStatus] = useState({ text: "Enter 1–7 minos to jump by bag position.", error: false });
   const [settings, setSettings] = useState(loadInputSettings);
@@ -84,6 +87,8 @@ export default function App() {
   const [showSetupShadow, setShowSetupShadow] = useState(loadSetupShadowPreference);
   const [candidates, setCandidates] = useState<SetupCandidate[]>([]);
   const [recommendationLoading, setRecommendationLoading] = useState(true);
+  const [recommendationError, setRecommendationError] = useState(false);
+  const [recommendationRetryNonce, setRecommendationRetryNonce] = useState(0);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [guideDone, setGuideDone] = useState(false);
   const [stagedInstruction, setStagedInstruction] = useState<string | undefined>();
@@ -152,6 +157,7 @@ export default function App() {
     if (restoredGuideSegment.current === currentIdentity) {
       restoredGuideSegment.current = null;
       setRecommendationLoading(false);
+      setRecommendationError(false);
       return;
     }
     restoredGuideSegment.current = null;
@@ -166,12 +172,14 @@ export default function App() {
     setCandidates([]);
     setSelectedId(null);
     setRecommendationLoading(true);
+    setRecommendationError(false);
     setGuideDone(false);
     setStagedInstruction(undefined);
     const launch = () => {
       if (recommendationGeneration.current !== generation) return;
       const task = recommendationWorker.current.start(snapshot, (result) => {
         if (recommendationGeneration.current !== generation) return;
+        setRecommendationError(false);
         setCandidates(result.candidates);
         if (result.stage === "primary") {
           setRecommendationLoading(false);
@@ -186,6 +194,7 @@ export default function App() {
         if (!(reason instanceof RecommendationRequestCancelled)
           && recommendationGeneration.current === generation) {
           setRecommendationLoading(false);
+          setRecommendationError(true);
           console.error(reason);
         }
       }).finally(() => {
@@ -194,9 +203,10 @@ export default function App() {
     };
     if (previousTask) void previousTask.done.catch(() => undefined).finally(launch);
     else launch();
-  }, [segmentKey]);
+  }, [segmentKey, recommendationRetryNonce]);
 
-  const selected = useMemo(() => candidates.find(({ setup }) => setup.id === selectedId)?.setup ?? null, [candidates, selectedId]);
+  const selectedCandidate = useMemo(() => candidates.find(({ setup }) => setup.id === selectedId) ?? null, [candidates, selectedId]);
+  const selected = selectedCandidate?.setup ?? null;
   const splitCandidateSections = splitsSetupCandidatesByPieceCount(state.run.cycle);
   const qbCandidates = useMemo(() => candidates.filter(({ qbCondition }) => qbCondition !== undefined), [candidates]);
   const showQbCandidateSection = state.run.cycle === 7 || qbCandidates.length > 0;
@@ -213,32 +223,57 @@ export default function App() {
     return sections;
   }, [candidates, showCategorizedCandidates]);
   useEffect(() => {
-    if (!selected || guideDone || !targetCompleted(session.current.state, selected)) return;
+    if (!selectedCandidate || guideDone || !targetCompleted(session.current.state, selectedCandidate.setup)) return;
     const current = session.current.state;
-    const staged = resolveCycle3StagedSetup({
+    const query = {
       cycle: current.run.cycle,
       board: current.board,
       active: current.active.piece,
       hold: current.hold,
       next: current.bag.queue.slice(0, 5),
-      holdAvailable: !current.holdUsedThisTurn,
-    }, selected);
-    if (!staged) {
-      setGuideDone(true);
-      return;
+      holdAvailable: true,
+    } as const;
+    let active = true;
+    const applyProgress = (progress: OqbProgressResult) => {
+      if (!active) return;
+      if (progress.status !== "continuation") {
+        if (progress.status !== "no-follow-up") setStagedInstruction(progress.instruction);
+        setGuideDone(true);
+        return;
+      }
+      const followups = oqbContinuationCandidates(progress);
+      if (followups.length === 0) {
+        setStagedInstruction(progress.instruction);
+        setGuideDone(true);
+        return;
+      }
+      setStagedInstruction(progress.instruction);
+      const followupIds = new Set(followups.map(({ setup }) => setup.id));
+      setCandidates((currentCandidates) => [
+        ...followups,
+        ...currentCandidates.filter(({ setup }) => setup.id !== selectedCandidate.setup.id && !followupIds.has(setup.id)),
+      ]);
+      setSelectedId(followups[0]!.setup.id);
+    };
+
+    if (current.run.cycle === 5) {
+      void import("./setups/promotedOqbProgressProvider")
+        .then(({ promotedOqbProgressProvider }) => applyProgress(resolveOqbProgress({
+          selectedCandidate,
+          query,
+          policyProvider: promotedOqbProgressProvider,
+        })))
+        .catch((reason) => {
+          if (!active) return;
+          console.error(reason);
+          setStagedInstruction("The promoted OQB continuation could not be loaded.");
+          setGuideDone(true);
+        });
+    } else {
+      applyProgress(resolveOqbProgress({ selectedCandidate, query }));
     }
-    setStagedInstruction(staged.instruction);
-    if (staged.action === "solve-from-precondition") {
-      setGuideDone(true);
-      return;
-    }
-    if (!staged.candidate) return;
-    setCandidates((currentCandidates) => [
-      staged.candidate!,
-      ...currentCandidates.filter(({ setup }) => setup.id !== selected.id && setup.id !== staged.candidate!.setup.id),
-    ]);
-    setSelectedId(staged.candidate.setup.id);
-  }, [revision, selected, guideDone]);
+    return () => { active = false; };
+  }, [revision, selectedCandidate, guideDone]);
 
   const setupShadowAutoHidden = selected
     ? shouldAutoHideSetupShadow(state.board, selected, state.run.piecesLockedSinceLastPc)
@@ -250,6 +285,7 @@ export default function App() {
   }, [revision, selected, setupShadowVisible, state]);
 
   function restartWithSeed() {
+    if (seedInputError) return;
     session.current.setSeed(seedInput);
     guideHistory.current.clear();
     restoredGuideSegment.current = null;
@@ -324,7 +360,7 @@ export default function App() {
 
       <aside className="guide-column">
         <div className="guide-heading">
-          <div><span>{selected ? `${selected.placements.length}P GUIDE` : "SETUP GUIDE"}</span><h2>{guideDone ? "Solve Phase" : selected ? normalizePieceNotationForDisplay(selected.displayName) : recommendationLoading ? "Loading…" : "No Suggestion"}</h2></div>
+          <div><span>{selected ? `${selected.placements.length}P GUIDE` : "SETUP GUIDE"}</span><h2>{guideDone ? "Solve Phase" : selected ? normalizePieceNotationForDisplay(selected.displayName) : recommendationLoading ? "Loading…" : recommendationError ? "Recommendation Error" : "No Suggestion"}</h2></div>
           <div className="guide-heading-actions">
             <span className="phase-badge">{guideDone ? "SOLVE" : "SETUP"}</span>
             <button
@@ -345,15 +381,16 @@ export default function App() {
           : coverage.logicalSetupCount > 0
             ? `Cycle ${state.run.cycle}: data promoted · awaiting recommendation link`
             : `Cycle ${state.run.cycle}: data not registered`}</p>
+        {recommendationError && <div className="recommendation-error" role="alert"><span>{candidates.length > 0 ? "Some additional recommendations could not be loaded." : "Setup recommendations could not be loaded."}</span><button type="button" onClick={() => setRecommendationRetryNonce((value) => value + 1)}>Retry</button></div>}
         {selected ? <>
           <SetupPreview setup={selected} />
           <p className="setup-meta">{selected.solveRate !== undefined ? `PC Rate ${selected.solveRate}% · ` : ""}Priority {selected.priority ?? 0} · Difficulty {selected.difficulty}/5 · {selected.saves !== undefined ? `${selected.saveMetricKind === "project-priority" ? "Save Priority" : "Saves"} ${selected.saves}${selected.saveMetricKind === "project-priority" ? "" : "%"} · ` : ""}{selected.reviewStatus === "draft" ? "Unreviewed" : "Reviewed"}</p>
           {stagedInstruction && <p className="policy-note">{stagedInstruction}</p>}
           {!guideDone && wrongCells > 0 && <p className="warning">{wrongCells} cell(s) differ from the target. Undo recommended.</p>}
-          <ol className="plan-list">{candidates.find(({ setup }) => setup.id === selected.id)?.plan.steps.map((step, index) =>
-            <li key={`${index}-${step.piece}`}>{step.action === "hold" ? `${step.piece} Hold` : `${step.piece} Place`}</li>)}</ol>
         </> : <p className="empty-copy">{recommendationLoading
           ? "Reading the PC-start queue and finding buildable setups…"
+          : recommendationError
+          ? "Recommendation loading failed. Free practice continues."
           : coverage.setupCount > 0
           ? `No buildable candidates found in the current ${coverage.setupCount} placements and their mirrors for this queue. Unexplored setups may exist. Free practice continues.`
           : coverage.logicalSetupCount > 0
@@ -380,7 +417,7 @@ export default function App() {
           <button type="submit">Go</button>
           <p className={queueJumpStatus.error ? "error" : ""} aria-live="polite">{queueJumpStatus.text}</p>
         </form>
-        <div className="seed-panel"><label>SEED <input value={seedInput} onChange={(e) => setSeedInput(e.target.value)} /></label><button type="button" onClick={restartWithSeed}>Apply</button><button type="button" onClick={() => dispatch("randomSeed")}>Random</button></div>
+        <div className="seed-panel"><label>SEED <input value={seedInput} aria-invalid={seedInputError !== null} aria-describedby={seedInputError ? "seed-input-error" : undefined} onChange={(e) => setSeedInput(e.target.value)} /></label><button type="button" disabled={seedInputError !== null} onClick={restartWithSeed}>Apply</button><button type="button" onClick={() => dispatch("randomSeed")}>Random</button>{seedInputError && <p id="seed-input-error" role="alert">{seedInputError}</p>}</div>
       </aside>
     </section>
     {settingsOpen && <SettingsPanel settings={settings} onChange={setSettings} onClose={() => setSettingsOpen(false)} />}

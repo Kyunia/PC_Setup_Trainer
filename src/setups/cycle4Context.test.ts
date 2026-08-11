@@ -180,7 +180,7 @@ describe("4회차 5+6 일반 셋업 추천", () => {
       .every(({ piece }) => buildPool.has(piece)))).toBe(true);
   });
 
-  it("No OZ의 ILJS 4x4 Box를 오른쪽 끝 위치에서도 추천한다", () => {
+  it("No OZ의 ILJS 4x4 Box는 class mirror로 선언된 왼쪽 anchor만 추천한다", () => {
     const screenshotQueue = query({
       hold: "T",
       active: "I",
@@ -194,9 +194,9 @@ describe("4회차 5+6 일반 셋업 추천", () => {
     const boxVariants = setupsForCycle4Class(["O", "Z"])
       .filter(({ displayName }) => displayName === "Box");
     expect(boxVariants.length).toBeGreaterThan(1);
-    expect(boxVariants.some(({ placements }) => Math.min(
+    expect(new Set(boxVariants.map(({ placements }) => Math.min(
       ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
-    ) === 6)).toBe(true);
+    )))).toEqual(new Set([0]));
 
     const candidates = querySetups(screenshotQueue);
     const box = candidates.find(({ setup }) => setup.displayName === "Box");

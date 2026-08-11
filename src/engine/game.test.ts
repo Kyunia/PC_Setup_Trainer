@@ -3,8 +3,19 @@ import { GameSession } from "./game";
 import { createBoard } from "./board";
 import { occupiedCells, spawnPiece } from "./pieces";
 import type { Piece } from "./types";
+import { MAX_SEED_UTF8_BYTES, seedUtf8ByteLength } from "./seed";
 
 describe("game session practice controls", () => {
+  it("accepts seeds at the UTF-8 replay boundary and rejects longer seeds without restarting", () => {
+    const session = new GameSession("original-seed");
+    const accepted = "😀".repeat(MAX_SEED_UTF8_BYTES / 4);
+    expect(seedUtf8ByteLength(accepted)).toBe(MAX_SEED_UTF8_BYTES);
+    session.setSeed(accepted);
+    expect(session.state.seed).toBe(accepted);
+    const before = session.state;
+    expect(() => session.setSeed(`${accepted}😀`)).toThrow(`${MAX_SEED_UTF8_BYTES} UTF-8 bytes`);
+    expect(session.state).toBe(before);
+  });
   it("현재 미노를 보이는 필드 안에 스폰한다", () => {
     const active = spawnPiece("T");
     expect(Math.max(...occupiedCells(active).map(({ y }) => y))).toBeLessThan(20);

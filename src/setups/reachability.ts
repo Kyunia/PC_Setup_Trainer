@@ -42,7 +42,14 @@ interface SearchState {
   remaining: TargetPlacement[];
   plan: BuildStep[];
   holds: number;
-  holdAvailable: boolean;
+  /**
+   * Canonical-search marker, not a game restriction. With occupied HOLD, a
+   * second consecutive HOLD returns to the same state. With empty HOLD, the
+   * two-HOLD-then-place path reaches the same post-place state as
+   * place-then-HOLD. Skipping that dominated ordering preserves every
+   * placement plan while the runtime itself remains unlimited-HOLD.
+   */
+  heldSincePlacement: boolean;
 }
 
 function activeKey(active: ActivePiece): string {
@@ -149,20 +156,54 @@ function remainingKey(remaining: TargetPlacement[]): string {
   return remaining.map(({ id }) => id).sort().join(",");
 }
 
+function afterUnlimitedHold(state: SearchState, next: Piece[], placeableNextCount: number): SearchState | null {
+  if (state.heldSincePlacement) return null;
+  const holdStep: BuildStep = {
+    action: "hold",
+    piece: state.active,
+    source: state.activePlaceable ? "visible" : "synthetic-next-bag-buffer",
+  };
+  if (state.hold === null) {
+    const nextPiece = next[state.queueIndex];
+    if (!nextPiece) return null;
+    return {
+      ...state,
+      active: nextPiece,
+      activePlaceable: state.queueIndex < placeableNextCount,
+      hold: state.active,
+      holdPlaceable: state.activePlaceable,
+      queueIndex: state.queueIndex + 1,
+      plan: [...state.plan, holdStep],
+      holds: state.holds + 1,
+      heldSincePlacement: true,
+    };
+  }
+  return {
+    ...state,
+    active: state.hold,
+    activePlaceable: state.holdPlaceable ?? false,
+    hold: state.active,
+    holdPlaceable: state.activePlaceable,
+    plan: [...state.plan, holdStep],
+    holds: state.holds + 1,
+    heldSincePlacement: true,
+  };
+}
+
 export function findBuildPlan(
   setup: SetupVariant,
   board: Board,
   active: Piece,
   hold: Piece | null,
   next: Piece[],
-  holdAvailable = true,
+  _holdAvailable = true,
   placeableNextCount = next.length,
   reachabilityCache?: ReachabilityCache,
 ): BuildPlan | null {
   const pending: SearchState[] = [{
     board: board.map((row) => [...row]), active, activePlaceable: true,
     hold, holdPlaceable: hold === null ? null : true, queueIndex: 0,
-    remaining: setup.placements, plan: [], holds: 0, holdAvailable,
+    remaining: setup.placements, plan: [], holds: 0, heldSincePlacement: false,
   }];
   let pendingIndex = 0;
   const visited = new Set<string>();
@@ -176,7 +217,7 @@ export function findBuildPlan(
       state.holdPlaceable ?? "-",
       state.queueIndex,
       remainingKey(state.remaining),
-      state.holdAvailable,
+      state.heldSincePlacement,
     ].join("|");
     if (visited.has(key)) continue;
     visited.add(key);
@@ -198,45 +239,12 @@ export function findBuildPlan(
         queueIndex: state.queueIndex + 1,
         remaining,
         plan,
-        holdAvailable: true,
+        heldSincePlacement: false,
       });
     }
 
-    if (!state.holdAvailable) continue;
-
-    if (state.hold === null) {
-      const nextPiece = next[state.queueIndex];
-      if (nextPiece) pending.push({
-        ...state,
-        active: nextPiece,
-        activePlaceable: state.queueIndex < placeableNextCount,
-        hold: state.active,
-        holdPlaceable: state.activePlaceable,
-        queueIndex: state.queueIndex + 1,
-        plan: [...state.plan, {
-          action: "hold",
-          piece: state.active,
-          source: state.activePlaceable ? "visible" : "synthetic-next-bag-buffer",
-        }],
-        holds: state.holds + 1,
-        holdAvailable: false,
-      });
-    } else {
-      pending.push({
-        ...state,
-        active: state.hold,
-        activePlaceable: state.holdPlaceable ?? false,
-        hold: state.active,
-        holdPlaceable: state.activePlaceable,
-        plan: [...state.plan, {
-          action: "hold",
-          piece: state.active,
-          source: state.activePlaceable ? "visible" : "synthetic-next-bag-buffer",
-        }],
-        holds: state.holds + 1,
-        holdAvailable: false,
-      });
-    }
+    const held = afterUnlimitedHold(state, next, placeableNextCount);
+    if (held) pending.push(held);
   }
   return null;
 }
@@ -248,7 +256,7 @@ export async function findBuildPlanCooperative(
   active: Piece,
   hold: Piece | null,
   next: Piece[],
-  holdAvailable = true,
+  _holdAvailable = true,
   placeableNextCount = next.length,
   reachabilityCache: ReachabilityCache | undefined,
   control: CooperativeSearchControl,
@@ -256,7 +264,7 @@ export async function findBuildPlanCooperative(
   const pending: SearchState[] = [{
     board: board.map((row) => [...row]), active, activePlaceable: true,
     hold, holdPlaceable: hold === null ? null : true, queueIndex: 0,
-    remaining: setup.placements, plan: [], holds: 0, holdAvailable,
+    remaining: setup.placements, plan: [], holds: 0, heldSincePlacement: false,
   }];
   let pendingIndex = 0;
   const visited = new Set<string>();
@@ -272,7 +280,7 @@ export async function findBuildPlanCooperative(
       state.holdPlaceable ?? "-",
       state.queueIndex,
       remainingKey(state.remaining),
-      state.holdAvailable,
+      state.heldSincePlacement,
     ].join("|");
     if (visited.has(key)) continue;
     visited.add(key);
@@ -294,44 +302,12 @@ export async function findBuildPlanCooperative(
         queueIndex: state.queueIndex + 1,
         remaining,
         plan,
-        holdAvailable: true,
+        heldSincePlacement: false,
       });
     }
 
-    if (!state.holdAvailable) continue;
-    if (state.hold === null) {
-      const nextPiece = next[state.queueIndex];
-      if (nextPiece) pending.push({
-        ...state,
-        active: nextPiece,
-        activePlaceable: state.queueIndex < placeableNextCount,
-        hold: state.active,
-        holdPlaceable: state.activePlaceable,
-        queueIndex: state.queueIndex + 1,
-        plan: [...state.plan, {
-          action: "hold",
-          piece: state.active,
-          source: state.activePlaceable ? "visible" : "synthetic-next-bag-buffer",
-        }],
-        holds: state.holds + 1,
-        holdAvailable: false,
-      });
-    } else {
-      pending.push({
-        ...state,
-        active: state.hold,
-        activePlaceable: state.holdPlaceable ?? false,
-        hold: state.active,
-        holdPlaceable: state.activePlaceable,
-        plan: [...state.plan, {
-          action: "hold",
-          piece: state.active,
-          source: state.activePlaceable ? "visible" : "synthetic-next-bag-buffer",
-        }],
-        holds: state.holds + 1,
-        holdAvailable: false,
-      });
-    }
+    const held = afterUnlimitedHold(state, next, placeableNextCount);
+    if (held) pending.push(held);
   }
   return null;
 }

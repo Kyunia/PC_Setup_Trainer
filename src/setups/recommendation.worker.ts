@@ -48,7 +48,7 @@ async function run(request: RecommendationWorkerRequest): Promise<void> {
     await querySetupsStagedCooperative(request.query, control, (result) => {
       if (cancelled.has(request.requestId)) throw new RecommendationCancelled();
       send({ type: "stage", requestId: request.requestId, ...result });
-    });
+    }, request.scope);
   } catch (reason) {
     if (reason instanceof RecommendationCancelled || cancelled.has(request.requestId)) {
       send({ type: "cancelled", requestId: request.requestId });
@@ -82,4 +82,3 @@ self.onmessage = (event: MessageEvent<RecommendationWorkerCommand>) => {
   if (activeRequestId === null) void run(command);
   else queued.push(command);
 };
-

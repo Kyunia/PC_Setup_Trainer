@@ -1,0 +1,808 @@
+{
+  "id": "pcinfokorea-cycle-5-advanced-tltj-v1",
+  "schemaVersion": 3,
+  "cycle": 5,
+  "classId": "tltj",
+  "reviewStatus": "reviewed",
+  "qbSemantics": {
+    "oqbIncluded": true,
+    "initialObservationWindow": "HOLD+ACTIVE+NEXT[0..4]",
+    "canonicalRecommendationUsesExplicitQueueNotation": true,
+    "holdAccessInterchangeablePostBuild": true,
+    "holdAccessInterchangeabilityBroadensEligibility": false
+  },
+  "entries": [
+    {
+      "id": "tltj5-advanced-qb-tls-tjz",
+      "kind": "direct",
+      "sourceOrder": 1,
+      "label": "TL-[TLS]! / TJ-[TJZ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-001-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "J",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-001-f000",
+              "transform": "mirror-x"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "tltj5-advanced-qb-tjz-tls",
+      "kind": "direct",
+      "sourceOrder": 2,
+      "label": "TL-[TJZ]! / TJ-[TLS]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "J",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-002-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-002-f000",
+              "transform": "mirror-x"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "tltj5-advanced-qb-til-js",
+      "kind": "direct",
+      "sourceOrder": 3,
+      "label": "TL-[TIL]!J / TL-[TIL]!S",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-003-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-003-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "tltj5-advanced-qb-til-oz",
+      "kind": "direct",
+      "sourceOrder": 4,
+      "label": "TL-[TIL]!O / TL-[TIL]!Z",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-004-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-004-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "tltj5-advanced-qb-tlj-s",
+      "kind": "direct",
+      "sourceOrder": 5,
+      "label": "TL-[TLJ]!S / TJ-[TLJ]!Z",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-005-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-005-f000",
+              "transform": "mirror-x"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "tltj5-advanced-qb-tlj-os-is",
+      "kind": "direct",
+      "sourceOrder": 6,
+      "label": "[TLJ]!OS / [TLJ]!IS",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-005-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "I",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-005-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "tltj5-advanced-qb-tlj-oz",
+      "kind": "direct",
+      "sourceOrder": 7,
+      "label": "[TLJ]![OZ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-006-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "tltj5-advanced-qb-tlj-iz-alternative",
+      "kind": "direct",
+      "sourceOrder": 8,
+      "label": "[TLJ]![IZ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-008-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "tltj5-advanced-oqb-tlj-oi",
+      "kind": "oqb",
+      "sourceOrder": 20,
+      "label": "[TLJ]![OI]!",
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "L",
+                "J"
+              ]
+            },
+            {
+              "kind": "permutation",
+              "symbols": [
+                "O",
+                "I"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-tltj-007-f000",
+      "checkpoint": {
+        "placedCount": 1,
+        "placedPieces": [
+          "T"
+        ]
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "tltj5-advanced-oqb-tlj-oi-branch-1",
+          "observedPieces": [
+            "Z"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-006-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": true,
+          "action": "complete-bestsave-continuation"
+        },
+        {
+          "id": "tltj5-advanced-oqb-tlj-oi-branch-2",
+          "observedPieces": [
+            "S"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-008-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": false,
+          "action": "use-alternative-continuation"
+        }
+      ],
+      "runtimeStatus": "compiled"
+    },
+    {
+      "id": "tltj5-advanced-oqb-tlj-zs",
+      "kind": "oqb",
+      "sourceOrder": 20,
+      "label": "[TLJ]!ZS",
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "L",
+                "J"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "Z",
+                "S"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-tltj-007-f000",
+      "checkpoint": {
+        "placedCount": 1,
+        "placedPieces": [
+          "T"
+        ]
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "tltj5-advanced-oqb-tlj-zs-branch-1",
+          "observedPieces": [
+            "O"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-006-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": true,
+          "action": "complete-bestsave-continuation"
+        },
+        {
+          "id": "tltj5-advanced-oqb-tlj-zs-branch-2",
+          "observedPieces": [
+            "I"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-tltj-008-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": false,
+          "action": "use-alternative-continuation"
+        }
+      ],
+      "runtimeStatus": "compiled"
+    }
+  ],
+  "runtimePolicy": {
+    "schemaVersion": 2,
+    "status": "compiled",
+    "executable": true,
+    "setupRoles": [
+      {
+        "setupId": "cycle5-advanced-tltj-001-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tltj-002-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tltj-003-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tltj-004-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tltj-005-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tltj-006-f000",
+        "roles": [
+          "final",
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tltj-007-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-tltj-008-f000",
+        "roles": [
+          "final",
+          "oqb-continuation"
+        ]
+      }
+    ],
+    "compiledEntryCount": 10,
+    "deferredEntryIds": [],
+    "queueConditionsAreAstOnly": true
+  }
+}

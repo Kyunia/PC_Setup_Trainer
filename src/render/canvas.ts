@@ -14,6 +14,18 @@ export const PIECE_COLORS: Record<Exclude<BoardCell, null>, string> = {
   X: "#777f8c",
 };
 
+export interface SetupShadowCell {
+  cell: Cell;
+  piece: Piece;
+}
+
+/** Returns only empty-board target cells; source geometry itself remains unchanged. */
+export function visibleSetupShadowCells(state: GameState, setup: SetupVariant): SetupShadowCell[] {
+  return setup.placements.flatMap((placement) => placement.cells
+    .filter((cell) => state.board[cell.y]?.[cell.x] === null)
+    .map((cell) => ({ cell, piece: placement.piece })));
+}
+
 function prepareCanvas(canvas: HTMLCanvasElement, cssWidth: number, cssHeight: number): CanvasRenderingContext2D {
   const ratio = window.devicePixelRatio || 1;
   canvas.width = Math.round(cssWidth * ratio);
@@ -24,10 +36,18 @@ function prepareCanvas(canvas: HTMLCanvasElement, cssWidth: number, cssHeight: n
   context.setTransform(ratio, 0, 0, ratio, 0, 0);
   return context;
 }
-function drawCell(context: CanvasRenderingContext2D, cell: Cell, piece: Exclude<BoardCell, null>, size: number, alpha = 1, inset = 1): void {
-  if (cell.y < 0 || cell.y >= VISIBLE_HEIGHT) return;
+function drawCell(
+  context: CanvasRenderingContext2D,
+  cell: Cell,
+  piece: Exclude<BoardCell, null>,
+  size: number,
+  alpha = 1,
+  inset = 1,
+  visibleHeight = VISIBLE_HEIGHT,
+): void {
+  if (cell.y < 0 || cell.y >= visibleHeight) return;
   const x = cell.x * size;
-  const y = (VISIBLE_HEIGHT - 1 - cell.y) * size;
+  const y = (visibleHeight - 1 - cell.y) * size;
   context.globalAlpha = alpha;
   context.fillStyle = PIECE_COLORS[piece];
   context.fillRect(x + inset, y + inset, size - inset * 2, size - inset * 2);
@@ -36,37 +56,45 @@ function drawCell(context: CanvasRenderingContext2D, cell: Cell, piece: Exclude<
   context.globalAlpha = 1;
 }
 
-export function drawBoard(canvas: HTMLCanvasElement, state: GameState, setup: SetupVariant | null, showGuide: boolean): void {
-  const size = 30;
-  const context = prepareCanvas(canvas, BOARD_WIDTH * size, VISIBLE_HEIGHT * size);
+export function drawBoardViewport(
+  canvas: HTMLCanvasElement,
+  state: GameState,
+  setup: SetupVariant | null,
+  showGuide: boolean,
+  visibleHeight: number,
+  size: number,
+): void {
+  const context = prepareCanvas(canvas, BOARD_WIDTH * size, visibleHeight * size);
   context.fillStyle = "#11151c";
   context.fillRect(0, 0, canvas.width, canvas.height);
   context.strokeStyle = "rgba(255,255,255,.07)";
   context.lineWidth = 1;
   for (let x = 0; x <= BOARD_WIDTH; x += 1) {
-    context.beginPath(); context.moveTo(x * size + .5, 0); context.lineTo(x * size + .5, VISIBLE_HEIGHT * size); context.stroke();
+    context.beginPath(); context.moveTo(x * size + .5, 0); context.lineTo(x * size + .5, visibleHeight * size); context.stroke();
   }
-  for (let y = 0; y <= VISIBLE_HEIGHT; y += 1) {
+  for (let y = 0; y <= visibleHeight; y += 1) {
     context.beginPath(); context.moveTo(0, y * size + .5); context.lineTo(BOARD_WIDTH * size, y * size + .5); context.stroke();
   }
 
   if (setup && showGuide) {
-    for (const placement of setup.placements) {
-      for (const cell of placement.cells) {
-        if (state.board[cell.y]?.[cell.x] === null) drawCell(context, cell, placement.piece, size, .23, 2);
-      }
+    for (const { cell, piece } of visibleSetupShadowCells(state, setup)) {
+      drawCell(context, cell, piece, size, .23, 2, visibleHeight);
     }
   }
-  for (let y = 0; y < VISIBLE_HEIGHT; y += 1) {
+  for (let y = 0; y < visibleHeight; y += 1) {
     for (let x = 0; x < BOARD_WIDTH; x += 1) {
-      const piece = state.board[y][x];
-      if (piece) drawCell(context, { x, y }, piece, size);
+      const piece = state.board[y]?.[x];
+      if (piece) drawCell(context, { x, y }, piece, size, 1, 1, visibleHeight);
     }
   }
   if (state.run.status === "playing") {
-    for (const cell of occupiedCells(ghostPiece(state))) drawCell(context, cell, state.active.piece, size, .2, 3);
-    for (const cell of occupiedCells(state.active)) drawCell(context, cell, state.active.piece, size);
+    for (const cell of occupiedCells(ghostPiece(state))) drawCell(context, cell, state.active.piece, size, .2, 3, visibleHeight);
+    for (const cell of occupiedCells(state.active)) drawCell(context, cell, state.active.piece, size, 1, 1, visibleHeight);
   }
+}
+
+export function drawBoard(canvas: HTMLCanvasElement, state: GameState, setup: SetupVariant | null, showGuide: boolean): void {
+  drawBoardViewport(canvas, state, setup, showGuide, VISIBLE_HEIGHT, 30);
 }
 export function drawPiecePreview(canvas: HTMLCanvasElement, piece: Piece | null): void {
   const context = prepareCanvas(canvas, 96, 64);

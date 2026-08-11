@@ -1,7 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { createBoard, placeCells } from "../engine/board";
-import { setupCoverageForCycle, setupsForCycle3Class } from "./catalog";
+import { setupCoverageForCycle, setupsForCycle3Class, sourceSetupCatalog } from "./catalog";
 import { cycle3QueueContext, fitsCycle3BuildPool } from "./cycle3Context";
+import { resolveOqbProgress } from "./oqbProgress";
 import { querySetups, resolveCycle3StagedSetup, type SetupQuery } from "./query";
 import type { SetupVariant } from "./schema";
 import { validateSetup } from "./schema";
@@ -45,11 +46,13 @@ describe("Cycle 3 saved-piece class and 7-bag inference", () => {
     const z = setupsForCycle3Class("Z");
     expect(o.length).toBeGreaterThan(36);
     expect(t.length).toBeGreaterThan(54);
-    expect(l).toHaveLength(122);
-    expect(j).toHaveLength(122);
+    const ljSourceCount = sourceSetupCatalog.filter(({ id }) => id.startsWith("cycle3-extra-lj-")).length;
+    const szSourceCount = sourceSetupCatalog.filter(({ id }) => id.startsWith("cycle3-extra-sz-")).length;
+    expect(l.length).toBeGreaterThanOrEqual(ljSourceCount);
+    expect(j).toHaveLength(l.length);
     expect(i.length).toBeGreaterThanOrEqual(28);
-    expect(s).toHaveLength(32);
-    expect(z).toHaveLength(32);
+    expect(s.length).toBeGreaterThanOrEqual(szSourceCount);
+    expect(z).toHaveLength(s.length);
     expect(o.every(({ id }) => id.startsWith("cycle3-extra-o-"))).toBe(true);
     expect(t.every(({ id }) => id.startsWith("cycle3-extra-t-"))).toBe(true);
     expect(l.every(({ id }) => id.startsWith("cycle3-extra-lj-") && !id.includes("--mirror"))).toBe(true);
@@ -139,8 +142,40 @@ describe("Cycle 3 saved-piece class and 7-bag inference", () => {
       branchId: "extra-t-tilj-method-one-s-or-z",
       action: "extend-setup",
     });
-    expect(resolution?.candidate?.setup.id.split("--box-")[0]).toBe("cycle3-extra-t-045-f000");
-    expect(resolution?.candidate?.plan.steps.filter(({ action }) => action === "place")).toHaveLength(2);
+    expect(resolution?.continuation?.id.split("--box-")[0]).toBe("cycle3-extra-t-045-f000");
+    expect(resolution?.continuation?.placements).toHaveLength(4);
+  });
+
+  it("공용 OQB progress API도 기존 Cycle 3 단계형 분기를 그대로 사용한다", () => {
+    const initial = querySetups({
+      cycle: 3,
+      board: createBoard(),
+      hold: "T",
+      active: "L",
+      next: ["T", "I", "J", "S", "Z"],
+      holdAvailable: true,
+      maxCandidates: 100,
+    }).find(({ setup }) => setup.id.split("--box-")[0].replace(/--mirror$/, "") === "cycle3-extra-t-044-f000")!;
+    const result = resolveOqbProgress({
+      selectedCandidate: initial,
+      query: {
+        cycle: 3,
+        board: completedBoard(initial.setup),
+        active: "I",
+        hold: "J",
+        next: ["O", "T", "L", "Z", "S"],
+        holdAvailable: true,
+      },
+    });
+    expect(result).toMatchObject({
+      status: "continuation",
+      policyKind: "cycle3-staged",
+      planId: "extra-t-tilj-method-one-next-bag",
+      branchId: "extra-t-tilj-method-one-s-or-z",
+      observation: { kind: "sequence", pieces: ["S"] },
+    });
+    expect(result.status === "continuation" && result.continuations[0]?.sourceSetupId)
+      .toBe("cycle3-extra-t-045-f000");
   });
 
   it("T + IS 3P의 특수 prefix는 3P에서 해법으로, 그 외에는 복원한 media-35 4P로 전환한다", () => {
@@ -150,13 +185,13 @@ describe("Cycle 3 saved-piece class and 7-bag inference", () => {
       cycle: 3, board, active: "L", hold: "O", next: ["J", "L", "S", "T", "S"], holdAvailable: true,
     }, base);
     expect(special).toMatchObject({ action: "solve-from-precondition", branchId: "extra-t-tils-is-ts" });
-    expect(special?.candidate).toBeUndefined();
+    expect(special?.continuation).toBeUndefined();
 
     const ordinary = resolveCycle3StagedSetup({
       cycle: 3, board, active: "L", hold: "O", next: ["T", "S", "Z", "O", "J"], holdAvailable: true,
     }, base);
     expect(ordinary).toMatchObject({ action: "extend-setup", branchId: "default" });
-    expect(ordinary?.candidate?.setup.id.split("--box-")[0]).toBe("cycle3-extra-t-035-f000");
+    expect(ordinary?.continuation?.id.split("--box-")[0]).toBe("cycle3-extra-t-035-f000");
   });
 
   it("Extra I 브레인데드 section의 90.48%를 두 형태의 모든 GIF frame에 적용한다", () => {

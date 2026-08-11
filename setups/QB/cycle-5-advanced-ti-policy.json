@@ -1,0 +1,1303 @@
+{
+  "id": "pcinfokorea-cycle-5-advanced-ti-v1",
+  "schemaVersion": 3,
+  "cycle": 5,
+  "classId": "ti",
+  "reviewStatus": "reviewed",
+  "qbSemantics": {
+    "oqbIncluded": true,
+    "initialObservationWindow": "HOLD+ACTIVE+NEXT[0..4]",
+    "canonicalRecommendationUsesExplicitQueueNotation": true,
+    "holdAccessInterchangeablePostBuild": true,
+    "holdAccessInterchangeabilityBroadensEligibility": false
+  },
+  "entries": [
+    {
+      "id": "ti5-advanced-direct-004",
+      "kind": "direct",
+      "sourceOrder": 1,
+      "label": "TI-[TIL]! / TI-[TIJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-001-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-001-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "ti5-advanced-direct-005",
+      "kind": "direct",
+      "sourceOrder": 2,
+      "label": "TI-[TIS]! / TI-[TIZ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-002-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-002-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "ti5-advanced-direct-006",
+      "kind": "direct",
+      "sourceOrder": 3,
+      "label": "TI-[TLZ]! / TI-[TJS]! / TI-[ILZ]! / TI-[IJS]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-003-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "J",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-003-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-003-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "J",
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-003-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T",
+          "I"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "ti5-advanced-direct-007",
+      "kind": "direct",
+      "sourceOrder": 4,
+      "label": "TI-[TSZ]! / TI-[ISZ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-004-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "S",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-004-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T",
+          "I"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "ti5-advanced-direct-011",
+      "kind": "direct",
+      "sourceOrder": 5,
+      "label": "TI-[TOI]![SX]! / TI-[TOI]![ZX]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "O",
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "S",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-008-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "O",
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "Z",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-008-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false,
+      "postBuildAvailability": {
+        "checkpointPlacedCount": 4,
+        "pieces": [
+          "T"
+        ],
+        "acceptedLocations": [
+          "HOLD",
+          "ACCESS"
+        ],
+        "locationsInterchangeable": true,
+        "canonicalEligibilityUnaffected": true
+      }
+    },
+    {
+      "id": "ti5-advanced-direct-013",
+      "kind": "direct",
+      "sourceOrder": 6,
+      "label": "[TO]!I[LJ]! / [OI]!T[LJ]!",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "O"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "I"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-010-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "I"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-010-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "ti5-advanced-direct-021",
+      "kind": "direct",
+      "sourceOrder": 7,
+      "label": "[TLJ]!S / [TLJ]!O",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-014-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-014-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "ti5-advanced-direct-022",
+      "kind": "direct",
+      "sourceOrder": 8,
+      "label": "[TLJ]!Z / [TLJ]!O",
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-015-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-015-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": null,
+      "directTwoLinePc": false
+    },
+    {
+      "id": "ti5-ilj-relative-sz",
+      "kind": "oqb",
+      "sourceOrder": 8,
+      "label": "TI-[ILJ]!",
+      "initialPatterns": [
+        {
+          "scope": "visible-seven",
+          "parts": [
+            {
+              "kind": "ordered",
+              "symbols": [
+                "T",
+                "I"
+              ]
+            },
+            {
+              "kind": "permutation",
+              "symbols": [
+                "I",
+                "L",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-ti-005-f000",
+      "checkpoint": {
+        "placedCount": 1,
+        "placedPieces": [
+          "I"
+        ]
+      },
+      "observation": {
+        "kind": "relative-order",
+        "pieces": [
+          "S",
+          "Z"
+        ]
+      },
+      "branches": [
+        {
+          "id": "ti5-ilj-relative-sz-branch-1",
+          "relativeOrder": {
+            "before": "S",
+            "after": "Z"
+          },
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-006-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "ti5-ilj-relative-sz-branch-2",
+          "relativeOrder": {
+            "before": "Z",
+            "after": "S"
+          },
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-007-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "runtimeStatus": "compiled"
+    },
+    {
+      "id": "ti5-toi-lj-slow-o",
+      "kind": "oqb",
+      "sourceOrder": 14,
+      "label": "[TI]!O[LJ]!",
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "I"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "O"
+              ]
+            },
+            {
+              "kind": "permutation",
+              "symbols": [
+                "L",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-ti-011-f000",
+      "checkpoint": {
+        "placedCount": 1,
+        "placedPieces": [
+          "I"
+        ]
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "ti5-toi-lj-slow-o-branch-1",
+          "observedPieces": [
+            "S"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-012-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null,
+          "postCheckpoint": {
+            "observation": {
+              "kind": "reveal",
+              "uiSlot": "NEXT[4]"
+            },
+            "branches": [
+              {
+                "observedPieces": [
+                  "Z"
+                ],
+                "continuationSetupRefs": [
+                  {
+                    "setupId": "cycle5-advanced-ti-solution-016-f000",
+                    "transform": "identity"
+                  }
+                ]
+              },
+              {
+                "fallback": true,
+                "action": {
+                  "piece": "O",
+                  "cells": [
+                    {
+                      "x": 1,
+                      "y": 0
+                    },
+                    {
+                      "x": 1,
+                      "y": 1
+                    },
+                    {
+                      "x": 2,
+                      "y": 0
+                    },
+                    {
+                      "x": 2,
+                      "y": 1
+                    }
+                  ],
+                  "resultingPieceCount": 4
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "ti5-toi-lj-slow-o-branch-2",
+          "observedPieces": [
+            "Z"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-013-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null,
+          "postCheckpoint": {
+            "observation": {
+              "kind": "reveal",
+              "uiSlot": "NEXT[4]"
+            },
+            "branches": [
+              {
+                "observedPieces": [
+                  "S"
+                ],
+                "continuationSetupRefs": [
+                  {
+                    "setupId": "cycle5-advanced-ti-solution-019-f000",
+                    "transform": "identity"
+                  }
+                ]
+              },
+              {
+                "fallback": true,
+                "action": {
+                  "piece": "O",
+                  "cells": [
+                    {
+                      "x": 7,
+                      "y": 0
+                    },
+                    {
+                      "x": 7,
+                      "y": 1
+                    },
+                    {
+                      "x": 8,
+                      "y": 0
+                    },
+                    {
+                      "x": 8,
+                      "y": 1
+                    }
+                  ],
+                  "resultingPieceCount": 4
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "runtimeStatus": "compiled"
+    },
+    {
+      "id": "ti5-tlj-is",
+      "kind": "oqb",
+      "sourceOrder": 23,
+      "label": "[TLJ]!IS",
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "L",
+                "J"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "I",
+                "S"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-ti-016-f000",
+      "checkpoint": {
+        "placedCount": 1,
+        "placedPieces": [
+          "T"
+        ]
+      },
+      "observation": {
+        "kind": "reveal"
+      },
+      "branches": [
+        {
+          "id": "ti5-tlj-is-branch-1",
+          "observedPieces": [
+            "O"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-017-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "ti5-tlj-is-branch-2",
+          "observedPieces": [
+            "Z"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-018-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "runtimeStatus": "compiled"
+    },
+    {
+      "id": "ti5-ltj-io",
+      "kind": "oqb",
+      "sourceOrder": 26,
+      "label": "L[TJ]!IO",
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "ordered",
+              "symbols": [
+                "L"
+              ]
+            },
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "J"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "I",
+                "O"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-ti-019-f000",
+      "checkpoint": {
+        "placedCount": 1,
+        "placedPieces": [
+          "I"
+        ]
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "ti5-ltj-io-branch-1",
+          "observedPieces": [
+            "S"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-020-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "ti5-ltj-io-branch-2",
+          "observedPieces": [
+            "Z"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-015-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "runtimeStatus": "compiled"
+    },
+    {
+      "id": "ti5-tljio",
+      "kind": "oqb",
+      "sourceOrder": 29,
+      "label": "TLJIO",
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "ordered",
+              "symbols": [
+                "T",
+                "L",
+                "J",
+                "I",
+                "O"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-ti-021-f000",
+      "checkpoint": {
+        "placedCount": 1,
+        "placedPieces": [
+          "I"
+        ]
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "ti5-tljio-branch-1",
+          "observedPieces": [
+            "S"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-014-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": true
+        },
+        {
+          "id": "ti5-tljio-branch-2",
+          "observedPieces": [
+            "Z"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-ti-022-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null,
+          "postCheckpoint": {
+            "observation": {
+              "kind": "reveal",
+              "uiSlot": "NEXT[4]"
+            },
+            "branches": [
+              {
+                "observedPieces": [
+                  "S"
+                ],
+                "continuationSetupRefs": [
+                  {
+                    "setupId": "cycle5-advanced-ti-solution-032-f000",
+                    "transform": "identity"
+                  }
+                ]
+              },
+              {
+                "fallback": true,
+                "continuationSetupRefs": [
+                  {
+                    "setupId": "cycle5-advanced-ti-014-f000",
+                    "transform": "identity"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "runtimeStatus": "compiled"
+    }
+  ],
+  "runtimePolicy": {
+    "schemaVersion": 2,
+    "status": "compiled",
+    "executable": true,
+    "setupRoles": [
+      {
+        "setupId": "cycle5-advanced-ti-001-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-002-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-003-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-004-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-005-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-006-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-007-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-008-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-010-f000",
+        "roles": [
+          "final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-011-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-012-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-013-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-014-f000",
+        "roles": [
+          "final",
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-015-f000",
+        "roles": [
+          "final",
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-016-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-017-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-018-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-019-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-020-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-021-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-022-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-solution-016-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-solution-019-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-ti-solution-032-f000",
+        "roles": [
+          "oqb-continuation"
+        ]
+      }
+    ],
+    "compiledEntryCount": 13,
+    "deferredEntryIds": [],
+    "queueConditionsAreAstOnly": true
+  }
+}
