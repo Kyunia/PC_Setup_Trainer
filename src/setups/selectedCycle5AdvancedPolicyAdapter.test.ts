@@ -99,28 +99,77 @@ describe("selected Cycle 5 advanced policy adapter", () => {
     expect(candidates.every(({ policy }) => policy?.ruleId === "oi5-advanced-oqb-isz-to")).toBe(true);
   });
 
-  it("accepts the reported OI + IZLJO draft query without throwing", () => {
-    const scope: SelectedRecommendationScope = {
-      mode: "selected-bundles",
-      bundles: [{
-        bundleId: "draft:oi-izljo",
-        kind: "cycle5-advanced",
-        cycle: 5,
-        catalog: draftCatalog(),
-        policy: rawDraftPolicy as unknown as Cycle5AdvancedPolicyBundle,
-      }],
-    };
-    const candidates = querySetups({
+  it("routes canonical IZLJO to Setup 4's O-1P OQB in both draft and promoted policy", () => {
+    const query: SetupQuery = {
       cycle: 5,
       board: createBoard(),
-      hold: "O",
-      active: "I",
+      hold: "I",
+      active: "O",
       next: ["I", "Z", "L", "J", "O"],
       holdAvailable: true,
-    }, scope);
-    expect(candidates.length).toBeGreaterThan(0);
-    expect(candidates.every(({ recommendationSource }) =>
-      recommendationSource?.bundleId === "draft:oi-izljo")).toBe(true);
+    };
+    for (const [bundleId, catalog, policy, expectedSetupId] of [
+      ["draft:oi-izljo", draftCatalog(), rawDraftPolicy, "geometry-cycle5-advanced-oi-044-f000"],
+      ["promoted:oi-izljo", rawPromotedSetups, rawPromotedPolicy, "cycle5-advanced-oi-029-f000"],
+    ] as const) {
+      const scope: SelectedRecommendationScope = {
+        mode: "selected-bundles",
+        bundles: [{
+          bundleId,
+          kind: "cycle5-advanced",
+          cycle: 5,
+          catalog: catalog as unknown as SetupVariant[],
+          policy: policy as unknown as Cycle5AdvancedPolicyBundle,
+        }],
+      };
+      const candidates = querySetups(query, scope);
+      expect(candidates.map(({ setup }) => setup.id)).toEqual([expectedSetupId]);
+      expect(candidates[0]).toMatchObject({
+        recommendationSource: { bundleId },
+        policy: { ruleId: "oi5-advanced-oqb-ilz-jo" },
+      });
+      expect(candidates[0]!.setup.placements).toHaveLength(1);
+    }
+
+    expect(querySetups(query)).toMatchObject([{
+      setup: { id: "cycle5-advanced-oi-029-f000" },
+      recommendationSource: { bundleId: "promoted:cycle5-advanced-oi" },
+      policy: { ruleId: "oi5-advanced-oqb-ilz-jo" },
+    }]);
+  });
+
+  it("compiles parenthetical source exclusions instead of positive alternatives", () => {
+    for (const [sourceId, rawPolicy] of [
+      ["draft:oi", rawDraftPolicy],
+      ["promoted:oi", rawPromotedPolicy],
+    ] as const) {
+      const policy = normalizeSelectedCycle5AdvancedPolicy(rawPolicy, sourceId);
+      const rule41 = policy.entries.find(({ id }) => id === "oi5-advanced-rule-041");
+      const rule28 = policy.entries.find(({ id }) => id === "oi5-advanced-rule-028");
+      expect(rule41?.kind).toBe("direct");
+      expect(rule28?.kind).toBe("direct");
+      if (rule41?.kind !== "direct" || rule28?.kind !== "direct") continue;
+      expect(rule41.alternatives).toHaveLength(1);
+      expect(rule41.alternatives[0]!.pattern.excludes).toHaveLength(1);
+      expect(rule28.alternatives).toHaveLength(1);
+      expect(rule28.alternatives[0]!.pattern.excludes).toHaveLength(1);
+
+      const excludedIlz = matchingCycle5AdvancedEntries(policy, {
+        hold: "I",
+        active: "O",
+        next: ["I", "Z", "L", "J", "O"],
+      }).map(({ entry }) => entry.id);
+      expect(excludedIlz).not.toContain("oi5-advanced-rule-041");
+      expect(excludedIlz).toContain("oi5-advanced-oqb-ilz-jo");
+
+      const excludedTz = matchingCycle5AdvancedEntries(policy, {
+        hold: "I",
+        active: "O",
+        next: ["T", "Z", "L", "J", "S"],
+      }).map(({ entry }) => entry.id);
+      expect(excludedTz).not.toContain("oi5-advanced-rule-028");
+      expect(excludedTz).toContain("oi5-advanced-rule-031");
+    }
   });
 
   it("fails closed with the selected source identity for malformed roots", () => {

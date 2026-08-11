@@ -1,7 +1,6 @@
 import {
   matchingCycle5AdvancedEntries,
   type Cycle5AdvancedOqbPlan,
-  type Cycle5AdvancedPolicyBundle,
 } from "../setups/cycle5AdvancedPolicy";
 import {
   oqbContinuationCandidates,
@@ -10,11 +9,11 @@ import {
 } from "../setups/oqbProgress";
 import type { SetupCandidate, SetupQuery } from "../setups/query";
 import type { SetupVariant } from "../setups/schema";
+import { normalizeSelectedCycle5AdvancedPolicy } from "../setups/selectedCycle5AdvancedPolicyAdapter";
 
-function isCycle5AdvancedPolicy(value: unknown): value is Cycle5AdvancedPolicyBundle {
+function isCycle5AdvancedPolicySource(value: unknown): boolean {
   if (!value || typeof value !== "object") return false;
-  const record = value as { cycle?: unknown; entries?: unknown };
-  return record.cycle === 5 && Array.isArray(record.entries);
+  return (value as { cycle?: unknown }).cycle === 5;
 }
 
 function canonicalSetupId(setup: SetupVariant): string {
@@ -26,7 +25,12 @@ export function selectedCatalogOqbSource(
   catalog: readonly SetupVariant[],
   sourceId: string,
 ): Cycle5AdvancedOqbPolicySource | undefined {
-  return isCycle5AdvancedPolicy(policy) ? { bundle: policy, catalog, sourceId } : undefined;
+  if (!isCycle5AdvancedPolicySource(policy)) return undefined;
+  return {
+    bundle: normalizeSelectedCycle5AdvancedPolicy(policy, sourceId),
+    catalog,
+    sourceId,
+  };
 }
 
 /** Resolves a shared precondition to the one plan selected by the original 0P queue. */

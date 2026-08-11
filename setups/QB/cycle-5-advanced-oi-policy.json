@@ -1316,7 +1316,7 @@
       "id": "oi5-advanced-rule-028",
       "kind": "direct",
       "sourceOrder": 28,
-      "label": "[TZ]!L[SX]! / [TZ]!LJS",
+      "label": "[TZ]!L[SX]! ([TZ]!LJS excluded)",
       "alternatives": [
         {
           "pattern": {
@@ -1342,32 +1342,25 @@
                   "X"
                 ]
               }
-            ]
-          },
-          "setupRefs": [
-            {
-              "setupId": "cycle5-advanced-oi-021-f000",
-              "transform": "identity"
-            }
-          ]
-        },
-        {
-          "pattern": {
-            "scope": "next-bag-five",
-            "parts": [
+            ],
+            "excludes": [
               {
-                "kind": "permutation",
-                "symbols": [
-                  "T",
-                  "Z"
-                ]
-              },
-              {
-                "kind": "ordered",
-                "symbols": [
-                  "L",
-                  "J",
-                  "S"
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  }
                 ]
               }
             ]
@@ -1843,7 +1836,7 @@
       "id": "oi5-advanced-rule-041",
       "kind": "direct",
       "sourceOrder": 41,
-      "label": "[ILZ]![OX]! / [ILZ]!JO",
+      "label": "[ILZ]![OX]! ([ILZ]!JO excluded)",
       "alternatives": [
         {
           "pattern": {
@@ -1864,32 +1857,25 @@
                   "X"
                 ]
               }
-            ]
-          },
-          "setupRefs": [
-            {
-              "setupId": "cycle5-advanced-oi-023-f000",
-              "transform": "identity"
-            }
-          ]
-        },
-        {
-          "pattern": {
-            "scope": "next-bag-five",
-            "parts": [
+            ],
+            "excludes": [
               {
-                "kind": "permutation",
-                "symbols": [
-                  "I",
-                  "L",
-                  "Z"
-                ]
-              },
-              {
-                "kind": "ordered",
-                "symbols": [
-                  "J",
-                  "O"
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "J",
+                      "O"
+                    ]
+                  }
                 ]
               }
             ]

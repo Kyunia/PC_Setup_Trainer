@@ -54,11 +54,14 @@ function unique<T>(values: T[]): T[] {
   return [...new Set(values)];
 }
 
+const EXCLUSION_PARENTHETICAL = /\(([^()]*(?:제외|except|excluding)[^()]*)\)/giu;
+
 function notationCandidates(value: unknown): string[] {
   if (typeof value !== "string") return [];
-  const afterMatch = value.match(/(\[[TOILJSZX]+\]!?)[\s]*직후[\s]*([TOILJSZ](?:\/[TOILJSZ])*)/u);
+  const positiveText = value.replace(EXCLUSION_PARENTHETICAL, " ");
+  const afterMatch = positiveText.match(/(\[[TOILJSZX]+\]!?)[\s]*직후[\s]*([TOILJSZ](?:\/[TOILJSZ])*)/u);
   if (afterMatch) return unique(afterMatch[2]!.split("/").map((piece) => `${afterMatch[1]}${piece}`));
-  const text = value
+  const text = positiveText
     .replace(/연습하기/g, "")
     .replace(/\([^()]*홀드[^()]*\)/g, "")
     .replace(/셋업\s*\d+(?:\s*\([^)]*\))?/g, "")
@@ -68,6 +71,12 @@ function notationCandidates(value: unknown): string[] {
   return unique((text.match(/(?:[TOILJSZX]+-)?(?:\[[TOILJSZX]+\]!?|[TOILJSZX]+)+/g) ?? [])
     .map((candidate) => candidate.replace(/!{2,}/g, "!"))
     .filter((candidate) => [...candidate].filter((symbol) => PATTERN_SYMBOLS.has(symbol)).length >= 3));
+}
+
+function exclusionNotationCandidates(value: unknown): string[] {
+  if (typeof value !== "string") return [];
+  return unique([...value.matchAll(EXCLUSION_PARENTHETICAL)]
+    .flatMap((match) => notationCandidates(match[1]!.replace(/제외|except|excluding/giu, " "))));
 }
 
 function parsePattern(expression: string, sourceId: string): Cycle5AdvancedQueuePattern {
@@ -107,6 +116,11 @@ function compileTexts(values: unknown[], sourceId: string): Cycle5AdvancedQueueP
   return unique(values.flatMap(notationCandidates)).map((expression) => parsePattern(expression, sourceId));
 }
 
+function compileExclusions(values: unknown[], sourceId: string): Cycle5AdvancedQueuePattern[] {
+  return unique(values.flatMap(exclusionNotationCandidates))
+    .map((expression) => parsePattern(expression, sourceId));
+}
+
 function directTexts(rule: JsonRecord): unknown[] {
   const condition = isRecord(rule.condition) ? rule.condition : undefined;
   const canonical = isRecord(rule.canonicalCondition) ? rule.canonicalCondition : undefined;
@@ -144,7 +158,10 @@ function draftDirectEntry(
 ): Cycle5AdvancedPolicyEntry | null {
   if (rule.selectionMode === "OQB") return null;
   const id = asString(rule.ruleId, sourceId, "rule.ruleId");
-  const patterns = compileTexts(directTexts(rule), sourceId);
+  const texts = directTexts(rule);
+  const exclusions = compileExclusions(texts, sourceId);
+  const patterns = compileTexts(texts, sourceId)
+    .map((pattern) => copyPatternWithExclusions(pattern, exclusions));
   const refs = setupRefsFromDraftRule(rule, sourceId);
   // Promotion records group fallbacks as non-executable presentation entries.
   // Preserve that runtime behavior without passing an unsupported entry kind.
@@ -153,8 +170,10 @@ function draftDirectEntry(
     throw new SelectedCycle5AdvancedPolicyError(sourceId, `${id} has no compilable queue condition.`);
   }
   const alternatives = patterns.map((pattern) => {
-    const label = notationCandidates(directTexts(rule).join(" ")).find((candidate) =>
-      JSON.stringify(parsePattern(candidate, sourceId)) === JSON.stringify(pattern));
+    const label = notationCandidates(texts.join(" ")).find((candidate) => {
+      const parsed = parsePattern(candidate, sourceId);
+      return parsed.scope === pattern.scope && JSON.stringify(parsed.parts) === JSON.stringify(pattern.parts);
+    });
     const matchingRefs = refs.filter((ref) => !ref.conditionLabel || ref.conditionLabel === label);
     return {
       pattern,

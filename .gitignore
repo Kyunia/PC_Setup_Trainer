@@ -40,3 +40,4 @@ Thumbs.db
 /extracted_original_policy_part.json
 /original_policy_view.txt
 /src/toFumen/
+/src/setupTest/oqbPractice.test.ts
