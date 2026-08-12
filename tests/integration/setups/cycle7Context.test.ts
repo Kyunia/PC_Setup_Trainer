@@ -1,14 +1,14 @@
 import { describe, expect, it } from "vitest";
-import { createBoard } from "../engine/board";
-import type { Piece } from "../engine/types";
-import { setupCatalog, setupPolicyForCycle, sourceSetupCatalog } from "./catalog";
-import { cycle7QueueContext, fitsCycle7BuildPool } from "./cycle7Context";
-import { cycle7Advanced4pMatches, cycle7Advanced4pRuntimeBundle, cycle7Advanced4pRuntimeReady } from "./cycle7Advanced4pCatalog";
-import { mirrorPiece } from "./mirror";
-import { querySetups } from "./query";
-import { findBuildPlan } from "./reachability";
-import { cycle7QbCatalogForClass, cycle7QbClass, cycle7QbConditionRank, cycle7QbDisplayName, cycle7QbPolicyEntryForSetup, cycle7QbRecommendationRank, cycle7QbRuntimeBundle, cycle7QbRuntimeReady, cycle7QbSourceOrder } from "./cycle7QbCatalog";
-import { validateSetup } from "./schema";
+import { createBoard } from "../../../src/engine/board";
+import type { Piece } from "../../../src/engine/types";
+import { setupCatalog, setupPolicyForCycle, sourceSetupCatalog } from "../../../src/setups/catalog";
+import { cycle7QueueContext, fitsCycle7BuildPool } from "../../../src/setups/cycle7Context";
+import { cycle7Advanced4pMatches, cycle7Advanced4pRuntimeBundle, cycle7Advanced4pRuntimeReady } from "../../../src/setups/cycle7Advanced4pCatalog";
+import { mirrorPiece } from "../../../src/setups/mirror";
+import { querySetups } from "../../../src/setups/query";
+import { findBuildPlan } from "../../../src/setups/reachability";
+import { cycle7QbCatalogForClass, cycle7QbClass, cycle7QbConditionRank, cycle7QbDisplayName, cycle7QbPolicyEntryForSetup, cycle7QbRecommendationRank, cycle7QbRuntimeBundle, cycle7QbRuntimeReady, cycle7QbSourceOrder } from "../../../src/setups/cycle7QbCatalog";
+import { validateSetup } from "../../../src/setups/schema";
 
 describe("7회차 3+7 큐 경계", () => {
   it("고급 4P runtime은 manifest 활성화와 완전한 setup/metric/entry coverage를 요구한다", () => {

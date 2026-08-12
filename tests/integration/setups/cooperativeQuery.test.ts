@@ -1,16 +1,16 @@
 import { describe, expect, it } from "vitest";
-import { createBoard } from "../engine/board";
-import { querySetupsStagedCooperative, type StagedRecommendationResult } from "./cooperativeQuery";
-import { queryCatalog, querySetups, type SetupQuery } from "./query";
-import { matchingCycle5AdvancedEntries, type Cycle5AdvancedPolicyBundle } from "./cycle5AdvancedPolicy";
-import type { SelectedRecommendationScope } from "./recommendationScope";
-import rawCycle5AdvancedOiPolicy from "../../setups/QB/cycle-5-advanced-oi-policy.json";
-import rawCycle5AdvancedOiSetups from "../../setups/QB/cycle-5-advanced-oi-setups.json";
-import type { SetupVariant } from "./schema";
+import { createBoard } from "../../../src/engine/board";
+import { querySetupsStagedCooperative, type StagedRecommendationResult } from "../../../src/setups/cooperativeQuery";
+import { queryCatalog, querySetups, type SetupQuery } from "../../../src/setups/query";
+import { matchingCycle5AdvancedEntries, type Cycle5AdvancedPolicyBundle } from "../../../src/setups/cycle5AdvancedPolicy";
+import type { SelectedRecommendationScope } from "../../../src/setups/recommendationScope";
+import rawCycle5AdvancedOiPolicy from "../../../setups/QB/cycle-5-advanced-oi-policy.json";
+import rawCycle5AdvancedOiSetups from "../../../setups/QB/cycle-5-advanced-oi-setups.json";
+import type { SetupVariant } from "../../../src/setups/schema";
 import {
   promotedCycle5AdvancedBundleForPair,
   promotedCycle5AdvancedSources,
-} from "./cycle5AdvancedCatalog";
+} from "../../../src/setups/cycle5AdvancedCatalog";
 
 const QUERIES: SetupQuery[] = [
   { cycle: 1, board: createBoard(), hold: null, active: "I", next: ["Z", "S", "O", "L", "J"], holdAvailable: true },

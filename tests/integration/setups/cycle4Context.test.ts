@@ -1,16 +1,16 @@
 import { describe, expect, it } from "vitest";
-import { createBoard } from "../engine/board";
-import { PIECES, type Piece } from "../engine/types";
-import { cycle4ClassLabel, cycle4PiecePairKey } from "./cycle4Catalog";
+import { createBoard } from "../../../src/engine/board";
+import { PIECES, type Piece } from "../../../src/engine/types";
+import { cycle4ClassLabel, cycle4PiecePairKey } from "../../../src/setups/cycle4Catalog";
 import {
   setupCatalog,
   setupCoverageForCycle,
   setupsForCycle4Class,
   sourceSetupCatalog,
-} from "./catalog";
-import { cycle4QueueContext, fitsCycle4BuildPool } from "./cycle4Context";
-import { queryCatalog, querySetups, type SetupQuery } from "./query";
-import type { SetupVariant } from "./schema";
+} from "../../../src/setups/catalog";
+import { cycle4QueueContext, fitsCycle4BuildPool } from "../../../src/setups/cycle4Context";
+import { queryCatalog, querySetups, type SetupQuery } from "../../../src/setups/query";
+import type { SetupVariant } from "../../../src/setups/schema";
 
 function query(overrides: Partial<SetupQuery> = {}): SetupQuery {
   return {

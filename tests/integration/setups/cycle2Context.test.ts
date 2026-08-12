@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { createBoard } from "../engine/board";
-import type { Piece } from "../engine/types";
-import { cycle2QueueContext, fitsCycle2BuildPool } from "./cycle2Context";
-import { setupCatalog, setupPolicyForCycle, sourceSetupCatalog } from "./catalog";
-import { findBuildPlan } from "./reachability";
+import { createBoard } from "../../../src/engine/board";
+import type { Piece } from "../../../src/engine/types";
+import { cycle2QueueContext, fitsCycle2BuildPool } from "../../../src/setups/cycle2Context";
+import { setupCatalog, setupPolicyForCycle, sourceSetupCatalog } from "../../../src/setups/catalog";
+import { findBuildPlan } from "../../../src/setups/reachability";
 
 describe("2회차 큐 경계", () => {
   it("HOLD + ACTIVE + NEXT 2와 다음 가방 첫 3개를 분리한다", () => {

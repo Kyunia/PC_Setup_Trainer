@@ -1,11 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { createBoard, placeCells } from "../engine/board";
-import { setupCoverageForCycle, setupsForCycle3Class, sourceSetupCatalog } from "./catalog";
-import { cycle3QueueContext, fitsCycle3BuildPool } from "./cycle3Context";
-import { resolveOqbProgress } from "./oqbProgress";
-import { querySetups, resolveCycle3StagedSetup, type SetupQuery } from "./query";
-import type { SetupVariant } from "./schema";
-import { validateSetup } from "./schema";
+import { createBoard, placeCells } from "../../../src/engine/board";
+import { setupCoverageForCycle, setupsForCycle3Class, sourceSetupCatalog } from "../../../src/setups/catalog";
+import { cycle3QueueContext, fitsCycle3BuildPool } from "../../../src/setups/cycle3Context";
+import { resolveOqbProgress } from "../../../src/setups/oqbProgress";
+import { querySetups, resolveCycle3StagedSetup, type SetupQuery } from "../../../src/setups/query";
+import type { SetupVariant } from "../../../src/setups/schema";
+import { validateSetup } from "../../../src/setups/schema";
 
 function query(overrides: Partial<SetupQuery> = {}): SetupQuery {
   return {

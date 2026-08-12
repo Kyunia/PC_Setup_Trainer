@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { createBoard } from "../engine/board";
-import { PIECES, type Piece } from "../engine/types";
-import { setupCatalog, setupsForCycle5Class, sourceSetupCatalog } from "./catalog";
-import { queryCycle5ClassCatalog, querySetups, type SetupQuery } from "./query";
-import type { SetupVariant, TargetPlacement } from "./schema";
-import { cycle5PiecePairKey, cycle5QueueContext, fitsCycle5BuildPool } from "./cycle5Context";
+import { createBoard } from "../../../src/engine/board";
+import { PIECES, type Piece } from "../../../src/engine/types";
+import { setupCatalog, setupsForCycle5Class, sourceSetupCatalog } from "../../../src/setups/catalog";
+import { queryCycle5ClassCatalog, querySetups, type SetupQuery } from "../../../src/setups/query";
+import type { SetupVariant, TargetPlacement } from "../../../src/setups/schema";
+import { cycle5PiecePairKey, cycle5QueueContext, fitsCycle5BuildPool } from "../../../src/setups/cycle5Context";
 
 function setupId(slug: string, item: number, frame = 0): string {
   return `cycle5-${slug}-${String(item).padStart(3, "0")}-f${String(frame).padStart(3, "0")}`;

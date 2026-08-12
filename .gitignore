@@ -35,9 +35,9 @@ Thumbs.db
 /setups/sources/
 /public/setup-media/
 /scratch/
+/tests/internal/
 /vitest.survey.config.ts
 /headless_conversation_log*.md
 /extracted_original_policy_part.json
 /original_policy_view.txt
 /src/toFumen/
-/src/setupTest/oqbPractice.test.ts

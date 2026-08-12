@@ -1,9 +1,8 @@
 import { defineConfig } from "vitest/config";
-import { setupIntegrationTests } from "./vite.config";
 
 export default defineConfig({
   test: {
     environment: "node",
-    include: setupIntegrationTests,
+    include: ["tests/integration/**/*.test.ts", "tests/integration/**/*.test.tsx"],
   },
 });

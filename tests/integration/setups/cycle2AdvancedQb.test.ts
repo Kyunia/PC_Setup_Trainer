@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
-import rawPolicy from "../../setups/QB/cycle-2-advanced-qb-policy.json";
-import rawSetups from "../../setups/QB/cycle-2-advanced-qb-setups.json";
-import { createBoard } from "../engine/board";
-import { PIECES, type Piece } from "../engine/types";
+import rawPolicy from "../../../setups/QB/cycle-2-advanced-qb-policy.json";
+import rawSetups from "../../../setups/QB/cycle-2-advanced-qb-setups.json";
+import { createBoard } from "../../../src/engine/board";
+import { PIECES, type Piece } from "../../../src/engine/types";
 import {
   cycle2AdvancedQbClass,
   cycle2AdvancedQbConditionLabel,
@@ -10,11 +10,11 @@ import {
   matchCycle2AdvancedQbPattern,
   selectCycle2AdvancedQbSetups,
   type Cycle2AdvancedQbPolicy,
-} from "./cycle2AdvancedQb";
-import { cycle2AdvancedQbRuntimeBundle } from "./cycle2AdvancedQbCatalog";
-import { querySetups } from "./query";
-import { findBuildPlan } from "./reachability";
-import type { SetupVariant } from "./schema";
+} from "../../../src/setups/cycle2AdvancedQb";
+import { cycle2AdvancedQbRuntimeBundle } from "../../../src/setups/cycle2AdvancedQbCatalog";
+import { querySetups } from "../../../src/setups/query";
+import { findBuildPlan } from "../../../src/setups/reachability";
+import type { SetupVariant } from "../../../src/setups/schema";
 
 const policy = rawPolicy as unknown as Cycle2AdvancedQbPolicy;
 const setups = rawSetups as unknown as SetupVariant[];

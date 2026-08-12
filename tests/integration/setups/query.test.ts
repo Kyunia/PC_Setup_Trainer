@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { createBoard } from "../engine/board";
-import type { Piece } from "../engine/types";
-import { limitSetupCandidatesForCycle, queryCatalog, queryCatalogCooperative, querySetups, type SetupCandidate } from "./query";
-import { setupCatalog, sourceSetupCatalog } from "./catalog";
-import type { SetupVariant } from "./schema";
+import { createBoard } from "../../../src/engine/board";
+import type { Piece } from "../../../src/engine/types";
+import { limitSetupCandidatesForCycle, queryCatalog, queryCatalogCooperative, querySetups, type SetupCandidate } from "../../../src/setups/query";
+import { setupCatalog, sourceSetupCatalog } from "../../../src/setups/catalog";
+import type { SetupVariant } from "../../../src/setups/schema";
 
 function stageHierarchyFixture() {
   const source = sourceSetupCatalog.find(({ id }) => id === "cycle1-grace-system-a")!;

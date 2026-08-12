@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { createBoard } from "../engine/board";
-import type { Piece } from "../engine/types";
-import { setupsForCycle6Class } from "./catalog";
-import { cycle6QueueContext, fitsCycle6BuildPool } from "./cycle6Context";
-import { querySetups, type SetupQuery } from "./query";
+import { createBoard } from "../../../src/engine/board";
+import type { Piece } from "../../../src/engine/types";
+import { setupsForCycle6Class } from "../../../src/setups/catalog";
+import { cycle6QueueContext, fitsCycle6BuildPool } from "../../../src/setups/cycle6Context";
+import { querySetups, type SetupQuery } from "../../../src/setups/query";
 
 function query(overrides: Partial<SetupQuery> = {}): SetupQuery {
   return {
