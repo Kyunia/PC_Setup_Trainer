@@ -77,4 +77,21 @@ describe("setup-test catalog sources", () => {
       kind: "cycle7-advanced-4p",
     });
   });
+
+  it("binds selected Cycle 3 files to their saved-piece source and mirror classes", () => {
+    const extraT = promotedSetupTestCatalogs.find(({ setupPath }) =>
+      setupPath === "cycle-3-extra-t-setups.json")!;
+    const extraLJ = promotedSetupTestCatalogs.find(({ setupPath }) =>
+      setupPath === "cycle-3-extra-lj-setups.json")!;
+    const fakeBundle = { catalog: [], policy: {} };
+
+    expect(setupTestRecommendationBundle(extraT, fakeBundle)).toMatchObject({
+      kind: "structured",
+      cycle3ClassBinding: { source: "T", mirror: "T" },
+    });
+    expect(setupTestRecommendationBundle(extraLJ, fakeBundle)).toMatchObject({
+      kind: "structured",
+      cycle3ClassBinding: { source: "L", mirror: "J" },
+    });
+  });
 });

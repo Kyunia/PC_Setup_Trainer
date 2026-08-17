@@ -1,0 +1,8647 @@
+[
+  {
+    "id": "cycle5-advanced-isiz-001-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-001",
+    "displayName": "Cycle 5 IS/IZ advanced 001",
+    "formLabel": "Cycle 5 IS/IZ advanced 001",
+    "pieceSignature": [
+      "I",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-001-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-001-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-001-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-001-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@IhAtBeRpDeBtR4RpDeAtR4zhMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-002-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-002",
+    "displayName": "Cycle 5 IS/IZ advanced 002",
+    "formLabel": "Cycle 5 IS/IZ advanced 002",
+    "pieceSignature": [
+      "I",
+      "S",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-002-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-002-f000-s-02",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-002-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-002-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@PhQ4AezhR4BtR4CeR4BeBtQ4JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-003-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-003",
+    "displayName": "Cycle 5 IS/IZ advanced 003",
+    "formLabel": "Cycle 5 IS/IZ advanced 003",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-003-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-003-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-003-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-003-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhhlGeRpglEeR4RpglDeR4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-004-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-004",
+    "displayName": "Cycle 5 IS/IZ advanced 004",
+    "formLabel": "Cycle 5 IS/IZ advanced 004",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-004-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-004-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-004-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-004-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhHeAtwhGeBtwhEeR4AtglwhDeR4ilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-005-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-005",
+    "displayName": "Cycle 5 IS/IZ advanced 005",
+    "formLabel": "Cycle 5 IS/IZ advanced 005",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-005-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-005-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-005-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-005-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0R4Feg0R4Geg0R4GeR4zhNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-006-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-006",
+    "displayName": "Cycle 5 IS/IZ advanced 006",
+    "formLabel": "Cycle 5 IS/IZ advanced 006",
+    "pieceSignature": [
+      "I",
+      "S",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-006-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-006-f000-s-02",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-006-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-006-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChBtIeBtR4EeT4EeR4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-007-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-007",
+    "displayName": "Cycle 5 IS/IZ advanced 007",
+    "formLabel": "Cycle 5 IS/IZ advanced 007",
+    "pieceSignature": [
+      "I",
+      "S",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-007-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-007-f000-s-02",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-007-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-007-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@/gR4AtFeR4BtFeR4AtFeR4zhNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-008-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-008",
+    "displayName": "Cycle 5 IS/IZ advanced 008",
+    "formLabel": "Cycle 5 IS/IZ advanced 008",
+    "pieceSignature": [
+      "I",
+      "S",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-008-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-008-f000-s-02",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-008-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-008-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@AhR4FeAtR4FeBtR4FeAtR4zhMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-009-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-009",
+    "displayName": "Cycle 5 IS/IZ advanced 009",
+    "formLabel": "Cycle 5 IS/IZ advanced 009",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-009-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-009-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-009-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-009-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@AhR4DewhBeR4EewhBeR4EewhAeR4zhBewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-010-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-010",
+    "displayName": "Cycle 5 IS/IZ advanced 010",
+    "formLabel": "Cycle 5 IS/IZ advanced 010",
+    "pieceSignature": [
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-010-f000-s-01",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@UhR4GeR4PeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-011-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-011",
+    "displayName": "Cycle 5 IS/IZ advanced solution 011",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-011-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-011-f000-shadow-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-011-f000-shadow-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-011-f000-shadow-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhHexhAeR4EexhT4DexhAeR4EewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-012-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-012",
+    "displayName": "Cycle 5 IS/IZ advanced solution 012",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "S",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-012-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-012-f000-shadow-02",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-012-f000-shadow-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-012-f000-shadow-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@BhR4AtFeR4BtFeR4AtFeR4zhLeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-013-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-013",
+    "displayName": "Cycle 5 IS/IZ advanced 013",
+    "formLabel": "Cycle 5 IS/IZ advanced 013",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-013-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-013-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-013-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-013-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpQ4GeRpR4FeilQ4FeglzhOeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-014-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-014",
+    "displayName": "Cycle 5 IS/IZ advanced 014",
+    "formLabel": "Cycle 5 IS/IZ advanced 014",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-014-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-014-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-014-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-014-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gglIeglBeRpEehlAeRpR4CezhR4NeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-015-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-015",
+    "displayName": "Cycle 5 IS/IZ advanced 015",
+    "formLabel": "Cycle 5 IS/IZ advanced 015",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-015-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-015-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-015-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-015-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0Heg0BeRpEeg0R4RpEeR4zhNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-016-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-016",
+    "displayName": "Cycle 5 IS/IZ advanced 016",
+    "formLabel": "Cycle 5 IS/IZ advanced 016",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-016-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-016-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-016-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-016-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Ehi0FeRpQ4g0FeRpR4EezhQ4JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-017-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-017",
+    "displayName": "Cycle 5 IS/IZ advanced 017",
+    "formLabel": "Cycle 5 IS/IZ advanced 017",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-017-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-017-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-017-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-017-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@DhR4RpEeR4g0RpGei0FezhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-018-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-018",
+    "displayName": "Cycle 5 IS/IZ advanced 018",
+    "formLabel": "Cycle 5 IS/IZ advanced 018",
+    "pieceSignature": [
+      "I",
+      "O",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-018-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-018-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-018-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-018-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@AhR4GeR4RpFeR4RpEeR4zhMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-019-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-019",
+    "displayName": "Cycle 5 IS/IZ advanced 019",
+    "formLabel": "Cycle 5 IS/IZ advanced 019",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-019-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-019-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-019-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-019-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhCeR4DewhBeT4CewhCeR4De0hOeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-020-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-020",
+    "displayName": "Cycle 5 IS/IZ advanced 020",
+    "formLabel": "Cycle 5 IS/IZ advanced 020",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-020-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-020-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-020-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-020-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@NhzhCeT4EeT4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-021-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-021",
+    "displayName": "Cycle 5 IS/IZ advanced 021",
+    "formLabel": "Cycle 5 IS/IZ advanced 021",
+    "pieceSignature": [
+      "I",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-021-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-021-f000-s-02",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-021-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-021-f000-t-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@/gR4EewhAeR4FewhAeR4wwEewhR4ywDewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-022-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-022",
+    "displayName": "Cycle 5 IS/IZ advanced 022",
+    "formLabel": "Cycle 5 IS/IZ advanced 022",
+    "pieceSignature": [
+      "I"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-022-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@hhzhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-023-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-023",
+    "displayName": "Cycle 5 IS/IZ advanced solution 023",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-023-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-023-f000-shadow-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-023-f000-shadow-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-023-f000-shadow-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@DhwwHeywGeR4CezhR4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-024-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-024",
+    "displayName": "Cycle 5 IS/IZ advanced solution 024",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-024-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-024-f000-shadow-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-024-f000-shadow-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-024-f000-shadow-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@NhzhCeT4EeT4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-025-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-025",
+    "displayName": "Cycle 5 IS/IZ advanced 025",
+    "formLabel": "Cycle 5 IS/IZ advanced 025",
+    "pieceSignature": [
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-025-f000-s-01",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ShR4GeR4ReAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-026-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-026",
+    "displayName": "Cycle 5 IS/IZ advanced solution 026",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "S",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-026-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-026-f000-shadow-02",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-026-f000-shadow-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-026-f000-shadow-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@/gR4EewhAeR4FewhAeR4wwEewhR4ywDewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-027-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-027",
+    "displayName": "Cycle 5 IS/IZ advanced solution 027",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-027-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-027-f000-shadow-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-027-f000-shadow-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-027-f000-shadow-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@/gR4EewhAeR4FewhAeR4FewhR4zhCewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-028-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-028",
+    "displayName": "Cycle 5 IS/IZ advanced 028",
+    "formLabel": "Cycle 5 IS/IZ advanced 028",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-028-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-028-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-028-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-028-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhIewhIewhAeR4zhR4whR4DeR4KeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-029-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-029",
+    "displayName": "Cycle 5 IS/IZ advanced solution 029",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-029-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-029-f000-shadow-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-029-f000-shadow-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-029-f000-shadow-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChywDezhwwHeR4GeR4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-030-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-030",
+    "displayName": "Cycle 5 IS/IZ advanced 030",
+    "formLabel": "Cycle 5 IS/IZ advanced 030",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-030-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-030-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-030-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-030-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhDeBtCewhEeBtBewhDeR4CewhCeR4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-031-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-031",
+    "displayName": "Cycle 5 IS/IZ advanced 031",
+    "formLabel": "Cycle 5 IS/IZ advanced 031",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-031-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-031-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-031-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-031-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChBtIeBtGeR4CezhR4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-032-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-032",
+    "displayName": "Cycle 5 IS/IZ advanced 032",
+    "formLabel": "Cycle 5 IS/IZ advanced 032",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-032-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-032-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-032-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-032-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@AhR4GeR4IeBtEezhBtzhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-033-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-033",
+    "displayName": "Cycle 5 IS/IZ advanced 033",
+    "formLabel": "Cycle 5 IS/IZ advanced 033",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-033-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-033-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-033-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-033-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhFeAtBewhEeBtBewhCeR4AtCewhBeR4zhKeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-034-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-034",
+    "displayName": "Cycle 5 IS/IZ advanced 034",
+    "formLabel": "Cycle 5 IS/IZ advanced 034",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-034-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-034-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-034-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-034-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@BhR4DeglBeR4EeglzhR4CehlBeR4NeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-035-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-035",
+    "displayName": "Cycle 5 IS/IZ advanced 035",
+    "formLabel": "Cycle 5 IS/IZ advanced 035",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-035-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-035-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-035-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-035-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChR4GeT4AeglEeR4ilFezhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-036-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-036",
+    "displayName": "Cycle 5 IS/IZ advanced 036",
+    "formLabel": "Cycle 5 IS/IZ advanced 036",
+    "pieceSignature": [
+      "I",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-036-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-036-f000-s-02",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-036-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@LhR4GeT4GeR4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-037-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-037",
+    "displayName": "Cycle 5 IS/IZ advanced 037",
+    "formLabel": "Cycle 5 IS/IZ advanced 037",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-037-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-037-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-037-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhQ4hlGeR4glHeQ4glFezhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-038-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-038",
+    "displayName": "Cycle 5 IS/IZ advanced 038",
+    "formLabel": "Cycle 5 IS/IZ advanced 038",
+    "pieceSignature": [
+      "I",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-038-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-038-f000-s-02",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-038-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhwhBeR4EewhAeT4DewhBeR4EewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-039-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-039",
+    "displayName": "Cycle 5 IS/IZ advanced 039",
+    "formLabel": "Cycle 5 IS/IZ advanced 039",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-039-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-039-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-039-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-039-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglAtHeBtR4FeAtR4zhMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-040-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-040",
+    "displayName": "Cycle 5 IS/IZ advanced 040",
+    "formLabel": "Cycle 5 IS/IZ advanced 040",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-040-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-040-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-040-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-040-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gglIeglGeQ4AehlDeBtR4zhCeBtQ4JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-041-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-041",
+    "displayName": "Cycle 5 IS/IZ advanced 041",
+    "formLabel": "Cycle 5 IS/IZ advanced 041",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-041-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-041-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-041-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-041-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilFewhglAtGewhBtR4EewhAtR4FewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-042-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-042",
+    "displayName": "Cycle 5 IS/IZ advanced 042",
+    "formLabel": "Cycle 5 IS/IZ advanced 042",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-042-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-042-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-042-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-042-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Ehi0HeQ4g0zhR4BeR4CeR4DeQ4JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-043-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-043",
+    "displayName": "Cycle 5 IS/IZ advanced 043",
+    "formLabel": "Cycle 5 IS/IZ advanced 043",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-043-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-043-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-043-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-043-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gQ4IeR4Heg0Q4BeR4Dei0R4zhKeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-044-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-044",
+    "displayName": "Cycle 5 IS/IZ advanced 044",
+    "formLabel": "Cycle 5 IS/IZ advanced 044",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-044-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-044-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-044-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-044-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0R4Eewhg0R4Fewhg0R4FewhR4GewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-045-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-045",
+    "displayName": "Cycle 5 IS/IZ advanced 045",
+    "formLabel": "Cycle 5 IS/IZ advanced 045",
+    "pieceSignature": [
+      "I",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-045-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-045-f000-s-02",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-045-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@RhzhT4EeT4MeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-046-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-046",
+    "displayName": "Cycle 5 IS/IZ advanced 046",
+    "formLabel": "Cycle 5 IS/IZ advanced 046",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-046-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-046-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-046-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-046-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0BeAtEeg0BeBtEeg0R4AtFeR4zhNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-047-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-047",
+    "displayName": "Cycle 5 IS/IZ advanced 047",
+    "formLabel": "Cycle 5 IS/IZ advanced 047",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-047-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-047-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-047-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-047-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gzhFeh0AtGeg0BtR4Eeg0AtR4PeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-048-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-048",
+    "displayName": "Cycle 5 IS/IZ advanced 048",
+    "formLabel": "Cycle 5 IS/IZ advanced 048",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-048-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-048-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-048-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-048-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhAtHeBtFeR4Ati0CeR4zhg0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-049-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-049",
+    "displayName": "Cycle 5 IS/IZ advanced 049",
+    "formLabel": "Cycle 5 IS/IZ advanced 049",
+    "pieceSignature": [
+      "I",
+      "S",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-049-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-049-f000-s-02",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-049-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-049-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@+gT4EeT4IeBtEezhBtNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-050-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-050",
+    "displayName": "Cycle 5 IS/IZ advanced 050",
+    "formLabel": "Cycle 5 IS/IZ advanced 050",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-050-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-050-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-050-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-050-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gglRpGeglRpR4EehlR4FezhPeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-051-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-051",
+    "displayName": "Cycle 5 IS/IZ advanced solution 051",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "I",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-051-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-051-f000-shadow-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-051-f000-shadow-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-051-f000-shadow-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhQ4hlGeR4glDezhQ4glFezhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-052-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-052",
+    "displayName": "Cycle 5 IS/IZ advanced solution 052",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-052-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-052-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-052-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-052-f000-shadow-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhR4GeR4glRpEeilRpDezhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-053-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-053",
+    "displayName": "Cycle 5 IS/IZ advanced 053",
+    "formLabel": "Cycle 5 IS/IZ advanced 053",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-053-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-053-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-053-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-053-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhQ4hlGeR4glRpFeQ4glRpDezhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-054-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-054",
+    "displayName": "Cycle 5 IS/IZ advanced 054",
+    "formLabel": "Cycle 5 IS/IZ advanced 054",
+    "pieceSignature": [
+      "I",
+      "J",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-054-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-054-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-054-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-054-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gzhFei0GeRpg0R4EeRpR4PeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-055-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-055",
+    "displayName": "Cycle 5 IS/IZ advanced 055",
+    "formLabel": "Cycle 5 IS/IZ advanced 055",
+    "pieceSignature": [
+      "I",
+      "O",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-055-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-055-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-055-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-055-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@/gR4GeR4RpFeR4RpEeR4zhNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-056-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-056",
+    "displayName": "Cycle 5 IS/IZ advanced 056",
+    "formLabel": "Cycle 5 IS/IZ advanced 056",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-056-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-056-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-056-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-056-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhRpHeRpCeR4zhglBeR4CeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-057-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-057",
+    "displayName": "Cycle 5 IS/IZ advanced 057",
+    "formLabel": "Cycle 5 IS/IZ advanced 057",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-057-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-057-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-057-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-057-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@HhzhR4zhCeT4GeR4NeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-058-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-058",
+    "displayName": "Cycle 5 IS/IZ advanced 058",
+    "formLabel": "Cycle 5 IS/IZ advanced 058",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-058-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-058-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-058-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-058-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhBeR4EewhAeR4FewhAeR4FewhR4zhMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-059-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-059",
+    "displayName": "Cycle 5 IS/IZ advanced 059",
+    "formLabel": "Cycle 5 IS/IZ advanced 059",
+    "pieceSignature": [
+      "I",
+      "I",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-059-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-059-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-059-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-059-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gglIeglGeQ4AehlzhBeR4zhEeQ4JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-060-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-060",
+    "displayName": "Cycle 5 IS/IZ advanced solution 060",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-060-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-060-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-060-f000-shadow-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-060-f000-shadow-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChR4GeT4AeglEeR4ilFezhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-061-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-061",
+    "displayName": "Cycle 5 IS/IZ advanced 061",
+    "formLabel": "Cycle 5 IS/IZ advanced 061",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-061-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-061-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-061-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhwhIewhEeR4Be0hR4CewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-062-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-062",
+    "displayName": "Cycle 5 IS/IZ advanced 062",
+    "formLabel": "Cycle 5 IS/IZ advanced 062",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-062-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-062-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-062-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglR4GeR4HezhPeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-063-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-063",
+    "displayName": "Cycle 5 IS/IZ advanced 063",
+    "formLabel": "Cycle 5 IS/IZ advanced 063",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-063-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-063-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-063-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-063-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglAtHeBtR4FeAtR4CezhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-064-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-064",
+    "displayName": "Cycle 5 IS/IZ advanced 064",
+    "formLabel": "Cycle 5 IS/IZ advanced 064",
+    "pieceSignature": [
+      "I",
+      "I",
+      "J",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-064-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-064-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-064-f000-j-03",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-064-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhIewhIewhg0CeR4Cewhi0R4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-065-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-065",
+    "displayName": "Cycle 5 IS/IZ advanced 065",
+    "formLabel": "Cycle 5 IS/IZ advanced 065",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-065-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-065-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-065-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-065-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChR4AtFeR4BtHeAti0Eezhg0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-066-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-066",
+    "displayName": "Cycle 5 IS/IZ advanced 066",
+    "formLabel": "Cycle 5 IS/IZ advanced 066",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-066-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-066-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-066-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-066-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gQ4BtGeR4BtFeg0Q4Hei0zhMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-067-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-067",
+    "displayName": "Cycle 5 IS/IZ advanced 067",
+    "formLabel": "Cycle 5 IS/IZ advanced 067",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-067-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-067-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-067-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-067-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gQ4HewhR4Gewhg0Q4BeR4Cewhi0R4DewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-068-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-068",
+    "displayName": "Cycle 5 IS/IZ advanced 068",
+    "formLabel": "Cycle 5 IS/IZ advanced 068",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-068-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-068-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-068-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-068-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Hhg0Iei0R4zhglBeR4CeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-069-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-069",
+    "displayName": "Cycle 5 IS/IZ advanced 069",
+    "formLabel": "Cycle 5 IS/IZ advanced 069",
+    "pieceSignature": [
+      "I",
+      "I",
+      "J",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-069-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-069-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-069-f000-j-03",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-069-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Ehi0HeQ4g0BezhBeR4zhEeQ4JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-070-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-070",
+    "displayName": "Cycle 5 IS/IZ advanced 070",
+    "formLabel": "Cycle 5 IS/IZ advanced 070",
+    "pieceSignature": [
+      "I",
+      "I",
+      "J",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-070-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-070-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-070-f000-j-03",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-070-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0Heg0Ieg0DeR4CezhR4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-071-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-071",
+    "displayName": "Cycle 5 IS/IZ advanced 071",
+    "formLabel": "Cycle 5 IS/IZ advanced 071",
+    "pieceSignature": [
+      "I",
+      "I",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-071-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-071-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-071-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-071-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhwhDeRpCewhBeR4RpCewhAeR4zhBewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-072-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-072",
+    "displayName": "Cycle 5 IS/IZ advanced 072",
+    "formLabel": "Cycle 5 IS/IZ advanced 072",
+    "pieceSignature": [
+      "I",
+      "I",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-072-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-072-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-072-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-072-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhIewhRpAeR4DewhRpR4Ee0hOeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-073-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-073",
+    "displayName": "Cycle 5 IS/IZ advanced 073",
+    "formLabel": "Cycle 5 IS/IZ advanced 073",
+    "pieceSignature": [
+      "I",
+      "I",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-073-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-073-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-073-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-073-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@/gzhGeRpHeRpR4CezhR4NeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-074-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-074",
+    "displayName": "Cycle 5 IS/IZ advanced 074",
+    "formLabel": "Cycle 5 IS/IZ advanced 074",
+    "pieceSignature": [
+      "I",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-074-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-074-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-074-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@KhRpFeR4RpEeR4zhNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-075-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-075",
+    "displayName": "Cycle 5 IS/IZ advanced 075",
+    "formLabel": "Cycle 5 IS/IZ advanced 075",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-075-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-075-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-075-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@WhR4CezhR4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-076-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-076",
+    "displayName": "Cycle 5 IS/IZ advanced 076",
+    "formLabel": "Cycle 5 IS/IZ advanced 076",
+    "pieceSignature": [
+      "I",
+      "I",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-076-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-076-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-076-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-076-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglR4GeR4zhDezhPeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-077-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-077",
+    "displayName": "Cycle 5 IS/IZ advanced 077",
+    "formLabel": "Cycle 5 IS/IZ advanced 077",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-077-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-077-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-077-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-077-f000-t-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhQ4hlFewwR4glEeywQ4glFezhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-078-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-078",
+    "displayName": "Cycle 5 IS/IZ advanced 078",
+    "formLabel": "Cycle 5 IS/IZ advanced 078",
+    "pieceSignature": [
+      "I",
+      "I",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-078-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-078-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-078-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhxhHexhBeR4DexhAeR4EexhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-079-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-079",
+    "displayName": "Cycle 5 IS/IZ advanced 079",
+    "formLabel": "Cycle 5 IS/IZ advanced 079",
+    "pieceSignature": [
+      "I",
+      "I",
+      "J",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-079-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-079-f000-i-02",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-079-f000-j-03",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-079-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhwhHeg0whBezhR4g0whEeR4h0whJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-080-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-080",
+    "displayName": "Cycle 5 IS/IZ advanced 080",
+    "formLabel": "Cycle 5 IS/IZ advanced 080",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-080-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-080-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-080-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-080-f000-t-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0Gewhg0Hewhg0R4wwEewhR4ywDewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-081-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-081",
+    "displayName": "Cycle 5 IS/IZ advanced 081",
+    "formLabel": "Cycle 5 IS/IZ advanced 081",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-081-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-081-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-081-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-081-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gglFei0glGeQ4g0hlFeR4zhEeQ4JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-082-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-082",
+    "displayName": "Cycle 5 IS/IZ advanced 082",
+    "formLabel": "Cycle 5 IS/IZ advanced 082",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-082-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-082-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-082-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-082-f000-t-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhhlwhHeglwhEeR4wwglwhDeR4ywwhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-083-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-083",
+    "displayName": "Cycle 5 IS/IZ advanced 083",
+    "formLabel": "Cycle 5 IS/IZ advanced 083",
+    "pieceSignature": [
+      "I",
+      "L",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-083-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-083-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-083-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-083-f000-t-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhywHewwglEeR4ilDeR4zhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-isiz-084-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-isiz-084",
+    "displayName": "Cycle 5 IS/IZ advanced 084",
+    "formLabel": "Cycle 5 IS/IZ advanced 084",
+    "pieceSignature": [
+      "I",
+      "J",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-isiz-084-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-084-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-isiz-084-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gh0Gewhg0Hewhg0R4FewhR4GewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  }
+]

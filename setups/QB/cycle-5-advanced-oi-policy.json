@@ -3810,10 +3810,10 @@
       }
     },
     {
-      "id": "oi5-advanced-oqb-tos-toz-hidden-last",
+      "id": "oi5-advanced-oqb-tos-hidden-last",
       "kind": "oqb",
       "sourceOrder": 8,
-      "label": "[TOS]! / [TOZ]!",
+      "label": "[TOS]!",
       "initialPatterns": [
         {
           "scope": "next-bag-five",
@@ -3827,7 +3827,75 @@
               ]
             }
           ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-oi-008-f000",
+      "checkpoint": {
+        "placedCount": 1,
+        "placedPieces": [
+          "O"
+        ]
+      },
+      "observation": {
+        "kind": "hidden-bag-piece",
+        "knownRemainingBagPieces": [
+          "I",
+          "L",
+          "J",
+          "Z"
+        ],
+        "visibleCountFromThatSet": 3
+      },
+      "branches": [
+        {
+          "id": "oi5-advanced-oqb-tos-hidden-last-branch-1",
+          "observedPieces": [
+            "I",
+            "L"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-009-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
         },
+        {
+          "id": "oi5-advanced-oqb-tos-hidden-last-branch-2",
+          "observedPieces": [
+            "J"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-010-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "oi5-advanced-oqb-tos-hidden-last-branch-3",
+          "observedPieces": [
+            "Z"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-011-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "runtimeStatus": "compiled"
+    },
+    {
+      "id": "oi5-advanced-oqb-toz-hidden-last",
+      "kind": "oqb",
+      "sourceOrder": 9,
+      "label": "[TOZ]!",
+      "initialPatterns": [
         {
           "scope": "next-bag-five",
           "parts": [
@@ -3855,47 +3923,47 @@
           "I",
           "L",
           "J",
-          "Z"
+          "S"
         ],
         "visibleCountFromThatSet": 3
       },
       "branches": [
         {
-          "id": "oi5-advanced-oqb-tos-toz-hidden-last-branch-1",
+          "id": "oi5-advanced-oqb-toz-hidden-last-branch-1",
           "observedPieces": [
             "I",
-            "L"
-          ],
-          "continuationSetupRefs": [
-            {
-              "setupId": "cycle5-advanced-oi-009-f000",
-              "transform": "identity"
-            }
-          ],
-          "bestsave": null
-        },
-        {
-          "id": "oi5-advanced-oqb-tos-toz-hidden-last-branch-2",
-          "observedPieces": [
             "J"
           ],
           "continuationSetupRefs": [
             {
-              "setupId": "cycle5-advanced-oi-010-f000",
-              "transform": "identity"
+              "setupId": "cycle5-advanced-oi-009-f000",
+              "transform": "mirror-x"
             }
           ],
           "bestsave": null
         },
         {
-          "id": "oi5-advanced-oqb-tos-toz-hidden-last-branch-3",
+          "id": "oi5-advanced-oqb-toz-hidden-last-branch-2",
           "observedPieces": [
-            "Z"
+            "L"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-oi-010-f000",
+              "transform": "mirror-x"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "oi5-advanced-oqb-toz-hidden-last-branch-3",
+          "observedPieces": [
+            "S"
           ],
           "continuationSetupRefs": [
             {
               "setupId": "cycle5-advanced-oi-011-f000",
-              "transform": "identity"
+              "transform": "mirror-x"
             }
           ],
           "bestsave": null
@@ -4507,7 +4575,7 @@
         ]
       }
     ],
-    "compiledEntryCount": 88,
+    "compiledEntryCount": 89,
     "deferredEntryIds": [],
     "queueConditionsAreAstOnly": true
   }

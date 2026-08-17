@@ -75,7 +75,7 @@
           ]
         }
       ],
-      "bestsave": null,
+      "bestsave": true,
       "directTwoLinePc": false,
       "postBuildAvailability": {
         "checkpointPlacedCount": 4,
@@ -153,7 +153,7 @@
           ]
         }
       ],
-      "bestsave": null,
+      "bestsave": true,
       "directTwoLinePc": false,
       "postBuildAvailability": {
         "checkpointPlacedCount": 4,
@@ -287,7 +287,7 @@
           ]
         }
       ],
-      "bestsave": null,
+      "bestsave": true,
       "directTwoLinePc": false,
       "postBuildAvailability": {
         "checkpointPlacedCount": 4,
@@ -366,7 +366,7 @@
           ]
         }
       ],
-      "bestsave": null,
+      "bestsave": true,
       "directTwoLinePc": false,
       "postBuildAvailability": {
         "checkpointPlacedCount": 4,
@@ -459,7 +459,7 @@
           ]
         }
       ],
-      "bestsave": null,
+      "bestsave": true,
       "directTwoLinePc": false,
       "postBuildAvailability": {
         "checkpointPlacedCount": 4,
@@ -547,7 +547,7 @@
           ]
         }
       ],
-      "bestsave": null,
+      "bestsave": true,
       "directTwoLinePc": false
     },
     {
@@ -611,7 +611,7 @@
           ]
         }
       ],
-      "bestsave": null,
+      "bestsave": true,
       "directTwoLinePc": false
     },
     {
@@ -675,7 +675,7 @@
           ]
         }
       ],
-      "bestsave": null,
+      "bestsave": true,
       "directTwoLinePc": false
     },
     {
@@ -732,7 +732,7 @@
               "transform": "identity"
             }
           ],
-          "bestsave": null
+          "bestsave": true
         },
         {
           "id": "ti5-ilj-relative-sz-branch-2",
@@ -746,7 +746,7 @@
               "transform": "identity"
             }
           ],
-          "bestsave": null
+          "bestsave": true
         }
       ],
       "runtimeStatus": "compiled"
@@ -806,7 +806,7 @@
               "transform": "identity"
             }
           ],
-          "bestsave": null,
+          "bestsave": true,
           "postCheckpoint": {
             "observation": {
               "kind": "reveal",
@@ -863,7 +863,7 @@
               "transform": "identity"
             }
           ],
-          "bestsave": null,
+          "bestsave": true,
           "postCheckpoint": {
             "observation": {
               "kind": "reveal",
@@ -961,7 +961,7 @@
               "transform": "identity"
             }
           ],
-          "bestsave": null
+          "bestsave": true
         },
         {
           "id": "ti5-tlj-is-branch-2",
@@ -974,7 +974,7 @@
               "transform": "identity"
             }
           ],
-          "bestsave": null
+          "bestsave": true
         }
       ],
       "runtimeStatus": "compiled"
@@ -1034,7 +1034,7 @@
               "transform": "identity"
             }
           ],
-          "bestsave": null
+          "bestsave": true
         },
         {
           "id": "ti5-ltj-io-branch-2",
@@ -1047,7 +1047,7 @@
               "transform": "identity"
             }
           ],
-          "bestsave": null
+          "bestsave": true
         }
       ],
       "runtimeStatus": "compiled"
@@ -1110,7 +1110,7 @@
               "transform": "identity"
             }
           ],
-          "bestsave": null,
+          "bestsave": false,
           "postCheckpoint": {
             "observation": {
               "kind": "reveal",

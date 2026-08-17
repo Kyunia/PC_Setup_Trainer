@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { createBinding, DEFAULT_SETTINGS, displayCode, loadInputSettings, normalizeInputSettings, saveInputSettings, type InputSettings } from "./settings";
+import { ACTION_LABELS, createBinding, DEFAULT_SETTINGS, displayCode, loadInputSettings, normalizeInputSettings, saveInputSettings, type InputSettings } from "./settings";
 
 afterEach(() => {
   vi.unstubAllGlobals();
@@ -29,8 +29,9 @@ describe("input settings", () => {
     expect(createBinding("ControlLeft", { ctrlKey: true })).toBe("ControlLeft");
   });
 
-  it("시드 변경 기본 단축키를 제공한다", () => {
+  it("동일 시드 재시작 기본 단축키를 제공한다", () => {
     expect(DEFAULT_SETTINGS.bindings.randomSeed).toBe("F4");
+    expect(ACTION_LABELS.randomSeed).toBe("Restart (Same Seed)");
   });
 
   it("한 칸 내리기 기본 단축키를 제공한다", () => {

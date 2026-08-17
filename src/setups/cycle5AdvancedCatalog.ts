@@ -1,5 +1,13 @@
 import rawClassIndex from "../../setups/cycle-5-class-index.json";
 import rawManifest from "../../setups/catalog-manifest.json";
+import rawIlijPolicy from "../../setups/QB/cycle-5-advanced-ilij-policy.json";
+import rawIlijSetups from "../../setups/QB/cycle-5-advanced-ilij-setups.json";
+import rawIsizPolicy from "../../setups/QB/cycle-5-advanced-isiz-policy.json";
+import rawIsizSetups from "../../setups/QB/cycle-5-advanced-isiz-setups.json";
+import rawLjPolicy from "../../setups/QB/cycle-5-advanced-lj-policy.json";
+import rawLjSetups from "../../setups/QB/cycle-5-advanced-lj-setups.json";
+import rawOlojPolicy from "../../setups/QB/cycle-5-advanced-oloj-policy.json";
+import rawOlojSetups from "../../setups/QB/cycle-5-advanced-oloj-setups.json";
 import rawOiPolicy from "../../setups/QB/cycle-5-advanced-oi-policy.json";
 import rawOiSetups from "../../setups/QB/cycle-5-advanced-oi-setups.json";
 import rawTiPolicy from "../../setups/QB/cycle-5-advanced-ti-policy.json";
@@ -64,6 +72,10 @@ function definition(
 }
 
 const definitions: Record<string, AdvancedDefinition> = {
+  ilij: definition("ilij", rawIlijPolicy, rawIlijSetups as SetupVariant[]),
+  isiz: definition("isiz", rawIsizPolicy, rawIsizSetups as SetupVariant[]),
+  lj: definition("lj", rawLjPolicy, rawLjSetups as SetupVariant[]),
+  oloj: definition("oloj", rawOlojPolicy, rawOlojSetups as SetupVariant[]),
   oi: definition("oi", rawOiPolicy, rawOiSetups as SetupVariant[]),
   tltj: definition("tltj", rawTltjPolicy, rawTltjSetups as SetupVariant[]),
   ti: definition("ti", rawTiPolicy, rawTiSetups as SetupVariant[]),

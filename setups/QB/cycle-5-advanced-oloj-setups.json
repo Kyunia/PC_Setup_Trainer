@@ -1,0 +1,9462 @@
+[
+  {
+    "id": "cycle5-advanced-oloj-001-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-001",
+    "displayName": "Cycle 5 OL/OJ advanced 001",
+    "formLabel": "Cycle 5 OL/OJ advanced 001",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-001-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-001-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-001-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-001-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-001-f000-o-05",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@RhRpg0zhglTpi0ilRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-002-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-002",
+    "displayName": "Cycle 5 OL/OJ advanced 002",
+    "formLabel": "Cycle 5 OL/OJ advanced 002",
+    "pieceSignature": [
+      "L",
+      "O",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-002-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-002-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-002-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-002-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhRpglQ4FeRpglR4EeRphlQ4EeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-003-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-003",
+    "displayName": "Cycle 5 OL/OJ advanced 003",
+    "formLabel": "Cycle 5 OL/OJ advanced 003",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-003-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-003-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-003-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-003-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpwhGeRpwhGeRpwhFeglRpwhDeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-004-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-004",
+    "displayName": "Cycle 5 OL/OJ advanced 004",
+    "formLabel": "Cycle 5 OL/OJ advanced 004",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-004-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-004-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-004-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-004-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhHeAtwhGeBtwhRpEeAtglwhRpDeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-005-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-005",
+    "displayName": "Cycle 5 OL/OJ advanced 005",
+    "formLabel": "Cycle 5 OL/OJ advanced 005",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-005-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-005-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-005-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-005-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhwhRpGewhRpilDewhRpglFewhRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-006-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-006",
+    "displayName": "Cycle 5 OL/OJ advanced 006",
+    "formLabel": "Cycle 5 OL/OJ advanced 006",
+    "pieceSignature": [
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-006-f000-o-01",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@RhRpHeRpReAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-007-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-007",
+    "displayName": "Cycle 5 OL/OJ advanced solution 007",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-007-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-007-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-007-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-007-f000-shadow-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpwhGeRpwhGeRpwhilDeRpwhglPeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-008-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-008",
+    "displayName": "Cycle 5 OL/OJ advanced solution 008",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-008-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-008-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-008-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-008-f000-shadow-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpwhGeRpwhGeRpwhFeglRpwhDeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-009-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-009",
+    "displayName": "Cycle 5 OL/OJ advanced 009",
+    "formLabel": "Cycle 5 OL/OJ advanced 009",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-009-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-009-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-009-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-009-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRphlFeRphlFeRphlFeRphlPeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-010-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-010",
+    "displayName": "Cycle 5 OL/OJ advanced 010",
+    "formLabel": "Cycle 5 OL/OJ advanced 010",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-010-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-010-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-010-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-010-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglBtGeRpBtFeRpzhNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-011-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-011",
+    "displayName": "Cycle 5 OL/OJ advanced solution 011",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "L",
+      "O",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-011-f000-shadow-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-011-f000-shadow-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-011-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-011-f000-shadow-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpGeAtRpFeBtRpFeAtglRpEeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-012-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-012",
+    "displayName": "Cycle 5 OL/OJ advanced 012",
+    "formLabel": "Cycle 5 OL/OJ advanced 012",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-012-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-012-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-012-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-012-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhAtHeBtRpAeR4CeAtglRpR4CeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-013-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-013",
+    "displayName": "Cycle 5 OL/OJ advanced 013",
+    "formLabel": "Cycle 5 OL/OJ advanced 013",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-013-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-013-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-013-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-013-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@KhAtFeRpBtR4ilAeRpAtR4AeglMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-014-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-014",
+    "displayName": "Cycle 5 OL/OJ advanced solution 014",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-014-f000-shadow-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-014-f000-shadow-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-014-f000-shadow-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-014-f000-shadow-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhAtHeBtRpAeR4CeAtglRpR4CeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-015-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-015",
+    "displayName": "Cycle 5 OL/OJ advanced solution 015",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-015-f000-shadow-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-015-f000-shadow-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-015-f000-shadow-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-015-f000-shadow-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@KhAtFeRpBtR4ilAeRpAtR4AeglMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-016-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-016",
+    "displayName": "Cycle 5 OL/OJ advanced 016",
+    "formLabel": "Cycle 5 OL/OJ advanced 016",
+    "pieceSignature": [
+      "L",
+      "O",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-016-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-016-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-016-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-016-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhRpFeBtRpEeRpBtglEeRpilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-017-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-017",
+    "displayName": "Cycle 5 OL/OJ advanced 017",
+    "formLabel": "Cycle 5 OL/OJ advanced 017",
+    "pieceSignature": [
+      "L",
+      "O",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-017-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-017-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-017-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-017-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpGeAtRpFeBtRpFeAtglRpEeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-018-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-018",
+    "displayName": "Cycle 5 OL/OJ advanced 018",
+    "formLabel": "Cycle 5 OL/OJ advanced 018",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-018-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-018-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-018-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-018-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpGeglRpEeilRpGeglRpEeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-019-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-019",
+    "displayName": "Cycle 5 OL/OJ advanced 019",
+    "formLabel": "Cycle 5 OL/OJ advanced 019",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-019-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-019-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-019-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-019-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpEeilRpEeilRpGeglRpGeglJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-020-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-020",
+    "displayName": "Cycle 5 OL/OJ advanced 020",
+    "formLabel": "Cycle 5 OL/OJ advanced 020",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-020-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-020-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-020-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-020-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gglGeRpglGeRpilEeRpilEeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-021-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-021",
+    "displayName": "Cycle 5 OL/OJ advanced 021",
+    "formLabel": "Cycle 5 OL/OJ advanced 021",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-021-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-021-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-021-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-021-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpHeRpFehlRpDei0glRpFeg0glJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-022-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-022",
+    "displayName": "Cycle 5 OL/OJ advanced 022",
+    "formLabel": "Cycle 5 OL/OJ advanced 022",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-022-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-022-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-022-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-022-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpHeRpHeRpilBei0RpglFeg0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-023-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-023",
+    "displayName": "Cycle 5 OL/OJ advanced solution 023",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-023-f000-shadow-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-023-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-023-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-023-f000-shadow-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpHeRpglGeRpglDei0RphlEeg0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-024-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-024",
+    "displayName": "Cycle 5 OL/OJ advanced solution 024",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-024-f000-shadow-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-024-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-024-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-024-f000-shadow-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpHeRpFehlRpDei0glRpFeg0glJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-025-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-025",
+    "displayName": "Cycle 5 OL/OJ advanced 025",
+    "formLabel": "Cycle 5 OL/OJ advanced 025",
+    "pieceSignature": [
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-025-f000-o-01",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ZhRpHeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-026-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-026",
+    "displayName": "Cycle 5 OL/OJ advanced solution 026",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-026-f000-shadow-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-026-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-026-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-026-f000-shadow-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhRpglGeRpglDei0RphlEeg0RpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-027-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-027",
+    "displayName": "Cycle 5 OL/OJ advanced solution 027",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-027-f000-shadow-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-027-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-027-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-027-f000-shadow-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhglGeilCei0TpEeg0TpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-028-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-028",
+    "displayName": "Cycle 5 OL/OJ advanced 028",
+    "formLabel": "Cycle 5 OL/OJ advanced 028",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-028-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-028-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-028-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-028-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@BhzhGeQ4hlGeR4glRpFeQ4glRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-029-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-029",
+    "displayName": "Cycle 5 OL/OJ advanced 029",
+    "formLabel": "Cycle 5 OL/OJ advanced 029",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-029-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-029-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-029-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-029-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gglQ4HeglR4GehlQ4EeRpzhDeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-030-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-030",
+    "displayName": "Cycle 5 OL/OJ advanced solution 030",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-030-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-030-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-030-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-030-f000-shadow-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@DhzhGeQ4hlRpEeR4glRpFeQ4glJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-031-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-031",
+    "displayName": "Cycle 5 OL/OJ advanced solution 031",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-031-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-031-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-031-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-031-f000-shadow-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@DhzhHeR4RpEeR4glRpEeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-032-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-032",
+    "displayName": "Cycle 5 OL/OJ advanced 032",
+    "formLabel": "Cycle 5 OL/OJ advanced 032",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-032-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-032-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-032-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-032-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhIewhIewhAeR4CeglRpwhR4BeilRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-033-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-033",
+    "displayName": "Cycle 5 OL/OJ advanced 033",
+    "formLabel": "Cycle 5 OL/OJ advanced 033",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-033-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-033-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-033-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-033-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhRpFeBtRpGeBtglzhCeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-034-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-034",
+    "displayName": "Cycle 5 OL/OJ advanced 034",
+    "formLabel": "Cycle 5 OL/OJ advanced 034",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-034-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-034-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-034-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-034-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglBtGeRpBtDeR4RpEeR4KeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-035-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-035",
+    "displayName": "Cycle 5 OL/OJ advanced solution 035",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-035-f000-shadow-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-035-f000-shadow-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-035-f000-shadow-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-035-f000-shadow-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglBtGeRpBtDeR4RpEeR4KeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-036-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-036",
+    "displayName": "Cycle 5 OL/OJ advanced 036",
+    "formLabel": "Cycle 5 OL/OJ advanced 036",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-036-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-036-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-036-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-036-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChR4GeR4DeilBtCeRpglCeBtBeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-037-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-037",
+    "displayName": "Cycle 5 OL/OJ advanced solution 037",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-037-f000-shadow-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-037-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-037-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-037-f000-shadow-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRphlFeRphlFeRphlFeRphlPeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-038-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-038",
+    "displayName": "Cycle 5 OL/OJ advanced solution 038",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-038-f000-shadow-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-038-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-038-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-038-f000-shadow-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpHeRpFehlRpilDeglRpglFeglJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-039-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-039",
+    "displayName": "Cycle 5 OL/OJ advanced 039",
+    "formLabel": "Cycle 5 OL/OJ advanced 039",
+    "pieceSignature": [
+      "L",
+      "O",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-039-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-039-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-039-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-039-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpHeRpglGeRpglDeBtAeRphlDeBtJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-040-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-040",
+    "displayName": "Cycle 5 OL/OJ advanced solution 040",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "L",
+      "O",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-040-f000-shadow-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-040-f000-shadow-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-040-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-040-f000-shadow-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpBtFeRpglBtEeRpglGeRphlPeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-041-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-041",
+    "displayName": "Cycle 5 OL/OJ advanced 041",
+    "formLabel": "Cycle 5 OL/OJ advanced 041",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-041-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-041-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-041-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-041-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@DhzhGeQ4hlRpEeR4glRpFeQ4glJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-042-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-042",
+    "displayName": "Cycle 5 OL/OJ advanced 042",
+    "formLabel": "Cycle 5 OL/OJ advanced 042",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-042-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-042-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-042-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-042-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@DhzhGeQ4hlCeRpBeR4glCeRpCeQ4glJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-043-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-043",
+    "displayName": "Cycle 5 OL/OJ advanced solution 043",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-043-f000-shadow-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-043-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-043-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-043-f000-shadow-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglR4GeR4glEeRpilEeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-044-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-044",
+    "displayName": "Cycle 5 OL/OJ advanced solution 044",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-044-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-044-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-044-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-044-f000-shadow-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gglQ4HeglR4GehlQ4EeRpzhDeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-045-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-045",
+    "displayName": "Cycle 5 OL/OJ advanced 045",
+    "formLabel": "Cycle 5 OL/OJ advanced 045",
+    "pieceSignature": [
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-045-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@PhhlIeglIeglJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-046-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-046",
+    "displayName": "Cycle 5 OL/OJ advanced solution 046",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-046-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-046-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-046-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-046-f000-shadow-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@DhzhFeR4hlEeR4RpglGeRpglJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-047-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-047",
+    "displayName": "Cycle 5 OL/OJ advanced 047",
+    "formLabel": "Cycle 5 OL/OJ advanced 047",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-047-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-047-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-047-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-047-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilFewhglAtGewhBtBeRpCewhAtCeRpCewhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-048-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-048",
+    "displayName": "Cycle 5 OL/OJ advanced 048",
+    "formLabel": "Cycle 5 OL/OJ advanced 048",
+    "pieceSignature": [
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-048-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ahglGeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-049-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-049",
+    "displayName": "Cycle 5 OL/OJ advanced solution 049",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-049-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-049-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-049-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-049-f000-shadow-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhRpFeBtRpGeBtglzhCeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-050-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-050",
+    "displayName": "Cycle 5 OL/OJ advanced solution 050",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-050-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-050-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-050-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-050-f000-shadow-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChzhAtHeBtRpFeAtglRpEeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-051-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-051",
+    "displayName": "Cycle 5 OL/OJ advanced 051",
+    "formLabel": "Cycle 5 OL/OJ advanced 051",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-051-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-051-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-051-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-051-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhwhIewhAeR4CeglRpwhR4BeilRpwhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-052-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-052",
+    "displayName": "Cycle 5 OL/OJ advanced 052",
+    "formLabel": "Cycle 5 OL/OJ advanced 052",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-052-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-052-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-052-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-052-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gi0GeglQ4g0GeglR4EeRphlQ4EeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-053-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-053",
+    "displayName": "Cycle 5 OL/OJ advanced 053",
+    "formLabel": "Cycle 5 OL/OJ advanced 053",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-053-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-053-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-053-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-053-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gQ4GeRpR4FeRpg0Q4Gegli0DeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-054-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-054",
+    "displayName": "Cycle 5 OL/OJ advanced 054",
+    "formLabel": "Cycle 5 OL/OJ advanced 054",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-054-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-054-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-054-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-054-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhilFewhglAtGewhBtBeRpCewhAtCeRpMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-055-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-055",
+    "displayName": "Cycle 5 OL/OJ advanced solution 055",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-055-f000-shadow-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-055-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-055-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-055-f000-shadow-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglBtGeRpBtFeRpzhNeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-056-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-056",
+    "displayName": "Cycle 5 OL/OJ advanced 056",
+    "formLabel": "Cycle 5 OL/OJ advanced 056",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-056-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-056-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-056-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-056-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglR4GeR4glEeRpilEeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-057-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-057",
+    "displayName": "Cycle 5 OL/OJ advanced 057",
+    "formLabel": "Cycle 5 OL/OJ advanced 057",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-057-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-057-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-057-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-057-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9ghlHehlHehlAeR4CeRphlR4DeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-058-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-058",
+    "displayName": "Cycle 5 OL/OJ advanced 058",
+    "formLabel": "Cycle 5 OL/OJ advanced 058",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-058-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-058-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-058-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-058-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@OhQ4hli0RpBeR4glBeg0RpCeQ4glJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-059-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-059",
+    "displayName": "Cycle 5 OL/OJ advanced 059",
+    "formLabel": "Cycle 5 OL/OJ advanced 059",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-059-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-059-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-059-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-059-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Ehi0GeglQ4g0RpEeglR4RpEehlQ4JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-060-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-060",
+    "displayName": "Cycle 5 OL/OJ advanced 060",
+    "formLabel": "Cycle 5 OL/OJ advanced 060",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-060-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-060-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-060-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-060-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@OhQ4hlRpi0BeR4glRpBeg0CeQ4glJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-061-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-061",
+    "displayName": "Cycle 5 OL/OJ advanced 061",
+    "formLabel": "Cycle 5 OL/OJ advanced 061",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-061-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-061-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-061-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-061-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Ehh0AtGeg0BtRpEeg0AtglRpEeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-062-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-062",
+    "displayName": "Cycle 5 OL/OJ advanced 062",
+    "formLabel": "Cycle 5 OL/OJ advanced 062",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-062-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-062-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-062-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-062-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ChilFeg0glBtFeg0RpBtDeh0RpMeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-063-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-063",
+    "displayName": "Cycle 5 OL/OJ advanced 063",
+    "formLabel": "Cycle 5 OL/OJ advanced 063",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-063-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-063-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-063-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-063-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglBtGeRpBtglEeRpilOeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-064-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-064",
+    "displayName": "Cycle 5 OL/OJ advanced 064",
+    "formLabel": "Cycle 5 OL/OJ advanced 064",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-064-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-064-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-064-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-064-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@OhQ4BeRpilBtR4AeRpglCeBtQ4KeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-065-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-065",
+    "displayName": "Cycle 5 OL/OJ advanced 065",
+    "formLabel": "Cycle 5 OL/OJ advanced 065",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-065-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-065-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-065-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-065-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhhlHehlAeR4CeRphlR4DeRphlJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-066-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-066",
+    "displayName": "Cycle 5 OL/OJ advanced 066",
+    "formLabel": "Cycle 5 OL/OJ advanced 066",
+    "pieceSignature": [
+      "L",
+      "O",
+      "S",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-066-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-066-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-066-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-066-f000-t-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhR4AehlDeR4wwRpglEexwRpglFewwJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-067-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-067",
+    "displayName": "Cycle 5 OL/OJ advanced 067",
+    "formLabel": "Cycle 5 OL/OJ advanced 067",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-067-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-067-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-067-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-067-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhhlFejlRpDeglBtglRpFeBtJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-068-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-068",
+    "displayName": "Cycle 5 OL/OJ advanced 068",
+    "formLabel": "Cycle 5 OL/OJ advanced 068",
+    "pieceSignature": [
+      "L",
+      "O",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-068-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-068-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-068-f000-t-03",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-068-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@QhwwilAeRpBtxwglCeRpAeBtwwJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-069-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-069",
+    "displayName": "Cycle 5 OL/OJ advanced 069",
+    "formLabel": "Cycle 5 OL/OJ advanced 069",
+    "pieceSignature": [
+      "L",
+      "O",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-069-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-069-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-069-f000-t-03",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-069-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhAtBewwEeBtRpxwDeAtglRpwwDeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-070-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-070",
+    "displayName": "Cycle 5 OL/OJ advanced 070",
+    "formLabel": "Cycle 5 OL/OJ advanced 070",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-070-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-070-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-070-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-070-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhAtEeg0BeBtRpCei0AtglRpEeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-071-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-071",
+    "displayName": "Cycle 5 OL/OJ advanced 071",
+    "formLabel": "Cycle 5 OL/OJ advanced 071",
+    "pieceSignature": [
+      "L",
+      "O",
+      "T",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-071-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-071-f000-o-02",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-071-f000-t-03",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-071-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@QhwwRpilAeBtxwRpglDeBtwwJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-072-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-072",
+    "displayName": "Cycle 5 OL/OJ advanced 072",
+    "formLabel": "Cycle 5 OL/OJ advanced 072",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-072-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-072-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-072-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Ehi0GeRpg0GeRpglGeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-073-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-073",
+    "displayName": "Cycle 5 OL/OJ advanced 073",
+    "formLabel": "Cycle 5 OL/OJ advanced 073",
+    "pieceSignature": [
+      "I",
+      "L",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-073-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-073-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-073-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-073-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhRpHeRpilBezhhlFeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-074-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-074",
+    "displayName": "Cycle 5 OL/OJ advanced 074",
+    "formLabel": "Cycle 5 OL/OJ advanced 074",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-074-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-074-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-074-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-074-f000-t-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhIewhwwHewhxwBeilRpwhwwCeglBeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-075-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-075",
+    "displayName": "Cycle 5 OL/OJ advanced 075",
+    "formLabel": "Cycle 5 OL/OJ advanced 075",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-075-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-075-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-075-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-075-f000-t-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhIewhHewwwhRpilBexwwhRpglEewwJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-076-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-076",
+    "displayName": "Cycle 5 OL/OJ advanced 076",
+    "formLabel": "Cycle 5 OL/OJ advanced 076",
+    "pieceSignature": [
+      "I",
+      "L",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-076-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-076-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-076-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-076-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhHeglwhFeilwhRpFeglwhRpDeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-077-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-077",
+    "displayName": "Cycle 5 OL/OJ advanced 077",
+    "formLabel": "Cycle 5 OL/OJ advanced 077",
+    "pieceSignature": [
+      "I",
+      "L",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-077-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-077-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-077-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-077-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhhlHehlRpFehlRpzhBehlJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-078-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-078",
+    "displayName": "Cycle 5 OL/OJ advanced 078",
+    "formLabel": "Cycle 5 OL/OJ advanced 078",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-078-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-078-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-078-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-078-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhwhIewhilAei0RpwhglEeg0RpwhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-079-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-079",
+    "displayName": "Cycle 5 OL/OJ advanced 079",
+    "formLabel": "Cycle 5 OL/OJ advanced 079",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-079-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-079-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-079-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-079-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Ehi0GeRpg0BeR4CeRpglAeR4DeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-080-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-080",
+    "displayName": "Cycle 5 OL/OJ advanced 080",
+    "formLabel": "Cycle 5 OL/OJ advanced 080",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-080-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-080-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-080-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-080-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglIeRpi0CeR4RpBeg0BeR4KeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-081-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-081",
+    "displayName": "Cycle 5 OL/OJ advanced 081",
+    "formLabel": "Cycle 5 OL/OJ advanced 081",
+    "pieceSignature": [
+      "I",
+      "L",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-081-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-081-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-081-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-081-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhFeglRpwhFeglRpwhFeilwhFeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-082-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-082",
+    "displayName": "Cycle 5 OL/OJ advanced 082",
+    "formLabel": "Cycle 5 OL/OJ advanced 082",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-082-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 3
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-082-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-082-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-082-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@DhzhHehli0RpDeglBeg0RpDeglJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-083-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-083",
+    "displayName": "Cycle 5 OL/OJ advanced 083",
+    "formLabel": "Cycle 5 OL/OJ advanced 083",
+    "pieceSignature": [
+      "I",
+      "L",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-083-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-083-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-083-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-083-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9ghlwhGehlwhGehlwhEeRphlwhEeRpJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-084-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-084",
+    "displayName": "Cycle 5 OL/OJ advanced 084",
+    "formLabel": "Cycle 5 OL/OJ advanced 084",
+    "pieceSignature": [
+      "I",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-084-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-084-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-084-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhwhIewhilDeRpwhglFeRpwhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-085-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-085",
+    "displayName": "Cycle 5 OL/OJ advanced 085",
+    "formLabel": "Cycle 5 OL/OJ advanced 085",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-085-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-085-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-085-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhglRpGeglRpGeilGeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-086-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-086",
+    "displayName": "Cycle 5 OL/OJ advanced 086",
+    "formLabel": "Cycle 5 OL/OJ advanced 086",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-086-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-086-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-086-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-086-f000-t-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@QhwwRpllxwRpglBeglCewwJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-087-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-087",
+    "displayName": "Cycle 5 OL/OJ advanced 087",
+    "formLabel": "Cycle 5 OL/OJ advanced 087",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-087-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-087-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-087-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-087-f000-t-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Ehi0wwFeRpg0xwEeRpglwwFeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-088-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-088",
+    "displayName": "Cycle 5 OL/OJ advanced 088",
+    "formLabel": "Cycle 5 OL/OJ advanced 088",
+    "pieceSignature": [
+      "L",
+      "L",
+      "O",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-088-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-088-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-088-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-088-f000-t-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeilFewwRpglEexwRpglFewwJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-089-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-089",
+    "displayName": "Cycle 5 OL/OJ advanced 089",
+    "formLabel": "Cycle 5 OL/OJ advanced 089",
+    "pieceSignature": [
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-089-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ThglGeilQeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-090-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-090",
+    "displayName": "Cycle 5 OL/OJ advanced solution 090",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-090-f000-shadow-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-090-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-090-f000-shadow-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-090-f000-shadow-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gi0GeRpg0GeRpjlDejlPeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-oloj-091-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-oloj-091",
+    "displayName": "Cycle 5 OL/OJ advanced solution 091",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "T"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-oloj-091-f000-shadow-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-091-f000-shadow-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-091-f000-shadow-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-oloj-091-f000-shadow-04",
+        "piece": "T",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gi0GeRpg0wwFeRpglxwEeilwwPeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  }
+]

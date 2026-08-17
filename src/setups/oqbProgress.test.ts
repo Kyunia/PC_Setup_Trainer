@@ -470,4 +470,15 @@ describe("shared OQB progress projection", () => {
       query: { ...query(createBoard()), cycle: 7 },
     })).toMatchObject({ status: "unsupported", reason: "structured-continuation-policy-unavailable" });
   });
+
+  it("hides OQB progress for a Cycle 5 setup with no matching OQB policy", () => {
+    const directSetup = setup("direct-4p", [oPlacement()]);
+    const result = resolveOqbProgress({
+      selectedCandidate: { ...candidate(directSetup), qbCondition: "direct QB" },
+      query: query(createBoard()),
+      policyProvider: { cycle5AdvancedForSetup: () => null },
+    });
+
+    expect(result).toMatchObject({ status: "no-follow-up", instruction: "" });
+  });
 });

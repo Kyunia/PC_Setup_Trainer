@@ -213,13 +213,13 @@ describe("InputController initial actions and DAS preservation", () => {
     controller.destroy();
   });
 
-  it("F4로 새 랜덤 시드를 시작한다", () => {
+  it("F4로 현재 시드를 유지하며 재시작한다", () => {
     const session = new GameSession("shortcut-seed");
     const controller = createController(session);
-    vi.spyOn(Math, "random").mockReturnValue(0.987654321);
+    fakeWindow.emit("keydown", "Space");
 
     fakeWindow.emit("keydown", "F4");
-    expect(session.state.seed).not.toBe("shortcut-seed");
+    expect(session.state.seed).toBe("shortcut-seed");
     expect(session.state.run.pcCount).toBe(0);
 
     controller.destroy();

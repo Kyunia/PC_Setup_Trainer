@@ -1,4 +1,5 @@
 import type { Cell, Piece } from "../engine/types";
+import { formatPieceSetForDisplay } from "../engine/pieceDisplay";
 
 /** The wildcard consumes exactly one visible tetromino. */
 export type Cycle5AdvancedQueueSymbol = Piece | "X";
@@ -105,6 +106,8 @@ export type Cycle5AdvancedOqbObservation =
 
 export interface Cycle5AdvancedOqbPlan extends Cycle5AdvancedEntryBase {
   kind: "oqb";
+  /** Save quality belongs to the initial queue condition, not its geometry. */
+  bestsave?: boolean | null;
   initialPatterns: Cycle5AdvancedQueuePattern[];
   preconditionSetupId: string | null;
   checkpoint: {
@@ -148,6 +151,7 @@ export type Cycle5AdvancedInitialDecision =
       kind: "oqb";
       plan: Cycle5AdvancedOqbPlan;
       preconditionSetupId: string;
+      bestsave?: boolean | null;
     };
 
 export interface Cycle5AdvancedContinuationDecision {
@@ -256,6 +260,45 @@ export function cycle5AdvancedQueuePatternMatches(
     && !(pattern.excludes ?? []).some((excluded) => patternBodyMatches(excluded, sequence));
 }
 
+function cycle5AdvancedPatternBodyLabel(
+  parts: readonly Cycle5AdvancedQueuePart[],
+  mirrored: boolean,
+): string {
+  return parts.map((part) => {
+    const symbols = part.symbols.map((symbol) =>
+      symbol === "X" || !mirrored ? symbol : mirrorPatternPiece(symbol));
+    const joined = symbols.join("");
+    return part.kind === "permutation" ? `[${joined}]!` : joined;
+  }).join("");
+}
+
+function mirrorPatternPiece(piece: Piece): Piece {
+  if (piece === "L") return "J";
+  if (piece === "J") return "L";
+  if (piece === "S") return "Z";
+  if (piece === "Z") return "S";
+  return piece;
+}
+
+/** Human label for the exact normalized pattern that produced a Cycle 5 QB/OQB candidate. */
+export function cycle5AdvancedRecommendationLabel(
+  classPieces: readonly Piece[],
+  pattern: Cycle5AdvancedQueuePattern,
+  kind: "QB" | "OQB",
+  runtimeMirror = false,
+): string | null {
+  const parts = pattern.scope === "visible-seven"
+    ? (() => {
+      const [classPart, ...rest] = pattern.parts;
+      return classPart?.kind === "ordered" && classPart.symbols.length === 2 ? rest : null;
+    })()
+    : pattern.parts;
+  if (!parts || parts.length === 0) return null;
+  const queueLabel = cycle5AdvancedPatternBodyLabel(parts, runtimeMirror);
+  if (!queueLabel) return null;
+  return `${formatPieceSetForDisplay(classPieces)} - ${queueLabel} ${kind}`;
+}
+
 /**
  * Returns all source-ordered entries whose explicit normalized queue condition
  * matches. Physical reachability is evaluated by the caller only for these IDs.
@@ -319,7 +362,12 @@ export function selectCycle5AdvancedInitialDecision(
     if (match.entry.kind === "oqb") {
       const preconditionSetupId = match.entry.preconditionSetupId;
       if (preconditionSetupId && buildableSetupIds.has(preconditionSetupId)) {
-        return { kind: "oqb", plan: match.entry, preconditionSetupId };
+        return {
+          kind: "oqb",
+          plan: match.entry,
+          preconditionSetupId,
+          bestsave: match.entry.bestsave,
+        };
       }
       continue;
     }
@@ -350,7 +398,7 @@ export function resolveCycle5AdvancedOqbContinuation(
     planId: plan.id,
     branchId: branch.id,
     continuationSetupRefs: branch.continuationSetupRefs,
-    bestsave: branch.bestsave,
+    bestsave: typeof branch.bestsave === "boolean" ? branch.bestsave : plan.bestsave,
   };
 }
 
@@ -362,7 +410,7 @@ function decisionForBranch(
     planId: plan.id,
     branchId: branch.id,
     continuationSetupRefs: branch.continuationSetupRefs,
-    bestsave: branch.bestsave,
+    bestsave: typeof branch.bestsave === "boolean" ? branch.bestsave : plan.bestsave,
   };
 }
 

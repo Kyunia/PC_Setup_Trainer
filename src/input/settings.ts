@@ -41,8 +41,8 @@ export const ACTION_LABELS: Record<InputAction, string> = {
   rotate180: "180°",
   hold: "Hold",
   undo: "Undo",
-  restart: "Restart",
-  randomSeed: "New Seed",
+  restart: "Restart (New Seed)",
+  randomSeed: "Restart (Same Seed)",
   exitSnapshot: "Exit Snapshot",
 };
 

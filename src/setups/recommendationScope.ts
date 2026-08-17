@@ -1,4 +1,4 @@
-import type { Cycle } from "../engine/types";
+import type { Cycle, Piece } from "../engine/types";
 import type { Cycle2AdvancedQbPolicy } from "./cycle2AdvancedQb";
 import type { Cycle5AdvancedPolicyBundle } from "./cycle5AdvancedPolicy";
 import type { Cycle7Advanced4pRuntimeBundle } from "./cycle7Advanced4pCatalog";
@@ -25,11 +25,20 @@ interface SelectedRecommendationBundleBase {
   catalog: SetupVariant[];
 }
 
+export interface Cycle3ClassBinding {
+  /** Class represented by source-basis geometry in the selected file. */
+  source: Piece;
+  /** Distinct class represented only by horizontally mirrored runtime variants. */
+  mirror?: Piece;
+}
+
 export type SelectedRecommendationBundle =
   | (SelectedRecommendationBundleBase & {
       kind: "structured";
       /** Distinguishes Cycle 2's ordinary 4P and advanced 3P stages. */
       role?: "general" | "advanced-3p";
+      /** Required by selected Cycle 3 catalogs so diagnostic scope cannot cross saved-piece classes. */
+      cycle3ClassBinding?: Cycle3ClassBinding;
       policy?: StructuredSetupPolicy;
     })
   | (SelectedRecommendationBundleBase & {

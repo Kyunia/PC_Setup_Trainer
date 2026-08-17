@@ -83,7 +83,7 @@
           ]
         }
       ],
-      "bestsave": null,
+      "bestsave": true,
       "directTwoLinePc": false,
       "postBuildAvailability": {
         "checkpointPlacedCount": 4,
@@ -161,7 +161,7 @@
           ]
         }
       ],
-      "bestsave": null,
+      "bestsave": true,
       "directTwoLinePc": false,
       "postBuildAvailability": {
         "checkpointPlacedCount": 4,
@@ -239,7 +239,7 @@
           ]
         }
       ],
-      "bestsave": null,
+      "bestsave": true,
       "directTwoLinePc": false,
       "postBuildAvailability": {
         "checkpointPlacedCount": 4,
@@ -317,7 +317,7 @@
           ]
         }
       ],
-      "bestsave": null,
+      "bestsave": true,
       "directTwoLinePc": false,
       "postBuildAvailability": {
         "checkpointPlacedCount": 4,
@@ -403,7 +403,7 @@
           ]
         }
       ],
-      "bestsave": null,
+      "bestsave": true,
       "directTwoLinePc": false,
       "setupPreference": {
         "kind": "relative-order",
@@ -421,134 +421,6 @@
         "checkpointPlacedCount": 4,
         "pieces": [
           "I"
-        ],
-        "acceptedLocations": [
-          "HOLD",
-          "ACCESS"
-        ],
-        "locationsInterchangeable": true,
-        "canonicalEligibilityUnaffected": true
-      }
-    },
-    {
-      "id": "tstz5-advanced-direct-045",
-      "kind": "direct",
-      "sourceOrder": 6,
-      "label": "TS-[TIL]! / TZ-[TIJ]!",
-      "alternatives": [
-        {
-          "pattern": {
-            "scope": "visible-seven",
-            "parts": [
-              {
-                "kind": "ordered",
-                "symbols": [
-                  "T",
-                  "S"
-                ]
-              },
-              {
-                "kind": "permutation",
-                "symbols": [
-                  "T",
-                  "I",
-                  "L"
-                ]
-              }
-            ]
-          },
-          "setupRefs": [
-            {
-              "setupId": "cycle5-advanced-tstz-033-f000",
-              "transform": "identity"
-            }
-          ]
-        },
-        {
-          "pattern": {
-            "scope": "visible-seven",
-            "parts": [
-              {
-                "kind": "ordered",
-                "symbols": [
-                  "T",
-                  "Z"
-                ]
-              },
-              {
-                "kind": "permutation",
-                "symbols": [
-                  "T",
-                  "I",
-                  "J"
-                ]
-              }
-            ]
-          },
-          "setupRefs": [
-            {
-              "setupId": "cycle5-advanced-tstz-033-f000",
-              "transform": "identity"
-            }
-          ]
-        }
-      ],
-      "bestsave": null,
-      "directTwoLinePc": false,
-      "postBuildAvailability": {
-        "checkpointPlacedCount": 4,
-        "pieces": [
-          "T"
-        ],
-        "acceptedLocations": [
-          "HOLD",
-          "ACCESS"
-        ],
-        "locationsInterchangeable": true,
-        "canonicalEligibilityUnaffected": true
-      }
-    },
-    {
-      "id": "tstz5-advanced-direct-046",
-      "kind": "direct",
-      "sourceOrder": 7,
-      "label": "TS-[TSZ]!",
-      "alternatives": [
-        {
-          "pattern": {
-            "scope": "visible-seven",
-            "parts": [
-              {
-                "kind": "ordered",
-                "symbols": [
-                  "T",
-                  "S"
-                ]
-              },
-              {
-                "kind": "permutation",
-                "symbols": [
-                  "T",
-                  "S",
-                  "Z"
-                ]
-              }
-            ]
-          },
-          "setupRefs": [
-            {
-              "setupId": "cycle5-advanced-tstz-006-f000",
-              "transform": "identity"
-            }
-          ]
-        }
-      ],
-      "bestsave": null,
-      "directTwoLinePc": false,
-      "postBuildAvailability": {
-        "checkpointPlacedCount": 4,
-        "pieces": [
-          "T"
         ],
         "acceptedLocations": [
           "HOLD",
@@ -612,7 +484,8 @@
               "setupId": "cycle5-advanced-tstz-008-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tis-2",
@@ -625,7 +498,8 @@
               "setupId": "cycle5-advanced-tstz-009-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         }
       ]
     },
@@ -701,7 +575,8 @@
               "setupId": "cycle5-advanced-tstz-010-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ils-2",
@@ -734,7 +609,8 @@
               "setupId": "cycle5-advanced-tstz-011-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ils-3",
@@ -788,7 +664,8 @@
               "setupId": "cycle5-advanced-tstz-010-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ils-4",
@@ -822,7 +699,8 @@
               "setupId": "cycle5-advanced-tstz-011-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         }
       ]
     },
@@ -898,7 +776,8 @@
               "setupId": "cycle5-advanced-tstz-012-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toz-2",
@@ -931,7 +810,8 @@
               "setupId": "cycle5-advanced-tstz-013-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toz-3",
@@ -964,7 +844,8 @@
               "setupId": "cycle5-advanced-tstz-004-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         }
       ]
     },
@@ -1021,7 +902,8 @@
               "setupId": "cycle5-advanced-tstz-012-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oiz-2",
@@ -1054,7 +936,8 @@
               "setupId": "cycle5-advanced-tstz-013-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oiz-3",
@@ -1087,7 +970,8 @@
               "setupId": "cycle5-advanced-tstz-004-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oiz-4",
@@ -1120,7 +1004,8 @@
               "setupId": "cycle5-advanced-tstz-005-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         }
       ]
     },
@@ -1194,7 +1079,8 @@
               "setupId": "cycle5-advanced-tstz-014-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ols-2",
@@ -1221,7 +1107,8 @@
               "setupId": "cycle5-advanced-tstz-015-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ols-3",
@@ -1255,7 +1142,8 @@
               "setupId": "cycle5-advanced-tstz-016-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ols-4",
@@ -1268,7 +1156,8 @@
               "setupId": "cycle5-advanced-tstz-017-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         }
       ]
     },
@@ -1345,7 +1234,8 @@
               "setupId": "cycle5-advanced-tstz-018-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ijz-2",
@@ -1401,7 +1291,8 @@
               "setupId": "cycle5-advanced-tstz-019-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ijz-3",
@@ -1457,7 +1348,8 @@
               "setupId": "cycle5-advanced-tstz-020-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ijz-4",
@@ -1513,7 +1405,8 @@
               "setupId": "cycle5-advanced-tstz-021-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ijz-5",
@@ -1572,7 +1465,8 @@
               "setupId": "cycle5-advanced-tstz-019-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ijz-6",
@@ -1631,7 +1525,8 @@
               "setupId": "cycle5-advanced-tstz-020-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ijz-7",
@@ -1690,7 +1585,8 @@
               "setupId": "cycle5-advanced-tstz-021-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         }
       ]
     },
@@ -1767,7 +1663,8 @@
               "setupId": "cycle5-advanced-tstz-022-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-olj-2",
@@ -1827,7 +1724,8 @@
               "setupId": "cycle5-advanced-tstz-002-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-olj-3",
@@ -1887,7 +1785,8 @@
               "setupId": "cycle5-advanced-tstz-023-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-olj-4",
@@ -1943,7 +1842,8 @@
               "setupId": "cycle5-advanced-tstz-024-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-olj-5",
@@ -2002,7 +1902,8 @@
               "setupId": "cycle5-advanced-tstz-025-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-olj-6",
@@ -2065,7 +1966,8 @@
               "setupId": "cycle5-advanced-tstz-023-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-olj-7",
@@ -2124,7 +2026,8 @@
               "setupId": "cycle5-advanced-tstz-024-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         }
       ]
     },
@@ -2181,7 +2084,8 @@
               "setupId": "cycle5-advanced-tstz-026-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oij-2",
@@ -2215,7 +2119,8 @@
               "setupId": "cycle5-advanced-tstz-025-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oij-3",
@@ -2249,7 +2154,8 @@
               "setupId": "cycle5-advanced-tstz-027-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oij-4",
@@ -2283,7 +2189,8 @@
               "setupId": "cycle5-advanced-tstz-028-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oij-5",
@@ -2316,7 +2223,8 @@
               "setupId": "cycle5-advanced-tstz-030-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oij-6",
@@ -2361,7 +2269,8 @@
               "setupId": "cycle5-advanced-tstz-019-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oij-7",
@@ -2406,7 +2315,8 @@
               "setupId": "cycle5-advanced-tstz-028-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oij-8",
@@ -2451,7 +2361,8 @@
               "setupId": "cycle5-advanced-tstz-031-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oij-9",
@@ -2503,7 +2414,8 @@
               "setupId": "cycle5-advanced-tstz-032-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oij-10",
@@ -2537,7 +2449,8 @@
               "setupId": "cycle5-advanced-tstz-025-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oij-11",
@@ -2591,6 +2504,221 @@
               "setupId": "cycle5-advanced-tstz-019-f000",
               "transform": "identity"
             }
+          ],
+          "bestsave": true
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-til",
+      "kind": "selection-group",
+      "sourceOrder": 16,
+      "label": "TIL",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "I",
+                "L"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-til-1",
+          "order": 1,
+          "label": "[TIL]![OZ]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "bestsave": false,
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-033-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-til-2",
+          "order": 2,
+          "label": "[TIL]! / [TIL]![OZ]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I",
+                    "L"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "I",
+                    "L"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "O",
+                    "Z"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "bestsave": true,
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-033-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tstz5-advanced-tsz",
+      "kind": "selection-group",
+      "sourceOrder": 17,
+      "label": "TSZ",
+      "matchMode": "first-match",
+      "guardPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "S",
+                "Z"
+              ]
+            }
+          ]
+        }
+      ],
+      "decisions": [
+        {
+          "id": "tstz5-advanced-tsz-1",
+          "order": 1,
+          "label": "[TSZ]![IX]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "S",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "X"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "bestsave": true,
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-006-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "id": "tstz5-advanced-tsz-2",
+          "order": 2,
+          "label": "[TSZ]! / [TSZ]![IX]!",
+          "patterns": [
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "S",
+                    "Z"
+                  ]
+                }
+              ]
+            },
+            {
+              "scope": "next-bag-five",
+              "parts": [
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "T",
+                    "S",
+                    "Z"
+                  ]
+                },
+                {
+                  "kind": "permutation",
+                  "symbols": [
+                    "I",
+                    "X"
+                  ]
+                }
+              ]
+            }
+          ],
+          "outcome": "setups",
+          "bestsave": false,
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-tstz-006-f000",
+              "transform": "identity"
+            }
           ]
         }
       ]
@@ -2598,7 +2726,7 @@
     {
       "id": "tstz5-advanced-tls",
       "kind": "selection-group",
-      "sourceOrder": 16,
+      "sourceOrder": 18,
       "label": "TLS",
       "matchMode": "first-match",
       "guardPatterns": [
@@ -2648,7 +2776,8 @@
               "setupId": "cycle5-advanced-tstz-010-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tls-2",
@@ -2681,7 +2810,8 @@
               "setupId": "cycle5-advanced-tstz-010-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tls-3",
@@ -2714,7 +2844,8 @@
               "setupId": "cycle5-advanced-tstz-010-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tls-4",
@@ -2748,7 +2879,8 @@
               "setupId": "cycle5-advanced-tstz-017-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tls-5",
@@ -2786,7 +2918,8 @@
               "setupId": "cycle5-advanced-tstz-017-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tls-6",
@@ -2815,7 +2948,8 @@
               "setupId": "cycle5-advanced-tstz-015-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tls-7",
@@ -2823,14 +2957,15 @@
           "label": "fallback",
           "fallback": true,
           "outcome": "no-bestsave",
-          "setupRefs": []
+          "setupRefs": [],
+          "bestsave": false
         }
       ]
     },
     {
       "id": "tstz5-advanced-tjz",
       "kind": "selection-group",
-      "sourceOrder": 17,
+      "sourceOrder": 19,
       "label": "TJZ",
       "matchMode": "first-match",
       "guardPatterns": [
@@ -2880,7 +3015,8 @@
               "setupId": "cycle5-advanced-tstz-034-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tjz-2",
@@ -2913,7 +3049,8 @@
               "setupId": "cycle5-advanced-tstz-034-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tjz-3",
@@ -2947,7 +3084,8 @@
               "setupId": "cycle5-advanced-tstz-034-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tjz-4",
@@ -2981,7 +3119,8 @@
               "setupId": "cycle5-advanced-tstz-034-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tjz-5",
@@ -3015,7 +3154,8 @@
               "setupId": "cycle5-advanced-tstz-021-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tjz-6",
@@ -3049,7 +3189,8 @@
               "setupId": "cycle5-advanced-tstz-021-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tjz-7",
@@ -3088,7 +3229,8 @@
               "setupId": "cycle5-advanced-tstz-035-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tjz-8",
@@ -3127,7 +3269,8 @@
               "setupId": "cycle5-advanced-tstz-018-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tjz-9",
@@ -3161,14 +3304,15 @@
             }
           ],
           "outcome": "no-bestsave",
-          "setupRefs": []
+          "setupRefs": [],
+          "bestsave": false
         }
       ]
     },
     {
       "id": "tstz5-advanced-ilj-fallback",
       "kind": "selection-group",
-      "sourceOrder": 18,
+      "sourceOrder": 20,
       "label": "ILJ fallback",
       "matchMode": "first-match",
       "guardPatterns": [
@@ -3218,7 +3362,8 @@
               "setupId": "cycle5-advanced-tstz-033-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ilj-fallback-2",
@@ -3252,7 +3397,8 @@
               "setupId": "cycle5-advanced-tstz-027-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ilj-fallback-3",
@@ -3286,7 +3432,8 @@
               "setupId": "cycle5-advanced-tstz-036-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-ilj-fallback-4",
@@ -3315,14 +3462,15 @@
             }
           ],
           "outcome": "no-bestsave",
-          "setupRefs": []
+          "setupRefs": [],
+          "bestsave": false
         }
       ]
     },
     {
       "id": "tstz5-advanced-toi-fallback",
       "kind": "selection-group",
-      "sourceOrder": 19,
+      "sourceOrder": 21,
       "label": "TOI fallback",
       "matchMode": "first-match",
       "guardPatterns": [
@@ -3376,7 +3524,8 @@
               "setupId": "cycle5-advanced-tstz-031-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toi-fallback-2",
@@ -3414,7 +3563,8 @@
               "setupId": "cycle5-advanced-tstz-031-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toi-fallback-3",
@@ -3452,7 +3602,8 @@
               "setupId": "cycle5-advanced-tstz-031-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toi-fallback-4",
@@ -3486,14 +3637,15 @@
               "setupId": "cycle5-advanced-tstz-038-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         }
       ]
     },
     {
       "id": "tstz5-advanced-tij",
       "kind": "selection-group",
-      "sourceOrder": 20,
+      "sourceOrder": 22,
       "label": "TIJ",
       "matchMode": "first-match",
       "guardPatterns": [
@@ -3562,7 +3714,8 @@
               "setupId": "cycle5-advanced-tstz-019-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tij-2",
@@ -3596,7 +3749,8 @@
               "setupId": "cycle5-advanced-tstz-039-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tij-3",
@@ -3648,7 +3802,8 @@
               "setupId": "cycle5-advanced-tstz-019-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tij-4",
@@ -3702,7 +3857,8 @@
               "setupId": "cycle5-advanced-tstz-019-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tij-5",
@@ -3756,7 +3912,8 @@
               "setupId": "cycle5-advanced-tstz-019-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tij-6",
@@ -3794,7 +3951,8 @@
               "setupId": "cycle5-advanced-tstz-040-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tij-7",
@@ -3858,14 +4016,15 @@
               "setupId": "cycle5-advanced-tstz-039-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         }
       ]
     },
     {
       "id": "tstz5-advanced-tiz",
       "kind": "selection-group",
-      "sourceOrder": 21,
+      "sourceOrder": 23,
       "label": "TIZ",
       "matchMode": "first-match",
       "guardPatterns": [
@@ -3915,7 +4074,8 @@
               "setupId": "cycle5-advanced-tstz-041-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tiz-2",
@@ -3953,7 +4113,8 @@
               "setupId": "cycle5-advanced-tstz-042-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tiz-3",
@@ -4017,7 +4178,8 @@
               "setupId": "cycle5-advanced-tstz-043-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tiz-4",
@@ -4081,7 +4243,8 @@
               "setupId": "cycle5-advanced-tstz-041-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tiz-5",
@@ -4115,7 +4278,8 @@
               "setupId": "cycle5-advanced-tstz-041-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tiz-6",
@@ -4154,7 +4318,8 @@
               "setupId": "cycle5-advanced-tstz-042-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tiz-7",
@@ -4188,7 +4353,8 @@
               "setupId": "cycle5-advanced-tstz-043-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tiz-8",
@@ -4222,14 +4388,15 @@
               "setupId": "cycle5-advanced-tstz-041-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         }
       ]
     },
     {
       "id": "tstz5-advanced-tos",
       "kind": "selection-group",
-      "sourceOrder": 22,
+      "sourceOrder": 24,
       "label": "TOS",
       "matchMode": "first-match",
       "guardPatterns": [
@@ -4279,7 +4446,8 @@
               "setupId": "cycle5-advanced-tstz-044-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tos-2",
@@ -4313,7 +4481,8 @@
               "setupId": "cycle5-advanced-tstz-045-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tos-3",
@@ -4347,7 +4516,8 @@
               "setupId": "cycle5-advanced-tstz-046-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tos-4",
@@ -4381,7 +4551,8 @@
               "setupId": "cycle5-advanced-tstz-044-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tos-5",
@@ -4415,7 +4586,8 @@
               "setupId": "cycle5-advanced-tstz-044-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tos-6",
@@ -4449,7 +4621,8 @@
               "setupId": "cycle5-advanced-tstz-046-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tos-7",
@@ -4483,7 +4656,8 @@
               "setupId": "cycle5-advanced-tstz-044-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tos-8",
@@ -4532,7 +4706,8 @@
               "setupId": "cycle5-advanced-tstz-047-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tos-9",
@@ -4596,14 +4771,15 @@
             }
           ],
           "outcome": "no-bestsave",
-          "setupRefs": []
+          "setupRefs": [],
+          "bestsave": false
         }
       ]
     },
     {
       "id": "tstz5-advanced-oil",
       "kind": "selection-group",
-      "sourceOrder": 23,
+      "sourceOrder": 25,
       "label": "OIL",
       "matchMode": "first-match",
       "guardPatterns": [
@@ -4665,7 +4841,8 @@
               "setupId": "cycle5-advanced-tstz-048-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oil-2",
@@ -4698,7 +4875,8 @@
               "setupId": "cycle5-advanced-tstz-014-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oil-3",
@@ -4732,7 +4910,8 @@
               "setupId": "cycle5-advanced-tstz-033-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oil-4",
@@ -4766,7 +4945,8 @@
               "setupId": "cycle5-advanced-tstz-014-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oil-5",
@@ -4800,7 +4980,8 @@
               "setupId": "cycle5-advanced-tstz-024-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oil-6",
@@ -4834,7 +5015,8 @@
               "setupId": "cycle5-advanced-tstz-038-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oil-7",
@@ -4868,7 +5050,8 @@
               "setupId": "cycle5-advanced-tstz-024-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oil-8",
@@ -4902,7 +5085,8 @@
               "setupId": "cycle5-advanced-tstz-014-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oil-9",
@@ -4936,7 +5120,8 @@
               "setupId": "cycle5-advanced-tstz-014-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oil-10",
@@ -4970,7 +5155,8 @@
               "setupId": "cycle5-advanced-tstz-038-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oil-11",
@@ -4999,7 +5185,8 @@
             }
           ],
           "outcome": "no-bestsave",
-          "setupRefs": []
+          "setupRefs": [],
+          "bestsave": false
         },
         {
           "id": "tstz5-advanced-oil-12",
@@ -5033,7 +5220,8 @@
               "setupId": "cycle5-advanced-tstz-031-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oil-13",
@@ -5067,7 +5255,8 @@
               "setupId": "cycle5-advanced-tstz-038-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oil-14",
@@ -5101,7 +5290,8 @@
               "setupId": "cycle5-advanced-tstz-024-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-oil-15",
@@ -5130,14 +5320,15 @@
             }
           ],
           "outcome": "no-bestsave",
-          "setupRefs": []
+          "setupRefs": [],
+          "bestsave": false
         }
       ]
     },
     {
       "id": "tstz5-advanced-tol",
       "kind": "selection-group",
-      "sourceOrder": 24,
+      "sourceOrder": 26,
       "label": "TOL",
       "matchMode": "first-match",
       "guardPatterns": [
@@ -5206,7 +5397,8 @@
               "setupId": "cycle5-advanced-tstz-014-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tol-2",
@@ -5240,7 +5432,8 @@
               "setupId": "cycle5-advanced-tstz-016-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tol-3",
@@ -5269,7 +5462,8 @@
               "setupId": "cycle5-advanced-tstz-049-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tol-4",
@@ -5307,7 +5501,8 @@
               "setupId": "cycle5-advanced-tstz-050-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tol-5",
@@ -5346,7 +5541,8 @@
               "setupId": "cycle5-advanced-tstz-014-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tol-6",
@@ -5385,7 +5581,8 @@
               "setupId": "cycle5-advanced-tstz-016-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tol-7",
@@ -5439,7 +5636,8 @@
               "setupId": "cycle5-advanced-tstz-051-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tol-8",
@@ -5478,7 +5676,8 @@
               "setupId": "cycle5-advanced-tstz-050-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tol-9",
@@ -5532,7 +5731,8 @@
               "setupId": "cycle5-advanced-tstz-024-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-tol-10",
@@ -5586,14 +5786,15 @@
               "setupId": "cycle5-advanced-tstz-014-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         }
       ]
     },
     {
       "id": "tstz5-advanced-toj",
       "kind": "selection-group",
-      "sourceOrder": 25,
+      "sourceOrder": 27,
       "label": "TOJ",
       "matchMode": "first-match",
       "guardPatterns": [
@@ -5662,7 +5863,8 @@
               "setupId": "cycle5-advanced-tstz-032-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toj-2",
@@ -5696,7 +5898,8 @@
               "setupId": "cycle5-advanced-tstz-025-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toj-3",
@@ -5730,7 +5933,8 @@
               "setupId": "cycle5-advanced-tstz-029-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toj-4",
@@ -5782,7 +5986,8 @@
               "setupId": "cycle5-advanced-tstz-023-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toj-5",
@@ -5816,7 +6021,8 @@
               "setupId": "cycle5-advanced-tstz-052-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toj-6",
@@ -5845,7 +6051,8 @@
               "setupId": "cycle5-advanced-tstz-053-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toj-7",
@@ -5897,7 +6104,8 @@
               "setupId": "cycle5-advanced-tstz-029-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toj-8",
@@ -5951,7 +6159,8 @@
               "setupId": "cycle5-advanced-tstz-052-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toj-9",
@@ -5985,7 +6194,8 @@
               "setupId": "cycle5-advanced-tstz-055-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toj-10",
@@ -6039,7 +6249,8 @@
               "setupId": "cycle5-advanced-tstz-025-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         },
         {
           "id": "tstz5-advanced-toj-11",
@@ -6093,7 +6304,8 @@
               "setupId": "cycle5-advanced-tstz-054-f000",
               "transform": "identity"
             }
-          ]
+          ],
+          "bestsave": true
         }
       ]
     },
@@ -6154,7 +6366,7 @@
               "transform": "identity"
             }
           ],
-          "bestsave": null
+          "bestsave": true
         },
         {
           "id": "tstz5-toj-ozi-branch-2",
@@ -6167,7 +6379,7 @@
               "transform": "identity"
             }
           ],
-          "bestsave": null
+          "bestsave": true
         }
       ],
       "runtimeStatus": "compiled"

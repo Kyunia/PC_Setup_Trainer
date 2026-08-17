@@ -11,9 +11,12 @@ import { cycle4QueueContext, fitsCycle4BuildPool } from "./cycle4Context";
 import { cycle5PiecePairKey, cycle5QueueContext, fitsCycle5BuildPool } from "./cycle5Context";
 import {
   cycle5AdvancedInitialBfsSetupIds,
+  cycle5AdvancedQueuePatternMatches,
+  cycle5AdvancedRecommendationLabel,
   matchingCycle5AdvancedEntries,
   selectCycle5AdvancedInitialDecision,
   type Cycle5AdvancedSetupRef,
+  type Cycle5AdvancedQueuePattern,
 } from "./cycle5AdvancedPolicy";
 import { promotedCycle5AdvancedBundleForPair } from "./cycle5AdvancedCatalog";
 import { cycle6QueueContext, fitsCycle6BuildPool } from "./cycle6Context";
@@ -58,6 +61,8 @@ export interface SetupCandidate {
     preferred: boolean;
   };
   qbCondition?: string;
+  /** Exact human-facing queue label. It bypasses unordered piece-name normalization. */
+  recommendationLabel?: string;
   /** Final PC save targets attached to a Cycle-2 advanced QB recommendation. */
   qbSaveTargets?: Piece[];
   /** Source-defined chance of entering a good Cycle 8; this is not a PC solve rate. */
@@ -171,12 +176,63 @@ function stagedRules(policy?: StructuredSetupPolicy): SetupSelectionRule[] {
 function cycle3InitialStageCatalog(
   catalog: SetupVariant[],
   policy?: StructuredSetupPolicy,
+  policyPrefix?: Piece[],
 ): SetupVariant[] {
+  const rules = policy?.selectionRules ?? [];
   const continuationIds = new Set(stagedRules(policy).flatMap((rule) => [
     ...rule.branches.flatMap((branch) => branch.continuationSetupIds ?? []),
     ...(rule.default?.continuationSetupIds ?? []),
   ]));
-  return catalog.filter((setup) => !continuationIds.has(canonicalSourceSetupId(setup)));
+  return catalog.filter((setup) => {
+    const sourceId = canonicalSourceSetupId(setup);
+    if (continuationIds.has(sourceId)) return false;
+    const eligibilityRules = rules.filter((rule) => {
+      if (!rule.initialEligibility) return false;
+      const initialIds = rule.preconditionSetupIds ?? rule.candidateSetupIds;
+      return initialIds.includes(sourceId);
+    });
+    if (eligibilityRules.length === 0) return true;
+    if (!policyPrefix) return false;
+    const sourcePrefix = isMirroredRuntimeVariant(setup)
+      ? policyPrefix.map(mirrorPiece)
+      : policyPrefix;
+    return eligibilityRules.some((rule) => {
+      const eligibility = rule.initialEligibility!;
+      if (sourcePrefix.length < eligibility.observation.length) return false;
+      return conditionMatches(
+        eligibility.when,
+        sourcePrefix.slice(0, eligibility.observation.length),
+      );
+    });
+  });
+}
+
+/** Source says the TILS OQB fallback is used only when the earlier normal T+ILS is unreachable. */
+function enforceCycle3BuildabilityFallback(
+  candidates: SetupCandidate[],
+  policies: Array<StructuredSetupPolicy | undefined>,
+): SetupCandidate[] {
+  const buildableIds = new Set(candidates.map(({ setup }) => canonicalSourceSetupId(setup)));
+  return candidates.filter(({ setup }) => {
+    const sourceId = canonicalSourceSetupId(setup);
+    const rules = policies.flatMap((policy) => policy?.selectionRules ?? []).filter((rule) => {
+      if (!rule.initialEligibility?.requiresUnbuildableSetupIds?.length) return false;
+      return (rule.preconditionSetupIds ?? rule.candidateSetupIds).includes(sourceId);
+    });
+    return rules.every((rule) =>
+      !rule.initialEligibility!.requiresUnbuildableSetupIds!.some((id) => buildableIds.has(id)));
+  });
+}
+
+function selectedCycle3ClassCatalog(
+  bundle: Extract<SelectedRecommendationBundle, { kind: "structured" }>,
+  classPiece: Piece,
+): SetupVariant[] {
+  const binding = bundle.cycle3ClassBinding;
+  if (!binding || (binding.source !== classPiece && binding.mirror !== classPiece)) return [];
+  if (binding.source === binding.mirror || binding.mirror === undefined) return bundle.catalog;
+  const mirroredClass = classPiece === binding.mirror;
+  return bundle.catalog.filter((setup) => isMirroredRuntimeVariant(setup) === mirroredClass);
 }
 
 function compatibleContinuationGeometry(setup: SetupVariant, board: Board): SetupVariant | null {
@@ -340,9 +396,10 @@ function selectedStructuredPlan(
     return {
       searches: bundles.map((bundle) => ({
         catalog: bundle.catalog,
-        query,
+        query: { ...query, next: context.searchNext },
         policy: bundle.policy,
         policyCatalog: bundle.catalog,
+        placeableNextCount: context.placeableNextCount,
         source: recommendationSourceForBundle(bundle),
       })),
       finalize: (batches) => limitSetupCandidatesForCycle(
@@ -354,8 +411,14 @@ function selectedStructuredPlan(
     const context = cycle3QueueContext(query);
     if (!context) return { searches: [], finalize: () => [] };
     return {
-      searches: bundles.map((bundle) => {
-        const initialCatalog = cycle3InitialStageCatalog(bundle.catalog, bundle.policy);
+      searches: bundles.flatMap((bundle) => {
+        const classCatalog = selectedCycle3ClassCatalog(bundle, context.classPiece);
+        if (classCatalog.length === 0) return [];
+        const initialCatalog = cycle3InitialStageCatalog(
+          classCatalog,
+          bundle.policy,
+          context.policyPrefix,
+        );
         return {
           catalog: initialCatalog.filter((setup) => fitsCycle3BuildPool(setup, context.buildPieces)),
           query: { ...query, next: context.searchNext },
@@ -363,12 +426,17 @@ function selectedStructuredPlan(
           policyPrefix: context.policyPrefix,
           policyCatalog: initialCatalog,
           placeableNextCount: context.placeableNextCount,
-          candidateLimit: query.maxCandidates,
           source: recommendationSourceForBundle(bundle),
         };
       }),
       finalize: (batches) => limitSetupCandidatesForCycle(
-        batches.flat().sort(compareScores), 3, query.maxCandidates),
+        enforceCycle3BuildabilityFallback(
+          batches.flat(),
+          bundles.map(({ policy }) => policy),
+        ).sort(compareScores),
+        3,
+        query.maxCandidates,
+      ),
     };
   }
 
@@ -483,7 +551,11 @@ export function singleStageRecommendationPlan(
       return { searches: [], finalize: () => [] };
     }
     return {
-      searches: [{ catalog: setupsForCycle(1), query }],
+      searches: [{
+        catalog: setupsForCycle(1),
+        query: { ...query, next: context.searchNext },
+        placeableNextCount: context.placeableNextCount,
+      }],
       finalize: ([candidates = []]) =>
         limitSetupCandidatesForCycle(candidates, 1, query.maxCandidates),
     };
@@ -494,7 +566,11 @@ export function singleStageRecommendationPlan(
     if (!context) return { searches: [], finalize: () => [] };
     const classCatalog = setupsForCycle3Class(context.classPiece);
     const policy = setupPolicyForCycle(3, context.classPiece);
-    const initialCatalog = cycle3InitialStageCatalog(classCatalog, policy);
+    const initialCatalog = cycle3InitialStageCatalog(
+      classCatalog,
+      policy,
+      context.policyPrefix,
+    );
     return {
       searches: [{
         catalog: initialCatalog.filter((setup) => fitsCycle3BuildPool(setup, context.buildPieces)),
@@ -503,10 +579,13 @@ export function singleStageRecommendationPlan(
         policyPrefix: context.policyPrefix,
         policyCatalog: initialCatalog,
         placeableNextCount: context.placeableNextCount,
-        candidateLimit: query.maxCandidates,
       }],
       finalize: ([candidates = []]) =>
-        limitSetupCandidatesForCycle(candidates, 3, query.maxCandidates),
+        limitSetupCandidatesForCycle(
+          enforceCycle3BuildabilityFallback(candidates, [policy]),
+          3,
+          query.maxCandidates,
+        ),
     };
   }
 
@@ -748,6 +827,21 @@ function cycle5AdvancedSelectedSearchPlan(
     active: query.active,
     next: query.next,
   };
+  const matchingPatternLabel = (
+    patterns: readonly Cycle5AdvancedQueuePattern[],
+    kind: "QB" | "OQB",
+  ): string | undefined => {
+    const pattern = patterns.find((candidate) =>
+      cycle5AdvancedQueuePatternMatches(candidate, sourceState));
+    return pattern
+      ? cycle5AdvancedRecommendationLabel(
+        context.classPieces,
+        pattern,
+        kind,
+        bundle.runtimeMirror === true,
+      ) ?? undefined
+      : undefined;
+  };
   const matches = matchingCycle5AdvancedEntries(executablePolicy, {
     ...sourceState,
   });
@@ -797,9 +891,13 @@ function cycle5AdvancedSelectedSearchPlan(
       const decision = selectCycle5AdvancedInitialDecision(actionableMatches, buildableIds);
       if (!decision || decision.kind === "two-line-pc") return [];
       if (decision.kind === "oqb") {
+        const recommendationLabel = matchingPatternLabel(decision.plan.initialPatterns, "OQB");
         return buildable.filter(({ setup }) =>
           canonicalSourceSetupId(setup) === decision.preconditionSetupId).map((candidate) => ({
           ...candidate,
+          setup: typeof decision.bestsave === "boolean"
+            ? { ...candidate.setup, bestsave: decision.bestsave }
+            : candidate.setup,
           score: [-3, decision.plan.sourceOrder, ...candidate.score],
           reasons: [
             `Cycle 5 OQB precondition · ${decision.plan.id}`,
@@ -812,19 +910,36 @@ function cycle5AdvancedSelectedSearchPlan(
             preferred: true,
           },
           qbCondition: decision.plan.id,
+          ...(recommendationLabel ? { recommendationLabel } : {}),
         }));
       }
+      const entry = executablePolicy.entries.find((candidate) =>
+        candidate.kind === "direct" && candidate.id === decision.ruleId);
       return buildable.filter(({ setup }) =>
-        decision.setupRefs.some((ref) => setupMatchesCycle5AdvancedRef(setup, ref, bundle.runtimeMirror))).map((candidate) => ({
-        ...candidate,
-        score: [-3, ...candidate.score],
-        reasons: [`Cycle 5 advanced queue rule · ${decision.ruleId}`, ...candidate.reasons],
-        policy: {
-          ruleId: decision.ruleId,
-          branchId: "initial",
-          preferred: true,
-        },
-      }));
+        decision.setupRefs.some((ref) => setupMatchesCycle5AdvancedRef(setup, ref, bundle.runtimeMirror))).map((candidate) => {
+        const patterns = entry?.kind === "direct"
+          ? entry.alternatives.filter((alternative) =>
+            alternative.setupRefs.some((ref) =>
+              setupMatchesCycle5AdvancedRef(candidate.setup, ref, bundle.runtimeMirror)))
+            .map(({ pattern }) => pattern)
+          : [];
+        const recommendationLabel = matchingPatternLabel(patterns, "QB");
+        return {
+          ...candidate,
+          setup: typeof decision.bestsave === "boolean"
+            ? { ...candidate.setup, bestsave: decision.bestsave }
+            : candidate.setup,
+          score: [-3, ...candidate.score],
+          reasons: [`Cycle 5 advanced queue rule · ${decision.ruleId}`, ...candidate.reasons],
+          policy: {
+            ruleId: decision.ruleId,
+            branchId: "initial",
+            preferred: true,
+          },
+          qbCondition: decision.ruleId,
+          ...(recommendationLabel ? { recommendationLabel } : {}),
+        };
+      });
     },
   };
 }
@@ -964,25 +1079,14 @@ export function* recommendationProgram(
       const advanced = advancedPlan
         ? advancedPlan.finalize(yield { type: "search", search: advancedPlan.search })
         : [];
-      if (advanced.length > 0) {
-        const candidates = limitSetupCandidatesForCycle(advanced.sort(compareScores), 5, query.maxCandidates);
-        yield {
-          type: "stage",
-          result: {
-            stage: "primary",
-            candidates,
-            preferredCandidateId: candidates[0]?.setup.id ?? null,
-            complete: true,
-          },
-        };
-        return candidates;
-      }
       const normalPlan = singleStageRecommendationPlan(query);
       const batches: SetupCandidate[][] = [];
       for (const search of normalPlan?.searches ?? []) {
         batches.push(yield { type: "search", search });
       }
-      const candidates = normalPlan?.finalize(batches) ?? [];
+      const standard = normalPlan?.finalize(batches) ?? [];
+      const candidates = limitSetupCandidatesForCycle(
+        [...advanced, ...standard].sort(compareScores), 5, query.maxCandidates);
       yield {
         type: "stage",
         result: {

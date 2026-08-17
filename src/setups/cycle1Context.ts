@@ -18,8 +18,15 @@ export interface Cycle1Replacement {
 
 export interface Cycle1QueueContext {
   visiblePieces: Piece[];
+  /** Complete current-bag piece pool available to the setup search. */
+  buildPieces: Piece[];
+  /** NEXT queue with the hidden final bag piece restored when HOLD is empty. */
+  searchNext: Piece[];
+  /** Number of searchNext pieces that belong to the current setup bag. */
+  placeableNextCount: number;
   classificationMode: Cycle1ClassificationMode;
   replacement?: Cycle1Replacement;
+  inferredLastPiece?: Piece;
 }
 
 function pieceCounts(pieces: readonly Piece[]): Map<Piece, number> {
@@ -43,16 +50,36 @@ export function cycle1QueueContext(query: SetupQuery): Cycle1QueueContext | null
 
   if (query.hold === null) {
     const prefixIsDistinct = [...counts.values()].every((count) => count <= 1);
+    const inferredLastPiece = prefixIsDistinct
+      ? PIECES.find((piece) => !visiblePieces.includes(piece))
+      : undefined;
+    if (!inferredLastPiece) {
+      return {
+        visiblePieces,
+        buildPieces: visiblePieces,
+        searchNext: query.next.slice(0, 5),
+        placeableNextCount: 5,
+        classificationMode: "unsupported-bag-window",
+      };
+    }
     return {
       visiblePieces,
-      classificationMode: prefixIsDistinct
-        ? "normal-seven-bag-prefix"
-        : "unsupported-bag-window",
+      buildPieces: [...visiblePieces, inferredLastPiece],
+      searchNext: [...query.next.slice(0, 5), inferredLastPiece],
+      placeableNextCount: 6,
+      classificationMode: "normal-seven-bag-prefix",
+      inferredLastPiece,
     };
   }
 
   if ([...counts.values()].every((count) => count === 1)) {
-    return { visiblePieces, classificationMode: "normal-seven-bag" };
+    return {
+      visiblePieces,
+      buildPieces: visiblePieces,
+      searchNext: query.next,
+      placeableNextCount: Math.min(query.next.length, 5),
+      classificationMode: "normal-seven-bag",
+    };
   }
 
   const extraPieces = PIECES.filter((piece) => counts.get(piece) === 2);
@@ -65,6 +92,9 @@ export function cycle1QueueContext(query: SetupQuery): Cycle1QueueContext | null
     const replacedPiece = replacedPieces[0];
     return {
       visiblePieces,
+      buildPieces: visiblePieces,
+      searchNext: query.next,
+      placeableNextCount: Math.min(query.next.length, 5),
       classificationMode: "replacement-cycle",
       replacement: {
         extraPiece,
@@ -74,7 +104,13 @@ export function cycle1QueueContext(query: SetupQuery): Cycle1QueueContext | null
     };
   }
 
-  return { visiblePieces, classificationMode: "unsupported-bag-window" };
+  return {
+    visiblePieces,
+    buildPieces: visiblePieces,
+    searchNext: query.next,
+    placeableNextCount: Math.min(query.next.length, 5),
+    classificationMode: "unsupported-bag-window",
+  };
 }
 
 export function isNormalCycle1Context(context: Cycle1QueueContext): boolean {

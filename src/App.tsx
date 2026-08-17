@@ -64,7 +64,8 @@ function SetupPreview({ setup }: { setup: SetupVariant }) {
 }
 
 function setupOptionLabel(candidate: SetupCandidate): string {
-  return recommendationSetupLabel(candidate.setup.displayName, candidate.qbSaveTargets);
+  return candidate.recommendationLabel
+    ?? recommendationSetupLabel(candidate.setup.displayName, candidate.qbSaveTargets);
 }
 
 function targetCompleted(state: GameState, setup: SetupVariant): boolean {
@@ -132,7 +133,7 @@ export default function App() {
         restoredGuideSegment.current = null;
         setResetNonce((value) => value + 1);
       }
-      if (action === "randomSeed") setSeedInput(session.current.state.seed);
+      if (action === "restart") setSeedInput(session.current.state.seed);
       setRevision((value) => value + 1);
     }
     return changed;
@@ -241,7 +242,10 @@ export default function App() {
         setGuideDone(true);
         return;
       }
-      const followups = oqbContinuationCandidates(progress);
+      const followups = oqbContinuationCandidates(progress).map((candidate) =>
+        selectedCandidate.recommendationLabel
+          ? { ...candidate, recommendationLabel: selectedCandidate.recommendationLabel }
+          : candidate);
       if (followups.length === 0) {
         setStagedInstruction(progress.instruction);
         setGuideDone(true);
@@ -360,7 +364,7 @@ export default function App() {
 
       <aside className="guide-column">
         <div className="guide-heading">
-          <div><span>{selected ? `${selected.placements.length}P GUIDE` : "SETUP GUIDE"}</span><h2>{guideDone ? "Solve Phase" : selected ? normalizePieceNotationForDisplay(selected.displayName) : recommendationLoading ? "Loading…" : recommendationError ? "Recommendation Error" : "No Suggestion"}</h2></div>
+          <div><span>{selected ? `${selected.placements.length}P GUIDE` : "SETUP GUIDE"}</span><h2>{guideDone ? "Solve Phase" : selectedCandidate ? setupOptionLabel(selectedCandidate) : recommendationLoading ? "Loading…" : recommendationError ? "Recommendation Error" : "No Suggestion"}</h2></div>
           <div className="guide-heading-actions">
             <span className="phase-badge">{guideDone ? "SOLVE" : "SETUP"}</span>
             <button
@@ -368,7 +372,7 @@ export default function App() {
               className={`setup-shadow-toggle ${showSetupShadow ? "enabled" : ""} ${setupShadowAutoHidden && showSetupShadow ? "auto-hidden" : ""}`}
               aria-pressed={showSetupShadow}
               aria-label={`${showSetupShadow ? "Hide" : "Show"} setup shadow on board`}
-              title={setupShadowAutoHidden && showSetupShadow ? "Free placement detected after 3P. Undo to 2P to restore the shadow." : undefined}
+              title={setupShadowAutoHidden && showSetupShadow ? "Setup differs by at least 8 cells after 4P. Undo below 4P or correct the field to restore the shadow." : undefined}
               onClick={() => setShowSetupShadow((visible) => !visible)}
             >
               <span className="setup-shadow-toggle-label">SETUP SHADOW</span>
@@ -417,7 +421,7 @@ export default function App() {
           <button type="submit">Go</button>
           <p className={queueJumpStatus.error ? "error" : ""} aria-live="polite">{queueJumpStatus.text}</p>
         </form>
-        <div className="seed-panel"><label>SEED <input value={seedInput} aria-invalid={seedInputError !== null} aria-describedby={seedInputError ? "seed-input-error" : undefined} onChange={(e) => setSeedInput(e.target.value)} /></label><button type="button" disabled={seedInputError !== null} onClick={restartWithSeed}>Apply</button><button type="button" onClick={() => dispatch("randomSeed")}>Random</button>{seedInputError && <p id="seed-input-error" role="alert">{seedInputError}</p>}</div>
+        <div className="seed-panel"><label>SEED <input value={seedInput} aria-invalid={seedInputError !== null} aria-describedby={seedInputError ? "seed-input-error" : undefined} onChange={(e) => setSeedInput(e.target.value)} /></label><button type="button" disabled={seedInputError !== null} onClick={restartWithSeed}>Apply</button><button type="button" onClick={() => dispatch("restart")}>Random</button>{seedInputError && <p id="seed-input-error" role="alert">{seedInputError}</p>}</div>
       </aside>
     </section>
     {settingsOpen && <SettingsPanel settings={settings} onChange={setSettings} onClose={() => setSettingsOpen(false)} />}

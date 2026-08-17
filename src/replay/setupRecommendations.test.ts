@@ -5,6 +5,7 @@ import type { SetupCandidate } from "../setups/query";
 import type { ReplayRecommendationInput } from "./recommendationController";
 import {
   buildReplayRecommendationSections,
+  replayRecommendationLabel,
   replayRecommendationContextLabel,
   replaySetupPcRateLabel,
 } from "./setupRecommendations";
@@ -48,6 +49,12 @@ describe("replay recommendation presentation", () => {
     rated.setup.solveRate = 100;
     expect(replaySetupPcRateLabel(rated)).toBe("4P 100%");
     expect(replaySetupPcRateLabel(candidate("unrated", 3))).toBe("3P —");
+  });
+
+  it("preserves exact queue order in policy-generated recommendation labels", () => {
+    const advanced = candidate("internal-name", 3, true);
+    advanced.recommendationLabel = "IL - IZT[OL]! OQB";
+    expect(replayRecommendationLabel(advanced)).toBe("IL - IZT[OL]! OQB");
   });
 
   function input(cycle: Cycle, active: Piece, hold: Piece | null, next: Piece[]): ReplayRecommendationInput {

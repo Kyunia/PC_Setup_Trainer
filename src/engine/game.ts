@@ -59,11 +59,11 @@ export class GameSession {
 
   dispatch(action: GameAction): boolean {
     if (action === "restart") {
-      this.restart(this.state.seed);
+      this.restart();
       return true;
     }
     if (action === "randomSeed") {
-      this.restart();
+      this.restart(this.state.seed);
       return true;
     }
     if (action === "undo") return this.undo();

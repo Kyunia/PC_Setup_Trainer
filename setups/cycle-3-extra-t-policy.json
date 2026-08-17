@@ -440,6 +440,24 @@
       "preconditionSetupIds": [
         "cycle3-extra-t-032-f000"
       ],
+      "initialEligibility": {
+        "observation": {
+          "kind": "cycle3-new-bag-prefix",
+          "length": 4
+        },
+        "when": {
+          "operator": "containsAll",
+          "values": [
+            "T",
+            "I",
+            "L",
+            "S"
+          ]
+        },
+        "requiresUnbuildableSetupIds": [
+          "cycle3-extra-t-023-f000"
+        ]
+      },
       "observation": {
         "kind": "next-bag-prefix",
         "length": 2,
@@ -451,7 +469,8 @@
           "when": {
             "operator": "prefixIn",
             "values": [
-              "TS"
+              "TS",
+              "ST"
             ]
           },
           "preferSetupIds": [
@@ -465,7 +484,8 @@
           "when": {
             "operator": "prefixIn",
             "values": [
-              "IZ"
+              "IZ",
+              "ZI"
             ]
           },
           "preferSetupIds": [
@@ -495,6 +515,24 @@
       "preconditionSetupIds": [
         "cycle3-extra-t-036-f000"
       ],
+      "initialEligibility": {
+        "observation": {
+          "kind": "cycle3-new-bag-prefix",
+          "length": 4
+        },
+        "when": {
+          "operator": "containsAll",
+          "values": [
+            "T",
+            "I",
+            "L",
+            "S"
+          ]
+        },
+        "requiresUnbuildableSetupIds": [
+          "cycle3-extra-t-023-f000"
+        ]
+      },
       "observation": {
         "kind": "next-bag-prefix",
         "length": 2,
@@ -506,7 +544,8 @@
           "when": {
             "operator": "prefixIn",
             "values": [
-              "OZ"
+              "OZ",
+              "ZO"
             ]
           },
           "preferSetupIds": [
@@ -537,6 +576,21 @@
         "cycle3-extra-t-042-f000",
         "cycle3-extra-t-043-f000"
       ],
+      "initialEligibility": {
+        "observation": {
+          "kind": "cycle3-new-bag-prefix",
+          "length": 4
+        },
+        "when": {
+          "operator": "containsAll",
+          "values": [
+            "T",
+            "I",
+            "L",
+            "Z"
+          ]
+        }
+      },
       "observation": {
         "kind": "next-bag-prefix",
         "length": 5
@@ -671,6 +725,33 @@
       "preconditionSetupIds": [
         "cycle3-extra-t-044-f000"
       ],
+      "initialEligibility": {
+        "observation": {
+          "kind": "cycle3-new-bag-prefix",
+          "length": 4
+        },
+        "when": {
+          "operator": "allOf",
+          "conditions": [
+            {
+              "operator": "containsAll",
+              "values": [
+                "T",
+                "I",
+                "L",
+                "J"
+              ]
+            },
+            {
+              "operator": "orderBefore",
+              "values": [
+                "L",
+                "J"
+              ]
+            }
+          ]
+        }
+      },
       "observation": {
         "kind": "next-bag-prefix",
         "length": 1,
@@ -716,6 +797,40 @@
       "preconditionSetupIds": [
         "cycle3-extra-t-047-f000"
       ],
+      "initialEligibility": {
+        "observation": {
+          "kind": "cycle3-new-bag-prefix",
+          "length": 4
+        },
+        "when": {
+          "operator": "allOf",
+          "conditions": [
+            {
+              "operator": "containsAll",
+              "values": [
+                "T",
+                "I",
+                "L",
+                "J"
+              ]
+            },
+            {
+              "operator": "orderBefore",
+              "values": [
+                "I",
+                "L"
+              ]
+            },
+            {
+              "operator": "orderBefore",
+              "values": [
+                "L",
+                "J"
+              ]
+            }
+          ]
+        }
+      },
       "observation": {
         "kind": "next-bag-prefix",
         "length": 2,

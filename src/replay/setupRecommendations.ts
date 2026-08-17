@@ -90,7 +90,8 @@ export function buildReplayRecommendationSections(
 }
 
 export function replayRecommendationLabel(candidate: SetupCandidate): string {
-  return recommendationSetupLabel(candidate.setup.displayName, candidate.qbSaveTargets);
+  return candidate.recommendationLabel
+    ?? recommendationSetupLabel(candidate.setup.displayName, candidate.qbSaveTargets);
 }
 
 export function replaySetupPcRateLabel(candidate: SetupCandidate): string {

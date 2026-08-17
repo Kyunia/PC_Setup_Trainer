@@ -31,6 +31,7 @@ Thumbs.db
 /setup-review-studio/
 /setups/CheckAllQueue/
 /setups/querieddata/
+/setups/solves/
 /setups/integration/
 /setups/sources/
 /public/setup-media/
@@ -41,3 +42,4 @@ Thumbs.db
 /extracted_original_policy_part.json
 /original_policy_view.txt
 /src/toFumen/
+/Gemini/

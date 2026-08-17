@@ -1,0 +1,7215 @@
+{
+  "id": "pcinfokorea-cycle-5-advanced-lj-v1",
+  "schemaVersion": 3,
+  "cycle": 5,
+  "classId": "lj",
+  "reviewStatus": "reviewed",
+  "qbSemantics": {
+    "oqbIncluded": true,
+    "initialObservationWindow": "HOLD+ACTIVE+NEXT[0..4]",
+    "canonicalRecommendationUsesExplicitQueueNotation": true,
+    "holdAccessInterchangeablePostBuild": true,
+    "runtimeActivationRequiresCompiledConditions": true
+  },
+  "entries": [
+    {
+      "id": "lj5-advanced-single-1",
+      "kind": "direct",
+      "sourceOrder": 1001,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "L",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-001-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": true,
+      "label": "LJ-[OLJ]!"
+    },
+    {
+      "id": "lj5-advanced-single-2",
+      "kind": "direct",
+      "sourceOrder": 1002,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "S",
+                  "X"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "L",
+                      "J"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-002-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "Z",
+                  "X"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "L",
+                      "J"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-002-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "LJ-[ISX]! (⇔ LJ-[IZX]!)"
+    },
+    {
+      "id": "lj5-advanced-single-3",
+      "kind": "direct",
+      "sourceOrder": 1003,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "O",
+                  "I"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "L",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "S",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "Z",
+                      "X"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-003-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "LJ-[TOI]!"
+    },
+    {
+      "id": "lj5-advanced-single-4",
+      "kind": "direct",
+      "sourceOrder": 1004,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "O",
+                  "S"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "L",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "S",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "Z",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "O",
+                      "I"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-004-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "O",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "L",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "S",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "Z",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "O",
+                      "I"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-004-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "LJ-[TOS]! (⇔ LJ-[TOZ]!)"
+    },
+    {
+      "id": "lj5-advanced-single-5",
+      "kind": "direct",
+      "sourceOrder": 1005,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "L",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "L",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "S",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "Z",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "O",
+                      "I"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "O",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "O",
+                      "Z"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-005-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "J",
+                  "S"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "L",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "S",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "Z",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "O",
+                      "I"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "O",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "O",
+                      "Z"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-005-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "LJ-[OLZ]! (⇔ LJ-[OJS]!)"
+    },
+    {
+      "id": "lj5-advanced-single-6",
+      "kind": "direct",
+      "sourceOrder": 1006,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "visible-seven",
+            "parts": [
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "S",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "L",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "S",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "Z",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "O",
+                      "I"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "O",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "O",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "L",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-006-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "LJ-[OSZ]!"
+    },
+    {
+      "id": "lj5-advanced-tsz-1",
+      "kind": "direct",
+      "sourceOrder": 2001,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-007-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[TSZ]![OX]!"
+    },
+    {
+      "id": "lj5-advanced-tsz-2",
+      "kind": "direct",
+      "sourceOrder": 2002,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "X"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "S",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "X"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-008-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[TSZ]![LX]!"
+    },
+    {
+      "id": "lj5-advanced-tsz-3",
+      "kind": "direct",
+      "sourceOrder": 2003,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "J",
+                  "X"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "S",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "S",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "X"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-009-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[TSZ]![JX]!"
+    },
+    {
+      "id": "lj5-advanced-oil-oij-1",
+      "kind": "direct",
+      "sourceOrder": 3001,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-003-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[OIL]![TX]!"
+    },
+    {
+      "id": "lj5-advanced-oil-oij-2",
+      "kind": "direct",
+      "sourceOrder": 3002,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "S",
+                  "X"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "X"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-010-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[OIL]![SX]!"
+    },
+    {
+      "id": "lj5-advanced-oil-oij-3",
+      "kind": "direct",
+      "sourceOrder": 3003,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "Z",
+                  "X"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "S",
+                      "X"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-011-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[OIL]![ZX]!"
+    },
+    {
+      "id": "lj5-advanced-ols-ojz-1",
+      "kind": "direct",
+      "sourceOrder": 4001,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-012-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-012-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[OLS]![TX]!, [OLS]![IX]!"
+    },
+    {
+      "id": "lj5-advanced-ols-ojz-2",
+      "kind": "direct",
+      "sourceOrder": 4002,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "Z",
+                  "X"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "L",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "L",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "X"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-006-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[OLS]![ZX]!"
+    },
+    {
+      "id": "lj5-advanced-lsz-jsz-1",
+      "kind": "direct",
+      "sourceOrder": 5001,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-008-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[LSZ]![TX]!"
+    },
+    {
+      "id": "lj5-advanced-lsz-jsz-2",
+      "kind": "direct",
+      "sourceOrder": 5002,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "S",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "X"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "S",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "X"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-013-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[LSZ]![OX]!"
+    },
+    {
+      "id": "lj5-advanced-tol-toj-1",
+      "kind": "direct",
+      "sourceOrder": 6001,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "O",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "S",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-012-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[TOL]![SX]!"
+    },
+    {
+      "id": "lj5-advanced-tol-toj-2",
+      "kind": "direct",
+      "sourceOrder": 6002,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "O",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "O",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "S",
+                      "X"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-005-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "O",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "J",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "O",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "S",
+                      "X"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-005-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[TOL]![IZ]!, [TOL]![JZ]!"
+    },
+    {
+      "id": "lj5-advanced-ljs-ljz-1",
+      "kind": "direct",
+      "sourceOrder": 7001,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-001-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": true,
+      "label": "[LJS]!O"
+    },
+    {
+      "id": "lj5-advanced-ljs-ljz-2",
+      "kind": "direct",
+      "sourceOrder": 7002,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "O"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-019-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[LJS]!TO"
+    },
+    {
+      "id": "lj5-advanced-ljs-ljz-3",
+      "kind": "direct",
+      "sourceOrder": 7003,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "I",
+                  "O"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "O"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-020-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[LJS]!IO"
+    },
+    {
+      "id": "lj5-advanced-ljs-ljz-4",
+      "kind": "direct",
+      "sourceOrder": 7004,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z",
+                  "O"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "I",
+                      "O"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-021-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[LJS]!ZO"
+    },
+    {
+      "id": "lj5-advanced-ljs-ljz-6",
+      "kind": "direct",
+      "sourceOrder": 7006,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "J",
+                  "I",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "I",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "Z",
+                      "O"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-025-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "J",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "I",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "I",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "Z",
+                      "O"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-025-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[LS]!JIZ, [JS]!LIZ"
+    },
+    {
+      "id": "lj5-advanced-ljs-ljz-7",
+      "kind": "direct",
+      "sourceOrder": 7007,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S",
+                  "I",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "I",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "Z",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "J",
+                      "I",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "I",
+                      "Z"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-027-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[LJ]!SIZ"
+    },
+    {
+      "id": "lj5-advanced-ljs-ljz-8",
+      "kind": "direct",
+      "sourceOrder": 7008,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "I",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "Z",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "J",
+                      "I",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "I",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "I",
+                      "Z"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-026-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "J",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "I",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "Z",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "J",
+                      "I",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "I",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "I",
+                      "Z"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-026-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[LS]!J[TZ]!, [JS]!L[TZ]!"
+    },
+    {
+      "id": "lj5-advanced-ljs-ljz-9",
+      "kind": "direct",
+      "sourceOrder": 7009,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "I",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "Z",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "J",
+                      "I",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "I",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "I",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-027-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[LJ]!S[TZ]!"
+    },
+    {
+      "id": "lj5-advanced-ljs-ljz-10",
+      "kind": "direct",
+      "sourceOrder": 7010,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "J",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "I",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "Z",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "J",
+                      "I",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "I",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "I",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "J",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-027-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[LJS]![TI]!"
+    },
+    {
+      "id": "lj5-advanced-tls-tjz-4",
+      "kind": "direct",
+      "sourceOrder": 8004,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "J"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-036-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[TL]!S[OJ]!"
+    },
+    {
+      "id": "lj5-advanced-tls-tjz-6",
+      "kind": "direct",
+      "sourceOrder": 8006,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S",
+                  "Z",
+                  "J"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "J"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-036-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[TL]!SZJ"
+    },
+    {
+      "id": "lj5-advanced-tls-tjz-7",
+      "kind": "direct",
+      "sourceOrder": 8007,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "J",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "Z",
+                      "J"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-026-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "J",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "Z",
+                      "J"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-026-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[TS]!LJZ, [LS]!TJZ"
+    },
+    {
+      "id": "lj5-advanced-tls-tjz-8",
+      "kind": "direct",
+      "sourceOrder": 8008,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S",
+                  "J",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "Z",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "J",
+                      "Z"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-036-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[TL]!SJZ"
+    },
+    {
+      "id": "lj5-advanced-tls-tjz-9",
+      "kind": "direct",
+      "sourceOrder": 8009,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "I"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "Z",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "J",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "J",
+                      "Z"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-036-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "S"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "J"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "Z",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "S"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "J",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "J",
+                      "Z"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-036-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[TLS]![OI]!, [TLS]![IJ]!"
+    },
+    {
+      "id": "lj5-advanced-tlz-tjs-1",
+      "kind": "direct",
+      "sourceOrder": 9001,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "X"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-037-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[TLZ]![OX]!"
+    },
+    {
+      "id": "lj5-advanced-tlz-tjs-2",
+      "kind": "direct",
+      "sourceOrder": 9002,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "J",
+                  "S"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "X"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-038-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "J",
+                  "S"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "X"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-038-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[TZ]!LJS, [LZ]!TJS"
+    },
+    {
+      "id": "lj5-advanced-tlz-tjs-3",
+      "kind": "direct",
+      "sourceOrder": 9003,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "S",
+                  "J"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-039-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "S",
+                  "J"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-039-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[TZ]!LSJ, [LZ]!TSJ"
+    },
+    {
+      "id": "lj5-advanced-tlz-tjs-4",
+      "kind": "direct",
+      "sourceOrder": 9004,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "L",
+                  "I",
+                  "J"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "S",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "S",
+                      "J"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-038-f000",
+              "transform": "identity"
+            }
+          ]
+        },
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "I",
+                  "J"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "S",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "S",
+                      "J"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-038-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[TZ]!LIJ, [LZ]!TIJ"
+    },
+    {
+      "id": "lj5-advanced-tlz-tjs-5",
+      "kind": "direct",
+      "sourceOrder": 9005,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z",
+                  "I",
+                  "J"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "S",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "S",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "I",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "J"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-037-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[TL]!ZIJ"
+    },
+    {
+      "id": "lj5-advanced-tlz-tjs-6",
+      "kind": "direct",
+      "sourceOrder": 9006,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "J",
+                  "I"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "S",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "S",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "I",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "Z",
+                      "I",
+                      "J"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-037-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[TLZ]!JI"
+    },
+    {
+      "id": "lj5-advanced-tlz-tjs-8",
+      "kind": "direct",
+      "sourceOrder": 9008,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "Z"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "I",
+                  "S"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "X"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "S",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "S",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "L",
+                      "I",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "Z",
+                      "I",
+                      "J"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L",
+                      "Z"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "J",
+                      "I"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-037-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[TLZ]!IS"
+    },
+    {
+      "id": "lj5-advanced-til-tij-1",
+      "kind": "direct",
+      "sourceOrder": 10001,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "O",
+                  "Z"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-043-f000",
+              "transform": "identity"
+            },
+            {
+              "setupId": "cycle5-advanced-lj-044-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[TIL]![OZ]!"
+    },
+    {
+      "id": "lj5-advanced-til-tij-3",
+      "kind": "direct",
+      "sourceOrder": 10003,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "J",
+                  "O"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "Z"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-048-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[TIL]!JO"
+    },
+    {
+      "id": "lj5-advanced-til-tij-4",
+      "kind": "direct",
+      "sourceOrder": 10004,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "J",
+                  "S"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "J",
+                      "O"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-049-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[TIL]![JS]!"
+    },
+    {
+      "id": "lj5-advanced-til-tij-5",
+      "kind": "direct",
+      "sourceOrder": 10005,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "J",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "J",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-050-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[TIL]![JZ]!"
+    },
+    {
+      "id": "lj5-advanced-til-tij-6",
+      "kind": "direct",
+      "sourceOrder": 10006,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "S",
+                  "Z"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "J",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "J",
+                      "Z"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-051-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[TIL]![SZ]!"
+    },
+    {
+      "id": "lj5-advanced-til-tij-7",
+      "kind": "direct",
+      "sourceOrder": 10007,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "I",
+                  "L"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O",
+                  "S"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "O",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "J",
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "J",
+                      "S"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "J",
+                      "Z"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "I",
+                      "L"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "S",
+                      "Z"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-052-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[TIL]!OS"
+    },
+    {
+      "id": "lj5-advanced-ilj-1",
+      "kind": "direct",
+      "sourceOrder": 11001,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-001-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": true,
+      "label": "[ILJ]!O"
+    },
+    {
+      "id": "lj5-advanced-ilj-2",
+      "kind": "direct",
+      "sourceOrder": 11002,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "S",
+                  "T"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-055-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[ILJ]!ST"
+    },
+    {
+      "id": "lj5-advanced-ilj-4",
+      "kind": "direct",
+      "sourceOrder": 11003,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "Z",
+                  "T"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "T"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-057-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": true,
+      "directTwoLinePc": false,
+      "label": "[ILJ]!ZT"
+    },
+    {
+      "id": "lj5-advanced-ilj-6",
+      "kind": "direct",
+      "sourceOrder": 11004,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "T",
+                  "O"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "T"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "Z",
+                      "T"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-048-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[ILJ]!TO"
+    },
+    {
+      "id": "lj5-advanced-ilj-3",
+      "kind": "direct",
+      "sourceOrder": 11005,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "J"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "T"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "Z",
+                      "T"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "O"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-056-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "그 외 모든 경우"
+    },
+    {
+      "id": "lj5-advanced-ilj-5",
+      "kind": "direct",
+      "sourceOrder": 11006,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "I",
+                  "L",
+                  "J"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "S",
+                      "T"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "Z",
+                      "T"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "I",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "T",
+                      "O"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-058-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "그 외 모든 경우"
+    },
+    {
+      "id": "lj5-advanced-tlj-1",
+      "kind": "direct",
+      "sourceOrder": 12001,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "ordered",
+                "symbols": [
+                  "O"
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-001-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": true,
+      "label": "[TLJ]!O"
+    },
+    {
+      "id": "lj5-advanced-tlj-2",
+      "kind": "direct",
+      "sourceOrder": 12002,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "S",
+                  "X"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-056-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[TLJ]![SX]!"
+    },
+    {
+      "id": "lj5-advanced-tlj-3",
+      "kind": "direct",
+      "sourceOrder": 12003,
+      "alternatives": [
+        {
+          "pattern": {
+            "scope": "next-bag-five",
+            "parts": [
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "T",
+                  "L",
+                  "J"
+                ]
+              },
+              {
+                "kind": "permutation",
+                "symbols": [
+                  "Z",
+                  "X"
+                ]
+              }
+            ],
+            "excludes": [
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "ordered",
+                    "symbols": [
+                      "O"
+                    ]
+                  }
+                ]
+              },
+              {
+                "parts": [
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "T",
+                      "L",
+                      "J"
+                    ]
+                  },
+                  {
+                    "kind": "permutation",
+                    "symbols": [
+                      "S",
+                      "X"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "setupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-058-f000",
+              "transform": "identity"
+            }
+          ]
+        }
+      ],
+      "bestsave": false,
+      "directTwoLinePc": false,
+      "label": "[TLJ]![ZX]!"
+    },
+    {
+      "id": "lj5-advanced-oqb-lsz-ij",
+      "kind": "oqb",
+      "sourceOrder": 17000,
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "L",
+                "S",
+                "Z"
+              ]
+            },
+            {
+              "kind": "permutation",
+              "symbols": [
+                "I",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-lj-014-f000",
+      "checkpoint": {
+        "placedCount": 1
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "lj5-advanced-oqb-lsz-ij-branch-1",
+          "observedPieces": [
+            "T"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-015-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "lj5-advanced-oqb-lsz-ij-branch-2",
+          "observedPieces": [
+            "O"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-016-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "label": "[LSZ]![IJ]!"
+    },
+    {
+      "id": "lj5-advanced-oqb-tol-ij",
+      "kind": "oqb",
+      "sourceOrder": 22000,
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "O",
+                "L"
+              ]
+            },
+            {
+              "kind": "permutation",
+              "symbols": [
+                "I",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-lj-014-f000",
+      "checkpoint": {
+        "placedCount": 1
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "lj5-advanced-oqb-tol-ij-branch-1",
+          "observedPieces": [
+            "S"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-017-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "lj5-advanced-oqb-tol-ij-branch-2",
+          "observedPieces": [
+            "Z"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-018-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "label": "[TOL]![IJ]!"
+    },
+    {
+      "id": "lj5-advanced-oqb-ljs-zi",
+      "kind": "oqb",
+      "sourceOrder": 29000,
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "L",
+                "J",
+                "S"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "Z",
+                "I"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-lj-022-f000",
+      "checkpoint": {
+        "placedCount": 1
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "lj5-advanced-oqb-ljs-zi-branch-1",
+          "observedPieces": [
+            "T"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-023-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "lj5-advanced-oqb-ljs-zi-branch-2",
+          "observedPieces": [
+            "O"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-024-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "label": "[LJS]!ZI"
+    },
+    {
+      "id": "lj5-advanced-oqb-tls-oz",
+      "kind": "oqb",
+      "sourceOrder": 35000,
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "L",
+                "S"
+              ]
+            },
+            {
+              "kind": "permutation",
+              "symbols": [
+                "O",
+                "Z"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-lj-022-f000",
+      "checkpoint": {
+        "placedCount": 1
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "lj5-advanced-oqb-tls-oz-branch-1",
+          "observedPieces": [
+            "I"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-024-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "lj5-advanced-oqb-tls-oz-branch-2",
+          "observedPieces": [
+            "J"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-028-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "label": "[TLS]![OZ]!"
+    },
+    {
+      "id": "lj5-advanced-oqb-tls-iz",
+      "kind": "oqb",
+      "sourceOrder": 38000,
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "L",
+                "S"
+              ]
+            },
+            {
+              "kind": "permutation",
+              "symbols": [
+                "I",
+                "Z"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-lj-029-f000",
+      "checkpoint": {
+        "placedCount": 1
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "lj5-advanced-oqb-tls-iz-branch-1",
+          "observedPieces": [
+            "O"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-030-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "lj5-advanced-oqb-tls-iz-branch-2",
+          "observedPieces": [
+            "J"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-031-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "label": "[TLS]![IZ]!"
+    },
+    {
+      "id": "lj5-advanced-oqb-tls-oj",
+      "kind": "oqb",
+      "sourceOrder": 41000,
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "S"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "L"
+              ]
+            },
+            {
+              "kind": "permutation",
+              "symbols": [
+                "O",
+                "J"
+              ]
+            }
+          ]
+        },
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "L",
+                "S"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "T"
+              ]
+            },
+            {
+              "kind": "permutation",
+              "symbols": [
+                "O",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-lj-032-f000",
+      "checkpoint": {
+        "placedCount": 1
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "lj5-advanced-oqb-tls-oj-branch-1",
+          "observedPieces": [
+            "I"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-033-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "lj5-advanced-oqb-tls-oj-branch-2",
+          "observedPieces": [
+            "Z"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-034-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "label": "[TS]!L[OJ]! / [LS]!T[OJ]!"
+    },
+    {
+      "id": "lj5-advanced-oqb-tls-zj",
+      "kind": "oqb",
+      "sourceOrder": 44000,
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "S"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "L",
+                "Z",
+                "J"
+              ]
+            }
+          ]
+        },
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "L",
+                "S"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "T",
+                "Z",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-lj-014-f000",
+      "checkpoint": {
+        "placedCount": 1
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "lj5-advanced-oqb-tls-zj-branch-1",
+          "observedPieces": [
+            "O"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-035-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "lj5-advanced-oqb-tls-zj-branch-2",
+          "observedPieces": [
+            "I"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-031-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "label": "[TS]!LZJ / [LS]!TZJ"
+    },
+    {
+      "id": "lj5-advanced-oqb-tlz-si",
+      "kind": "oqb",
+      "sourceOrder": 52000,
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "L",
+                "Z"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "S",
+                "I"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-lj-040-f000",
+      "checkpoint": {
+        "placedCount": 1
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "lj5-advanced-oqb-tlz-si-branch-1",
+          "observedPieces": [
+            "O"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-041-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "lj5-advanced-oqb-tlz-si-branch-2",
+          "observedPieces": [
+            "J"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-042-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "label": "[TLZ]!SI"
+    },
+    {
+      "id": "lj5-advanced-oqb-til-oj",
+      "kind": "oqb",
+      "sourceOrder": 58000,
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "I",
+                "L"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "O",
+                "J"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-lj-045-f000",
+      "checkpoint": {
+        "placedCount": 1
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "lj5-advanced-oqb-til-oj-branch-1",
+          "observedPieces": [
+            "S"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-046-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "lj5-advanced-oqb-til-oj-branch-2",
+          "observedPieces": [
+            "Z"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-047-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "label": "[TIL]!OJ"
+    },
+    {
+      "id": "lj5-advanced-oqb-til-so",
+      "kind": "oqb",
+      "sourceOrder": 66000,
+      "initialPatterns": [
+        {
+          "scope": "next-bag-five",
+          "parts": [
+            {
+              "kind": "permutation",
+              "symbols": [
+                "T",
+                "I",
+                "L"
+              ]
+            },
+            {
+              "kind": "ordered",
+              "symbols": [
+                "S",
+                "O"
+              ]
+            }
+          ]
+        }
+      ],
+      "preconditionSetupId": "cycle5-advanced-lj-014-f000",
+      "checkpoint": {
+        "placedCount": 1
+      },
+      "observation": {
+        "kind": "reveal",
+        "uiSlot": "NEXT[4]"
+      },
+      "branches": [
+        {
+          "id": "lj5-advanced-oqb-til-so-branch-1",
+          "observedPieces": [
+            "J"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-053-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        },
+        {
+          "id": "lj5-advanced-oqb-til-so-branch-2",
+          "observedPieces": [
+            "Z"
+          ],
+          "continuationSetupRefs": [
+            {
+              "setupId": "cycle5-advanced-lj-054-f000",
+              "transform": "identity"
+            }
+          ],
+          "bestsave": null
+        }
+      ],
+      "label": "[TIL]!SO"
+    }
+  ],
+  "runtimePolicy": {
+    "schemaVersion": 2,
+    "status": "compiled",
+    "executable": true,
+    "setupRoles": [
+      {
+        "setupId": "cycle5-advanced-lj-001-f000",
+        "roles": [
+          "two-line-pc"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-002-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-003-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-004-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-005-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-006-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-007-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-008-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-009-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-010-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-011-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-012-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-013-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-014-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-015-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-016-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-017-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-018-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-019-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-020-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-021-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-022-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-023-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-024-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-025-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-026-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-027-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-028-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-029-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-030-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-031-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-032-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-033-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-034-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-035-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-036-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-037-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-038-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-039-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-040-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-041-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-042-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-043-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-044-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-045-f000",
+        "roles": [
+          "oqb-precondition"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-046-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-047-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-048-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-049-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-050-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-051-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-052-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-053-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-054-f000",
+        "roles": [
+          "oqb-continuation-shadow"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-055-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-056-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-057-f000",
+        "roles": [
+          "qb-final"
+        ]
+      },
+      {
+        "setupId": "cycle5-advanced-lj-058-f000",
+        "roles": [
+          "qb-final"
+        ]
+      }
+    ],
+    "compiledEntryCount": 64,
+    "directEntryCount": 54,
+    "oqbPlanCount": 10,
+    "deferredEntryIds": [],
+    "queueConditionsAreAstOnly": true
+  }
+}

@@ -47,14 +47,24 @@ describe("game session practice controls", () => {
     expect(session.state.active.y).toBe(beforeY - 1);
   });
 
-  it("시드 변경 액션은 새 랜덤 시드로 게임을 재시작한다", () => {
+  it("Restart 액션은 새 랜덤 시드로 게임을 재시작한다", () => {
     const session = new GameSession("old-seed");
     vi.spyOn(Math, "random").mockReturnValue(0.123456789);
-    expect(session.dispatch("randomSeed")).toBe(true);
+    expect(session.dispatch("restart")).toBe(true);
     expect(session.state.seed).not.toBe("old-seed");
     expect(session.state.run.cycle).toBe(1);
     expect(session.state.run.pcCount).toBe(0);
     vi.restoreAllMocks();
+  });
+
+  it("F4용 재시작 액션은 현재 시드를 유지한다", () => {
+    const session = new GameSession("same-seed");
+    session.dispatch("hardDrop");
+
+    expect(session.dispatch("randomSeed")).toBe(true);
+    expect(session.state.seed).toBe("same-seed");
+    expect(session.state.run.cycle).toBe(1);
+    expect(session.state.run.pcCount).toBe(0);
   });
 
   it("uses a finite exact queue and fixed restart state for an eight-row Snapshot session", () => {

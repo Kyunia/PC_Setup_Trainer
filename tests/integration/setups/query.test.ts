@@ -185,6 +185,18 @@ describe("setup catalog/query", () => {
     expect(run(formB, "JLOSZI")).toHaveLength(1);
   });
 
+  it("HOLD가 빈 1회차에서 숨은 마지막 bag 미노까지 복원해 6P 셋업을 추천한다", () => {
+    const candidates = querySetups({
+      cycle: 1,
+      board: createBoard(),
+      active: "O",
+      hold: null,
+      next: ["S", "I", "T", "Z", "L"],
+    });
+
+    expect(candidates.some(({ setup }) => setup.family === "grace-system")).toBe(true);
+  });
+
   it("6P PCO를 85.36%의 6개 미노 셋업으로 조회하고 구축한다", () => {
     const setup = sourceSetupCatalog.find(({ id }) => id === "cycle1-6p-pco-a")!;
     const pieces = [..."TSZLOJ"] as Piece[];

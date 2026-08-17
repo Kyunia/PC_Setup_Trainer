@@ -255,11 +255,15 @@ function transformedContinuation(
   ref: Cycle5AdvancedSetupRef,
   mirrorFromPrecondition: boolean,
   board: SetupQuery["board"],
+  bestsave?: boolean | null,
 ): OqbContinuationCandidate | "complete" | null {
   const source = catalog.find(({ id }) => id === ref.setupId);
   if (!source) return null;
   const mirror = mirrorFromPrecondition !== (ref.transform === "mirror-x");
-  const transformed = mirror ? mirrorSetup(source) : source;
+  const transformedBase = mirror ? mirrorSetup(source) : source;
+  const transformed = typeof bestsave === "boolean"
+    ? { ...transformedBase, bestsave }
+    : transformedBase;
   if (isSolutionShadowSetup(transformed)) {
     const displayRef = ref.displayHoldPiece === undefined ? ref : {
       ...ref,
@@ -513,6 +517,7 @@ function resolveCycle5Progress(
     ref,
     mirrored,
     query.board,
+    observed.decision.bestsave,
   ));
   if (projected.some((candidate) => candidate === null)) {
     return {
@@ -675,10 +680,9 @@ export function resolveOqbProgress(input: OqbProgressInput): OqbProgressResult {
     );
     if (!providerMatch) {
       return {
-        status: "unsupported",
+        status: "no-follow-up",
         cycle: input.query.cycle,
-        reason: "cycle5-policy-provider-required",
-        instruction: "Supply the matching promoted provider or selected-catalog policy override.",
+        instruction: "",
       };
     }
     if (providerMatch.status !== "ready") {

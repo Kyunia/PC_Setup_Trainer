@@ -44,7 +44,11 @@ describe("Cycle 1 normal-bag and replacement-cycle boundary", () => {
     });
     expect(cycle1QueueContext(initial)).toMatchObject({
       visiblePieces: ["I", "J", "L", "O", "S", "T"],
+      buildPieces: ["I", "J", "L", "O", "S", "T", "Z"],
+      searchNext: ["J", "L", "O", "S", "T", "Z"],
+      placeableNextCount: 6,
       classificationMode: "normal-seven-bag-prefix",
+      inferredLastPiece: "Z",
     });
   });
 

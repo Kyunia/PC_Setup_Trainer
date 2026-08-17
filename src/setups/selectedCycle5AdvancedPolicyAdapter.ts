@@ -157,6 +157,7 @@ function draftDirectEntry(
   defaultOrder: number,
 ): Cycle5AdvancedPolicyEntry | null {
   if (rule.selectionMode === "OQB") return null;
+  if (rule.bestsaveEvidenceStatus === "conditional-see-selection-table") return null;
   const id = asString(rule.ruleId, sourceId, "rule.ruleId");
   const texts = directTexts(rule);
   const exclusions = compileExclusions(texts, sourceId);
@@ -237,9 +238,11 @@ function normalizeObservation(
 
 function observedPieces(branch: JsonRecord, sourceId: string, branchId: string): Piece[] {
   const when = isRecord(branch.when) ? branch.when : undefined;
+  const explicit = Array.isArray(branch.observedPieces) && branch.observedPieces.length > 0
+    ? branch.observedPieces
+    : [branch.observedPiece];
   return unique([
-    branch.observedPiece,
-    ...(Array.isArray(branch.observedPieces) ? branch.observedPieces : []),
+    ...explicit,
     when?.revealedPiece,
     ...(Array.isArray(when?.hiddenLastPieceIn) ? when.hiddenLastPieceIn : []),
   ].filter((value) => value !== undefined).map((piece, index) =>
@@ -346,10 +349,25 @@ function sourceNumber(value: unknown): number {
   return match ? Number(match[1]) : Number.MAX_SAFE_INTEGER;
 }
 
+function draftGeometryTransform(
+  value: JsonRecord,
+  sourceId: string,
+  field: string,
+): "identity" | "mirror-x" {
+  const transform = value.geometryTransform ?? value.transform;
+  if (transform === undefined || transform === "identity") return "identity";
+  if (transform === "mirrorX" || transform === "mirror-x") return "mirror-x";
+  throw new SelectedCycle5AdvancedPolicyError(
+    sourceId,
+    `${field}.geometryTransform must be identity, mirrorX, or mirror-x.`,
+  );
+}
+
 function draftOqbEntry(
   plan: JsonRecord,
   sourceId: string,
   defaultOrder: number,
+  bestsave?: boolean | null,
 ): Cycle5AdvancedPolicyEntry {
   const id = asString(plan.planId, sourceId, "oqbPlan.planId");
   const initialVisible = isRecord(plan.initialVisibleCondition) ? plan.initialVisibleCondition : undefined;
@@ -364,9 +382,16 @@ function draftOqbEntry(
     throw new SelectedCycle5AdvancedPolicyError(sourceId, `${id} has no compilable initial queue pattern.`);
   }
   const logicalPrecondition = isRecord(plan.logicalPrecondition) ? plan.logicalPrecondition : undefined;
+  const pluralPreconditions = Array.isArray(plan.preconditionSetupIds)
+    ? plan.preconditionSetupIds.filter((value): value is string => typeof value === "string" && value.length > 0)
+    : [];
+  if (pluralPreconditions.length > 1) {
+    throw new SelectedCycle5AdvancedPolicyError(sourceId, `${id}.preconditionSetupIds must resolve to one setup.`);
+  }
   const preconditionSetupId = typeof plan.preconditionSetupId === "string" && plan.preconditionSetupId.length > 0
     ? plan.preconditionSetupId
-    : asString(logicalPrecondition?.logicalId, sourceId, `${id}.preconditionSetupId/logicalPrecondition.logicalId`);
+    : pluralPreconditions[0]
+      ?? asString(logicalPrecondition?.logicalId, sourceId, `${id}.preconditionSetupId/logicalPrecondition.logicalId`);
   const checkpoint = isRecord(plan.placedCheckpoint) ? plan.placedCheckpoint : undefined;
   const placedCount = checkpoint?.placedCount;
   if (placedCount !== 1 && placedCount !== 2 && placedCount !== 3) {
@@ -380,6 +405,7 @@ function draftOqbEntry(
       : null;
     const continuationIds = unique([
       ...(Array.isArray(branch.eligibleSetupIds) ? branch.eligibleSetupIds : []),
+      ...(Array.isArray(branch.continuationSetupIds) ? branch.continuationSetupIds : []),
       branch.continuationSetupId,
       typeof branch.continuationSourceItemId === "string"
         ? `geometry-${branch.continuationSourceItemId}-f000`
@@ -396,6 +422,7 @@ function draftOqbEntry(
       sourceId,
       `${branchId}.postCheckpoint`,
     );
+    const transform = draftGeometryTransform(branch, sourceId, branchId);
     return {
       id: branchId,
       ...(pieces.length > 0 ? { observedPieces: pieces } : {}),
@@ -405,7 +432,7 @@ function draftOqbEntry(
           after: relative[2] as Piece,
         },
       } : {}),
-      continuationSetupRefs: continuationIds.map((setupId) => ({ setupId, transform: "identity" as const })),
+      continuationSetupRefs: continuationIds.map((setupId) => ({ setupId, transform })),
       bestsave: typeof branch.bestsave === "boolean" ? branch.bestsave : null,
       ...(postCheckpoint ? { postCheckpoint } : {}),
     };
@@ -417,6 +444,7 @@ function draftOqbEntry(
   return {
     id,
     kind: "oqb",
+    bestsave: typeof bestsave === "boolean" ? bestsave : null,
     sourceOrder: Number.isFinite(naturalOrder) ? naturalOrder : defaultOrder,
     initialPatterns,
     preconditionSetupId,
@@ -450,10 +478,6 @@ function flattenSelectionGroup(
     .map((pattern) => validatePattern(pattern, sourceId, `${groupId}.guardPatterns`));
   const previous: Cycle5AdvancedQueuePattern[] = [];
   return asRecords(group.decisions, sourceId, `${groupId}.decisions`).flatMap((decision, index) => {
-    if (decision.outcome !== "setups") return [];
-    const refs = asRecords(decision.setupRefs, sourceId, `${groupId}.decisions[${index}].setupRefs`)
-      .map((ref) => validateSetupRef(ref, sourceId, `${groupId}.decisions[${index}].setupRefs`));
-    if (refs.length === 0) return [];
     const explicit = Array.isArray(decision.patterns)
       ? asRecords(decision.patterns, sourceId, `${groupId}.decisions[${index}].patterns`)
         .map((pattern) => validatePattern(pattern, sourceId, `${groupId}.decisions[${index}].patterns`))
@@ -461,19 +485,69 @@ function flattenSelectionGroup(
     const basePatterns = explicit.length > 0 ? explicit : guardPatterns;
     const patterns = basePatterns.map((pattern) => copyPatternWithExclusions(pattern, previous));
     previous.push(...explicit);
+    if (decision.outcome !== "setups") return [];
+    if (typeof decision.bestsave !== "boolean") {
+      throw new SelectedCycle5AdvancedPolicyError(
+        sourceId,
+        `${groupId}.decisions[${index}].bestsave must be boolean.`,
+      );
+    }
+    const refs = asRecords(decision.setupRefs, sourceId, `${groupId}.decisions[${index}].setupRefs`)
+      .map((ref) => validateSetupRef(ref, sourceId, `${groupId}.decisions[${index}].setupRefs`));
+    if (refs.length === 0) return [];
     return [{
       id: typeof decision.id === "string" ? decision.id : `${groupId}-${index + 1}`,
       kind: "direct" as const,
       sourceOrder: groupOrder + (index + 1) / 1_000,
       alternatives: patterns.map((pattern) => ({ pattern, setupRefs: refs })),
-      bestsave: null,
-      directTwoLinePc: false,
+      bestsave: decision.bestsave,
+      directTwoLinePc: decision.directTwoLinePc === true,
     }];
   });
 }
 
+function draftSelectionDecisions(
+  table: JsonRecord,
+  classId: string,
+  sourceId: string,
+): JsonRecord[] {
+  const decisions = asRecords(table.decisions, sourceId, `${String(table.tableId)}.decisions`);
+  if (decisions.length > 0 || typeof table.bestsave !== "boolean") return decisions;
+  if (!isRecord(table.setupLabelBindings)) {
+    throw new SelectedCycle5AdvancedPolicyError(
+      sourceId,
+      `${String(table.tableId)} has a table-level bestsave value but no executable decisions or setupLabelBindings.`,
+    );
+  }
+  const setupLabelBindings = table.setupLabelBindings;
+  const rows = asRecords(table.sourceDecisionRows, sourceId, `${String(table.tableId)}.sourceDecisionRows`);
+  const synthesized = rows.flatMap((row) => {
+    if (typeof row.text !== "string") return [];
+    const match = row.text.match(/^(.+?)\s*[-:]\s*셋업\s*(\d+)/u);
+    if (!match) return [];
+    const label = match[2]!;
+    const itemNumbers = setupLabelBindings[label];
+    if (!Array.isArray(itemNumbers) || itemNumbers.length === 0
+      || itemNumbers.some((item) => !Number.isInteger(item))) return [];
+    return [{
+      canonicalConditionText: match[1]!.trim(),
+      outcome: "source-selected-candidate",
+      eligibleSetupIds: itemNumbers.map((item) =>
+        `geometry-cycle5-advanced-${classId}-${String(item).padStart(3, "0")}-f000`),
+      bestsave: table.bestsave,
+    } satisfies JsonRecord];
+  });
+  if (synthesized.length === 0) {
+    throw new SelectedCycle5AdvancedPolicyError(
+      sourceId,
+      `${String(table.tableId)} has a table-level bestsave value that cannot be compiled losslessly.`,
+    );
+  }
+  return synthesized;
+}
+
 function draftTableGuardPatterns(table: JsonRecord): Cycle5AdvancedQueuePattern[] {
-  const group = String(table.group ?? "");
+  const group = String(table.group ?? table.section ?? "");
   const tokens = group.split("/").map((token) => token.trim())
     .filter((token) => /^[TOILJSZ]{3,}$/.test(token));
   if (tokens.length > 0) {
@@ -486,6 +560,31 @@ function draftTableGuardPatterns(table: JsonRecord): Cycle5AdvancedQueuePattern[
   return symbols.length >= 3
     ? [{ scope: "next-bag-five", parts: [{ kind: "permutation", symbols }] }]
     : [];
+}
+
+function permutePieces(values: Piece[]): Piece[][] {
+  if (values.length < 2) return [values];
+  return values.flatMap((value, index) => permutePieces(values.filter((_, itemIndex) => itemIndex !== index))
+    .map((tail) => [value, ...tail]));
+}
+
+function draftDirectionPatterns(
+  table: JsonRecord,
+  decision: JsonRecord,
+  sourceId: string,
+  field: string,
+): Cycle5AdvancedQueuePattern[] | null {
+  if (!isRecord(decision.directionCondition)) return null;
+  const before = asPiece(decision.directionCondition.before, sourceId, `${field}.directionCondition.before`);
+  const after = asPiece(decision.directionCondition.after, sourceId, `${field}.directionCondition.after`);
+  const guard = draftTableGuardPatterns(table);
+  const symbols = guard[0]?.parts[0]?.symbols;
+  if (!symbols || symbols.length !== 3 || symbols.some((symbol) => symbol === "X")) {
+    throw new SelectedCycle5AdvancedPolicyError(sourceId, `${field}.directionCondition needs a three-piece table guard.`);
+  }
+  return permutePieces(symbols as Piece[])
+    .filter((order) => order.indexOf(before) < order.indexOf(after))
+    .map((order) => ({ scope: "next-bag-five", parts: [{ kind: "ordered", symbols: order }] }));
 }
 
 function validateSetupRef(value: JsonRecord, sourceId: string, field: string): Cycle5AdvancedSetupRef {
@@ -560,6 +659,7 @@ function normalizePromotedEntry(
     return [{
       id,
       kind: "oqb",
+      bestsave: typeof entry.bestsave === "boolean" ? entry.bestsave : null,
       sourceOrder,
       initialPatterns: asRecords(entry.initialPatterns, sourceId, `${id}.initialPatterns`)
         .map((pattern) => validatePattern(pattern, sourceId, `${id}.initialPatterns`)),
@@ -624,15 +724,18 @@ export function normalizeSelectedCycle5AdvancedPolicy(
   }
 
   const hasRules = Array.isArray(value.rules) || Array.isArray(value.directRules);
-  if (!hasRules || !Array.isArray(value.oqbPlans)) {
+  const hasSelectionTables = Array.isArray(value.selectionTables);
+  if ((!hasRules && !hasSelectionTables) || !Array.isArray(value.oqbPlans)) {
     throw new SelectedCycle5AdvancedPolicyError(
       sourceId,
-      "expected promoted entries[] or draft rules/directRules[] together with oqbPlans[].",
+      "expected promoted entries[] or draft rules/directRules[] and/or selectionTables[] together with oqbPlans[].",
     );
   }
   const rules = Array.isArray(value.rules)
     ? asRecords(value.rules, sourceId, "rules")
-    : asRecords(value.directRules, sourceId, "directRules");
+    : Array.isArray(value.directRules)
+      ? asRecords(value.directRules, sourceId, "directRules")
+      : [];
   const directEntries = rules.flatMap((rule, index) => {
     const entry = draftDirectEntry(rule, sourceId, index + 1);
     return entry ? [entry] : [];
@@ -640,21 +743,39 @@ export function normalizeSelectedCycle5AdvancedPolicy(
   const selectionGroups = Array.isArray(value.selectionTables)
     ? asRecords(value.selectionTables, sourceId, "selectionTables").flatMap((table, index) => {
       // Compile the rich table through the same executable direct-entry shape.
+      const tableId = typeof table.tableId === "string"
+        ? table.tableId
+        : typeof table.id === "string"
+          ? table.id
+          : `selection-table-${index + 1}`;
+      const draftDecisions = draftSelectionDecisions(table, classId, sourceId)
+        .map((decision, decisionIndex) => ({ decision, decisionIndex }))
+        .sort((left, right) => {
+          const leftFallback = /그 외|나머지|all other/i.test(String(left.decision.canonicalConditionText ?? ""));
+          const rightFallback = /그 외|나머지|all other/i.test(String(right.decision.canonicalConditionText ?? ""));
+          return Number(leftFallback) - Number(rightFallback) || left.decisionIndex - right.decisionIndex;
+        });
       const promotedLike = {
-        id: typeof table.tableId === "string" ? table.tableId : `selection-table-${index + 1}`,
-        sourceOrder: directEntries.length + index + 1,
+        id: tableId,
+        sourceOrder: rules.length + index + 1,
         guardPatterns: draftTableGuardPatterns(table),
-        decisions: asRecords(table.decisions, sourceId, `selectionTables[${index}].decisions`).map((decision, decisionIndex) => {
+        decisions: draftDecisions.map(({ decision, decisionIndex }) => {
           const conditionText = typeof decision.canonicalConditionText === "string"
             ? decision.canonicalConditionText
             : "";
-          const fallback = /그 외|모든 조합|all other/i.test(conditionText);
-          let patterns = fallback ? [] : compileTexts([conditionText], sourceId);
-          if (fallback && table.tableId === "to5-advanced-tol-toj") {
+          const fallback = !isRecord(decision.directionCondition)
+            && /그 외|모든 조합|all other/i.test(conditionText);
+          let patterns = fallback ? [] : draftDirectionPatterns(
+            table,
+            decision,
+            sourceId,
+            `${tableId}.decisions[${decisionIndex}]`,
+          ) ?? compileTexts([conditionText], sourceId);
+          if (fallback && tableId === "to5-advanced-tol-toj") {
             patterns = ["[TOL]!J", "[TOL]!S", "[TOL]!Z"]
               .map((expression) => parsePattern(expression, sourceId));
           }
-          if (table.tableId === "tstz5-advanced-oij" && /IJOZ/.test(conditionText)) {
+          if (tableId === "tstz5-advanced-oij" && /IJOZ/.test(conditionText)) {
             const excluded = parsePattern("IJOZ", sourceId);
             patterns = patterns.map((pattern) => ({
               ...pattern,
@@ -662,8 +783,10 @@ export function normalizeSelectedCycle5AdvancedPolicy(
             }));
           }
           return {
-            id: `${String(table.tableId)}-${decisionIndex + 1}`,
-            outcome: decision.outcome === "no-bestsave-setup" ? "no-bestsave" : "setups",
+            id: `${tableId}-${decisionIndex + 1}`,
+            outcome: decision.oqbPlanId || decision.outcome === "no-bestsave-setup" ? "skip" : "setups",
+            bestsave: typeof decision.bestsave === "boolean" ? decision.bestsave : null,
+            directTwoLinePc: decision.outcome === "two-line-pc",
             ...(patterns.length > 0 ? { patterns } : {}),
             setupRefs: Array.isArray(decision.eligibleSetupIds)
               ? decision.eligibleSetupIds.map((setupId) => ({ setupId, transform: "identity" }))
@@ -674,11 +797,34 @@ export function normalizeSelectedCycle5AdvancedPolicy(
       return flattenSelectionGroup(promotedLike, sourceId);
     })
     : [];
+  const oqbBestsaveByPlan = new Map<string, boolean>();
+  if (Array.isArray(value.selectionTables)) {
+    for (const [tableIndex, table] of asRecords(value.selectionTables, sourceId, "selectionTables").entries()) {
+      for (const [decisionIndex, decision] of draftSelectionDecisions(table, classId, sourceId).entries()) {
+        if (typeof decision.oqbPlanId !== "string") continue;
+        if (typeof decision.bestsave !== "boolean") {
+          throw new SelectedCycle5AdvancedPolicyError(
+            sourceId,
+            `selectionTables[${tableIndex}].decisions[${decisionIndex}].bestsave must be boolean for OQB.`,
+          );
+        }
+        const previous = oqbBestsaveByPlan.get(decision.oqbPlanId);
+        if (previous !== undefined && previous !== decision.bestsave) {
+          throw new SelectedCycle5AdvancedPolicyError(
+            sourceId,
+            `${decision.oqbPlanId} has conflicting condition-level bestsave values.`,
+          );
+        }
+        oqbBestsaveByPlan.set(decision.oqbPlanId, decision.bestsave);
+      }
+    }
+  }
   const oqbEntries = asRecords(value.oqbPlans, sourceId, "oqbPlans")
     .map((plan, index) => draftOqbEntry(
       plan,
       sourceId,
-      directEntries.length + selectionGroups.length + index + 1,
+      rules.length + selectionGroups.length + index + 1,
+      typeof plan.planId === "string" ? oqbBestsaveByPlan.get(plan.planId) : undefined,
     ));
   return {
     schemaVersion: 3,

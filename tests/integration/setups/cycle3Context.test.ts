@@ -1,9 +1,20 @@
 import { describe, expect, it } from "vitest";
 import { createBoard, placeCells } from "../../../src/engine/board";
-import { setupCoverageForCycle, setupsForCycle3Class, sourceSetupCatalog } from "../../../src/setups/catalog";
+import {
+  setupCoverageForCycle,
+  setupPolicyForCycle,
+  setupsForCycle3Class,
+  sourceSetupCatalog,
+} from "../../../src/setups/catalog";
 import { cycle3QueueContext, fitsCycle3BuildPool } from "../../../src/setups/cycle3Context";
 import { resolveOqbProgress } from "../../../src/setups/oqbProgress";
-import { querySetups, resolveCycle3StagedSetup, type SetupQuery } from "../../../src/setups/query";
+import { evaluateSelectionPolicy } from "../../../src/setups/policy";
+import {
+  querySetups,
+  resolveCycle3StagedSetup,
+  singleStageRecommendationPlan,
+  type SetupQuery,
+} from "../../../src/setups/query";
 import type { SetupVariant } from "../../../src/setups/schema";
 import { validateSetup } from "../../../src/setups/schema";
 
@@ -108,6 +119,76 @@ describe("Cycle 3 saved-piece class and 7-bag inference", () => {
     );
   }
 
+  function initialCatalogIds(input: SetupQuery) {
+    const plan = singleStageRecommendationPlan(input)!;
+    return plan.searches.flatMap(({ catalog }) => catalog.map(({ id }) => id.split("--box-")[0]));
+  }
+
+  it("보고된 TILS 큐에서는 TILJ Method 2를 초기 후보로 만들지 않는다", () => {
+    const input: SetupQuery = {
+      cycle: 3,
+      board: createBoard(),
+      hold: "T",
+      active: "I",
+      next: ["S", "L", "T", "O", "J"],
+      holdAvailable: true,
+    };
+    const ids = initialCatalogIds(input);
+
+    expect(ids).toContain("cycle3-extra-t-032-f000");
+    expect(ids).toContain("cycle3-extra-t-036-f000");
+    expect(ids.some((id) => id.startsWith("cycle3-extra-t-044-f000"))).toBe(false);
+    expect(ids.some((id) => id.startsWith("cycle3-extra-t-047-f000"))).toBe(false);
+
+    const recommended = querySetups({ ...input, maxCandidates: 100 })
+      .map(({ setup }) => setup.id.split("--box-")[0].replace(/--mirror$/, ""));
+    expect(recommended).toContain("cycle3-extra-t-023-f000");
+    expect(recommended).not.toContain("cycle3-extra-t-032-f000");
+    expect(recommended).not.toContain("cycle3-extra-t-036-f000");
+    expect(recommended).not.toContain("cycle3-extra-t-047-f000");
+  });
+
+  it("TILJ Method 2는 ILJ/IJL 상대 순서와 source/mirror 방향을 정확히 구분한다", () => {
+    const sourceIds = initialCatalogIds({
+      cycle: 3,
+      board: createBoard(),
+      hold: "T",
+      active: "I",
+      next: ["L", "T", "J", "O", "S"],
+      holdAvailable: true,
+    });
+    expect(sourceIds).toContain("cycle3-extra-t-047-f000");
+    expect(sourceIds).not.toContain("cycle3-extra-t-047-f000--mirror");
+    const catalog = setupsForCycle3Class("T");
+    expect(evaluateSelectionPolicy(
+      setupPolicyForCycle(3, "T"),
+      catalog.find(({ id }) => id === "cycle3-extra-t-047-f000")!,
+      catalog,
+      ["I", "L", "T", "J"],
+    )).toMatchObject({ branchId: "unobserved", preferred: false });
+
+    const mirrorIds = initialCatalogIds({
+      cycle: 3,
+      board: createBoard(),
+      hold: "T",
+      active: "I",
+      next: ["J", "T", "L", "O", "Z"],
+      holdAvailable: true,
+    });
+    expect(mirrorIds).not.toContain("cycle3-extra-t-047-f000");
+    expect(mirrorIds).toContain("cycle3-extra-t-047-f000--mirror");
+
+    const ineligibleIds = initialCatalogIds({
+      cycle: 3,
+      board: createBoard(),
+      hold: "T",
+      active: "L",
+      next: ["I", "T", "J", "O", "S"],
+      holdAvailable: true,
+    });
+    expect(ineligibleIds.some((id) => id.startsWith("cycle3-extra-t-047-f000"))).toBe(false);
+  });
+
   it("T-[TILJ] OQB는 독립 4P 후보 대신 공통 2P base만 먼저 추천한다", () => {
     const candidates = querySetups({
       cycle: 3,
@@ -125,6 +206,30 @@ describe("Cycle 3 saved-piece class and 7-bag inference", () => {
     expect(sourceIds).not.toContain("cycle3-extra-t-048-f000");
     expect(sourceIds).not.toContain("cycle3-extra-t-035-f000");
     expect(sourceIds).not.toContain("cycle3-extra-t-038-f000");
+  });
+
+  it("선택형 Extra-T bundle은 다른 saved-piece class로 새지 않는다", () => {
+    const candidates = querySetups({
+      cycle: 3,
+      board: createBoard(),
+      hold: "I",
+      active: "T",
+      next: ["S", "L", "O", "J", "Z"],
+      holdAvailable: true,
+      maxCandidates: 100,
+    }, {
+      mode: "selected-bundles",
+      bundles: [{
+        bundleId: "promoted:cycle-3-extra-t",
+        kind: "structured",
+        cycle: 3,
+        catalog: setupsForCycle3Class("T"),
+        policy: setupPolicyForCycle(3, "T"),
+        cycle3ClassBinding: { source: "T", mirror: "T" },
+      }],
+    });
+
+    expect(candidates).toEqual([]);
   });
 
   it("공통 2P 이후 NEXT 끝이 S/Z면 해당 I/J continuation으로 전환한다", () => {
@@ -192,6 +297,34 @@ describe("Cycle 3 saved-piece class and 7-bag inference", () => {
     }, base);
     expect(ordinary).toMatchObject({ action: "extend-setup", branchId: "default" });
     expect(ordinary?.continuation?.id.split("--box-")[0]).toBe("cycle3-extra-t-035-f000");
+  });
+
+  it("TILS 괄호 조건의 역순 ST·ZI·ZO도 같은 checkpoint 분기로 해석한다", () => {
+    const catalog = setupsForCycle3Class("T");
+    const isBase = catalog.find(({ id }) => id === "cycle3-extra-t-032-f000")!;
+    const ilBase = catalog.find(({ id }) => id === "cycle3-extra-t-036-f000")!;
+    const resolve = (base: SetupVariant, tail: ["S", "T"] | ["Z", "I"] | ["Z", "O"]) =>
+      resolveCycle3StagedSetup({
+        cycle: 3,
+        board: completedBoard(base),
+        active: "L",
+        hold: "O",
+        next: ["J", "L", "S", ...tail],
+        holdAvailable: true,
+      }, base);
+
+    expect(resolve(isBase, ["S", "T"])).toMatchObject({
+      action: "solve-from-precondition",
+      branchId: "extra-t-tils-is-ts",
+    });
+    expect(resolve(isBase, ["Z", "I"])).toMatchObject({
+      action: "solve-from-precondition",
+      branchId: "extra-t-tils-is-iz",
+    });
+    expect(resolve(ilBase, ["Z", "O"])).toMatchObject({
+      action: "solve-from-precondition",
+      branchId: "extra-t-tils-il-oz",
+    });
   });
 
   it("Extra I 브레인데드 section의 90.48%를 두 형태의 모든 GIF frame에 적용한다", () => {

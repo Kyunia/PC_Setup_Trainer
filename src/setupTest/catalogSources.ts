@@ -4,7 +4,10 @@ import { expandMirroredSetups } from "../setups/mirror";
 import { expandEquivalentPlacementVariants } from "../setups/placementVariants";
 import { applyStructuredPolicyMetrics, type StructuredSetupPolicy } from "../setups/policy";
 import { expandBoxSetups } from "../setups/rotation";
-import type { SelectedRecommendationBundle } from "../setups/recommendationScope";
+import type {
+  Cycle3ClassBinding,
+  SelectedRecommendationBundle,
+} from "../setups/recommendationScope";
 import { isSolutionShadowSetup, type SetupVariant, type TargetPlacement } from "../setups/schema";
 
 export type SetupTestCatalogGroup = "promoted" | "draft";
@@ -29,6 +32,15 @@ function requiredPolicy<T>(bundle: SetupTestCatalogBundle, descriptor: SetupTest
     throw new Error(`${descriptor.label} requires its matching policy file.`);
   }
   return bundle.policy as T;
+}
+
+function cycle3ClassBindingFromPath(path: string): Cycle3ClassBinding | undefined {
+  const match = /(?:^|[-/])extra-(o|t|i|lj|sz)(?:[-/]|$)/i.exec(path);
+  if (!match) return undefined;
+  if (match[1].toLowerCase() === "lj") return { source: "L", mirror: "J" };
+  if (match[1].toLowerCase() === "sz") return { source: "S", mirror: "Z" };
+  const source = match[1].toUpperCase() as "O" | "T" | "I";
+  return { source, mirror: source };
 }
 
 /** Converts one explicitly selected setup-test file into a recommendation source. */
@@ -58,6 +70,9 @@ export function setupTestRecommendationBundle(
     ...base,
     kind: "structured",
     ...(descriptor.cycle === 2 && /advanced-3p/.test(path) ? { role: "advanced-3p" as const } : {}),
+    ...(descriptor.cycle === 3
+      ? { cycle3ClassBinding: cycle3ClassBindingFromPath(path) }
+      : {}),
     ...(bundle.policy && typeof bundle.policy === "object"
       ? { policy: bundle.policy as StructuredSetupPolicy }
       : {}),

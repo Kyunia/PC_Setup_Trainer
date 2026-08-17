@@ -1,0 +1,5893 @@
+[
+  {
+    "id": "cycle5-advanced-lj-001-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-001",
+    "displayName": "Cycle 5 LJ advanced 001",
+    "formLabel": "Cycle 5 LJ advanced 001",
+    "pieceSignature": [
+      "J",
+      "J",
+      "L",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-001-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-001-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-001-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-001-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-001-f000-o-05",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@RhjlRpj0jlRpj0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-002-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-002",
+    "displayName": "Cycle 5 LJ advanced 002",
+    "formLabel": "Cycle 5 LJ advanced 002",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-002-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-002-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-002-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-002-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@/gQ4IeR4Eeg0ilQ4Eeg0glzhCeh0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-003-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-003",
+    "displayName": "Cycle 5 LJ advanced 003",
+    "formLabel": "Cycle 5 LJ advanced 003",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-003-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-003-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-003-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-003-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhFei0whFeRpg0whFeRpglwhFeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-004-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-004",
+    "displayName": "Cycle 5 LJ advanced 004",
+    "formLabel": "Cycle 5 LJ advanced 004",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-004-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-004-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-004-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-004-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhR4RpEeR4g0RpglFeg0ilEeh0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-005-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-005",
+    "displayName": "Cycle 5 LJ advanced 005",
+    "formLabel": "Cycle 5 LJ advanced 005",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-005-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-005-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-005-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-005-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglRpGeg0RpFegli0DeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-006-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-006",
+    "displayName": "Cycle 5 LJ advanced 006",
+    "formLabel": "Cycle 5 LJ advanced 006",
+    "pieceSignature": [
+      "J",
+      "L",
+      "O",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-006-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-006-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-006-f000-o-03",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-006-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@AhQ4FeRpAeR4EeRpglg0Q4Eeili0NeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-007-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-007",
+    "displayName": "Cycle 5 LJ advanced 007",
+    "formLabel": "Cycle 5 LJ advanced 007",
+    "pieceSignature": [
+      "J",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-007-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-007-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-007-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-007-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gQ4IeR4Heg0Q4BtEegli0BtBeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-008-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-008",
+    "displayName": "Cycle 5 LJ advanced 008",
+    "formLabel": "Cycle 5 LJ advanced 008",
+    "pieceSignature": [
+      "J",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-008-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-008-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-008-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-008-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhAtHeBti0CeR4AtglBeg0BeR4ilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-009-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-009",
+    "displayName": "Cycle 5 LJ advanced 009",
+    "formLabel": "Cycle 5 LJ advanced 009",
+    "pieceSignature": [
+      "J",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-009-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-009-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-009-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-009-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gQ4IeR4Heg0Q4BtCeili0BtBeglLeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-010-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-010",
+    "displayName": "Cycle 5 LJ advanced 010",
+    "formLabel": "Cycle 5 LJ advanced 010",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-010-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-010-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-010-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-010-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gRpHeRpGeg0ilFeg0glzhCeh0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-011-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-011",
+    "displayName": "Cycle 5 LJ advanced 011",
+    "formLabel": "Cycle 5 LJ advanced 011",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-011-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-011-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-011-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-011-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhRpglGeRpglFei0hlCezhg0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-012-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-012",
+    "displayName": "Cycle 5 LJ advanced 012",
+    "formLabel": "Cycle 5 LJ advanced 012",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-012-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-012-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-012-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-012-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhglRpFeg0glRpFeg0ilEeh0ilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-013-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-013",
+    "displayName": "Cycle 5 LJ advanced 013",
+    "formLabel": "Cycle 5 LJ advanced 013",
+    "pieceSignature": [
+      "J",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-013-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-013-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-013-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-013-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gQ4HeAtR4FeBtg0Q4FeAtgli0DeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-014-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-014",
+    "displayName": "Cycle 5 LJ advanced 014",
+    "formLabel": "Cycle 5 LJ advanced 014",
+    "pieceSignature": [
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-014-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ahglGeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-015-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-015",
+    "displayName": "Cycle 5 LJ advanced solution 015",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-015-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-015-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-015-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-015-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhAtHeBti0CeR4AtglBeg0BeR4ilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-016-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-016",
+    "displayName": "Cycle 5 LJ advanced solution 016",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "S",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-016-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-016-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-016-f000-s-03",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-016-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gQ4HeAtR4FeBtg0Q4FeAtgli0DeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-017-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-017",
+    "displayName": "Cycle 5 LJ advanced solution 017",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-017-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-017-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-017-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-017-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhglRpFeg0glRpFeg0ilEeh0ilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-018-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-018",
+    "displayName": "Cycle 5 LJ advanced solution 018",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "O"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-018-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-018-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-018-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-018-f000-o-04",
+        "piece": "O",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglRpGeg0RpFegli0DeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-019-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-019",
+    "displayName": "Cycle 5 LJ advanced 019",
+    "formLabel": "Cycle 5 LJ advanced 019",
+    "pieceSignature": [
+      "J",
+      "J",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-019-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-019-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-019-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-019-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@/gQ4Feg0BeR4Eeg0ilQ4Cei0glFei0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-020-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-020",
+    "displayName": "Cycle 5 LJ advanced 020",
+    "formLabel": "Cycle 5 LJ advanced 020",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-020-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-020-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-020-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-020-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gglGeR4glFeR4g0ilFeg0ilEeh0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-021-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-021",
+    "displayName": "Cycle 5 LJ advanced 021",
+    "formLabel": "Cycle 5 LJ advanced 021",
+    "pieceSignature": [
+      "J",
+      "J",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-021-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-021-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-021-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-021-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gQ4Fei0R4Geh0Q4Gegli0DeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-022-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-022",
+    "displayName": "Cycle 5 LJ advanced 022",
+    "formLabel": "Cycle 5 LJ advanced 022",
+    "pieceSignature": [
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-022-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@HhglIeglIehlReAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-023-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-023",
+    "displayName": "Cycle 5 LJ advanced solution 023",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "J",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-023-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-023-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-023-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-023-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@FhR4glEeg0R4g0glEej0hlFeh0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-024-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-024",
+    "displayName": "Cycle 5 LJ advanced solution 024",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-024-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-024-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-024-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-024-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9ghlQ4GehlR4Fehlg0Q4Fehli0OeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-025-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-025",
+    "displayName": "Cycle 5 LJ advanced 025",
+    "formLabel": "Cycle 5 LJ advanced 025",
+    "pieceSignature": [
+      "J",
+      "J",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-025-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-025-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-025-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-025-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gQ4hlGeR4glGeg0Q4glDeg0Bei0Dei0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-026-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-026",
+    "displayName": "Cycle 5 LJ advanced 026",
+    "formLabel": "Cycle 5 LJ advanced 026",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-026-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-026-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-026-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-026-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglR4GeR4glDei0ilFeg0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-027-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-027",
+    "displayName": "Cycle 5 LJ advanced 027",
+    "formLabel": "Cycle 5 LJ advanced 027",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-027-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-027-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-027-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-027-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Jhi0Eejlg0R4CejlR4NeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-028-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-028",
+    "displayName": "Cycle 5 LJ advanced solution 028",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-028-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-028-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-028-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-028-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9ghlHehlGeg0hlCeR4Beg0hlBeR4Beh0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-029-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-029",
+    "displayName": "Cycle 5 LJ advanced 029",
+    "formLabel": "Cycle 5 LJ advanced 029",
+    "pieceSignature": [
+      "J"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-029-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Rhg0Iei0QeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-030-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-030",
+    "displayName": "Cycle 5 LJ advanced solution 030",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-030-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-030-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-030-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-030-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gQ4GehlR4Fehlg0Q4Fehli0EehlJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-031-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-031",
+    "displayName": "Cycle 5 LJ advanced solution 031",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-031-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-031-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-031-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-031-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gQ4HeglR4Eeilg0Q4Gegli0DeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-032-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-032",
+    "displayName": "Cycle 5 LJ advanced 032",
+    "formLabel": "Cycle 5 LJ advanced 032",
+    "pieceSignature": [
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-032-f000-l-01",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@ThglGeilQeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-033-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-033",
+    "displayName": "Cycle 5 LJ advanced solution 033",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-033-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-033-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-033-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-033-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gglGeR4glFeR4g0ilFeg0ilEeh0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-034-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-034",
+    "displayName": "Cycle 5 LJ advanced solution 034",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-034-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-034-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-034-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-034-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglR4GeR4glDei0ilFeg0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-035-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-035",
+    "displayName": "Cycle 5 LJ advanced solution 035",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-035-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-035-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-035-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-035-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhilGeglR4Dei0R4glFeg0ilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-036-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-036",
+    "displayName": "Cycle 5 LJ advanced 036",
+    "formLabel": "Cycle 5 LJ advanced 036",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "S"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-036-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-036-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-036-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-036-f000-s-04",
+        "piece": "S",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gglIeglHeg0ilDeR4g0ilCeR4h0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-037-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-037",
+    "displayName": "Cycle 5 LJ advanced 037",
+    "formLabel": "Cycle 5 LJ advanced 037",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-037-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-037-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-037-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-037-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gglFeAtBeglEeBtBeilCeAti0ilFeg0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-038-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-038",
+    "displayName": "Cycle 5 LJ advanced 038",
+    "formLabel": "Cycle 5 LJ advanced 038",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-038-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-038-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-038-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-038-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglAtg0GeBtg0ilDeAth0glPeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-039-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-039",
+    "displayName": "Cycle 5 LJ advanced 039",
+    "formLabel": "Cycle 5 LJ advanced 039",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-039-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-039-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-039-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-039-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglAtg0GeBtg0FeglAth0DeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-040-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-040",
+    "displayName": "Cycle 5 LJ advanced 040",
+    "formLabel": "Cycle 5 LJ advanced 040",
+    "pieceSignature": [
+      "J"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-040-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Qhg0Ieg0Heh0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-041-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-041",
+    "displayName": "Cycle 5 LJ advanced solution 041",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-041-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-041-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-041-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-041-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@DhAtilEeBthlg0EeAtilg0Heh0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-042-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-042",
+    "displayName": "Cycle 5 LJ advanced solution 042",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "J",
+      "L",
+      "L",
+      "Z"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-042-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-042-f000-l-02",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-042-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 1
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-042-f000-z-04",
+        "piece": "Z",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gBtHeglBtglEeg0jlEeg0hlFeh0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-043-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-043",
+    "displayName": "Cycle 5 LJ advanced 043",
+    "formLabel": "Cycle 5 LJ advanced 043",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-043-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-043-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-043-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-043-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhilGeilFei0glDezhg0glJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-044-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-044",
+    "displayName": "Cycle 5 LJ advanced 044",
+    "formLabel": "Cycle 5 LJ advanced 044",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-044-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-044-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-044-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-044-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhilGehlg0Feilg0Dezhh0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-045-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-045",
+    "displayName": "Cycle 5 LJ advanced 045",
+    "formLabel": "Cycle 5 LJ advanced 045",
+    "pieceSignature": [
+      "J"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-045-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Xhi0Ieg0KeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-046-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-046",
+    "displayName": "Cycle 5 LJ advanced solution 046",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-046-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-046-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-046-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-046-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9ghlGewhhlGewhhlDei0whhlFeg0whJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-047-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-047",
+    "displayName": "Cycle 5 LJ advanced solution 047",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-047-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-047-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-047-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-047-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@EhilGeilFei0glDezhg0glJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-048-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-048",
+    "displayName": "Cycle 5 LJ advanced 048",
+    "formLabel": "Cycle 5 LJ advanced 048",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-048-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-048-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-048-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-048-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9ghlwhGehlwhGehlwhDei0hlwhFeg0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-049-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-049",
+    "displayName": "Cycle 5 LJ advanced 049",
+    "formLabel": "Cycle 5 LJ advanced 049",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-049-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 2,
+            "y": 3
+          },
+          {
+            "x": 3,
+            "y": 3
+          },
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-049-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-049-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-049-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@/gzhFei0Eejlg0EejlPeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-050-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-050",
+    "displayName": "Cycle 5 LJ advanced 050",
+    "formLabel": "Cycle 5 LJ advanced 050",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-050-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-050-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-050-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-050-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gglIeglIeilDei0ilBezhg0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-051-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-051",
+    "displayName": "Cycle 5 LJ advanced 051",
+    "formLabel": "Cycle 5 LJ advanced 051",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-051-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-051-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 4,
+            "y": 3
+          },
+          {
+            "x": 5,
+            "y": 3
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-051-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-051-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Bhi0BewhFeg0BewhEejlwhEejlwhJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-052-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-052",
+    "displayName": "Cycle 5 LJ advanced 052",
+    "formLabel": "Cycle 5 LJ advanced 052",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-052-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-052-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 3
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-052-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-052-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Ehi0Heglg0FejlCezhilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-053-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-053",
+    "displayName": "Cycle 5 LJ advanced solution 053",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-053-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-053-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-053-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-053-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 3
+          },
+          {
+            "x": 8,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gwhFeglBewhFeglBewhCei0ilwhEeg0ilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-054-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-054",
+    "displayName": "Cycle 5 LJ advanced solution 054",
+    "formLabel": "Complete solution geometry",
+    "geometryKind": "solution-shadow",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-054-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 4,
+            "y": 0
+          },
+          {
+            "x": 5,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-054-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-054-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 3
+          },
+          {
+            "x": 2,
+            "y": 3
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-054-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gilGeglIeg0Hegli0zhilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-055-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-055",
+    "displayName": "Cycle 5 LJ advanced 055",
+    "formLabel": "Cycle 5 LJ advanced 055",
+    "pieceSignature": [
+      "I",
+      "J",
+      "L",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-055-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-055-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-055-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-055-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 3
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@GhglzhCeilg0Hegli0DeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-056-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-056",
+    "displayName": "Cycle 5 LJ advanced 056",
+    "formLabel": "Cycle 5 LJ advanced 056",
+    "pieceSignature": [
+      "J",
+      "J",
+      "L",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-056-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 2,
+            "y": 2
+          },
+          {
+            "x": 3,
+            "y": 2
+          },
+          {
+            "x": 4,
+            "y": 1
+          },
+          {
+            "x": 4,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-056-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-056-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-056-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 0
+          },
+          {
+            "x": 3,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@Jhi0Eejlg0Bei0jlEeg0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-057-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-057",
+    "displayName": "Cycle 5 LJ advanced 057",
+    "formLabel": "Cycle 5 LJ advanced 057",
+    "pieceSignature": [
+      "I",
+      "J",
+      "J",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-057-f000-i-01",
+        "piece": "I",
+        "cells": [
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          },
+          {
+            "x": 8,
+            "y": 2
+          },
+          {
+            "x": 9,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-057-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 0
+          },
+          {
+            "x": 2,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-057-f000-j-03",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 0,
+            "y": 2
+          },
+          {
+            "x": 0,
+            "y": 3
+          },
+          {
+            "x": 1,
+            "y": 2
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-057-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@9gg0Iei0Cezhg0Hegli0DeilJeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  },
+  {
+    "id": "cycle5-advanced-lj-058-f000",
+    "cycle": 5,
+    "family": "pcinfokorea-cycle-5-advanced-lj-058",
+    "displayName": "Cycle 5 LJ advanced 058",
+    "formLabel": "Cycle 5 LJ advanced 058",
+    "pieceSignature": [
+      "J",
+      "J",
+      "L",
+      "L"
+    ],
+    "placements": [
+      {
+        "id": "cycle5-advanced-lj-058-f000-j-01",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 6,
+            "y": 0
+          },
+          {
+            "x": 6,
+            "y": 1
+          },
+          {
+            "x": 7,
+            "y": 0
+          },
+          {
+            "x": 8,
+            "y": 0
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-058-f000-j-02",
+        "piece": "J",
+        "cells": [
+          {
+            "x": 7,
+            "y": 1
+          },
+          {
+            "x": 8,
+            "y": 1
+          },
+          {
+            "x": 9,
+            "y": 0
+          },
+          {
+            "x": 9,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-058-f000-l-03",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1
+          },
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 1
+          }
+        ]
+      },
+      {
+        "id": "cycle5-advanced-lj-058-f000-l-04",
+        "piece": "L",
+        "cells": [
+          {
+            "x": 5,
+            "y": 1
+          },
+          {
+            "x": 5,
+            "y": 2
+          },
+          {
+            "x": 6,
+            "y": 2
+          },
+          {
+            "x": 7,
+            "y": 2
+          }
+        ]
+      }
+    ],
+    "fumen": "v115@MhilBeilBeglj0glEej0JeAgH",
+    "runtimeEligible": true,
+    "priority": 0,
+    "difficulty": 5,
+    "reviewStatus": "reviewed"
+  }
+]

@@ -75,7 +75,7 @@
           "logicalSetupCount": 52,
           "runtimeEnabled": true,
           "setupsSha256": "1cd6f654d1e1ec2f75d5794892c8828a958024a67bf04c8501257fa677d35ac7",
-          "policySha256": "e9b8247bdaec6908a65600d5c43c0218aef3fbc731c428a7754e2b79cf47b94e",
+          "policySha256": "bf8815ce0d27f68890e9beb7171b26e3b27293ccf888d3b75e688c631e9cb54a",
           "stagedOqbRuntimeEnabled": true
         },
         "i": {
@@ -392,7 +392,7 @@
       "logicalSetupCount": 354,
       "runtimeEnabled": true,
       "complete": false,
-      "note": "All 21 normal distinct first-piece pairs are active for reviewed 3P-6P setups; static 7P timelines remain disabled. Advanced QB/OQB is promoted as an inactive staged catalog.",
+      "note": "All reviewed normal Cycle 5 classes remain active. Advanced QB/OQB classes are independently manifest-gated and routed to the dedicated QB recommendation section.",
       "runtimeEligibleSourceSetupCount": 372,
       "static7pTimelinePendingCount": 41,
       "advanced": {
@@ -404,7 +404,7 @@
             "logicalSetupCount": 53,
             "runtimeEnabled": true,
             "setupsSha256": "c06910e213566a5fa2a5bab4a03ca89c3816480dadb55558f78612db9e58cbbb",
-            "policySha256": "56c8a682461f152b364ecd6968881f1f88f0fb2dcc91f55d6925eccacc8de324",
+            "policySha256": "07aba927f6a2a2cce11476173bd1e20b843f153609904ff86de2ae4ce473509e",
             "conditionCompilerReady": true
           },
           "tltj": {
@@ -414,7 +414,7 @@
             "logicalSetupCount": 8,
             "runtimeEnabled": true,
             "setupsSha256": "55e99c7fd4f1144d87faf0ee312b5fb42fc4d64901746a1f2fc93de2c7274e57",
-            "policySha256": "886295622300feb92af33ecd3a9e382618102797878d695e680c732525780cc6",
+            "policySha256": "11ed161c1d6b64ee9cdb4d59a2d0137e8dde3ba283b2f79817a87a75be23c4bf",
             "conditionCompilerReady": true
           },
           "ti": {
@@ -424,7 +424,7 @@
             "logicalSetupCount": 24,
             "runtimeEnabled": true,
             "setupsSha256": "92581e2d039e77620d476cff92ab075e98f002cef5b9d6b497499b9e8a6c508a",
-            "policySha256": "ba8e24d019ee64cd0188ca9b7ea37c88dd062dd7d731e10cf573fbfc9c983571",
+            "policySha256": "06e629c565e2ef12c39cafca8e600b96e908086cbf3d7f3d629b9297ed31545c",
             "conditionCompilerReady": true
           },
           "to": {
@@ -434,7 +434,7 @@
             "logicalSetupCount": 7,
             "runtimeEnabled": true,
             "setupsSha256": "4647280c0737bc7bf8dc743aeabebaeda2002f4817d7653f37115a7ee8dafec5",
-            "policySha256": "30dc46be3acccf714f0c0e2963ea67839b92b64b4e1b32eacc8e904fccc674c7",
+            "policySha256": "71c5b063f55176114482f8cce01005d8105df4594003b767ad47bdf790fe0fe0",
             "conditionCompilerReady": true
           },
           "tstz": {
@@ -444,15 +444,55 @@
             "logicalSetupCount": 56,
             "runtimeEnabled": true,
             "setupsSha256": "5ed0ece8e6c8acf07b88368799062558e8786bdf34cf6410f6018c83d6925e42",
-            "policySha256": "3b91091e79ffdbfbcdb7d4fbac068dedd48c2ccfb7ab101eb715e3f3f623000d",
+            "policySha256": "b578d1d6b507087f4e29a2221bf40ab7eea04661fb1ab076a43dbc349a409411",
+            "conditionCompilerReady": true
+          },
+          "ilij": {
+            "setups": "QB/cycle-5-advanced-ilij-setups.json",
+            "policy": "QB/cycle-5-advanced-ilij-policy.json",
+            "setupCount": 85,
+            "logicalSetupCount": 85,
+            "runtimeEnabled": true,
+            "setupsSha256": "04c766f75f5979f891852a4ffe7094e55a8930aadfae20b430faba33554c7845",
+            "policySha256": "517a6871e892fd03b0d7e621f5f1a22a8a835a06a7abffbf68692584c51abdd5",
+            "conditionCompilerReady": true
+          },
+          "lj": {
+            "setups": "QB/cycle-5-advanced-lj-setups.json",
+            "policy": "QB/cycle-5-advanced-lj-policy.json",
+            "setupCount": 58,
+            "logicalSetupCount": 58,
+            "runtimeEnabled": true,
+            "setupsSha256": "e223c067c345149ffa97bcfca4241bb725115b6b2780d0186f5a20040943e4e5",
+            "policySha256": "1f2c68dabceefec266e7dd14ce59d6586c8634935c36372385c8b6b397f2b98b",
+            "conditionCompilerReady": true
+          },
+          "isiz": {
+            "setups": "QB/cycle-5-advanced-isiz-setups.json",
+            "policy": "QB/cycle-5-advanced-isiz-policy.json",
+            "setupCount": 84,
+            "logicalSetupCount": 84,
+            "runtimeEnabled": true,
+            "setupsSha256": "c596edde5b7f0d44b8599a3027cdd4eb045f8bffc95414511b414fc957aa826c",
+            "policySha256": "fdd4c6e600296fd47e7f5828070d1252ec25f3a0a997730ca3c59737cfdea6e5",
+            "conditionCompilerReady": true
+          },
+          "oloj": {
+            "setups": "QB/cycle-5-advanced-oloj-setups.json",
+            "policy": "QB/cycle-5-advanced-oloj-policy.json",
+            "setupCount": 91,
+            "logicalSetupCount": 91,
+            "runtimeEnabled": true,
+            "setupsSha256": "548b6165b8d4612a690421d08aeb7a05ea6921136a97a8f870fc0f1d18ced5e0",
+            "policySha256": "f1d65e09ec1d878193dc6b2aeecf1b0750d47f9500515a8e16927fcbbd907d8f",
             "conditionCompilerReady": true
           }
         },
-        "setupCount": 148,
-        "logicalSetupCount": 148,
+        "setupCount": 466,
+        "logicalSetupCount": 466,
         "runtimeEnabled": true,
         "conditionCompilerReady": true,
-        "note": "Reviewed advanced QB/OQB geometry and normalized runtime policy are active. Policy-selected complete solutions use solution-shadow geometry validated by declared-condition SFinder coverage."
+        "note": "All promoted executable Cycle 5 advanced QB/OQB classes are active and routed separately from normal Cycle 5 recommendations."
       }
     },
     "6": {
@@ -606,8 +646,8 @@
     "colored": true,
     "comments": false,
     "operations": false,
-    "fileCount": 53,
-    "setupCount": 1649,
+    "fileCount": 57,
+    "setupCount": 1967,
     "allRoundTripExact": true
   }
 }

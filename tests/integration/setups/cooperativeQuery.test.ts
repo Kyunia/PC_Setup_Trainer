@@ -141,9 +141,12 @@ describe("staged cooperative recommendation orchestration", () => {
 
   it("routes every active promoted Cycle 5 advanced class through the manifest-aware production source", async () => {
     expect(promotedCycle5AdvancedSources().map(({ classId }) => classId).sort())
-      .toEqual(["oi", "ti", "tltj", "to", "tstz"]);
+      .toEqual(["ilij", "isiz", "lj", "oi", "oloj", "ti", "tltj", "to", "tstz"]);
     expect(promotedCycle5AdvancedBundleForPair(["T", "L"])).toMatchObject({ runtimeMirror: false });
     expect(promotedCycle5AdvancedBundleForPair(["J", "T"])).toMatchObject({ runtimeMirror: true });
+    expect(promotedCycle5AdvancedBundleForPair(["L", "J"])).toMatchObject({ runtimeMirror: false });
+    expect(promotedCycle5AdvancedBundleForPair(["O", "L"])).toMatchObject({ runtimeMirror: false });
+    expect(promotedCycle5AdvancedBundleForPair(["O", "J"])).toMatchObject({ runtimeMirror: true });
 
     const query: SetupQuery = {
       cycle: 5,
@@ -154,8 +157,8 @@ describe("staged cooperative recommendation orchestration", () => {
       holdAvailable: true,
     };
     const candidates = querySetups(query);
-    expect(candidates).toHaveLength(1);
-    expect(candidates[0]).toMatchObject({
+    expect(candidates.some(({ qbCondition }) => qbCondition === undefined)).toBe(true);
+    expect(candidates.find(({ setup }) => setup.id === "cycle5-advanced-oi-008-f000")).toMatchObject({
       setup: { id: "cycle5-advanced-oi-008-f000" },
       qbCondition: "oi5-advanced-oqb-isz-to",
       recommendationSource: {

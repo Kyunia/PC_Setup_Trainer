@@ -18,6 +18,17 @@ export interface PolicyChoice {
 export interface SetupSelectionRule {
   id: string;
   candidateSetupIds: string[];
+  /** 0P에서 새 7-bag의 정확한 prefix를 만족해야만 초기 BFS 후보가 된다. */
+  initialEligibility?: {
+    observation: {
+      kind: "cycle3-new-bag-prefix";
+      length: number;
+    };
+    /** source geometry 기준 조건. 파생 미러는 queue도 source 기준으로 반전해 평가한다. */
+    when: PolicyCondition;
+    /** 이 일반 셋업이 실제 BFS로 도달 가능하면 본 fallback 후보를 숨긴다. */
+    requiresUnbuildableSetupIds?: string[];
+  };
   /** 먼저 공통 geometry를 만든 뒤 관측하는 QB/OQB 단계형 규칙의 선행 셋업. */
   preconditionSetupIds?: string[];
   observation: {
@@ -162,6 +173,14 @@ export function evaluateSelectionPolicy(
 
   const rule = policy.selectionRules.find((candidate) => isRuleCandidate(setup, candidate));
   if (!rule) return null;
+  if (rule.observation.runtimeSource === "visible-next-tail-after-precondition") {
+    return {
+      ruleId: rule.id,
+      branchId: "unobserved",
+      preferred: false,
+      reason: "This staged policy is evaluated only after its precondition is completed.",
+    };
+  }
   if (!visibleNextBagPrefix || visibleNextBagPrefix.length < rule.observation.length) {
     return {
       ruleId: rule.id,

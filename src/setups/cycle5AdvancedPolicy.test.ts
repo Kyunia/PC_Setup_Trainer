@@ -3,6 +3,7 @@ import type { Piece } from "../engine/types";
 import {
   cycle5AdvancedInitialBfsSetupIds,
   cycle5AdvancedQueuePatternMatches,
+  cycle5AdvancedRecommendationLabel,
   cycle5AdvancedSetupDisplayName,
   matchingCycle5AdvancedEntries,
   resolveCycle5AdvancedOqbContinuation,
@@ -146,6 +147,7 @@ describe("Cycle 5 advanced QB/OQB policy", () => {
     const plan: Cycle5AdvancedOqbPlan = {
       id: "oi-oqb",
       kind: "oqb",
+      bestsave: false,
       sourceOrder: 1,
       initialPatterns: [pattern("next-bag-five", permutation("I", "S", "Z"), permutation("T", "O"))],
       preconditionSetupId: "o-1p",
@@ -179,12 +181,13 @@ describe("Cycle 5 advanced QB/OQB policy", () => {
     expect(selectCycle5AdvancedInitialDecision(matches, new Set(["o-1p"]))).toMatchObject({
       kind: "oqb",
       preconditionSetupId: "o-1p",
+      bestsave: false,
     });
     expect(resolveCycle5AdvancedOqbContinuation(plan, "L")).toEqual({
       planId: "oi-oqb",
       branchId: "reveal-l",
       continuationSetupRefs: [{ setupId: "left-a" }, { setupId: "left-b" }],
-      bestsave: undefined,
+      bestsave: false,
     });
     expect(resolveCycle5AdvancedOqbContinuation(plan, "T")).toBeNull();
   });
@@ -195,5 +198,24 @@ describe("Cycle 5 advanced QB/OQB policy", () => {
       displayHoldPiece: "S",
     })).toBe("OI-OI (Hold S)");
     expect(cycle5AdvancedSetupDisplayName("OI-OL", { setupId: "oi-ol" })).toBe("OI-OL");
+  });
+
+  it("formats the matched normalized queue pattern as a human QB/OQB name", () => {
+    expect(cycle5AdvancedRecommendationLabel(
+      ["I", "L"],
+      pattern("visible-seven", ordered("I", "L"), permutation("O", "I", "Z")),
+      "QB",
+    )).toBe("IL - [OIZ]! QB");
+    expect(cycle5AdvancedRecommendationLabel(
+      ["I", "L"],
+      pattern("next-bag-five", ordered("Z"), permutation("T", "I"), permutation("O", "L")),
+      "OQB",
+    )).toBe("IL - Z[TI]![OL]! OQB");
+    expect(cycle5AdvancedRecommendationLabel(
+      ["I", "J"],
+      pattern("next-bag-five", ordered("Z"), permutation("T", "I"), permutation("O", "L")),
+      "OQB",
+      true,
+    )).toBe("IJ - S[TI]![OJ]! OQB");
   });
 });
