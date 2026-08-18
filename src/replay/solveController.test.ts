@@ -4,6 +4,7 @@ import { prepareLiveSolveRequest } from "../solver/liveSolver";
 import type { ReplayFrame } from "./schema";
 import {
   formatReplaySolvePrediction,
+  matchesReplaySeeSolveBinding,
   replayFeaturePanelVisibility,
   replaySolveContext,
   replaySolveSessionKey,
@@ -36,9 +37,9 @@ function frame(): ReplayFrame {
   };
 }
 
-function replay(next: ReplayFrame["snapshot"]["next"] | null) {
+function replay(next: ReplayFrame["snapshot"]["next"] | null, frames: ReplayFrame[] = [frame()]) {
   return {
-    frameAt: () => frame(),
+    frameAt: (position: number) => frames[position]!,
     nextQueueAt: () => next,
     createdAt: "",
     seed: "seed",
@@ -48,6 +49,12 @@ function replay(next: ReplayFrame["snapshot"]["next"] | null) {
 }
 
 describe("Replay solves controller", () => {
+  it("matches the configured See Solve shortcut, including modifiers", () => {
+    expect(matchesReplaySeeSolveBinding("KeyV", { code: "KeyV" })).toBe(true);
+    expect(matchesReplaySeeSolveBinding("Ctrl+KeyX", { code: "KeyX", ctrlKey: true })).toBe(true);
+    expect(matchesReplaySeeSolveBinding("Ctrl+KeyX", { code: "KeyX" })).toBe(false);
+  });
+
   it("keeps piece pools only for duplicate next-cycle labels", () => {
     expect(formatReplaySolvePrediction("No JS 4th (TOILZ)")).toBe("No JS 4th");
     expect(formatReplaySolvePrediction("7-bag 1st (TOILJSZ)")).toBe("7-bag 1st");
@@ -64,8 +71,32 @@ describe("Replay solves controller", () => {
 
   it("prepares the displayed frame with the exact timeline queue", () => {
     const current = frame();
-    const context = replaySolveContext(replay(["J", "L", "O", "S", "Z"]), 0, current, null);
+    const snapshot = (active: "O" | "S" | "Z" | "T", next: ReplayFrame["snapshot"]["next"], pieces: number) => ({
+      ...current.snapshot,
+      active,
+      next,
+      run: { ...current.snapshot.run, piecesLockedSinceLastPc: pieces },
+    });
+    const start: ReplayFrame = {
+      ...current,
+      kind: "pc-start",
+      pieceInPc: 0,
+      placement: undefined,
+      snapshot: snapshot("O", ["S", "Z", "T", "J", "L", "O", "I"], 0),
+    };
+    const placed: ReplayFrame[] = [
+      { ...current, pieceInPc: 1, snapshot: snapshot("S", ["Z", "T", "J", "L", "O", "I", "S"], 1), placement: { piece: "O", orientation: "N", x: 0, y: 0, cells: [], clearedLines: 0, perfectClear: false } },
+      { ...current, pieceInPc: 2, snapshot: snapshot("Z", ["T", "J", "L", "O", "I", "S", "Z"], 2), placement: { piece: "S", orientation: "N", x: 0, y: 0, cells: [], clearedLines: 0, perfectClear: false } },
+      { ...current, pieceInPc: 3, snapshot: snapshot("T", ["J", "L", "O", "I", "S", "Z"], 3), placement: { piece: "Z", orientation: "N", x: 0, y: 0, cells: [], clearedLines: 0, perfectClear: false } },
+    ];
+    const frames = [start, ...placed];
+    const context = replaySolveContext(replay(["J", "L", "O", "S", "Z"], frames), 3, frames[3]!, null);
     expect(context).toMatchObject({ active: "T", hold: "I", next: ["J", "L", "O", "S", "Z"] });
+    expect(context?.bagHistory.locks).toEqual([
+      { piece: "O", holds: 0 },
+      { piece: "S", holds: 0 },
+      { piece: "Z", holds: 0 },
+    ]);
     expect(context && prepareLiveSolveRequest(context)).toMatchObject({ ready: true });
   });
 

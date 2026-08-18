@@ -1,5 +1,7 @@
 import { formatPieceSetForDisplay } from "../engine/pieceDisplay";
 import { PIECES, type Cycle, type GameState, type Piece } from "../engine/types";
+import { selectionHoldCount, type PlacementTransitionOptions } from "../engine/placement";
+import type { PlacementHistory } from "../engine/placementHistory";
 
 export interface SolveQueueAnalysis {
   groups: Piece[][];
@@ -12,6 +14,17 @@ export interface SavePrediction {
   nextCycle: Cycle;
   pool: Piece[];
   label: string;
+}
+
+export interface SolveQueueBagHistory {
+  initialHasHold: boolean;
+  locks: { piece: Piece; holds: 0 | 1 | 2 }[];
+  pendingHolds: 0 | 1 | 2;
+}
+
+interface TaggedPiece {
+  piece: Piece;
+  bagIndex: number;
 }
 
 const ordinalByCycle: Record<Cycle, string> = {
@@ -44,27 +57,75 @@ function piecesFromPattern(pattern: string): Piece[] {
 export function analyzeSolveQueue(
   pattern: string,
   cycle: Cycle,
-  piecesLockedSinceLastPc: number,
+  history: SolveQueueBagHistory,
 ): SolveQueueAnalysis {
   const pieces = piecesFromPattern(pattern);
-  const absoluteOffset = (cycle - 1) * 10 + piecesLockedSinceLastPc;
-  let capacity = 7 - (absoluteOffset % 7);
+  const startOffset = (cycle - 1) * 10;
+  let nextOffset = startOffset;
+  let holdTag: number | null = null;
+  if (history.initialHasHold) holdTag = nextOffset++;
+  let activeTag = nextOffset++;
+  const placed: TaggedPiece[] = [];
+
+  const applyHold = () => {
+    if (holdTag === null) {
+      holdTag = activeTag;
+      activeTag = nextOffset++;
+    } else {
+      [activeTag, holdTag] = [holdTag, activeTag];
+    }
+  };
+  for (const lock of history.locks) {
+    for (let count = 0; count < lock.holds; count += 1) applyHold();
+    placed.push({ piece: lock.piece, bagIndex: Math.floor(activeTag / 7) });
+    activeTag = nextOffset++;
+  }
+  for (let count = 0; count < history.pendingHolds; count += 1) applyHold();
+
+  const visibleTags = [
+    ...(holdTag === null ? [] : [holdTag]),
+    activeTag,
+    ...Array.from({ length: Math.max(0, pieces.length - (holdTag === null ? 1 : 2)) }, () => nextOffset++),
+  ];
+  if (visibleTags.length < pieces.length) throw new Error("Solve queue bag trace is incomplete.");
+  const taggedPattern = pieces.map((piece, index): TaggedPiece => ({
+    piece,
+    bagIndex: Math.floor(visibleTags[index]! / 7),
+  }));
+
   const groups: Piece[][] = [];
-  let cursor = 0;
-  while (cursor < pieces.length) {
-    const group = pieces.slice(cursor, cursor + capacity);
-    groups.push(group);
-    cursor += group.length;
-    capacity = 7;
+  let previousBagIndex: number | null = null;
+  for (const tagged of taggedPattern) {
+    if (tagged.bagIndex !== previousBagIndex) groups.push([]);
+    groups.at(-1)!.push(tagged.piece);
+    previousBagIndex = tagged.bagIndex;
   }
 
-  const finalObservedBag = groups.at(-1) ?? [];
-  const uniqueFinalBag = new Set(finalObservedBag);
-  const nextBagRemainder = finalObservedBag.length < 7 && uniqueFinalBag.size === finalObservedBag.length
+  const finalBagIndex = taggedPattern.at(-1)?.bagIndex;
+  const knownFinalBag = finalBagIndex === undefined ? [] : [
+    ...placed.filter((tagged) => tagged.bagIndex === finalBagIndex).map(({ piece }) => piece),
+    ...taggedPattern.filter((tagged) => tagged.bagIndex === finalBagIndex).map(({ piece }) => piece),
+  ];
+  const uniqueFinalBag = new Set(knownFinalBag);
+  const nextBagRemainder = knownFinalBag.length < 7 && uniqueFinalBag.size === knownFinalBag.length
     ? PIECES.filter((piece) => !uniqueFinalBag.has(piece))
     : [];
 
   return { groups, nextBagRemainder, nextCycle: nextCycle(cycle) };
+}
+
+export function solveQueueBagHistory(
+  placementHistory: PlacementHistory,
+  currentState: GameState,
+  options: PlacementTransitionOptions = {},
+): SolveQueueBagHistory {
+  const checkpoint = placementHistory.pcCheckpoints().at(-1);
+  if (!checkpoint) throw new Error("Solve queue analysis has no PC checkpoint.");
+  return {
+    initialHasHold: checkpoint.state.hold !== null,
+    locks: placementHistory.eventLog().slice(checkpoint.eventIndex).map(({ piece, holds }) => ({ piece, holds })),
+    pendingHolds: selectionHoldCount(placementHistory.turnStartState(), currentState, options),
+  };
 }
 
 function predictionLabel(next: Cycle, pool: Piece[]): string {

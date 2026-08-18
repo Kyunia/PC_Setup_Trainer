@@ -26,6 +26,7 @@ import {
   formatNextBagRemainder,
   formatSolveQueueGroups,
   predictSavedPiece,
+  solveQueueBagHistory,
   type SolveQueueAnalysis,
 } from "../solver/solveQueue";
 import { drawReplayFrame, drawReplaySnapshotGame } from "./canvas";
@@ -47,6 +48,7 @@ import { snapshotGameStateAt } from "./snapshot";
 import { matchesSnapshotExitBinding } from "./snapshotShortcut";
 import {
   formatReplaySolvePrediction,
+  matchesReplaySeeSolveBinding,
   replayFeaturePanelVisibility,
   replaySolveContext,
   replaySolveSessionKey,
@@ -141,6 +143,7 @@ export function ReplayApp() {
   const initialLoadStarted = useRef(false);
   const replaySolver = useRef<LiveSolverClient | null>(null);
   const replaySolveGeneration = useRef(0);
+  const replaySolveShortcutPending = useRef(false);
   if (!replaySolver.current) replaySolver.current = new LiveSolverClient();
 
   function installReplay(loaded: ReplayTimeline) {
@@ -297,7 +300,15 @@ export function ReplayApp() {
     : null;
 
   const replaySolveContextValue = useMemo(
-    () => replaySolveContext(replay, position, frame ?? null, snapshotState),
+    () => replaySolveContext(
+      replay,
+      position,
+      frame ?? null,
+      snapshotState,
+      snapshotSession && snapshotState
+        ? solveQueueBagHistory(snapshotSession.placementHistory, snapshotState, { refillBag: false })
+        : null,
+    ),
     [frame, position, replay, snapshotRevision, snapshotState],
   );
   const replaySolvePreparation = useMemo(
@@ -333,7 +344,7 @@ export function ReplayApp() {
     const queueAnalysis = analyzeSolveQueue(
       request.input.pattern,
       replaySolveCycle,
-      replaySolveContextValue.piecesLockedSinceLastPc,
+      replaySolveContextValue.bagHistory,
     );
     const pending = request.kind === "per-save-minimals"
       ? replaySolver.current.request<PerSaveMinimalsResult>(request)
@@ -350,6 +361,31 @@ export function ReplayApp() {
       setReplaySolveView({ status: "error", message: reason instanceof Error ? reason.message : "Solve failed." });
     });
   }, [replaySolveContextValue, replaySolveCycle, replaySolvePreparation]);
+
+  useEffect(() => {
+    if (!replaySolveShortcutPending.current || !showSolves) return;
+    replaySolveShortcutPending.current = false;
+    calculateReplaySolve();
+  }, [calculateReplaySolve, showSolves]);
+
+  useEffect(() => {
+    if (!replay || settingsOpen) return;
+    const onSeeSolve = (event: KeyboardEvent) => {
+      const target = event.target as HTMLElement | null;
+      if (event.repeat || event.isComposing || target?.closest("input, button, select, textarea")) return;
+      if (!matchesReplaySeeSolveBinding(settings.bindings.seeSolve, event)) return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      if (!showSolves) {
+        replaySolveShortcutPending.current = true;
+        setShowSolves(true);
+        return;
+      }
+      calculateReplaySolve();
+    };
+    window.addEventListener("keydown", onSeeSolve);
+    return () => window.removeEventListener("keydown", onSeeSolve);
+  }, [calculateReplaySolve, replay, settings.bindings.seeSolve, settingsOpen, showSolves]);
 
   const replaySolveOptions = replaySolveView.status === "ready" ? replaySolveView.options : [];
   const replaySolveAvailableSaves = replaySolveView.status === "ready"

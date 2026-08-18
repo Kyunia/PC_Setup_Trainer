@@ -109,7 +109,7 @@ function sameSelectionState(left: GameState, right: GameState): boolean {
     && left.bag.queue.join("") === right.bag.queue.join("");
 }
 
-function normalizedHoldCount(turnStart: GameState, beforeLock: GameState, options: PlacementTransitionOptions = {}): 0 | 1 | 2 {
+export function selectionHoldCount(turnStart: GameState, beforeLock: GameState, options: PlacementTransitionOptions = {}): 0 | 1 | 2 {
   let selected = copyGameState(turnStart);
   for (let holds = 0 as 0 | 1 | 2; holds <= 2; holds = (holds + 1) as 0 | 1 | 2) {
     if (sameSelectionState(selected, beforeLock)) return holds;
@@ -121,7 +121,7 @@ function normalizedHoldCount(turnStart: GameState, beforeLock: GameState, option
 export function placementEventFromStates(turnStart: GameState, beforeLock: GameState, options: PlacementTransitionOptions = {}): PlacementEvent {
   return {
     kind: "lock",
-    holds: normalizedHoldCount(turnStart, beforeLock, options),
+    holds: selectionHoldCount(turnStart, beforeLock, options),
     piece: beforeLock.active.piece,
     orientation: beforeLock.active.orientation,
     x: beforeLock.active.x,

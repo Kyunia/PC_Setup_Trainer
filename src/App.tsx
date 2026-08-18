@@ -42,6 +42,7 @@ import {
   liveSolveSessionKey,
   predictSavedPiece,
   shouldShowLiveSolveShadow,
+  solveQueueBagHistory,
   type SolveQueueAnalysis,
 } from "./solver/solveQueue";
 import "./styles.css";
@@ -293,7 +294,7 @@ export default function App() {
     const queueAnalysis = analyzeSolveQueue(
       request.input.pattern,
       solveState.run.cycle,
-      solveState.run.piecesLockedSinceLastPc,
+      solveQueueBagHistory(session.current.placementHistory, solveState),
     );
     const pending = request.kind === "per-save-minimals"
       ? liveSolver.current.request<PerSaveMinimalsResult>(request)
