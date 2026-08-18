@@ -41,12 +41,16 @@ export interface LiveSolveOption {
   shadow: SetupVariant;
 }
 
+export function formatAvailableSaves(options: readonly { save: Piece | null }[]): string | null {
+  const saves = options.flatMap(({ save }) => save === null ? [] : [`Save ${save}`]);
+  return saves.length > 0 ? `Available: ${saves.join(", ")}` : null;
+}
+
 export interface LiveSolveRequestContext {
   board: Board;
   active: Piece;
   hold: Piece | null;
   next: readonly Piece[];
-  setupPieceCount: number;
   piecesLockedSinceLastPc: number;
   linesSinceLastPc: number;
 }
@@ -73,8 +77,8 @@ function visibleQueue(context: Pick<LiveSolveRequestContext, "active" | "hold" |
 }
 
 export function prepareLiveSolveRequest(context: LiveSolveRequestContext): LiveSolvePreparation {
-  if (context.piecesLockedSinceLastPc < context.setupPieceCount) {
-    return { ready: false, reason: `Complete the ${context.setupPieceCount}P setup first.` };
+  if (context.piecesLockedSinceLastPc < 3) {
+    return { ready: false, reason: "Place at least 3 pieces before calculating a solve." };
   }
   const targetLines = 4 - context.linesSinceLastPc;
   if (targetLines < 2 || targetLines > 4) {
@@ -90,7 +94,7 @@ export function prepareLiveSolveRequest(context: LiveSolveRequestContext): LiveS
     return { ready: false, reason: "The current post-clear board is not compatible with a PC target." };
   }
   const piecesNeeded = remainingCells / 4;
-  const kind: LiveSolveKind = context.setupPieceCount === 3 ? "solve-one" : "per-save-minimals";
+  const kind: LiveSolveKind = context.piecesLockedSinceLastPc === 3 ? "solve-one" : "per-save-minimals";
   const queueLength = kind === "solve-one" ? piecesNeeded : piecesNeeded + 1;
   const queue = visibleQueue(context);
   if (queue.length < queueLength) {

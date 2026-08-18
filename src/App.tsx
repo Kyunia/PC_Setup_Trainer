@@ -27,6 +27,7 @@ import {
 import type { SetupVariant } from "./setups/schema";
 import {
   LiveSolverClient,
+  formatAvailableSaves,
   perSaveOptions,
   prepareLiveSolveRequest,
   solveOneOptions,
@@ -255,25 +256,21 @@ export default function App() {
 
   const selectedCandidate = useMemo(() => candidates.find(({ setup }) => setup.id === selectedId) ?? null, [candidates, selectedId]);
   const selected = selectedCandidate?.setup ?? null;
-  const liveSolvePreparation = useMemo(() => selected
-    ? prepareLiveSolveRequest({
-      board: state.board,
-      active: state.active.piece,
-      hold: state.hold,
-      next: state.bag.queue,
-      setupPieceCount: selected.placements.length,
-      piecesLockedSinceLastPc: state.run.piecesLockedSinceLastPc,
-      linesSinceLastPc: state.run.linesSinceLastPc,
-    })
-    : { ready: false as const, reason: "Select and complete a setup first." }, [
-      selected,
-      state.active.piece,
-      state.bag.queue,
-      state.board,
-      state.hold,
-      state.run.linesSinceLastPc,
-      state.run.piecesLockedSinceLastPc,
-    ]);
+  const liveSolvePreparation = useMemo(() => prepareLiveSolveRequest({
+    board: state.board,
+    active: state.active.piece,
+    hold: state.hold,
+    next: state.bag.queue,
+    piecesLockedSinceLastPc: state.run.piecesLockedSinceLastPc,
+    linesSinceLastPc: state.run.linesSinceLastPc,
+  }), [
+    state.active.piece,
+    state.bag.queue,
+    state.board,
+    state.hold,
+    state.run.linesSinceLastPc,
+    state.run.piecesLockedSinceLastPc,
+  ]);
   const liveSolveResetKey = liveSolveSessionKey(state, selectedId, resetNonce);
   useEffect(() => {
     liveSolveGeneration.current += 1;
@@ -332,6 +329,9 @@ export default function App() {
 
   const liveSolveOption = liveSolveView.status === "ready"
     ? liveSolveView.options[liveSolveIndex] ?? null
+    : null;
+  const liveSolveAvailableSaves = liveSolveView.status === "ready"
+    ? formatAvailableSaves(liveSolveView.options)
     : null;
   const liveSolvePrediction = liveSolveView.status === "ready" && liveSolveOption?.save
     ? predictSavedPiece(liveSolveView.queueAnalysis, liveSolveOption.save)
@@ -577,6 +577,7 @@ export default function App() {
                   : "Recalculate"}</button>
             <button type="button" aria-label="Next save" disabled={liveSolveView.status !== "ready" || liveSolveIndex >= liveSolveView.options.length - 1} onClick={() => setLiveSolveIndex((index) => liveSolveView.status === "ready" ? Math.min(liveSolveView.options.length - 1, index + 1) : index)}>&gt;</button>
           </div>
+          {liveSolveAvailableSaves ? <p className="live-solve-available" aria-live="polite">{liveSolveAvailableSaves}</p> : null}
           {liveSolveView.status === "idle" && !liveSolvePreparation.ready && <p className="solve-unavailable">{liveSolvePreparation.reason}</p>}
           {liveSolveView.status === "loading" && <p className="solve-loading" aria-live="polite">Searching minimal solutions…</p>}
           {liveSolveView.status === "none" && <div className="solve-empty" aria-live="polite">

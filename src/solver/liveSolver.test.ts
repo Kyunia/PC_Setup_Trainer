@@ -2,7 +2,7 @@ import { encoder, Field } from "tetris-fumen";
 import { describe, expect, it } from "vitest";
 import { createBoard } from "../engine/board";
 import type { Piece } from "../engine/types";
-import { perSaveOptions, prepareLiveSolveRequest, type PerSaveMinimalsResult } from "./liveSolver";
+import { formatAvailableSaves, perSaveOptions, prepareLiveSolveRequest, type PerSaveMinimalsResult } from "./liveSolver";
 
 describe("live SFinder request preparation", () => {
   it("uses HOLD + ACTIVE + NEXT 5 for a completed 4P save analysis", () => {
@@ -12,7 +12,7 @@ describe("live SFinder request preparation", () => {
     for (let x = 0; x < 4; x += 1) board[2][x] = "T";
     const prepared = prepareLiveSolveRequest({
       board, active: "I", hold: "T", next: ["L", "J", "O", "S", "Z"],
-      setupPieceCount: 4, piecesLockedSinceLastPc: 4, linesSinceLastPc: 0,
+      piecesLockedSinceLastPc: 4, linesSinceLastPc: 0,
     });
     expect(prepared).toMatchObject({
       ready: true,
@@ -25,7 +25,7 @@ describe("live SFinder request preparation", () => {
     for (let x = 0; x < 6; x += 1) board[0][x] = "O";
     const prepared = prepareLiveSolveRequest({
       board, active: "T", hold: "I", next: ["L", "J", "O", "S", "Z"],
-      setupPieceCount: 4, piecesLockedSinceLastPc: 4, linesSinceLastPc: 1,
+      piecesLockedSinceLastPc: 4, linesSinceLastPc: 1,
     });
     expect(prepared).toMatchObject({
       ready: true,
@@ -38,7 +38,7 @@ describe("live SFinder request preparation", () => {
     for (let x = 0; x < 12; x += 1) board[Math.floor(x / 10)][x % 10] = "J";
     expect(prepareLiveSolveRequest({
       board, active: "T", hold: null, next: ["I", "L", "J", "O", "S", "Z"],
-      setupPieceCount: 3, piecesLockedSinceLastPc: 3, linesSinceLastPc: 0,
+      piecesLockedSinceLastPc: 3, linesSinceLastPc: 0,
     })).toEqual({ ready: false, reason: "Solve requires see7, but only see6 is available." });
   });
 
@@ -52,7 +52,6 @@ describe("live SFinder request preparation", () => {
       active: "I",
       hold: "T",
       next: ["L", "J", "O", "S", "Z"],
-      setupPieceCount: 3,
       piecesLockedSinceLastPc: 3,
       linesSinceLastPc: 0,
     })).toMatchObject({
@@ -62,6 +61,33 @@ describe("live SFinder request preparation", () => {
         input: { pattern: "TILJOSZ", targetLines: 4 },
       },
     });
+  });
+
+  it("allows any 3P-compatible field regardless of the selected setup geometry", () => {
+    const board = createBoard();
+    for (let index = 0; index < 12; index += 1) {
+      board[Math.floor(index / 10)][index % 10] = "S";
+    }
+
+    expect(prepareLiveSolveRequest({
+      board,
+      active: "I",
+      hold: "T",
+      next: ["L", "J", "O", "S", "Z"],
+      piecesLockedSinceLastPc: 3,
+      linesSinceLastPc: 0,
+    })).toMatchObject({ ready: true, request: { kind: "solve-one" } });
+  });
+
+  it("requires at least three placed pieces", () => {
+    expect(prepareLiveSolveRequest({
+      board: createBoard(),
+      active: "I",
+      hold: "T",
+      next: ["L", "J", "O", "S", "Z"],
+      piecesLockedSinceLastPc: 2,
+      linesSinceLastPc: 0,
+    })).toEqual({ ready: false, reason: "Place at least 3 pieces before calculating a solve." });
   });
 });
 
@@ -83,6 +109,11 @@ describe("live SFinder Fumen projection", () => {
     };
     const options = perSaveOptions(result, 5);
     expect(options.map(({ save }) => save)).toEqual(["T", "O"]);
+    expect(formatAvailableSaves(options)).toBe("Available: Save T, Save O");
     expect(options[0]?.shadow.placements.flatMap(({ cells }) => cells)).toEqual([{ x: 2, y: 0 }]);
+  });
+
+  it("omits the available-save summary for ordinary 3P minimals", () => {
+    expect(formatAvailableSaves([{ save: null }])).toBeNull();
   });
 });
