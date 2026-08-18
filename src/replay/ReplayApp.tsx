@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { cloneBoard, createBoard } from "../engine/board";
 import { GameSession } from "../engine/game";
 import type { GameAction, Piece } from "../engine/types";
 import { normalizePieceNotationForDisplay } from "../engine/pieceDisplay";
@@ -6,10 +7,27 @@ import { InputController } from "../input/controller";
 import { releaseGameplayButtonFocus } from "../input/buttonFocus";
 import { SettingsPanel } from "../input/SettingsPanel";
 import { loadInputSettings, saveInputSettings } from "../input/settings";
-import { drawPiecePreview, drawSetupPreview } from "../render/canvas";
+import { drawPiecePreview, drawSetupPreview, drawSolutionPreview } from "../render/canvas";
 import type { SetupCandidate } from "../setups/query";
 import type { SetupVariant } from "../setups/schema";
 import { pcSolverUrl } from "../solver/pcSolver";
+import {
+  LiveSolverClient,
+  formatAvailableSaves,
+  perSaveOptions,
+  prepareLiveSolveRequest,
+  solveOneOptions,
+  type LiveSolveOption,
+  type PerSaveMinimalsResult,
+  type SolveOneResult,
+} from "../solver/liveSolver";
+import {
+  analyzeSolveQueue,
+  formatNextBagRemainder,
+  formatSolveQueueGroups,
+  predictSavedPiece,
+  type SolveQueueAnalysis,
+} from "../solver/solveQueue";
 import { drawReplayFrame, drawReplaySnapshotGame } from "./canvas";
 import { deserializeBoard, MAX_REPLAY_INPUT_SIZE, parseReplayInput, QPCR3_CODE_PREFIX, REPLAY_TRANSFER_STORAGE_KEY } from "./format";
 import { decodeQpcr3Container, QPCR3_MAX_BINARY_SIZE } from "./qpcr3";
@@ -27,6 +45,13 @@ import { createReplayTimeline, type ReplayTimeline } from "./timeline";
 import { importJstrisReplay } from "./jstris";
 import { snapshotGameStateAt } from "./snapshot";
 import { matchesSnapshotExitBinding } from "./snapshotShortcut";
+import {
+  formatReplaySolvePrediction,
+  replayFeaturePanelVisibility,
+  replaySolveContext,
+  replaySolveSessionKey,
+  replaySolveUnavailableReason,
+} from "./solveController";
 
 function PiecePreview({ piece, label }: { piece: Piece | null; label?: string }) {
   const ref = useRef<HTMLCanvasElement>(null);
@@ -38,6 +63,26 @@ function SetupPreview({ setup }: { setup: SetupVariant }) {
   const ref = useRef<HTMLCanvasElement>(null);
   useEffect(() => { if (ref.current) drawSetupPreview(ref.current, setup); }, [setup]);
   return <canvas ref={ref} className="replay-setup-preview" aria-label={`${normalizePieceNotationForDisplay(setup.displayName)} setup shape`} />;
+}
+
+const EMPTY_SOLUTION_SETUP: SetupVariant = {
+  id: "replay-empty-solution",
+  cycle: 1,
+  family: "replay-empty-solution",
+  displayName: "Empty solution",
+  pieceSignature: [],
+  placements: [],
+  difficulty: 1,
+  reviewStatus: "reviewed",
+};
+const EMPTY_SOLUTION_BOARD = createBoard();
+
+function SolutionPreview({ setup, board }: { setup: SetupVariant | null; board: ReturnType<typeof cloneBoard> | null }) {
+  const ref = useRef<HTMLCanvasElement>(null);
+  useEffect(() => {
+    if (ref.current) drawSolutionPreview(ref.current, setup ?? EMPTY_SOLUTION_SETUP, board ?? EMPTY_SOLUTION_BOARD);
+  }, [board, setup]);
+  return <canvas ref={ref} className="replay-solve-preview" aria-label={setup ? `${setup.displayName} solution field` : "Empty solution field"} />;
 }
 
 function cycleOrdinal(cycle: number): string {
@@ -59,6 +104,18 @@ type RecommendationViewState =
   | { status: "error"; message: string }
   | { status: "ready"; result: ReplaySetupRecommendationResult };
 
+type ReplaySolveView =
+  | { status: "idle" }
+  | { status: "loading" }
+  | {
+      status: "ready";
+      options: LiveSolveOption[];
+      queueAnalysis: SolveQueueAnalysis;
+      calculatedBoard: ReturnType<typeof cloneBoard>;
+    }
+  | { status: "none"; queueAnalysis: SolveQueueAnalysis }
+  | { status: "error"; message: string };
+
 export function ReplayApp() {
   const boardRef = useRef<HTMLCanvasElement>(null);
   const [replay, setReplay] = useState<ReplayTimeline | null>(null);
@@ -67,12 +124,14 @@ export function ReplayApp() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const [showSetupRecommendations, setShowSetupRecommendations] = useState(true);
+  const [showSolves, setShowSolves] = useState(true);
   const [snapshotSession, setSnapshotSession] = useState<GameSession | null>(null);
   const [snapshotRevision, setSnapshotRevision] = useState(0);
   const [settings, setSettings] = useState(loadInputSettings);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [recommendationView, setRecommendationView] = useState<RecommendationViewState>({ status: "unavailable" });
   const [selectedRecommendationId, setSelectedRecommendationId] = useState<string | null>(null);
+  const [replaySolveView, setReplaySolveView] = useState<ReplaySolveView>({ status: "idle" });
   const recommendationCache = useRef(new WeakMap<ReplayTimeline, Map<number, ReplaySetupRecommendationResult>>());
   const recommendationPool = useRef<ReplayRecommendationPool | null>(null);
   if (!recommendationPool.current) recommendationPool.current = new ReplayRecommendationPool();
@@ -80,6 +139,9 @@ export function ReplayApp() {
   const selectedRecommendationSegment = useRef<string | null>(null);
   const snapshotEntryPosition = useRef<number | null>(null);
   const initialLoadStarted = useRef(false);
+  const replaySolver = useRef<LiveSolverClient | null>(null);
+  const replaySolveGeneration = useRef(0);
+  if (!replaySolver.current) replaySolver.current = new LiveSolverClient();
 
   function installReplay(loaded: ReplayTimeline) {
     recommendationPool.current?.cancelAll();
@@ -234,6 +296,71 @@ export function ReplayApp() {
     ? recommendationView.result.candidates.find(({ setup }) => setup.id === selectedRecommendationId) ?? null
     : null;
 
+  const replaySolveContextValue = useMemo(
+    () => replaySolveContext(replay, position, frame ?? null, snapshotState),
+    [frame, position, replay, snapshotRevision, snapshotState],
+  );
+  const replaySolvePreparation = useMemo(
+    () => replaySolveContextValue
+      ? prepareLiveSolveRequest(replaySolveContextValue)
+      : { ready: false as const, reason: replaySolveUnavailableReason(snapshotSession !== null) },
+    [replaySolveContextValue, snapshotSession],
+  );
+  const replaySolveCycle = snapshotState?.run.cycle ?? frame?.snapshot.run.cycle ?? 1;
+  const replayPanelVisibility = replayFeaturePanelVisibility(showSetupRecommendations, showSolves);
+  const replaySolveResetKey = replaySolveSessionKey({
+    replayIdentity: `${replayGeneration.current}:${replay?.seed ?? "-"}`,
+    position,
+    snapshotRevision,
+    snapshotActive: snapshotSession !== null,
+    showSolves,
+  });
+
+  useEffect(() => {
+    replaySolveGeneration.current += 1;
+    replaySolver.current?.cancel();
+    setReplaySolveView({ status: "idle" });
+  }, [replaySolveResetKey]);
+  useEffect(() => () => replaySolver.current?.dispose(), []);
+
+  const calculateReplaySolve = useCallback(() => {
+    if (!replaySolvePreparation.ready || !replaySolveContextValue || !replaySolver.current) return;
+    const generation = ++replaySolveGeneration.current;
+    replaySolver.current.cancel();
+    setReplaySolveView({ status: "loading" });
+    const { request } = replaySolvePreparation;
+    const calculatedBoard = cloneBoard(replaySolveContextValue.board);
+    const queueAnalysis = analyzeSolveQueue(
+      request.input.pattern,
+      replaySolveCycle,
+      replaySolveContextValue.piecesLockedSinceLastPc,
+    );
+    const pending = request.kind === "per-save-minimals"
+      ? replaySolver.current.request<PerSaveMinimalsResult>(request)
+          .then((result) => perSaveOptions(result, replaySolveCycle))
+      : replaySolver.current.request<SolveOneResult>(request)
+          .then((result) => solveOneOptions(result, replaySolveCycle));
+    void pending.then((options) => {
+      if (replaySolveGeneration.current !== generation) return;
+      setReplaySolveView(options.length > 0
+        ? { status: "ready", options, queueAnalysis, calculatedBoard }
+        : { status: "none", queueAnalysis });
+    }).catch((reason) => {
+      if (replaySolveGeneration.current !== generation || reason instanceof DOMException && reason.name === "AbortError") return;
+      setReplaySolveView({ status: "error", message: reason instanceof Error ? reason.message : "Solve failed." });
+    });
+  }, [replaySolveContextValue, replaySolveCycle, replaySolvePreparation]);
+
+  const replaySolveOptions = replaySolveView.status === "ready" ? replaySolveView.options : [];
+  const replaySolveAvailableSaves = replaySolveView.status === "ready"
+    ? formatAvailableSaves(replaySolveView.options)
+    : null;
+  const replaySolvePredictions = replaySolveView.status === "ready"
+    ? replaySolveView.options.flatMap((option) => option.save
+      ? [predictSavedPiece(replaySolveView.queueAnalysis, option.save)]
+      : [])
+    : [];
+
   useEffect(() => {
     if (!boardRef.current || !frame) return;
     if (snapshotSession) drawReplaySnapshotGame(boardRef.current, snapshotSession.state);
@@ -366,6 +493,11 @@ export function ReplayApp() {
                 disabled={snapshotSession !== null}
                 onChange={(event) => setShowSetupRecommendations(event.target.checked)}
               /><span>Setup Recommendations</span></label>
+              <label><input
+                type="checkbox"
+                checked={showSolves}
+                onChange={(event) => setShowSolves(event.target.checked)}
+              /><span>Solves</span></label>
               <button
                 type="button"
                 className={`replay-snapshot-button ${snapshotSession ? "active" : ""}`}
@@ -408,8 +540,8 @@ export function ReplayApp() {
             </div>
             <aside className="replay-next"><span>NEXT</span>{(snapshotState?.bag.queue ?? frame.snapshot.next).slice(0, 5).map((piece, index) => <PiecePreview key={`${index}-${piece}`} piece={piece} />)}</aside>
           </section>
-          {showSetupRecommendations && <section className="replay-recommendations" aria-label="Setup recommendations">
-            <article className="replay-recommendation-preview">
+          {replayPanelVisibility.setups && <section className="replay-recommendations" aria-label="Setup recommendations">
+            <div className="replay-recommendation-preview">
               {selectedRecommendation
                 ? <><h2>{recommendationView.status === "ready" ? recommendationView.result.labels[selectedRecommendation.setup.id] : normalizePieceNotationForDisplay(selectedRecommendation.setup.displayName)}</h2><SetupPreview setup={selectedRecommendation.setup} /><p>{recommendationView.status === "ready"
                   ? recommendationView.result.pcRateLabels[selectedRecommendation.setup.id]
@@ -421,8 +553,8 @@ export function ReplayApp() {
                     : recommendationView.status === "ready"
                       ? "No buildable setup is available for this PC start."
                       : "This replay segment has no trustworthy complete 0P start state."}</p></div>}
-            </article>
-            <article className="replay-recommendation-list">
+            </div>
+            <div className="replay-recommendation-list">
               <h2 className="replay-recommendation-context">{recommendationView.status === "ready"
                 ? recommendationView.result.contextLabel
                 : currentSegment ? cycleOrdinal(currentSegment.cycle) : "Setup Recommendations"}</h2>
@@ -443,7 +575,61 @@ export function ReplayApp() {
                 </section>)}
               </div>}
               {recommendationView.status !== "ready" && <p>{recommendationView.status === "loading" ? "Loading recommendations…" : "Recommendations unavailable"}</p>}
-            </article>
+            </div>
+          </section>}
+          {replayPanelVisibility.solves && <section className="replay-solves-panel" aria-label="Replay solves">
+            <div className="replay-solve-preview-pane">
+              {replaySolveView.status === "ready"
+                ? replaySolveOptions.map((option) => {
+                  const prediction = option.save
+                    ? replaySolvePredictions.find(({ save }) => save === option.save) ?? null
+                    : null;
+                  return <article className="replay-solve-option" key={option.shadow.id}>
+                    <h2><span>{option.label}</span>{prediction && <small>→ {formatReplaySolvePrediction(prediction.label)}</small>}</h2>
+                    <SolutionPreview setup={option.shadow} board={replaySolveView.calculatedBoard} />
+                  </article>;
+                })
+                : <article className="replay-solve-option">
+                  <h2>Solution Preview</h2>
+                  <SolutionPreview setup={null} board={null} />
+                </article>}
+            </div>
+            <div className="replay-solve-info">
+              <h2>Minimal PC Solutions</h2>
+              <button
+                type="button"
+                className="replay-solve-action"
+                disabled={replaySolveView.status === "loading" || !replaySolvePreparation.ready}
+                title={replaySolvePreparation.ready ? "Calculate minimal PC solutions from the displayed replay state." : replaySolvePreparation.reason}
+                onClick={calculateReplaySolve}
+              >{replaySolveView.status === "loading"
+                  ? "Calculating…"
+                  : replaySolveView.status === "idle"
+                    ? "Calculate"
+                    : "Recalculate"}</button>
+              {replaySolveAvailableSaves ? <p className="replay-solve-available" aria-live="polite">{replaySolveAvailableSaves}</p> : null}
+              {replaySolveView.status === "idle" && !replaySolvePreparation.ready && <p className="replay-solve-unavailable">{replaySolvePreparation.reason}</p>}
+              {replaySolveView.status === "loading" && <p className="replay-solve-loading" aria-live="polite">Searching minimal solutions…</p>}
+              {replaySolveView.status === "none" && <div className="replay-solve-empty" aria-live="polite">
+                <h3>No solve</h3>
+                <p>No minimal solution was found for this field and queue.</p>
+                <dl className="replay-solve-details">
+                  <div><dt>Bag structure</dt><dd><code>{formatSolveQueueGroups(replaySolveView.queueAnalysis.groups)}</code></dd></div>
+                  <div><dt>Following bag</dt><dd><code>{formatNextBagRemainder(replaySolveView.queueAnalysis)}</code></dd></div>
+                </dl>
+              </div>}
+              {replaySolveView.status === "error" && <div className="replay-solve-empty error" role="alert"><h3>Solve error</h3><p>{replaySolveView.message}</p></div>}
+              {replaySolveView.status === "ready" && <div className="replay-solve-result" aria-live="polite">
+                <dl className="replay-solve-details">
+                  {replaySolveOptions.length === 1 && replaySolveOptions[0]?.save === null
+                    ? <div><dt>Save</dt><dd>3P minimals (no save)</dd></div>
+                    : null}
+                  <div><dt>Bag structure</dt><dd><code>{formatSolveQueueGroups(replaySolveView.queueAnalysis.groups)}</code></dd></div>
+                  <div><dt>Following bag</dt><dd><code>{formatNextBagRemainder(replaySolveView.queueAnalysis)}</code></dd></div>
+                  {replaySolvePredictions.length > 0 && <div className="replay-next-cycle-details"><dt>Next cycle</dt><dd>{replaySolvePredictions.map((prediction) => <div key={prediction.save} className="replay-next-cycle-row"><b>Save {prediction.save}</b><span>{formatReplaySolvePrediction(prediction.label)}</span></div>)}</dd></div>}
+                </dl>
+              </div>}
+            </div>
           </section>}
         </div>
         <aside className="pc-sidebar" aria-label="Perfect Clear list">
