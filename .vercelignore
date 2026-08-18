@@ -1,4 +1,3 @@
 /tests/
 /coverage/
 /vitest*.config.ts
-/tsconfig.test.json
