@@ -476,7 +476,7 @@ export default function App() {
         <div className="main-actions field-actions">
           <button type="button" onClick={() => dispatch("undo")}>Undo</button>
           <button type="button" onClick={() => dispatch("restart")}>Restart</button>
-          <button type="button" onClick={() => setReplayExport(replayRecorder.current.export(session.current.state))}>Export</button>
+          <button type="button" onClick={() => setReplayExport(replayRecorder.current.export(session.current.state))}>Replay</button>
           <button type="button" onClick={() => setSettingsOpen(true)}>Controls</button>
         </div>
       </div>
