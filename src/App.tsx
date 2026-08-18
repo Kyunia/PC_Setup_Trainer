@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type MutableRefObject } from "react";
+import { cloneBoard } from "./engine/board";
 import { GameSession } from "./engine/game";
 import { normalizePieceNotationForDisplay } from "./engine/pieceDisplay";
 import { seedValidationError } from "./engine/seed";
@@ -50,7 +51,13 @@ const SOLVE_SHADOW_STORAGE_KEY = "guided-pc-solve-shadow-v1";
 type LiveSolveView =
   | { status: "idle" }
   | { status: "loading" }
-  | { status: "ready"; options: LiveSolveOption[]; queueAnalysis: SolveQueueAnalysis; calculatedLinesSinceLastPc: number }
+  | {
+      status: "ready";
+      options: LiveSolveOption[];
+      queueAnalysis: SolveQueueAnalysis;
+      calculatedLinesSinceLastPc: number;
+      calculatedBoard: GameState["board"];
+    }
   | { status: "none"; queueAnalysis: SolveQueueAnalysis }
   | { status: "error"; message: string };
 
@@ -285,6 +292,7 @@ export default function App() {
     const { request } = liveSolvePreparation;
     const solveState = session.current.state;
     const calculatedLinesSinceLastPc = solveState.run.linesSinceLastPc;
+    const calculatedBoard = cloneBoard(solveState.board);
     const queueAnalysis = analyzeSolveQueue(
       request.input.pattern,
       solveState.run.cycle,
@@ -298,7 +306,7 @@ export default function App() {
     void pending.then((options) => {
       if (liveSolveGeneration.current !== generation) return;
       setLiveSolveView(options.length > 0
-        ? { status: "ready", options, queueAnalysis, calculatedLinesSinceLastPc }
+        ? { status: "ready", options, queueAnalysis, calculatedLinesSinceLastPc, calculatedBoard }
         : { status: "none", queueAnalysis });
     }).catch((reason) => {
       if (liveSolveGeneration.current !== generation || reason instanceof DOMException && reason.name === "AbortError") return;
@@ -582,7 +590,7 @@ export default function App() {
           {liveSolveView.status === "error" && <div className="solve-empty error" role="alert"><h3>Solve error</h3><p>{liveSolveView.message}</p></div>}
           {liveSolveView.status === "ready" && liveSolveOption && <div className="solve-result" aria-live="polite">
             <div className="solve-preview-heading"><h3>{liveSolveOption.label}</h3></div>
-            <SolutionPreview setup={liveSolveOption.shadow} board={state.board} />
+            <SolutionPreview setup={liveSolveOption.shadow} board={liveSolveView.calculatedBoard} />
             <dl className="solve-details">
               <div><dt>Save</dt><dd>{liveSolveOption.save ? `Save ${liveSolveOption.save}` : "3P minimals (no save)"}</dd></div>
               <div><dt>Bag structure</dt><dd><code>{formatSolveQueueGroups(liveSolveView.queueAnalysis.groups)}</code></dd></div>
