@@ -2,9 +2,14 @@ import { describe, expect, it } from "vitest";
 import { createBoard, placeCells } from "../engine/board";
 import type { GameState } from "../engine/types";
 import type { SetupVariant } from "../setups/schema";
-import { visibleSetupShadowCells } from "./canvas";
+import { solutionPreviewOccupiedCells, visibleSetupShadowCells } from "./canvas";
 
 describe("setup shadow cell projection", () => {
+  it("projects the post-clear setup field as solution-preview base blocks", () => {
+    const board = placeCells(createBoard(), [{ x: 0, y: 0 }, { x: 3, y: 2 }, { x: 5, y: 4 }], "T");
+    expect(solutionPreviewOccupiedCells(board)).toEqual([{ x: 0, y: 0 }, { x: 3, y: 2 }]);
+  });
+
   it("suppresses occupied board cells without mutating authoritative solution geometry", () => {
     const setup: SetupVariant = {
       id: "shadow",

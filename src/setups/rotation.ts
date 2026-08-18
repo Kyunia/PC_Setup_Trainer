@@ -14,18 +14,41 @@ function compareCells(left: Cell, right: Cell): number {
   return left.y - right.y || left.x - right.x;
 }
 
-// SFinder congruent_cover + strict set-cover for [TISLJ]! selected these four
-// ILJS 4x4 tilings. Rows are stored bottom-to-top. Non-minimal congruents are
-// intentionally excluded; horizontal positions are expanded separately below.
-const ILJS_BOX_MINIMAL_ROWS = [
+// SFinder congruent_cover + normal minimals for [TILJS]!. Rows are stored
+// bottom-to-top. Wall access changes the minimal cover: the left wall needs
+// eight physical geometries (102/120), while the right wall needs five
+// (108/120). A multi-page minimal contributes every physical geometry.
+const ILJS_LEFT_BOX_MINIMAL_ROWS = [
   ["LLSI", "LSSI", "LSJI", "JJJI"],
   ["JJJI", "JSLI", "SSLI", "SLLI"],
   ["JLLL", "JSSL", "JJSS", "IIII"],
   ["IIII", "JLLL", "JSSL", "JJSS"],
+  ["IJJJ", "IJSL", "ISSL", "ISLL"],
+  ["SSJJ", "LSSJ", "LLLJ", "IIII"],
+  ["ILLS", "ILSS", "ILSJ", "IJJJ"],
+  ["IIII", "SSJJ", "LSSJ", "LLLJ"],
 ] as const;
 
-const ILJO_BOX_MINIMAL_ROWS = [
+const ILJS_RIGHT_BOX_MINIMAL_ROWS = [
+  ["LLSI", "LSSI", "LSJI", "JJJI"],
+  ["JJJI", "JSLI", "SSLI", "SLLI"],
+  ["JLLL", "JSSL", "JJSS", "IIII"],
+  ["IIII", "JLLL", "JSSL", "JJSS"],
+  ["IJJJ", "IJSL", "ISSL", "ISLL"],
+] as const;
+
+// [TILJO]! has five minimal geometries on either wall (110/120), but the
+// first physical geometry is mirrored at the opposite wall.
+const ILJO_LEFT_BOX_MINIMAL_ROWS = [
   ["IJJJ", "IJOO", "ILOO", "ILLL"],
+  ["JOOL", "JOOL", "JJLL", "IIII"],
+  ["LLJJ", "LOOJ", "LOOJ", "IIII"],
+  ["IIII", "JOOL", "JOOL", "JJLL"],
+  ["IIII", "LLJJ", "LOOJ", "LOOJ"],
+] as const;
+
+const ILJO_RIGHT_BOX_MINIMAL_ROWS = [
+  ["LLLI", "OOLI", "OOJI", "JJJI"],
   ["JOOL", "JOOL", "JJLL", "IIII"],
   ["LLJJ", "LOOJ", "LOOJ", "IIII"],
   ["IIII", "JOOL", "JOOL", "JJLL"],
@@ -68,15 +91,44 @@ function tilingFromRows(
   });
 }
 
-function boxMinimalTilings(setup: SetupVariant, component: BoxComponent): TargetPlacement[][] {
+type BoxWallSide = "left" | "right";
+
+function boxWallSide(component: BoxComponent): BoxWallSide | null {
+  if (component.minX === 0) return "left";
+  if (component.minX + component.width === BOARD_WIDTH) return "right";
+  return null;
+}
+
+function oppositeWall(side: BoxWallSide): BoxWallSide {
+  return side === "left" ? "right" : "left";
+}
+
+function boxMinimalTilings(
+  setup: SetupVariant,
+  component: BoxComponent,
+  targetX = component.minX,
+): TargetPlacement[][] {
   const signature = selectedSignature(setup, component);
   const wholeSetup = component.placementIndexes.length === setup.placements.length;
   if (wholeSetup && component.width === 4 && (signature === "IJLS" || signature === "IJLZ")) {
-    return ILJS_BOX_MINIMAL_ROWS.map((rows) =>
+    const physicalSide = boxWallSide({ ...component, minX: targetX });
+    if (!physicalSide) return [];
+    // IJLZ is the piece-and-position mirror of IJLS, so its canonical SFinder
+    // wall is the opposite of the physical wall before tilingFromRows mirrors it.
+    const sfinderSide = signature === "IJLZ" ? oppositeWall(physicalSide) : physicalSide;
+    const rowsForWall = sfinderSide === "left"
+      ? ILJS_LEFT_BOX_MINIMAL_ROWS
+      : ILJS_RIGHT_BOX_MINIMAL_ROWS;
+    return rowsForWall.map((rows) =>
       tilingFromRows(setup, component, rows, signature === "IJLZ"));
   }
   if (wholeSetup && component.width === 4 && signature === "IJLO") {
-    return ILJO_BOX_MINIMAL_ROWS.map((rows) => tilingFromRows(setup, component, rows, false));
+    const physicalSide = boxWallSide({ ...component, minX: targetX });
+    if (!physicalSide) return [];
+    const rowsForWall = physicalSide === "left"
+      ? ILJO_LEFT_BOX_MINIMAL_ROWS
+      : ILJO_RIGHT_BOX_MINIMAL_ROWS;
+    return rowsForWall.map((rows) => tilingFromRows(setup, component, rows, false));
   }
   if (!wholeSetup && component.width === 3 && (signature === "JLS" || signature === "JLZ")) {
     const outside = setup.placements.filter((_, index) => !component.placementIndexes.includes(index));
@@ -88,7 +140,13 @@ function boxMinimalTilings(setup: SetupVariant, component: BoxComponent): Target
   if (!wholeSetup && component.width === 4 && (signature === "IJLS" || signature === "IJLZ")) {
     const outside = setup.placements.filter((_, index) => !component.placementIndexes.includes(index));
     if (outside.length === 1 && outside[0].piece === "O") {
-      return ILJS_BOX_MINIMAL_ROWS.map((rows) =>
+      const physicalSide = boxWallSide(component);
+      if (!physicalSide) return [];
+      const sfinderSide = signature === "IJLZ" ? oppositeWall(physicalSide) : physicalSide;
+      const rowsForWall = sfinderSide === "left"
+        ? ILJS_LEFT_BOX_MINIMAL_ROWS
+        : ILJS_RIGHT_BOX_MINIMAL_ROWS;
+      return rowsForWall.map((rows) =>
         tilingFromRows(setup, component, rows, signature === "IJLZ"));
     }
   }
@@ -244,7 +302,17 @@ function transformedFormLabel(
   return `${base}box ${degrees}° x${targetX}`;
 }
 
-function horizontalTargets(component: BoxComponent): number[] {
+function horizontalTargets(setup: SetupVariant, component: BoxComponent): number[] {
+  const signature = selectedSignature(setup, component);
+  const wholeSetup = component.placementIndexes.length === setup.placements.length;
+  // The paired left/right SFinder congruent-cover fields are an explicit
+  // runtime allowlist for the two pure common 4x4 Box families. This is not a
+  // general translation rule: partial boxes and every other setup retain only
+  // their promoted/declared physical anchor.
+  if (wholeSetup && component.width === 4
+    && (signature === "IJLS" || signature === "IJLZ" || signature === "IJLO")) {
+    return [0, BOARD_WIDTH - component.width];
+  }
   return [component.minX];
 }
 
@@ -334,7 +402,6 @@ function minimalBoxSetup(
 export function expandBoxSetups(sourceCatalog: SetupVariant[]): SetupVariant[] {
   const minimalSources = new Map<SetupVariant, {
     component: BoxComponent;
-    tilings: TargetPlacement[][];
     sourceMinimalIndex: number;
   }>();
   for (const source of sourceCatalog) {
@@ -344,7 +411,6 @@ export function expandBoxSetups(sourceCatalog: SetupVariant[]): SetupVariant[] {
     if (tilings.length) {
       minimalSources.set(source, {
         component,
-        tilings,
         sourceMinimalIndex: sourceMinimalIndex(source, component, tilings),
       });
     }
@@ -386,16 +452,17 @@ export function expandBoxSetups(sourceCatalog: SetupVariant[]): SetupVariant[] {
     sourceCopy.recommendationGroup = boxRecommendationGroup(source, component);
 
     const turns = component.width === 4 ? [0, 1, 2, 3] : [0, 2];
-    const targetXs = horizontalTargets(component);
+    const targetXs = horizontalTargets(source, component);
     const targetY = component.minY;
 
     if (minimal) {
-      for (let minimalIndex = 0; minimalIndex < minimal.tilings.length; minimalIndex += 1) {
-        for (const targetX of targetXs) {
+      for (const targetX of targetXs) {
+        const targetTilings = boxMinimalTilings(source, component, targetX);
+        for (let minimalIndex = 0; minimalIndex < targetTilings.length; minimalIndex += 1) {
           const variant = minimalBoxSetup(
             sourceCopy,
             component,
-            minimal.tilings[minimalIndex],
+            targetTilings[minimalIndex],
             minimalIndex,
             targetX,
             targetY,

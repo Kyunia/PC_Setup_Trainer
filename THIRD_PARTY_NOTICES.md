@@ -37,10 +37,21 @@ source's stated terms.
   under the Apache License 2.0. See the upstream repository for that dependency's
   notices.
 
+### sfinder-strict-minimal
+
+- Project: [sfinder-strict-minimal](https://github.com/eight04/sfinder-strict-minimal)
+- Author: eight04
+- Use in TetrisPC: the browser SFinder integration under
+  `src/solver/sfinderPort` includes an ESM adaptation of its graph/minimal-set
+  logic.
+- License: MIT License
+- Upstream copyright notice: Copyright (c) 2021 eight04
+
 ### MIT License text
 
-The following license text applies to LZ-String, tetris-fumen, and
-solution-finder, together with each project's copyright notice above.
+The following license text applies to LZ-String, tetris-fumen,
+solution-finder, and sfinder-strict-minimal, together with each project's
+copyright notice above.
 
 MIT License
 

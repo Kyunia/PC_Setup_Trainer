@@ -453,7 +453,7 @@ describe("shared OQB progress projection", () => {
     expect(providerCalls).toBe(0);
   });
 
-  it("uses a supplied operational provider and keeps Cycle 2/7 continuation unsupported", () => {
+  it("uses a supplied operational provider and hides absent Cycle 2/7 continuations", () => {
     const precondition = setup("pre", [oPlacement()]);
     const provider: OqbProgressPolicyProvider = {
       cycle5AdvancedForSetup: () => ({ status: "ready", source: source(revealPlan(), [precondition]) }),
@@ -468,7 +468,7 @@ describe("shared OQB progress projection", () => {
     expect(resolveOqbProgress({
       selectedCandidate: cycle7Candidate,
       query: { ...query(createBoard()), cycle: 7 },
-    })).toMatchObject({ status: "unsupported", reason: "structured-continuation-policy-unavailable" });
+    })).toMatchObject({ status: "no-follow-up", instruction: "" });
   });
 
   it("hides OQB progress for a Cycle 5 setup with no matching OQB policy", () => {

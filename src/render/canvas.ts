@@ -132,3 +132,35 @@ export function drawSetupPreview(canvas: HTMLCanvasElement, setup: SetupVariant)
     }
   }
 }
+
+export function solutionPreviewOccupiedCells(board: GameState["board"], visibleHeight = 4): Cell[] {
+  const cells: Cell[] = [];
+  for (let y = 0; y < visibleHeight; y += 1) {
+    for (let x = 0; x < BOARD_WIDTH; x += 1) {
+      if (board[y]?.[x] !== null) cells.push({ x, y });
+    }
+  }
+  return cells;
+}
+
+export function drawSolutionPreview(canvas: HTMLCanvasElement, setup: SetupVariant, board: GameState["board"]): void {
+  const visibleHeight = 4;
+  const size = 30;
+  const context = prepareCanvas(canvas, BOARD_WIDTH * size, visibleHeight * size);
+  context.fillStyle = "#11151c";
+  context.fillRect(0, 0, BOARD_WIDTH * size, visibleHeight * size);
+  context.strokeStyle = "rgba(255,255,255,.09)";
+  context.lineWidth = 1;
+  for (let x = 0; x <= BOARD_WIDTH; x += 1) {
+    context.beginPath(); context.moveTo(x * size + .5, 0); context.lineTo(x * size + .5, visibleHeight * size); context.stroke();
+  }
+  for (let y = 0; y <= visibleHeight; y += 1) {
+    context.beginPath(); context.moveTo(0, y * size + .5); context.lineTo(BOARD_WIDTH * size, y * size + .5); context.stroke();
+  }
+  for (const cell of solutionPreviewOccupiedCells(board, visibleHeight)) {
+    drawCell(context, cell, "X", size, 1, 1, visibleHeight);
+  }
+  for (const placement of setup.placements) {
+    for (const cell of placement.cells) drawCell(context, cell, placement.piece, size, 1, 1, visibleHeight);
+  }
+}

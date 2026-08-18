@@ -261,8 +261,15 @@ describe("setup catalog/query", () => {
     const boxes = sourceSetupCatalog.filter(({ cycle, family }) => cycle === 1 && family === "box");
     expect(boxes).toHaveLength(2);
     expect(new Set(boxes.map(({ recommendationGroup }) => recommendationGroup))).toEqual(new Set(["cycle1-box"]));
-    expect(setupCatalog.filter(({ cycle, recommendationGroup }) =>
-      cycle === 1 && recommendationGroup === "cycle1-box")).toHaveLength(18);
+    const runtimeBoxes = setupCatalog.filter(({ cycle, recommendationGroup }) =>
+      cycle === 1 && recommendationGroup === "cycle1-box");
+    expect(runtimeBoxes).toHaveLength(36);
+    expect(runtimeBoxes.filter(({ pieceSignature }) =>
+      [...pieceSignature].sort().join("") === "IJLO")).toHaveLength(10);
+    expect(runtimeBoxes.filter(({ pieceSignature }) => {
+      const signature = [...pieceSignature].sort().join("");
+      return signature === "IJLS" || signature === "IJLZ";
+    })).toHaveLength(26);
   });
 
   it("2회차 OILJ BOX는 source와 mirror anchor에서만 SFinder minimal을 확장한다", () => {

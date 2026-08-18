@@ -239,11 +239,12 @@ describe("InputController initial actions and DAS preservation", () => {
     controller.destroy();
   });
 
-  it("Replay 전용 Snapshot 종료 키는 GameAction으로 dispatch하지 않는다", () => {
+  it("UI 전용 Snapshot 종료와 See Solve 키는 GameAction으로 dispatch하지 않는다", () => {
     const dispatch = vi.fn((_action: GameAction) => true);
     const controller = new InputController(dispatch, DEFAULT_SETTINGS);
 
     fakeWindow.emit("keydown", "Escape");
+    fakeWindow.emit("keydown", "KeyV");
     expect(dispatch).not.toHaveBeenCalled();
 
     controller.destroy();

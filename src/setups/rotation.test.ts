@@ -28,53 +28,67 @@ function wholeBoxWidth(setup: (typeof sourceSetupCatalog)[number]): 3 | 4 | null
 }
 
 describe("공통 box geometry orbit", () => {
-  it("ILJS 계열은 source anchor에서 SFinder minimal 네 개만 생성한다", () => {
+  it("ILJS 계열은 wall별 SFinder normal minimals를 모두 생성한다", () => {
     const source = sourceSetupCatalog.find((setup) =>
       [...setup.pieceSignature].sort().join("") === "IJLS" && isFourByFour(setup));
     expect(source).toBeDefined();
     const expanded = expandBoxSetups([source!]);
-    expect(expanded).toHaveLength(4);
     const sourceX = Math.min(...source!.placements.flatMap(({ cells }) => cells.map(({ x }) => x)));
     const layoutsAtSource = new Set(expanded
+      .filter(({ placements }) => Math.min(
+        ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
+      ) === sourceX)
       .map(({ placements }) => Array.from({ length: 4 }, (_, y) =>
         Array.from({ length: 4 }, (_, x) => placements.find(({ cells }) =>
           cells.some((cell) => cell.x === sourceX + x && cell.y === y))!.piece).join(""),
       ).join("/")));
-    expect(layoutsAtSource).toEqual(new Set([
+    const common = [
       "LLSI/LSSI/LSJI/JJJI",
       "JJJI/JSLI/SSLI/SLLI",
       "JLLL/JSSL/JJSS/IIII",
       "IIII/JLLL/JSSL/JJSS",
-    ]));
+      "IJJJ/IJSL/ISSL/ISLL",
+    ];
+    const expected = sourceX === 0 ? new Set([
+      ...common,
+      "SSJJ/LSSJ/LLLJ/IIII",
+      "ILLS/ILSS/ILSJ/IJJJ",
+      "IIII/SSJJ/LSSJ/LLLJ",
+    ]) : new Set(common);
+    expect(layoutsAtSource).toEqual(expected);
     const xPositions = new Set(expanded.map(({ placements }) => Math.min(
       ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
     )));
-    expect(xPositions).toEqual(new Set([sourceX]));
+    expect(xPositions).toEqual(new Set([0, 6]));
+    expect(expanded).toHaveLength(13);
     expect(new Set(expanded.map(setupGeometryKey)).size).toBe(expanded.length);
     expect(expanded.every(({ placements }) => placements.flatMap(({ cells }) => cells)
       .every(({ x, y }) => x >= 0 && x < 10 && y >= 0 && y < 4))).toBe(true);
-    expect(expanded.every(({ derivedVariant }) => derivedVariant === "box-minimal")).toBe(true);
-    expect(new Set(expanded.map(({ formLabel }) => formLabel?.match(/minimal (\d+)/)?.[1])).size).toBe(4);
+    expect(expanded.filter(({ derivedVariant }) => derivedVariant === "box-minimal"))
+      .toHaveLength(12);
     const expectedGroup = source!.recommendationGroup ?? `cycle${source!.cycle}-iljs-box`;
     expect(expanded.every(({ recommendationGroup }) =>
       recommendationGroup === expectedGroup)).toBe(true);
   });
 
-  it("ILJO 계열은 source anchor에서 SFinder minimal 다섯 개만 생성한다", () => {
+  it("ILJO 계열은 wall별 SFinder minimal의 방향 geometry를 사용한다", () => {
     const source = sourceSetupCatalog.find((setup) =>
       [...setup.pieceSignature].sort().join("") === "IJLO" && isFourByFour(setup));
     expect(source).toBeDefined();
     const expanded = expandBoxSetups([source!]);
-    expect(expanded).toHaveLength(5);
-    expect(expanded.filter(({ derivedVariant }) => derivedVariant === "box-minimal")).toHaveLength(4);
+    expect(expanded).toHaveLength(10);
+    expect(expanded.filter(({ derivedVariant }) => derivedVariant === "box-minimal")).toHaveLength(9);
     const sourceX = Math.min(...source!.placements.flatMap(({ cells }) => cells.map(({ x }) => x)));
     const layoutsAtSource = new Set(expanded
+      .filter(({ placements }) => Math.min(
+        ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
+      ) === sourceX)
       .map(({ placements }) => Array.from({ length: 4 }, (_, y) =>
         Array.from({ length: 4 }, (_, x) => placements.find(({ cells }) =>
           cells.some((cell) => cell.x === sourceX + x && cell.y === y))!.piece).join(""),
       ).join("/")));
     expect(layoutsAtSource).toEqual(new Set([
-      "IJJJ/IJOO/ILOO/ILLL",
+      sourceX === 0 ? "IJJJ/IJOO/ILOO/ILLL" : "LLLI/OOLI/OOJI/JJJI",
       "JOOL/JOOL/JJLL/IIII",
       "LLJJ/LOOJ/LOOJ/IIII",
       "IIII/JOOL/JOOL/JJLL",
@@ -82,7 +96,7 @@ describe("공통 box geometry orbit", () => {
     ]));
     expect(new Set(expanded.map(({ placements }) => Math.min(
       ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
-    )))).toEqual(new Set([sourceX]));
+    )))).toEqual(new Set([0, 6]));
   });
 
   it("명시적 physical alternative는 각 선언 anchor에서 minimal을 유지한다", () => {
@@ -102,31 +116,36 @@ describe("공통 box geometry orbit", () => {
       }],
     }]);
     const expanded = expandBoxSetups(physical);
-    expect(expanded).toHaveLength(8);
+    expect(expanded).toHaveLength(13);
     expect(new Set(expanded.map(({ placements }) => Math.min(
       ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
     )))).toEqual(new Set([sourceX, targetX]));
   });
 
-  it("Cycle 6 No O의 policy-authorized mirror만 반대쪽 Box 위치를 만든다", () => {
+  it("Cycle 6 No O의 policy-authorized forms에 공통 wall minimals를 적용한다", () => {
     const source = sourceSetupCatalog.find(({ id }) => id === "cycle6-no-o-005-f000")!;
     expect(source).not.toHaveProperty("boxHorizontalConstraint");
     const expanded = setupsForCycle6Class("O")
       .filter(({ recommendationGroup }) => recommendationGroup === "cycle6-iljs-box");
-    expect(expanded).toHaveLength(8);
+    expect(expanded).toHaveLength(26);
     expect(new Set(expanded.map(({ placements }) => Math.min(
       ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
     )))).toEqual(new Set([0, 6]));
   });
 
-  it("모든 일반 source whole Box는 데이터 anchor 밖의 가로 위치를 만들지 않는다", () => {
+  it("일반 whole Box 중 명시된 공통 4x4만 양쪽 wall을 사용한다", () => {
     const sources = sourceSetupCatalog.filter((setup) => wholeBoxWidth(setup) !== null);
     expect(sources.length).toBeGreaterThan(0);
     for (const source of sources) {
       const sourceX = Math.min(...source.placements.flatMap(({ cells }) => cells.map(({ x }) => x)));
+      const signature = [...source.pieceSignature].sort().join("");
+      const expected = wholeBoxWidth(source) === 4
+        && (signature === "IJLS" || signature === "IJLZ" || signature === "IJLO")
+        ? new Set([0, 6])
+        : new Set([sourceX]);
       expect(new Set(expandBoxSetups([source]).map(({ placements }) => Math.min(
         ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
-      ))), source.id).toEqual(new Set([sourceX]));
+      ))), source.id).toEqual(expected);
     }
   });
 
@@ -153,15 +172,15 @@ describe("공통 box geometry orbit", () => {
     expect(new Set(generated.map(({ recommendationGroup }) => recommendationGroup)).size).toBe(1);
   });
 
-  it("No S/Z 6회차 4×4 box + O는 O를 고정하고 SFinder minimal 네 개만 생성한다", () => {
+  it("No S/Z 6회차 4×4 box + O는 O를 고정하고 SFinder minimal 다섯 개만 생성한다", () => {
     const forms = sourceSetupCatalog.filter(({ id }) => /^cycle6-no-sz-001-f00[0-7]$/.test(id));
     expect(forms).toHaveLength(1);
     const generated = expandBoxSetups([forms[0]]);
-    expect(generated).toHaveLength(4);
-    expect(generated.filter(({ derivedVariant }) => derivedVariant === "box-minimal")).toHaveLength(3);
+    expect(generated).toHaveLength(5);
+    expect(generated.filter(({ derivedVariant }) => derivedVariant === "box-minimal")).toHaveLength(4);
 
     const expanded = expandBoxSetups(forms);
-    expect(expanded).toHaveLength(4);
+    expect(expanded).toHaveLength(5);
     expect(new Set(expanded.map(({ recommendationGroup }) => recommendationGroup)).size).toBe(1);
 
     const sourceO = forms[0].placements.find(({ piece }) => piece === "O")!.cells

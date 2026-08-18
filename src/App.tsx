@@ -5,9 +5,9 @@ import { seedValidationError } from "./engine/seed";
 import { PIECES, type GameAction, type GameState, type Piece } from "./engine/types";
 import { InputController } from "./input/controller";
 import { releaseGameplayButtonFocus } from "./input/buttonFocus";
-import { loadInputSettings, saveInputSettings } from "./input/settings";
+import { createBinding, loadInputSettings, saveInputSettings } from "./input/settings";
 import { SettingsPanel } from "./input/SettingsPanel";
-import { drawBoard, drawPiecePreview, drawSetupPreview } from "./render/canvas";
+import { drawBoard, drawPiecePreview, drawSetupPreview, drawSolutionPreview } from "./render/canvas";
 import { ReplayExportDialog } from "./replay/ReplayExportDialog";
 import { ReplayRecorder } from "./replay/recorder";
 import type { ReplayData } from "./replay/format";
@@ -24,10 +24,37 @@ import {
   type RecommendationWorkerTask,
 } from "./setups/recommendationWorkerClient";
 import type { SetupVariant } from "./setups/schema";
-import { openPcSolver, pcSolverUrl, type PcSolverInput } from "./solver/pcSolver";
+import {
+  LiveSolverClient,
+  perSaveOptions,
+  prepareLiveSolveRequest,
+  solveOneOptions,
+  type LiveSolveOption,
+  type PerSaveMinimalsResult,
+  type SolveOneResult,
+} from "./solver/liveSolver";
+import {
+  analyzeSolveQueue,
+  formatNextBagRemainder,
+  formatSolveQueueGroups,
+  liveSolveSessionKey,
+  predictSavedPiece,
+  shouldShowLiveSolveShadow,
+  type SolveQueueAnalysis,
+} from "./solver/solveQueue";
 import "./styles.css";
 
 const SETUP_SHADOW_STORAGE_KEY = "guided-pc-setup-shadow-v1";
+const SOLVE_SHADOW_STORAGE_KEY = "guided-pc-solve-shadow-v1";
+
+type LiveSolveView =
+  | { status: "idle" }
+  | { status: "loading" }
+  | { status: "ready"; options: LiveSolveOption[]; queueAnalysis: SolveQueueAnalysis; calculatedLinesSinceLastPc: number }
+  | { status: "none"; queueAnalysis: SolveQueueAnalysis }
+  | { status: "error"; message: string };
+
+type GuideTab = "setup" | "solve";
 
 function useLazyRef<T>(factory: () => T): MutableRefObject<T> {
   const ref = useRef<T | null>(null);
@@ -63,6 +90,12 @@ function SetupPreview({ setup }: { setup: SetupVariant }) {
   return <canvas ref={ref} className="setup-preview" aria-label={`${normalizePieceNotationForDisplay(setup.displayName)}${setup.formLabel ? ` ${normalizePieceNotationForDisplay(setup.formLabel)} form` : ""} setup shape`} />;
 }
 
+function SolutionPreview({ setup, board }: { setup: SetupVariant; board: GameState["board"] }) {
+  const ref = useRef<HTMLCanvasElement>(null);
+  useEffect(() => { if (ref.current) drawSolutionPreview(ref.current, setup, board); }, [board, setup]);
+  return <canvas ref={ref} className="solve-preview" aria-label={`${setup.displayName} solution field`} />;
+}
+
 function setupOptionLabel(candidate: SetupCandidate): string {
   return candidate.recommendationLabel
     ?? recommendationSetupLabel(candidate.setup.displayName, candidate.qbSaveTargets);
@@ -81,11 +114,15 @@ export default function App() {
   const [seedInput, setSeedInput] = useState(session.current.state.seed);
   const seedInputError = seedValidationError(seedInput.trim());
   const [queueJumpInput, setQueueJumpInput] = useState("");
-  const [queueJumpStatus, setQueueJumpStatus] = useState({ text: "Enter 1–7 minos to jump by bag position.", error: false });
+  const [queueJumpStatus, setQueueJumpStatus] = useState({ text: "", error: false });
   const [settings, setSettings] = useState(loadInputSettings);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [replayExport, setReplayExport] = useState<ReplayData | null>(null);
   const [showSetupShadow, setShowSetupShadow] = useState(loadSetupShadowPreference);
+  const [showSolveShadow, setShowSolveShadow] = useState(() => {
+    try { return localStorage.getItem(SOLVE_SHADOW_STORAGE_KEY) !== "off"; }
+    catch { return true; }
+  });
   const [candidates, setCandidates] = useState<SetupCandidate[]>([]);
   const [recommendationLoading, setRecommendationLoading] = useState(true);
   const [recommendationError, setRecommendationError] = useState(false);
@@ -99,15 +136,13 @@ export default function App() {
   const recommendationTask = useRef<RecommendationWorkerTask | null>(null);
   const recommendationGeneration = useRef(0);
   const restoredGuideSegment = useRef<string | null>(null);
+  const liveSolver = useLazyRef(() => new LiveSolverClient());
+  const liveSolveGeneration = useRef(0);
+  const [liveSolveView, setLiveSolveView] = useState<LiveSolveView>({ status: "idle" });
+  const [liveSolveIndex, setLiveSolveIndex] = useState(0);
+  const [guideTab, setGuideTab] = useState<GuideTab>("setup");
   const state = session.current.state;
   const coverage = setupCoverageForCycle(state.run.cycle);
-  const pcSolverInput = useMemo<PcSolverInput>(() => ({
-    board: state.board,
-    active: state.active.piece,
-    hold: state.hold,
-    next: state.bag.queue,
-  }), [state.active.piece, state.bag.queue, state.board, state.hold]);
-  const pcSolverAvailable = useMemo(() => pcSolverUrl(pcSolverInput) !== null, [pcSolverInput]);
 
   useEffect(() => {
     guideState.current = { candidates, selectedId, guideDone, stagedInstruction };
@@ -147,8 +182,13 @@ export default function App() {
 
   useEffect(() => { saveInputSettings(settings); }, [settings]);
   useEffect(() => { saveSetupShadowPreference(showSetupShadow); }, [showSetupShadow]);
+  useEffect(() => {
+    try { localStorage.setItem(SOLVE_SHADOW_STORAGE_KEY, showSolveShadow ? "on" : "off"); }
+    catch { /* Keep the in-memory preference when storage is unavailable. */ }
+  }, [showSolveShadow]);
 
   const segmentKey = `${state.seed}:${state.run.pcCount}:${state.run.cycle}:${resetNonce}`;
+  useEffect(() => { setGuideTab("setup"); }, [segmentKey]);
   useEffect(() => {
     const current = session.current.state;
     const currentIdentity = guideSegmentIdentity(current);
@@ -208,6 +248,86 @@ export default function App() {
 
   const selectedCandidate = useMemo(() => candidates.find(({ setup }) => setup.id === selectedId) ?? null, [candidates, selectedId]);
   const selected = selectedCandidate?.setup ?? null;
+  const liveSolvePreparation = useMemo(() => selected
+    ? prepareLiveSolveRequest({
+      board: state.board,
+      active: state.active.piece,
+      hold: state.hold,
+      next: state.bag.queue,
+      setupPieceCount: selected.placements.length,
+      piecesLockedSinceLastPc: state.run.piecesLockedSinceLastPc,
+      linesSinceLastPc: state.run.linesSinceLastPc,
+    })
+    : { ready: false as const, reason: "Select and complete a setup first." }, [
+      selected,
+      state.active.piece,
+      state.bag.queue,
+      state.board,
+      state.hold,
+      state.run.linesSinceLastPc,
+      state.run.piecesLockedSinceLastPc,
+    ]);
+  const liveSolveResetKey = liveSolveSessionKey(state, selectedId, resetNonce);
+  useEffect(() => {
+    liveSolveGeneration.current += 1;
+    liveSolver.current.cancel();
+    setLiveSolveView({ status: "idle" });
+    setLiveSolveIndex(0);
+  }, [liveSolveResetKey]);
+  useEffect(() => () => liveSolver.current.dispose(), []);
+
+  const calculateLiveSolve = useCallback(() => {
+    if (!liveSolvePreparation.ready) return;
+    const generation = ++liveSolveGeneration.current;
+    liveSolver.current.cancel();
+    setLiveSolveView({ status: "loading" });
+    setLiveSolveIndex(0);
+    const { request } = liveSolvePreparation;
+    const solveState = session.current.state;
+    const calculatedLinesSinceLastPc = solveState.run.linesSinceLastPc;
+    const queueAnalysis = analyzeSolveQueue(
+      request.input.pattern,
+      solveState.run.cycle,
+      solveState.run.piecesLockedSinceLastPc,
+    );
+    const pending = request.kind === "per-save-minimals"
+      ? liveSolver.current.request<PerSaveMinimalsResult>(request)
+          .then((result) => perSaveOptions(result, solveState.run.cycle))
+      : liveSolver.current.request<SolveOneResult>(request)
+          .then((result) => solveOneOptions(result, solveState.run.cycle));
+    void pending.then((options) => {
+      if (liveSolveGeneration.current !== generation) return;
+      setLiveSolveView(options.length > 0
+        ? { status: "ready", options, queueAnalysis, calculatedLinesSinceLastPc }
+        : { status: "none", queueAnalysis });
+    }).catch((reason) => {
+      if (liveSolveGeneration.current !== generation || reason instanceof DOMException && reason.name === "AbortError") return;
+      setLiveSolveView({ status: "error", message: reason instanceof Error ? reason.message : "Solve failed." });
+    });
+  }, [liveSolvePreparation]);
+
+  useEffect(() => {
+    if (settingsOpen || replayExport) return;
+    const onSeeSolve = (event: KeyboardEvent) => {
+      const target = event.target as HTMLElement | null;
+      if (event.repeat || target?.closest("input, button, select, textarea")) return;
+      const configured = settings.bindings.seeSolve;
+      const pressed = createBinding(event.code, event);
+      if (configured !== pressed && configured !== event.code) return;
+      event.preventDefault();
+      setGuideTab("solve");
+      calculateLiveSolve();
+    };
+    window.addEventListener("keydown", onSeeSolve);
+    return () => window.removeEventListener("keydown", onSeeSolve);
+  }, [calculateLiveSolve, replayExport, settings.bindings.seeSolve, settingsOpen]);
+
+  const liveSolveOption = liveSolveView.status === "ready"
+    ? liveSolveView.options[liveSolveIndex] ?? null
+    : null;
+  const liveSolvePrediction = liveSolveView.status === "ready" && liveSolveOption?.save
+    ? predictSavedPiece(liveSolveView.queueAnalysis, liveSolveOption.save)
+    : null;
   const splitCandidateSections = splitsSetupCandidatesByPieceCount(state.run.cycle);
   const qbCandidates = useMemo(() => candidates.filter(({ qbCondition }) => qbCondition !== undefined), [candidates]);
   const showQbCandidateSection = state.run.cycle === 7 || qbCandidates.length > 0;
@@ -282,11 +402,18 @@ export default function App() {
   const setupShadowAutoHidden = selected
     ? shouldAutoHideSetupShadow(state.board, selected, state.run.piecesLockedSinceLastPc)
     : false;
-  const setupShadowVisible = showSetupShadow && !guideDone && !setupShadowAutoHidden;
+  const liveSolveShadowVisible = showSolveShadow
+    && liveSolveView.status === "ready"
+    && liveSolveOption !== null
+    && shouldShowLiveSolveShadow(liveSolveView.calculatedLinesSinceLastPc, state.run.linesSinceLastPc);
+  const effectiveSetupShadowAutoHidden = setupShadowAutoHidden && !liveSolveShadowVisible;
+  const boardShadow = liveSolveShadowVisible ? liveSolveOption!.shadow : selected;
+  const setupShadowVisible = liveSolveShadowVisible
+    || showSetupShadow && !guideDone && !effectiveSetupShadowAutoHidden;
 
   useEffect(() => {
-    if (canvas.current) drawBoard(canvas.current, state, selected, setupShadowVisible);
-  }, [revision, selected, setupShadowVisible, state]);
+    if (canvas.current) drawBoard(canvas.current, state, boardShadow, setupShadowVisible);
+  }, [boardShadow, revision, setupShadowVisible, state]);
 
   function restartWithSeed() {
     if (seedInputError) return;
@@ -326,7 +453,7 @@ export default function App() {
 
   return <main className="app-shell" onPointerUpCapture={releaseGameplayButtonFocus}>
     <header className="topbar">
-      <div><h1>GUIDED PC MODE</h1><p>JST180 · SEE7 · 7-BAG</p></div>
+      <div><h1>GUIDED PC MODE</h1></div>
       <a href="/replay">Replay Viewer</a>
     </header>
 
@@ -337,15 +464,7 @@ export default function App() {
 
       <div className="field-column">
         <canvas ref={canvas} className="board-canvas" aria-label="10-column 20-row Tetris field" />
-        <div className={`status-line ${state.run.status === "failed" ? "failed" : ""}`}>{state.run.message}</div>
-        <div className="main-actions">
-          <button
-            type="button"
-            className="pc-solver-action"
-            disabled={!pcSolverAvailable}
-            title={pcSolverAvailable ? "Open the settled field and seven-piece queue in PC Solver." : "A complete seven-piece queue and encodable field are required."}
-            onClick={() => { openPcSolver(pcSolverInput); }}
-          >PC Solver</button>
+        <div className="main-actions field-actions">
           <button type="button" onClick={() => dispatch("undo")}>Undo</button>
           <button type="button" onClick={() => dispatch("restart")}>Restart</button>
           <button type="button" onClick={() => setReplayExport(replayRecorder.current.export(session.current.state))}>Export</button>
@@ -358,33 +477,32 @@ export default function App() {
         <div className="side-stats" aria-label="Run progress">
           <span><small>CYCLE</small><b>{state.run.cycle}</b></span>
           <span><small>PC</small><b>{state.run.pcCount}</b></span>
-          <span><small>MINOS</small><b>{state.run.piecesLockedSinceLastPc}/10</b></span>
+          <span><small>PIECES</small><b>{state.run.piecesLockedSinceLastPc}/10</b></span>
         </div>
       </aside>
 
       <aside className="guide-column">
+        <div className="guide-tabs" role="tablist" aria-label="Guide panel">
+          <button type="button" role="tab" aria-selected={guideTab === "setup"} className={guideTab === "setup" ? "selected" : ""} onClick={() => setGuideTab("setup")}>Setup</button>
+          <button type="button" role="tab" aria-selected={guideTab === "solve"} className={guideTab === "solve" ? "selected" : ""} onClick={() => setGuideTab("solve")}>Solve</button>
+        </div>
+        {guideTab === "setup" ? <div className="guide-tab-content" role="tabpanel" aria-label="Setup guide">
         <div className="guide-heading">
-          <div><span>{selected ? `${selected.placements.length}P GUIDE` : "SETUP GUIDE"}</span><h2>{guideDone ? "Solve Phase" : selectedCandidate ? setupOptionLabel(selectedCandidate) : recommendationLoading ? "Loading…" : recommendationError ? "Recommendation Error" : "No Suggestion"}</h2></div>
+          <div><span>{selected ? `${selected.placements.length}P` : "SETUP"}</span><h2>{guideDone ? "Solve Phase" : selectedCandidate ? setupOptionLabel(selectedCandidate) : recommendationLoading ? "Loading…" : recommendationError ? "Recommendation Error" : "No Suggestion"}</h2></div>
           <div className="guide-heading-actions">
-            <span className="phase-badge">{guideDone ? "SOLVE" : "SETUP"}</span>
             <button
               type="button"
-              className={`setup-shadow-toggle ${showSetupShadow ? "enabled" : ""} ${setupShadowAutoHidden && showSetupShadow ? "auto-hidden" : ""}`}
+              className={`setup-shadow-toggle ${showSetupShadow ? "enabled" : ""} ${effectiveSetupShadowAutoHidden && showSetupShadow ? "auto-hidden" : ""}`}
               aria-pressed={showSetupShadow}
               aria-label={`${showSetupShadow ? "Hide" : "Show"} setup shadow on board`}
-              title={setupShadowAutoHidden && showSetupShadow ? "Setup differs by at least 8 cells after 4P. Undo below 4P or correct the field to restore the shadow." : undefined}
+              title={effectiveSetupShadowAutoHidden && showSetupShadow ? "Setup differs by at least 8 cells after 4P. Undo below 4P or correct the field to restore the shadow." : undefined}
               onClick={() => setShowSetupShadow((visible) => !visible)}
             >
               <span className="setup-shadow-toggle-label">SETUP SHADOW</span>
-              <strong className="setup-shadow-toggle-state">{setupShadowAutoHidden && showSetupShadow ? "AUTO OFF" : showSetupShadow ? "ON" : "OFF"}</strong>
+              <strong className="setup-shadow-toggle-state">{effectiveSetupShadowAutoHidden && showSetupShadow ? "AUTO OFF" : showSetupShadow ? "ON" : "OFF"}</strong>
             </button>
           </div>
         </div>
-        <p className="coverage-note">{coverage.setupCount > 0
-          ? `Cycle ${state.run.cycle}: ${coverage.logicalSetupCount} setups · ${coverage.setupCount} placements · ${coverage.runtimeVariantCount} available · partial catalog`
-          : coverage.logicalSetupCount > 0
-            ? `Cycle ${state.run.cycle}: data promoted · awaiting recommendation link`
-            : `Cycle ${state.run.cycle}: data not registered`}</p>
         {recommendationError && <div className="recommendation-error" role="alert"><span>{candidates.length > 0 ? "Some additional recommendations could not be loaded." : "Setup recommendations could not be loaded."}</span><button type="button" onClick={() => setRecommendationRetryNonce((value) => value + 1)}>Retry</button></div>}
         {selected ? <>
           <SetupPreview setup={selected} />
@@ -419,9 +537,60 @@ export default function App() {
         <form className="queue-jump-panel" onSubmit={jumpToQueue}>
           <label>QUEUE JUMP<input value={queueJumpInput} maxLength={20} placeholder="TS or TOSIZ" onChange={(event) => setQueueJumpInput(event.target.value.toUpperCase())} /></label>
           <button type="submit">Go</button>
-          <p className={queueJumpStatus.error ? "error" : ""} aria-live="polite">{queueJumpStatus.text}</p>
+          {queueJumpStatus.text && <p className={queueJumpStatus.error ? "error" : ""} aria-live="polite">{queueJumpStatus.text}</p>}
         </form>
         <div className="seed-panel"><label>SEED <input value={seedInput} aria-invalid={seedInputError !== null} aria-describedby={seedInputError ? "seed-input-error" : undefined} onChange={(e) => setSeedInput(e.target.value)} /></label><button type="button" disabled={seedInputError !== null} onClick={restartWithSeed}>Apply</button><button type="button" onClick={() => dispatch("restart")}>Random</button>{seedInputError && <p id="seed-input-error" role="alert">{seedInputError}</p>}</div>
+        </div> : <div className="guide-tab-content solve-tab-content" role="tabpanel" aria-label="Live solve">
+          <div className="solve-heading">
+            <h2>Minimal PC Solutions</h2>
+            <button
+              type="button"
+              className={`setup-shadow-toggle ${showSolveShadow ? "enabled" : ""}`}
+              aria-pressed={showSolveShadow}
+              aria-label={`${showSolveShadow ? "Hide" : "Show"} solve shadow on board`}
+              onClick={() => setShowSolveShadow((visible) => !visible)}
+            >
+              <span className="setup-shadow-toggle-label">SOLVE SHADOW</span>
+              <strong className="setup-shadow-toggle-state">{showSolveShadow ? "ON" : "OFF"}</strong>
+            </button>
+          </div>
+          <div className="live-solve-controls" aria-label="Live minimal solutions">
+            <button type="button" aria-label="Previous save" disabled={liveSolveView.status !== "ready" || liveSolveIndex === 0} onClick={() => setLiveSolveIndex((index) => Math.max(0, index - 1))}>&lt;</button>
+            <button
+              type="button"
+              className="live-solve-action"
+              disabled={liveSolveView.status === "loading" || !liveSolvePreparation.ready}
+              title={liveSolvePreparation.ready ? "Calculate minimal PC solutions from the current post-clear field." : liveSolvePreparation.reason}
+              onClick={calculateLiveSolve}
+            >{liveSolveView.status === "loading"
+                ? "Calculating…"
+                : liveSolveView.status === "idle"
+                  ? "Calculate"
+                  : "Recalculate"}</button>
+            <button type="button" aria-label="Next save" disabled={liveSolveView.status !== "ready" || liveSolveIndex >= liveSolveView.options.length - 1} onClick={() => setLiveSolveIndex((index) => liveSolveView.status === "ready" ? Math.min(liveSolveView.options.length - 1, index + 1) : index)}>&gt;</button>
+          </div>
+          {liveSolveView.status === "idle" && !liveSolvePreparation.ready && <p className="solve-unavailable">{liveSolvePreparation.reason}</p>}
+          {liveSolveView.status === "loading" && <p className="solve-loading" aria-live="polite">Searching minimal solutions…</p>}
+          {liveSolveView.status === "none" && <div className="solve-empty" aria-live="polite">
+            <h3>No solve</h3>
+            <p>No minimal solution was found for this field and queue.</p>
+            <dl className="solve-details">
+              <div><dt>Bag structure</dt><dd><code>{formatSolveQueueGroups(liveSolveView.queueAnalysis.groups)}</code></dd></div>
+              <div><dt>Following bag</dt><dd><code>{formatNextBagRemainder(liveSolveView.queueAnalysis)}</code></dd></div>
+            </dl>
+          </div>}
+          {liveSolveView.status === "error" && <div className="solve-empty error" role="alert"><h3>Solve error</h3><p>{liveSolveView.message}</p></div>}
+          {liveSolveView.status === "ready" && liveSolveOption && <div className="solve-result" aria-live="polite">
+            <div className="solve-preview-heading"><h3>{liveSolveOption.label}</h3></div>
+            <SolutionPreview setup={liveSolveOption.shadow} board={state.board} />
+            <dl className="solve-details">
+              <div><dt>Save</dt><dd>{liveSolveOption.save ? `Save ${liveSolveOption.save}` : "3P minimals (no save)"}</dd></div>
+              <div><dt>Bag structure</dt><dd><code>{formatSolveQueueGroups(liveSolveView.queueAnalysis.groups)}</code></dd></div>
+              <div><dt>Following bag</dt><dd><code>{formatNextBagRemainder(liveSolveView.queueAnalysis)}</code></dd></div>
+              {liveSolvePrediction && <div><dt>Next cycle</dt><dd>{liveSolvePrediction.label}</dd></div>}
+            </dl>
+          </div>}
+        </div>}
       </aside>
     </section>
     {settingsOpen && <SettingsPanel settings={settings} onChange={setSettings} onClose={() => setSettingsOpen(false)} />}

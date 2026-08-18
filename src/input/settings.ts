@@ -5,10 +5,10 @@ export const GAME_INPUT_ACTIONS = [
   "rotateCW", "rotateCCW", "rotate180", "hold", "undo", "restart", "randomSeed",
 ] as const satisfies readonly GameAction[];
 
-export const REPLAY_INPUT_ACTIONS = ["exitSnapshot"] as const;
-export type ReplayInputAction = (typeof REPLAY_INPUT_ACTIONS)[number];
-export type InputAction = GameAction | ReplayInputAction;
-export const INPUT_ACTIONS: readonly InputAction[] = [...GAME_INPUT_ACTIONS, ...REPLAY_INPUT_ACTIONS];
+export const UI_INPUT_ACTIONS = ["exitSnapshot", "seeSolve"] as const;
+export type UiInputAction = (typeof UI_INPUT_ACTIONS)[number];
+export type InputAction = GameAction | UiInputAction;
+export const INPUT_ACTIONS: readonly InputAction[] = [...GAME_INPUT_ACTIONS, ...UI_INPUT_ACTIONS];
 
 export interface InputSettings {
   bindings: Record<InputAction, string>;
@@ -44,6 +44,7 @@ export const ACTION_LABELS: Record<InputAction, string> = {
   restart: "Restart (New Seed)",
   randomSeed: "Restart (Same Seed)",
   exitSnapshot: "Exit Snapshot",
+  seeSolve: "See Solve",
 };
 
 export const DEFAULT_SETTINGS: InputSettings = {
@@ -61,6 +62,7 @@ export const DEFAULT_SETTINGS: InputSettings = {
     restart: "KeyR",
     randomSeed: "F4",
     exitSnapshot: "Escape",
+    seeSolve: "KeyV",
   },
   das: 100,
   arr: 16,

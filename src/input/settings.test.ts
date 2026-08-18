@@ -43,15 +43,22 @@ describe("input settings", () => {
     expect(displayCode(DEFAULT_SETTINGS.bindings.exitSnapshot)).toBe("Esc");
   });
 
+  it("See Solve 기본 단축키를 제공한다", () => {
+    expect(DEFAULT_SETTINGS.bindings.seeSolve).toBe("KeyV");
+    expect(ACTION_LABELS.seeSolve).toBe("See Solve");
+  });
+
   it("이전 저장 설정에 Snapshot 종료 키가 없어도 기본값을 복원한다", () => {
-    const { exitSnapshot: _missing, ...legacyBindings } = DEFAULT_SETTINGS.bindings;
+    const { exitSnapshot: _missing, seeSolve: _missingSolve, ...legacyBindings } = DEFAULT_SETTINGS.bindings;
     const legacy = { ...DEFAULT_SETTINGS, bindings: legacyBindings } as unknown as InputSettings;
     expect(normalizeInputSettings(legacy).bindings.exitSnapshot).toBe("Escape");
+    expect(normalizeInputSettings(legacy).bindings.seeSolve).toBe("KeyV");
 
     vi.stubGlobal("localStorage", {
       getItem: vi.fn((key: string) => key === "guided-pc-input-v2" ? JSON.stringify(legacy) : null),
     });
     expect(loadInputSettings().bindings.exitSnapshot).toBe("Escape");
+    expect(loadInputSettings().bindings.seeSolve).toBe("KeyV");
   });
 
   it("브라우저 저장소가 차단되어도 입력 설정 저장이 게임을 중단시키지 않는다", () => {

@@ -180,7 +180,7 @@ describe("4회차 5+6 일반 셋업 추천", () => {
       .every(({ piece }) => buildPool.has(piece)))).toBe(true);
   });
 
-  it("No OZ의 ILJS 4x4 Box는 class mirror로 선언된 왼쪽 anchor만 추천한다", () => {
+  it("No OZ의 ILJS 4x4 Box는 명시된 공통 wall 양쪽에서 추천한다", () => {
     const screenshotQueue = query({
       hold: "T",
       active: "I",
@@ -196,7 +196,7 @@ describe("4회차 5+6 일반 셋업 추천", () => {
     expect(boxVariants.length).toBeGreaterThan(1);
     expect(new Set(boxVariants.map(({ placements }) => Math.min(
       ...placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
-    )))).toEqual(new Set([0]));
+    )))).toEqual(new Set([0, 6]));
 
     const candidates = querySetups(screenshotQueue);
     const box = candidates.find(({ setup }) => setup.displayName === "Box");
@@ -204,6 +204,34 @@ describe("4회차 5+6 일반 셋업 추천", () => {
     expect(box?.setup.derivedVariant).toBe("box-minimal");
     expect(box?.plan.steps.filter(({ action }) => action === "place").map(({ piece }) => piece))
       .toEqual(["I", "L", "J", "S"]);
+  });
+
+  it("No OZ에서 HOLD I / ACTIVE T / NEXT SLJ 순서로 오른쪽 LLSI Box를 구축한다", () => {
+    const screenshotQueue = query({
+      hold: "I",
+      active: "T",
+      next: ["S", "L", "J", "I", "O"],
+    });
+    expect(cycle4QueueContext(screenshotQueue)).toMatchObject({
+      buildPieces: ["I", "T", "S", "L", "J"],
+      missingPieces: ["O", "Z"],
+    });
+
+    const candidates = querySetups(screenshotQueue);
+    const boxes = candidates.filter(({ setup }) => setup.displayName === "Box");
+    expect(boxes.length).toBeGreaterThan(0);
+    expect(boxes.some(({ plan }) => plan.steps
+      .filter(({ action }) => action === "place")
+      .map(({ piece }) => piece).join("") === "ISLJ")).toBe(true);
+    expect(boxes.some(({ setup, plan }) => Math.min(
+      ...setup.placements.flatMap(({ cells }) => cells.map(({ x }) => x)),
+    ) === 6
+      && Array.from({ length: 4 }, (_, y) =>
+        Array.from({ length: 4 }, (_, x) => setup.placements.find(({ cells }) =>
+          cells.some((cell) => cell.x === 6 + x && cell.y === y))!.piece).join(""))
+        .join("/") === "LLSI/LSSI/LSJI/JJJI"
+      && plan.steps.filter(({ action }) => action === "place")
+        .map(({ piece }) => piece).join("") === "ISLJ")).toBe(true);
   });
 
   it("중복미노 풀을 일반 No XY class로 오분류하지 않는다", () => {

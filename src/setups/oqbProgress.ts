@@ -697,10 +697,9 @@ export function resolveOqbProgress(input: OqbProgressInput): OqbProgressResult {
   }
   if ((input.query.cycle === 2 || input.query.cycle === 7) && input.selectedCandidate.qbCondition) {
     return {
-      status: "unsupported",
+      status: "no-follow-up",
       cycle: input.query.cycle,
-      reason: "structured-continuation-policy-unavailable",
-      instruction: "This QB exposes only its initial setup; executable continuation branches are not promoted.",
+      instruction: "",
     };
   }
   return {
