@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { ACTION_LABELS, createBinding, DEFAULT_SETTINGS, displayCode, loadInputSettings, normalizeInputSettings, saveInputSettings, type InputSettings } from "./settings";
+import { ACTION_LABELS, createBinding, DEFAULT_SETTINGS, displayCode, loadInputSettings, normalizeInputSettings, saveInputSettings, SDF_INFINITE, type InputSettings } from "./settings";
 
 afterEach(() => {
   vi.unstubAllGlobals();
@@ -13,6 +13,12 @@ describe("input settings", () => {
       arr: 999,
       sdf: Number.NaN,
     })).toMatchObject({ das: 0, arr: 200, sdf: 30 });
+  });
+
+  it("DAS 기본값은 160ms이고 SDF 최댓값은 무한을 뜻한다", () => {
+    expect(DEFAULT_SETTINGS.das).toBe(160);
+    expect(normalizeInputSettings({ ...DEFAULT_SETTINGS, sdf: SDF_INFINITE }).sdf).toBe(SDF_INFINITE);
+    expect(normalizeInputSettings({ ...DEFAULT_SETTINGS, sdf: SDF_INFINITE + 100 }).sdf).toBe(SDF_INFINITE);
   });
 
   it("브라우저 key code를 읽기 쉬운 이름으로 표시한다", () => {

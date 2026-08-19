@@ -4,6 +4,8 @@ import {
   DEFAULT_SETTINGS,
   INPUT_ACTIONS,
   INPUT_LIMITS,
+  SDF_FINITE_MAX,
+  SDF_INFINITE,
   createBinding,
   displayCode,
   isModifierCode,
@@ -63,7 +65,8 @@ export function SettingsPanel({ settings, onChange, onClose }: {
   function updateSpeed(key: "das" | "arr" | "sdf", value: number) {
     const next = normalizeInputSettings({ ...settings, [key]: value });
     onChange(next);
-    setMessage(`Set ${key.toUpperCase()} to ${next[key]}${key === "sdf" ? " cells/s" : "ms"}.`);
+    const displayed = key === "sdf" && next.sdf === SDF_INFINITE ? "Infinite" : next[key];
+    setMessage(`Set ${key.toUpperCase()} to ${displayed}${key === "sdf" && next.sdf !== SDF_INFINITE ? " cells/s" : key === "sdf" ? "" : "ms"}.`);
   }
 
   function resetDefaults() {
@@ -75,7 +78,7 @@ export function SettingsPanel({ settings, onChange, onClose }: {
   const speedFields = [
     { key: "das" as const, label: "DAS", description: "Delay before horizontal key repeat starts", unit: "ms" },
     { key: "arr" as const, label: "ARR", description: "Repeat interval after DAS · 0 = instant", unit: "ms" },
-    { key: "sdf" as const, label: "SDF", description: "Soft drop speed", unit: "cells/s" },
+    { key: "sdf" as const, label: "SDF", description: "Soft drop speed · rightmost = infinite", unit: "cells/s" },
   ];
 
   return <div className="settings-backdrop" role="presentation" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
@@ -105,9 +108,12 @@ export function SettingsPanel({ settings, onChange, onClose }: {
             <div className="speed-inputs">
               <input id={`speed-${field.key}`} type="range" min={INPUT_LIMITS[field.key].min} max={INPUT_LIMITS[field.key].max}
                 value={settings[field.key]} onChange={(event) => updateSpeed(field.key, Number(event.target.value))} />
-              <input type="number" aria-label={`${field.label} value`} min={INPUT_LIMITS[field.key].min} max={INPUT_LIMITS[field.key].max}
-                value={settings[field.key]} onChange={(event) => updateSpeed(field.key, Number(event.target.value))} />
-              <span>{field.unit}</span>
+              {field.key === "sdf" && settings.sdf === SDF_INFINITE
+                ? <input type="text" aria-label="SDF value" value="Infinite" readOnly />
+                : <input type="number" aria-label={`${field.label} value`} min={INPUT_LIMITS[field.key].min}
+                  max={field.key === "sdf" ? SDF_FINITE_MAX : INPUT_LIMITS[field.key].max}
+                  value={settings[field.key]} onChange={(event) => updateSpeed(field.key, Number(event.target.value))} />}
+              <span>{field.key === "sdf" && settings.sdf === SDF_INFINITE ? "" : field.unit}</span>
             </div>
           </div>)}</div>
         </section>

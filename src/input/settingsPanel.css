@@ -19,7 +19,8 @@
 .speed-label span { color: #8391a3; font-size: 11px; line-height: 1.4; }
 .speed-inputs { display: grid; grid-template-columns: minmax(100px, 1fr) 72px 42px; align-items: center; gap: 8px; }
 .speed-inputs input[type="range"] { width: 100%; accent-color: #4fc6eb; }
-.speed-inputs input[type="number"] { width: 72px; text-align: right; }
+.speed-inputs input[type="number"],
+.speed-inputs input[type="text"] { width: 72px; text-align: right; }
 .speed-inputs > span { color: #8391a3; font-size: 11px; white-space: nowrap; }
 .settings-footer { position: sticky; bottom: 0; display: flex; justify-content: space-between; align-items: center; gap: 18px; padding: 14px 22px; background: #111821; border-top: 1px solid #2d3846; }
 .settings-footer p { margin: 0; color: #8f9daf; font-size: 12px; }

@@ -1,9 +1,10 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { GameSession } from "../engine/game";
 import { occupiedCells } from "../engine/pieces";
+import { hardDropY } from "../engine/board";
 import type { GameAction } from "../engine/types";
 import { InputController } from "./controller";
-import { DEFAULT_SETTINGS, type InputSettings } from "./settings";
+import { DEFAULT_SETTINGS, SDF_INFINITE, type InputSettings } from "./settings";
 
 type InputListener = (event: KeyboardEvent) => void;
 
@@ -73,6 +74,19 @@ describe("InputController initial actions and DAS preservation", () => {
     };
     return new InputController((action: GameAction) => session.dispatch(action), settings);
   }
+
+  it("SDF infinite는 키를 누르는 즉시 미노를 바닥까지 내리되 고정하지 않는다", () => {
+    const session = new GameSession("infinite-sdf");
+    const controller = createController(session, { sdf: SDF_INFINITE });
+    const piece = session.state.active.piece;
+
+    fakeWindow.emit("keydown", "ArrowDown");
+
+    expect(session.state.active.piece).toBe(piece);
+    expect(session.state.active.y).toBe(hardDropY(session.state.board, session.state.active));
+    expect(session.state.run.piecesLockedSinceLastPc).toBe(0);
+    controller.destroy();
+  });
 
   it("벽에 닿은 ARR 0 DAS를 다음 미노까지 보존한다", () => {
     const session = new GameSession("das-preservation");

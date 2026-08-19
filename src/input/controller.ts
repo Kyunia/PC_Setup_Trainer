@@ -1,5 +1,5 @@
 import type { GameAction } from "../engine/types";
-import { GAME_INPUT_ACTIONS, createBinding, type InputSettings } from "./settings";
+import { GAME_INPUT_ACTIONS, SDF_INFINITE, createBinding, type InputSettings } from "./settings";
 
 interface PressedKey {
   action: GameAction;
@@ -63,7 +63,9 @@ export class InputController {
       });
     }
 
-    const changed = this.dispatch(action);
+    const changed = action === "softDrop" && this.settings.sdf === SDF_INFINITE
+      ? this.applyInfiniteSoftDrop()
+      : this.dispatch(action);
     if (HORIZONTAL_ACTIONS.has(action)) this.selectActiveHorizontal(now, false);
     if (action === "hardDrop" && changed) {
       this.applyInitialActions(now, true);
@@ -128,6 +130,16 @@ export class InputController {
     this.applyHorizontalRepeat(horizontal, now, true);
   }
 
+  private applyInfiniteSoftDrop(): boolean {
+    let moved = false;
+    for (let index = 0; index < 24; index += 1) {
+      const changed = this.dispatch("softDrop");
+      if (!changed) break;
+      moved = true;
+    }
+    return moved;
+  }
+
   private applySpawnHorizontal(now: number): void {
     const horizontal = this.activeHorizontalCode ? this.repeats.get(this.activeHorizontalCode) : null;
     if (!horizontal) return;
@@ -154,6 +166,12 @@ export class InputController {
     for (const [code, repeat] of this.repeats) {
       if (repeat.action !== "softDrop") continue;
       if (!this.pressed.has(code)) continue;
+      if (this.settings.sdf === SDF_INFINITE) {
+        const moved = this.applyInfiniteSoftDrop();
+        repeat.last = now;
+        if (moved) this.reapplyChargedHorizontal(now);
+        continue;
+      }
       const interval = 1000 / this.settings.sdf;
       if (now - repeat.last < interval) continue;
       const count = Math.min(20, Math.floor((now - repeat.last) / interval));

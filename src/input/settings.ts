@@ -27,8 +27,10 @@ export interface BindingModifiers {
 export const INPUT_LIMITS = {
   das: { min: 0, max: 500 },
   arr: { min: 0, max: 200 },
-  sdf: { min: 1, max: 200 },
+  sdf: { min: 1, max: 201 },
 } as const;
+export const SDF_INFINITE = INPUT_LIMITS.sdf.max;
+export const SDF_FINITE_MAX = SDF_INFINITE - 1;
 
 export const ACTION_LABELS: Record<InputAction, string> = {
   moveLeft: "Left",
@@ -64,7 +66,7 @@ export const DEFAULT_SETTINGS: InputSettings = {
     exitSnapshot: "Escape",
     seeSolve: "KeyV",
   },
-  das: 100,
+  das: 160,
   arr: 16,
   sdf: 30,
 };
