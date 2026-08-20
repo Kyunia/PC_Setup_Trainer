@@ -12,13 +12,14 @@ import { drawBoard, drawPiecePreview, drawSetupPreview, drawSolutionPreview } fr
 import { ReplayExportDialog } from "./replay/ReplayExportDialog";
 import { ReplayRecorder } from "./replay/recorder";
 import type { ReplayData } from "./replay/format";
-import { setupCoverageForCycle } from "./setups/catalog";
+import { setupCoverageForCycle, type SetupCatalogCoverage } from "./setups/catalog";
 import { cycle4ClassLabel } from "./setups/cycle4Catalog";
 import { GuideUndoHistory, guideSegmentIdentity, type GuideSnapshot } from "./setups/guideHistory";
 import { countSetupShadowWrongCells, shouldAutoHideSetupShadow } from "./setups/shadow";
 import { splitsSetupCandidatesByPieceCount, type SetupCandidate } from "./setups/query";
 import { oqbContinuationCandidates, resolveOqbProgress, type OqbProgressResult } from "./setups/oqbProgress";
 import { recommendationSetupLabel } from "./setups/recommendationLabel";
+import { recommendationSegmentKey } from "./setups/recommendationLifecycle";
 import {
   RecommendationRequestCancelled,
   RecommendationWorkerSlot,
@@ -150,8 +151,8 @@ export default function App() {
   const [liveSolveView, setLiveSolveView] = useState<LiveSolveView>({ status: "idle" });
   const [liveSolveIndex, setLiveSolveIndex] = useState(0);
   const [guideTab, setGuideTab] = useState<GuideTab>("setup");
+  const [coverage, setCoverage] = useState<SetupCatalogCoverage | null>(null);
   const state = session.current.state;
-  const coverage = setupCoverageForCycle(state.run.cycle);
 
   useEffect(() => {
     guideState.current = { candidates, selectedId, guideDone, stagedInstruction };
@@ -196,10 +197,16 @@ export default function App() {
     catch { /* Keep the in-memory preference when storage is unavailable. */ }
   }, [showSolveShadow]);
 
-  const segmentKey = `${state.seed}:${state.run.pcCount}:${state.run.cycle}:${resetNonce}`;
+  const segmentKey = recommendationSegmentKey({
+    seed: state.seed,
+    pcCount: state.run.pcCount,
+    cycle: state.run.cycle,
+    resetNonce,
+  });
   useEffect(() => { setGuideTab("setup"); }, [segmentKey]);
   useEffect(() => {
     const current = session.current.state;
+    setCoverage(setupCoverageForCycle(current.run.cycle));
     const currentIdentity = guideSegmentIdentity(current);
     const generation = ++recommendationGeneration.current;
     const previousTask = recommendationTask.current;
@@ -254,6 +261,13 @@ export default function App() {
     if (previousTask) void previousTask.done.catch(() => undefined).finally(launch);
     else launch();
   }, [segmentKey, recommendationRetryNonce]);
+
+  useEffect(() => () => {
+    recommendationGeneration.current += 1;
+    recommendationTask.current?.cancel();
+    recommendationTask.current = null;
+    recommendationWorker.current.dispose();
+  }, []);
 
   const selectedCandidate = useMemo(() => candidates.find(({ setup }) => setup.id === selectedId) ?? null, [candidates, selectedId]);
   const selected = selectedCandidate?.setup ?? null;
@@ -522,9 +536,9 @@ export default function App() {
           ? "Reading the PC-start queue and finding buildable setups…"
           : recommendationError
           ? "Recommendation loading failed. Free practice continues."
-          : coverage.setupCount > 0
+          : coverage?.setupCount && coverage.setupCount > 0
           ? `No buildable candidates found in the current ${coverage.setupCount} placements and their mirrors for this queue. Unexplored setups may exist. Free practice continues.`
-          : coverage.logicalSetupCount > 0
+          : coverage?.logicalSetupCount && coverage.logicalSetupCount > 0
             ? `Cycle ${state.run.cycle} setup data has been promoted but is not yet linked to the recommendation engine. Free practice continues.`
             : `Cycle ${state.run.cycle} setup data is not yet registered. Free practice continues.`}</p>}
 

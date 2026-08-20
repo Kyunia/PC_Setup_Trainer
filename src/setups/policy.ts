@@ -116,7 +116,7 @@ export function conditionMatches(condition: PolicyCondition, sequence: Piece[]):
 }
 
 export function applyStructuredPolicyMetrics(
-  catalog: SetupVariant[],
+  catalog: readonly SetupVariant[],
   policy: StructuredSetupPolicy,
 ): SetupVariant[] {
   const metrics = new Map(policy.metrics.map((entry) => [entry.setupId, entry.values]));
@@ -150,7 +150,7 @@ function isRuleCandidate(setup: SetupVariant, rule: SetupSelectionRule): boolean
 function isPreferredVariant(
   setup: SetupVariant,
   choice: PolicyChoice,
-  catalog: SetupVariant[],
+  catalog: readonly SetupVariant[],
 ): boolean {
   if (choice.preferSetupIds.includes(setup.id)
     || (setup.policySourceId !== undefined && choice.preferSetupIds.includes(setup.policySourceId))) return true;
@@ -166,7 +166,7 @@ function isPreferredVariant(
 export function evaluateSelectionPolicy(
   policy: StructuredSetupPolicy | undefined,
   setup: SetupVariant,
-  catalog: SetupVariant[],
+  catalog: readonly SetupVariant[],
   visibleNextBagPrefix: Piece[] | undefined,
 ): PolicyEvaluation | null {
   if (!policy) return null;

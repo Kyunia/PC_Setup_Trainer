@@ -257,6 +257,8 @@ export function SetupTestApp() {
   useEffect(() => () => {
     generation.current += 1;
     activeTask.current?.cancel();
+    activeTask.current = null;
+    worker.current?.dispose();
   }, []);
 
   const exitPractice = useCallback(() => {

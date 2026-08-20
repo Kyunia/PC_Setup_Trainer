@@ -188,8 +188,25 @@ export const setupCatalog = [
 ];
 assertValidCatalog(setupCatalog);
 
-export function setupsForCycle(cycle: number): SetupVariant[] {
-  return setupCatalog.filter((setup) => setup.cycle === cycle);
+function indexCatalogByCycle(
+  catalog: readonly SetupVariant[],
+): ReadonlyMap<number, readonly SetupVariant[]> {
+  const byCycle = new Map<number, SetupVariant[]>();
+  for (const setup of catalog) {
+    const bucket = byCycle.get(setup.cycle);
+    if (bucket) bucket.push(setup);
+    else byCycle.set(setup.cycle, [setup]);
+  }
+  for (const bucket of byCycle.values()) Object.freeze(bucket);
+  return byCycle;
+}
+
+const EMPTY_SETUP_CATALOG: readonly SetupVariant[] = Object.freeze([]);
+const sourceSetupCatalogByCycle = indexCatalogByCycle(sourceSetupCatalog);
+const setupCatalogByCycle = indexCatalogByCycle(setupCatalog);
+
+export function setupsForCycle(cycle: number): readonly SetupVariant[] {
+  return setupCatalogByCycle.get(cycle) ?? EMPTY_SETUP_CATALOG;
 }
 
 /** Cycle 2 source-page general catalog, kept separate from advanced 3P at runtime. */
@@ -255,7 +272,7 @@ interface CatalogManifest {
 const catalogManifest = rawManifest as CatalogManifest;
 
 export function setupCoverageForCycle(cycle: number): SetupCatalogCoverage {
-  const setupCount = sourceSetupCatalog.filter((setup) => setup.cycle === cycle).length;
+  const setupCount = sourceSetupCatalogByCycle.get(cycle)?.length ?? 0;
   const runtimeVariantCount = setupsForCycle(cycle).length;
   const manifestEntry = catalogManifest.cycles[String(cycle)];
   if (manifestEntry?.runtimeEnabled === false) {

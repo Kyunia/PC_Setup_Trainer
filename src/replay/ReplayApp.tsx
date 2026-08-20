@@ -137,6 +137,10 @@ export function ReplayApp() {
   const recommendationCache = useRef(new WeakMap<ReplayTimeline, Map<number, ReplaySetupRecommendationResult>>());
   const recommendationPool = useRef<ReplayRecommendationPool | null>(null);
   if (!recommendationPool.current) recommendationPool.current = new ReplayRecommendationPool();
+  useEffect(() => {
+    recommendationPool.current?.warm();
+    return () => recommendationPool.current?.dispose();
+  }, []);
   const replayGeneration = useRef(0);
   const selectedRecommendationSegment = useRef<string | null>(null);
   const snapshotEntryPosition = useRef<number | null>(null);

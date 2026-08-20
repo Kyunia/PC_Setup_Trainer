@@ -174,7 +174,7 @@ function stagedRules(policy?: StructuredSetupPolicy): SetupSelectionRule[] {
 }
 
 function cycle3InitialStageCatalog(
-  catalog: SetupVariant[],
+  catalog: readonly SetupVariant[],
   policy?: StructuredSetupPolicy,
   policyPrefix?: Piece[],
 ): SetupVariant[] {
@@ -346,11 +346,11 @@ export function limitSetupCandidatesForCycle(
 }
 
 export interface RecommendationCatalogSearch {
-  catalog: SetupVariant[];
+  catalog: readonly SetupVariant[];
   query: SetupQuery;
   policy?: StructuredSetupPolicy;
   policyPrefix?: Piece[];
-  policyCatalog?: SetupVariant[];
+  policyCatalog?: readonly SetupVariant[];
   placeableNextCount?: number;
   candidateLimit?: number;
   scoreForSetup?: (setup: SetupVariant) => readonly number[];
@@ -747,7 +747,7 @@ function cycle2QbSearchPlan(
   const catalog = selections.map(({ setup }) => setup);
   return {
     catalog,
-    searchFor(selectedCatalog: SetupVariant[]): RecommendationCatalogSearch {
+    searchFor(selectedCatalog: readonly SetupVariant[]): RecommendationCatalogSearch {
       return {
         catalog: selectedCatalog,
         query: { ...query, next: context.searchNext },
@@ -1570,7 +1570,7 @@ export function querySetups(
  * router가 이 함수에 해당 pair의 source/mirror class만 전달한다.
  */
 export function queryCycle5ClassCatalog(
-  classCatalog: SetupVariant[],
+  classCatalog: readonly SetupVariant[],
   query: SetupQuery,
 ): SetupCandidate[] {
   if (query.cycle !== 5) return [];
@@ -1621,16 +1621,16 @@ export function queryCycle5ClassCatalog(
  * 아직 런타임 catalog에 통합하지 않은 외부 후보 배열을 조회한다.
  * 외부 후보는 이 함수를 사용하면 승격된 런타임 데이터를 수정하지 않고 검사할 수 있다.
  */
-export function queryCatalog(catalog: SetupVariant[], query: SetupQuery): SetupCandidate[] {
+export function queryCatalog(catalog: readonly SetupVariant[], query: SetupQuery): SetupCandidate[] {
   return queryCatalogInternal(catalog, query);
 }
 
 function queryCatalogInternal(
-  catalog: SetupVariant[],
+  catalog: readonly SetupVariant[],
   query: SetupQuery,
   policy?: StructuredSetupPolicy,
   policyPrefix?: Piece[],
-  policyCatalog: SetupVariant[] = catalog,
+  policyCatalog: readonly SetupVariant[] = catalog,
   placeableNextCount?: number,
   candidateLimit?: number,
   scoreForSetup?: (setup: SetupVariant) => readonly number[],
@@ -1718,12 +1718,12 @@ function queryCatalogInternal(
 
 /** Cooperative counterpart used only by browser recommendation Workers. */
 export async function queryCatalogCooperative(
-  catalog: SetupVariant[],
+  catalog: readonly SetupVariant[],
   query: SetupQuery,
   control: CooperativeSearchControl,
   policy?: StructuredSetupPolicy,
   policyPrefix?: Piece[],
-  policyCatalog: SetupVariant[] = catalog,
+  policyCatalog: readonly SetupVariant[] = catalog,
   placeableNextCount?: number,
   candidateLimit?: number,
   scoreForSetup?: (setup: SetupVariant) => readonly number[],
