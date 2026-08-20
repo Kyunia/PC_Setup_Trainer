@@ -50,6 +50,7 @@ import "./styles.css";
 
 const SETUP_SHADOW_STORAGE_KEY = "guided-pc-setup-shadow-v1";
 const SOLVE_SHADOW_STORAGE_KEY = "guided-pc-solve-shadow-v1";
+const SHOW_SOLVE_STORAGE_KEY = "guided-pc-show-solve-v1";
 
 type LiveSolveView =
   | { status: "idle" }
@@ -133,6 +134,10 @@ export default function App() {
     try { return localStorage.getItem(SOLVE_SHADOW_STORAGE_KEY) !== "off"; }
     catch { return true; }
   });
+  const [showSolveDetails, setShowSolveDetails] = useState(() => {
+    try { return localStorage.getItem(SHOW_SOLVE_STORAGE_KEY) !== "off"; }
+    catch { return true; }
+  });
   const [candidates, setCandidates] = useState<SetupCandidate[]>([]);
   const [recommendationLoading, setRecommendationLoading] = useState(true);
   const [recommendationError, setRecommendationError] = useState(false);
@@ -196,6 +201,10 @@ export default function App() {
     try { localStorage.setItem(SOLVE_SHADOW_STORAGE_KEY, showSolveShadow ? "on" : "off"); }
     catch { /* Keep the in-memory preference when storage is unavailable. */ }
   }, [showSolveShadow]);
+  useEffect(() => {
+    try { localStorage.setItem(SHOW_SOLVE_STORAGE_KEY, showSolveDetails ? "on" : "off"); }
+    catch { /* Keep the in-memory preference when storage is unavailable. */ }
+  }, [showSolveDetails]);
 
   const segmentKey = recommendationSegmentKey({
     seed: state.seed,
@@ -566,16 +575,28 @@ export default function App() {
         </div> : <div className="guide-tab-content solve-tab-content" role="tabpanel" aria-label="Live solve">
           <div className="solve-heading">
             <h2>Minimal PC Solutions</h2>
-            <button
-              type="button"
-              className={`setup-shadow-toggle ${showSolveShadow ? "enabled" : ""}`}
-              aria-pressed={showSolveShadow}
-              aria-label={`${showSolveShadow ? "Hide" : "Show"} solve shadow on board`}
-              onClick={() => setShowSolveShadow((visible) => !visible)}
-            >
-              <span className="setup-shadow-toggle-label">SOLVE SHADOW</span>
-              <strong className="setup-shadow-toggle-state">{showSolveShadow ? "ON" : "OFF"}</strong>
-            </button>
+            <div className="solve-heading-actions">
+              <button
+                type="button"
+                className={`setup-shadow-toggle ${showSolveDetails ? "enabled" : ""}`}
+                aria-pressed={showSolveDetails}
+                aria-label={`${showSolveDetails ? "Hide" : "Show"} solve details`}
+                onClick={() => setShowSolveDetails((visible) => !visible)}
+              >
+                <span className="setup-shadow-toggle-label">SHOW SOLVE</span>
+                <strong className="setup-shadow-toggle-state">{showSolveDetails ? "ON" : "OFF"}</strong>
+              </button>
+              <button
+                type="button"
+                className={`setup-shadow-toggle ${showSolveShadow ? "enabled" : ""}`}
+                aria-pressed={showSolveShadow}
+                aria-label={`${showSolveShadow ? "Hide" : "Show"} solve shadow on board`}
+                onClick={() => setShowSolveShadow((visible) => !visible)}
+              >
+                <span className="setup-shadow-toggle-label">SOLVE SHADOW</span>
+                <strong className="setup-shadow-toggle-state">{showSolveShadow ? "ON" : "OFF"}</strong>
+              </button>
+            </div>
           </div>
           <div className="live-solve-controls" aria-label="Live minimal solutions">
             <button type="button" aria-label="Previous save" disabled={liveSolveView.status !== "ready" || liveSolveIndex === 0} onClick={() => setLiveSolveIndex((index) => Math.max(0, index - 1))}>&lt;</button>
@@ -604,7 +625,7 @@ export default function App() {
             </dl>
           </div>}
           {liveSolveView.status === "error" && <div className="solve-empty error" role="alert"><h3>Solve error</h3><p>{liveSolveView.message}</p></div>}
-          {liveSolveView.status === "ready" && liveSolveOption && <div className="solve-result" aria-live="polite">
+          {showSolveDetails && liveSolveView.status === "ready" && liveSolveOption && <div className="solve-result" aria-live="polite">
             <div className="solve-preview-heading"><h3>{liveSolveOption.label}</h3></div>
             <SolutionPreview setup={liveSolveOption.shadow} board={liveSolveView.calculatedBoard} />
             <dl className="solve-details">

@@ -101,6 +101,7 @@ input { min-width: 0; color: #e9eef7; background: #0e131a; border: 1px solid #39
 .solve-tab-content { min-height: 450px; }
 .solve-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .solve-heading h2 { margin: 0; font-size: 20px; }
+.solve-heading-actions { display: flex; align-items: center; gap: 8px; }
 .solve-loading, .solve-unavailable { margin: 18px auto 0; color: #8494a8; font-size: 12px; text-align: center; }
 .solve-empty { margin-top: 22px; padding: 20px; background: #111821; border: 1px solid #2c3948; border-radius: 7px; text-align: center; }
 .solve-empty.error { color: #ffb2b6; background: #321d22; border-color: #67343d; }
